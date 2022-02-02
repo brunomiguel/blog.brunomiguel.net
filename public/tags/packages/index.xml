@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>packages on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/packages/</link>
+    <description>Recent content in packages on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A shitload of new packages on userrepository</title>
+      <link>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</guid>
+      <description>Since the 24th of January, the date of the last blog post, I&amp;rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
+Expect more packages, as I&amp;rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&amp;rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</description>
+    </item>
+    
+    <item>
+      <title>Debugging build times</title>
+      <link>https://hugo-paper.vercel.app/post/debugging-build-times/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/debugging-build-times/</guid>
+      <description>Lately, the repository has been taking +10 hours to compile all the packages. I think that&amp;rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
+   Pkg Hours Minutes     .</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ve built a Manjaro repository</title>
+      <link>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</guid>
+      <description>Due to my own dumbness (I mistakenly deleted my Ubuntu partition), I installed Manjaro, using the Manjaro Architect release, on my laptop. I&amp;rsquo;d been thinking about doing it for a while and finally made it because I was too stupid to read the instructions from cfdisk. The shit you create yourself because you&amp;rsquo;re in a hurry…
+Anyway, after installing Manjaro, I started reading a bit about this distro packaging and how I could leverage AUR and binary packages.</description>
+    </item>
+    
+  </channel>
+</rss>

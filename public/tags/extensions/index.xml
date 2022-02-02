@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extensions on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/extensions/</link>
+    <description>Recent content in extensions on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/extensions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Must have extensions for Firefox</title>
+      <link>https://hugo-paper.vercel.app/post/must-have-extensions-for-firefox/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/must-have-extensions-for-firefox/</guid>
+      <description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
+During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description>
+    </item>
+    
+  </channel>
+</rss>

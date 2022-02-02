@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>groove-armada on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/groove-armada/</link>
+    <description>Recent content in groove-armada on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/groove-armada/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inside my mind</title>
+      <link>https://hugo-paper.vercel.app/post/inside-my-mind/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/inside-my-mind/</guid>
+      <description>https://www.youtube.com/watch?v=s5Fu4QmLhLU</description>
+    </item>
+    
+  </channel>
+</rss>

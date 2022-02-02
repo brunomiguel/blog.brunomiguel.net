@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>passwords on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/passwords/</link>
+    <description>Recent content in passwords on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuamos sem saber escolher passwords</title>
+      <link>https://hugo-paper.vercel.app/post/continuamos-sem-saber-escolher-passwords/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/continuamos-sem-saber-escolher-passwords/</guid>
+      <description>Quando li este post do Carlos Martins no Aberto até de Madrugada, a minha primeira reação foi partilhar a publicação no Facebook com uma mensagem um pouco agressiva. Algo como: &amp;ldquo;da série &amp;lsquo;as pessoas são idiotas&amp;rsquo;&amp;rdquo;.
+Acabei por me retrair no comentário, porque não há necessidade de agressividade e ninguém é obrigado a saber tudo, e partilhei a publicação na rede social. Mas, caramba, as pessoas são mesmo estúpidas. Repara só no top10 das passwords mais populares de 2018:</description>
+    </item>
+    
+    <item>
+      <title>As passwords são bichos complicados</title>
+      <link>https://hugo-paper.vercel.app/post/as-passwords-sao-bichos-complicados/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/as-passwords-sao-bichos-complicados/</guid>
+      <description>Retirado do webcomic Wumo.</description>
+    </item>
+    
+  </channel>
+</rss>

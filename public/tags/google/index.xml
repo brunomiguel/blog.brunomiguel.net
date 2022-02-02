@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/google/</link>
+    <description>Recent content in google on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Chrome?</title>
+      <link>https://hugo-paper.vercel.app/post/microsoft-chrome/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/microsoft-chrome/</guid>
+      <description>Está a circular um rumor que aponta para o fim do Edge, o browser que a Microsoft lançou em 2015 para substituir o Internet Explorer. O mesmo rumo refere que a empresa sediada em Redmond vai criar um novo navegador, agora baseado no Chromium.
+Sabe mais no meu artigo no Espalha-Factos.</description>
+    </item>
+    
+  </channel>
+</rss>

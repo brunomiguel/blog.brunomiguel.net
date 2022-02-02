@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/emacs/</link>
+    <description>Recent content in emacs on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Emacs experience so far</title>
+      <link>https://hugo-paper.vercel.app/post/my-emacs-experience-so-far/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/my-emacs-experience-so-far/</guid>
+      <description>Since my last blog post about Emacs (and the last post I published here), I&amp;rsquo;ve tested some Starter Kits. All of them were genuinely nice and came with a lot of tools included, but most of these tools were things I didn&amp;rsquo;t need.
+Not a long time after that, I found a Reddit post about nano-emacs. Unlike the other Starter Kits, this one is plain and incredibly beautiful. It even got better recently with the addition of the writer-mode minor mode for org-mode, as you can see in the featured image on this post.</description>
+    </item>
+    
+    <item>
+      <title>Trying out Emacs again</title>
+      <link>https://hugo-paper.vercel.app/post/trying-out-emacs-again/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/trying-out-emacs-again/</guid>
+      <description>A few days ago, I decided to give Emacs another try. I&amp;rsquo;ve previously attempted to use this text-editor / operating system — probably about 10 years ago or maybe a bit more — but never got the hang of it.
+A few years after my first try at Emacs, I discovered Markdown. Since then, I&amp;rsquo;ve used text editors with a GUI to write in this markup language. That was until two years ago when I encountered a Vim mode for Markdown and adapted it to my specific needs.</description>
+    </item>
+    
+  </channel>
+</rss>

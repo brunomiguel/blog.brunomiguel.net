@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Debugging build times - .blog</title>
+
+  
+  
+  <meta name="description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
+   Pkg Hours Minutes     ." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hugo-paper.vercel.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hugo-paper.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-paper.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hugo-paper.vercel.app/post/debugging-build-times/images/jarvis-news.jpg"/>
+<meta name="twitter:title" content="Debugging build times"/>
+<meta name="twitter:description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
+   Pkg Hours Minutes     ."/>
+
+
+
+<meta property="og:title" content="Debugging build times" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://hugo-paper.vercel.app/post/debugging-build-times/images/jarvis-news.jpg">
+
+<meta property="og:url" content="https://hugo-paper.vercel.app/post/debugging-build-times/" />
+
+
+
+<meta property="og:description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
+   Pkg Hours Minutes     ." />
+
+
+
+
+<meta property="og:locale" content="pt" />
+
+
+
+
+<meta property="og:site_name" content=".blog" />
+
+
+
+
+<meta property="article:published_time" content="2020-04-17T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2020-04-17T00:00:00&#43;00:00" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hugo-paper.vercel.app/">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://userrepository.eu/">Lista Antonónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>17 de abr. de 2020</time>
+      
+      
+    </p>
+    <h1>Debugging build times</h1>
+  </header>
+  
+	
+            <p class="featured-image full-width"><img src="https://hugo-paper.vercel.app/post/debugging-build-times/images/jarvis-news.jpg" class="w-full" alt="Featured Image"></p>
+	
+  <section class="post-content"><p><strong>Lately, the repository has been taking +10 hours to compile all the packages.</strong> I think that&rsquo;s a lot for <strong>a little more than 250 packages</strong>, most of them small utilities and/or <code>_-bin_</code> files from <em>AUR</em>, built in a <em>DEV1-L</em> (4 cores, 8 Gb <em>RAM</em>) virtual machine from <em>Scaleway</em>.</p>
+<p>After investigating the matter, I found out that <strong>12 of the packages took four hours and sixteen minutes to build.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pkg</th>
+<th>Hours</th>
+<th>Minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>./pueue/makepkg.log</td>
+<td>0</td>
+<td>12</td>
+</tr>
+<tr>
+<td>./ffsend/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./joplin/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./bandwhich/makepkg.log</td>
+<td>0</td>
+<td>16</td>
+</tr>
+<tr>
+<td>./session-desktop/makepkg.log</td>
+<td>0</td>
+<td>17</td>
+</tr>
+<tr>
+<td>./mindforger/makepkg.log</td>
+<td>0</td>
+<td>17</td>
+</tr>
+<tr>
+<td>./giada-git/makepkg.log</td>
+<td>0</td>
+<td>17</td>
+</tr>
+<tr>
+<td>./brackets/makepkg.log</td>
+<td>0</td>
+<td>21</td>
+</tr>
+<tr>
+<td>./newbreeze-git/makepkg.log</td>
+<td>0</td>
+<td>24</td>
+</tr>
+<tr>
+<td>./falkon-git/makepkg.log</td>
+<td>0</td>
+<td>24</td>
+</tr>
+<tr>
+<td>./newsflash-git/makepkg.log</td>
+<td>0</td>
+<td>31</td>
+</tr>
+<tr>
+<td>./firefox-kde-opensuse/makepkg.log</td>
+<td>0</td>
+<td>47</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>256</td>
+</tr>
+</tbody>
+</table>
+<p>I decided to give it a go at reducing the packages build time. The first set of changes I made were:</p>
+<ul>
+<li>remove <em>newsflash-git</em>;</li>
+<li>remove <em>newbreeze-git</em>;</li>
+<li>remove <em>giada-git</em>;</li>
+<li>replace <em>firefox-kde-opensuse</em> with <em>firefox-kde-opensuse-rpm</em>;</li>
+<li><em>session-desktop</em> with <em>session-desktop-bin</em>.</li>
+</ul>
+<p>.ugb-8f198eb .ugb-cta__item{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__item:before{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__title{color:#e36d60}</p>
+<h4 id="if-you-used-any-of-the-packages-i-removed-please-let-me-know-and-ill-add-it-again">If you used any of the packages I removed, please let me know and I&rsquo;ll add it again</h4>
+<p>Next, I inserted the <code>_MAKEFLAGS=&quot;-j4&quot;_</code> environment variable in the <code>_config_</code> file, so that compilers use the four cores when possible.</p>
+<table>
+<thead>
+<tr>
+<th>Pkg</th>
+<th>Hours</th>
+<th>Minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>./brackets/makepkg.log</td>
+<td>0</td>
+<td>20</td>
+</tr>
+<tr>
+<td>./bamr/makepkg.log</td>
+<td>0</td>
+<td>19</td>
+</tr>
+<tr>
+<td>./falkon-git/makepkg.log</td>
+<td>0</td>
+<td>19</td>
+</tr>
+<tr>
+<td>./joplin/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./ffsend/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./mindforger/makepkg.log</td>
+<td>0</td>
+<td>13</td>
+</tr>
+<tr>
+<td>./pueue/makepkg.log</td>
+<td>0</td>
+<td>12</td>
+</tr>
+<tr>
+<td>./broot/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./navi/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./boostnote-bin/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./qownnotes/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./kitematic-git/makepkg.log</td>
+<td>0</td>
+<td>6</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>147</td>
+</tr>
+</tbody>
+</table>
+<p><strong>With the above changes, the twelve &ldquo;worst offenders&rdquo; decrease to almost two and an half hours.</strong> The total build time is likely to decrease a little more after I take a look at what packages <code>_[userrepository](https://userrepository.eu/)_</code> shares with <code>_[chaotic-aur](https://lonewolf.pedrohlc.com/chaotic-aur/)_</code> and decide which, if any, I should remove.</p>
+<p>In the <em>TODO</em> list are also some tests to be made to the <em>zstd</em> compression level. The current level is <em>10</em>, with the default being <em>3</em>. I intend to see if the trade-off between the increase in package creation time and the reduction in package size is worth increasing the level to somewhere between <em>15</em> and <em>19</em>, the highest preset level.</p>
+<p>Eventually, I&rsquo;ll begin to sign the packages. For now, enjoy the latest batch and <strong><a href="https://www.patreon.com/bePatron?u=31667183&amp;redirect_uri=https%3A%2F%2Fuserrepository.eu%2F&amp;utm_medium=widget">become a patron</a>.</strong></p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+
+	<small><strong>categorias</strong><br/> 
+    <a href="https://hugo-paper.vercel.app/categories/geekices">geekices</a>
+    </small>
+	<br><br>
+  <small><strong>tags</strong><br/> 
+  <a href="https://hugo-paper.vercel.app/tags/jarvis">jarvis</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/packages">packages</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/repository">repository</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/userrepository-eu">userrepository-eu</a>
+  </small>
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://hugo-paper.vercel.app/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/"><span>←</span><span>Como resolver problemas de ruído com o microfone interno em Linux</span></a>
+     
+    <a class="next" href="https://hugo-paper.vercel.app/post/from-fh-to-boinc/"><span>From F@h to Boinc</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>

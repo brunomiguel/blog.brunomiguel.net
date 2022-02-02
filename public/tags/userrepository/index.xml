@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>userrepository on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/userrepository/</link>
+    <description>Recent content in userrepository on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/userrepository/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A shitload of new packages on userrepository</title>
+      <link>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</guid>
+      <description>Since the 24th of January, the date of the last blog post, I&amp;rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
+Expect more packages, as I&amp;rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&amp;rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</description>
+    </item>
+    
+    <item>
+      <title>Some changes to userrepository</title>
+      <link>https://hugo-paper.vercel.app/post/some-changes-to-userrepository/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/some-changes-to-userrepository/</guid>
+      <description>Hello, folks. It has been a while since I last wrote about my AUR-based Arch Linux repository. To be precise, four months and twelve days.
+A lot has happened since then. One of the main changes was the removal of several packages no longer present in AUR or really outdated. Some examples are peafox, marp and gimp-dbp.
+Another important change was the addition of several new packages, as usual. If I find it may be useful for someone, I add it.</description>
+    </item>
+    
+    <item>
+      <title>Updates on Userrepository and Jarvis</title>
+      <link>https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/</guid>
+      <description>Lately, I&amp;rsquo;ve been having some problems when building picom-ibhagwan-git and picom-tryone-git. The first one would build OK, but not the second one.
+After a bit of debugging, I found out that it was a problem related to the way makepkg and git handle the cache when building these forks. This would also happen when adding the picom-git package: it would build because it&amp;rsquo;s the first package in alphabetical order and Jarvis builds the packages that way, but not the other two.</description>
+    </item>
+    
+  </channel>
+</rss>

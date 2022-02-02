@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Improving boot time - .blog</title>
+
+  
+  
+  <meta name="description" content="Today, I&rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &ldquo;Why not?&rdquo;.
+The first thing I made was disabling or masking the following systemd services:
+ systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hugo-paper.vercel.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hugo-paper.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-paper.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hugo-paper.vercel.app/"/>
+<meta name="twitter:title" content="Improving boot time"/>
+<meta name="twitter:description" content="Today, I&rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &ldquo;Why not?&rdquo;.
+The first thing I made was disabling or masking the following systemd services:
+ systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible."/>
+
+
+
+<meta property="og:title" content="Improving boot time" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://hugo-paper.vercel.app/">
+
+<meta property="og:url" content="https://hugo-paper.vercel.app/post/improving-boot-time/" />
+
+
+
+<meta property="og:description" content="Today, I&rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &ldquo;Why not?&rdquo;.
+The first thing I made was disabling or masking the following systemd services:
+ systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible." />
+
+
+
+
+<meta property="og:locale" content="pt" />
+
+
+
+
+<meta property="og:site_name" content=".blog" />
+
+
+
+
+<meta property="article:published_time" content="2020-04-30T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2020-04-30T00:00:00&#43;00:00" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hugo-paper.vercel.app/">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://userrepository.eu/">Lista Antonónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>30 de abr. de 2020</time>
+      
+      
+    </p>
+    <h1>Improving boot time</h1>
+  </header>
+  
+	
+  <section class="post-content"><p>Today, I&rsquo;ve decided to try and improve the boot time of my laptop, running <em>EndeavourOS</em>. There was no special reason for it other than &ldquo;Why not?&rdquo;.</p>
+<p>The first thing I made was disabling or masking the following <em>systemd</em> services:</p>
+<ul>
+<li>systemd-resolved disabled</li>
+<li>tlp disabled</li>
+<li>NetworkManager-wait-online disabled</li>
+<li>lvm2-monitor masked</li>
+<li>org.cups.cupsd disabled</li>
+<li>packagekit masked</li>
+<li>bluetooth disabled (I rarely use the laptop&rsquo;s bluetooth)</li>
+<li>blueman-mechanism disabled</li>
+</ul>
+<p>With this, I was able to save a few milliseconds and decrease the enabled <em>systemd</em> units to 15, but the impact was negligible.</p>
+<p>brunomiguel@kepler: ~
+└─ $: systemctl list-unit-files &ndash;state=enabled &ndash;no-pager
+UNIT FILE STATE VENDOR PRESET
+autovt@.service enabled disabled
+avahi-daemon.service enabled disabled
+dbus-org.freedesktop.Avahi.service enabled disabled
+dbus-org.freedesktop.nm-dispatcher.service enabled disabled
+display-manager.service enabled disabled
+getty@.service enabled enabled
+haveged.service enabled disabled
+NetworkManager-dispatcher.service enabled disabled
+NetworkManager.service enabled disabled
+sddm.service enabled disabled
+systemd-swap.service enabled disabled
+unbound.service enabled disabled
+avahi-daemon.socket enabled disabled
+remote-fs.target enabled enabled
+roothints.timer enabled disabled</p>
+<p>15 unit files listed.</p>
+<p>To further improve the boot time, I tested <em>bfq</em>, <em>kyber</em> and <em>mq-deadline</em> <em>I/O schedulers</em>. From the three, the last one allowed to shave off another few milliseconds to the boot time. Next, and last, I changed the <em>mkinitcpio</em> <em>ramdisk</em> compression to lz4 with the default compression options.</p>
+<p>With this changes, I went from 17.040 to 15.511 seconds, decreasing a bit more than one and an half seconds in the boot time.</p>
+<p>brunomiguel@kepler: ~<br>
+└─ $: systemd-analyze time<br>
+Startup finished in 10.145s (firmware) + 1.616s (loader) + 2.027s (kernel) + 3.250s (userspace) = 17.040s<br>
+graphical.target reached after 2.934s in userspace</p>
+<p>brunomiguel@kepler: ~<br>
+└─ $: systemd-analyze time<br>
+Startup finished in 10.175s (firmware) + 686ms (loader) + 2.041s (kernel) + 2.608s (userspace) = 15.511s<br>
+graphical.target reached after 2.529s in userspace</p>
+<p>In the future, I might replace <em>GRUB2</em> with <em>systemd-boot</em>, possibly decreasing the boot time even more.</p>
+<p>This was tested in a <em>AMD A9-9420 CPU</em> with the <em>linux-zen</em> kernel. Your mileage may vary depending on your hardware.</p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+
+	<small><strong>categorias</strong><br/> 
+    <a href="https://hugo-paper.vercel.app/categories/geekices">geekices</a>
+    </small>
+	<br><br>
+  <small><strong>tags</strong><br/> 
+  <a href="https://hugo-paper.vercel.app/tags/arch-linux">arch-linux</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/boot-times">boot-times</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/endeavouros">endeavouros</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/linux">linux</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/lz4">lz4</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/mkinitcpio">mkinitcpio</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/mq-deadline">mq-deadline</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/systemd">systemd</a>
+  </small>
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://hugo-paper.vercel.app/post/userrepository-eu-is-back-in-beta/"><span>←</span><span>Userrepository.eu is back (in beta)</span></a>
+     
+    <a class="next" href="https://hugo-paper.vercel.app/post/ha-musica-em-marte/"><span>Há música em Marte</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>

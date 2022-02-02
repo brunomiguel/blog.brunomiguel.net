@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plasma-desktop on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/plasma-desktop/</link>
+    <description>Recent content in plasma-desktop on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/plasma-desktop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to disable a D-Bus service</title>
+      <link>https://hugo-paper.vercel.app/post/how-to-disable-a-d-bus-service/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/how-to-disable-a-d-bus-service/</guid>
+      <description>In some situations, you might want to disable a D-Bus service. One of those is, for example, when you use Dunst (a notification daemon) with a window manager. Still, you don&amp;rsquo;t want it to replace the notification daemon from your desktop environment.
+To disable it, you just need to add .disabled to the end of the target file name. Example:
+sudo mv /usr/share/dbus-1/services/org.knopwob.dunst.service /usr/share/dbus-1/services/org.knopwob.dunst.service.disabled In the above example, Dunst will no longer replace Plasma Desktop notification daemon when using that amazing desktop environment, and all will be good with the world again.</description>
+    </item>
+    
+    <item>
+      <title>O2, um tema QML que ando doido para ver integrado no Plasma Desktop</title>
+      <link>https://hugo-paper.vercel.app/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</guid>
+      <description>As imagens deste post são de um tema QML, chamado O2, que o Nuno Pinheiro anda a desenvolver. Partilho-as com a autorização dele, para que se possam babar tanto quanto eu me babei quando as vi. Mal posso ver a hora de o ver integrado no Plasma Desktop.</description>
+    </item>
+    
+    <item>
+      <title>LXQT</title>
+      <link>https://hugo-paper.vercel.app/post/lxqt/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/lxqt/</guid>
+      <description>In the last couple of months, I&amp;rsquo;ve been using LXQT as an alternative to Plasma Desktop. Coupled with compton_tryone for the blur bling, a nice dark and transparent theme, and some GTK and Kvantum dark themes to match, it&amp;rsquo;s actually a great desktop environment.</description>
+    </item>
+    
+  </channel>
+</rss>

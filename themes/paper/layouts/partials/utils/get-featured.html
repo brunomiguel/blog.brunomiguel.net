@@ -1,0 +1,6 @@
+{{ $image := partial "utils/get-image" (dict "context" . "url" .Params.featuredImage "keyword" "*featured*") }}
+{{ $featured := ""}}
+{{ if $image }}
+{{ $featured = print "<img src=\"" $image "\" class=\"w-full\" alt=\"Featured Image\">" | safeHTML }}
+{{ end }}
+{{ return $featured }}

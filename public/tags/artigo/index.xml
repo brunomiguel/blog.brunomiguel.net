@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>artigo on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/artigo/</link>
+    <description>Recent content in artigo on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/artigo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cinco sites para streaming</title>
+      <link>https://hugo-paper.vercel.app/post/cinco-sites-para-streaming/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/cinco-sites-para-streaming/</guid>
+      <description>Publiquei um artigo no Espalha Factos com uma lista de cinco sites para fazer streaming de filmes, séries, desporto e anime. Se quiseres saber quais são, clica aqui para seres reencaminhado para a lista.</description>
+    </item>
+    
+  </channel>
+</rss>

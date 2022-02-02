@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Bitwarden, um gestor de passwords gratuito e cheio de funcionalidades - .blog</title>
+
+  
+  
+  <meta name="description" content="As passwords são tão importantes quanto são difíceis de gerir. Este é um dos motivos que nos leva a utilizar as mesmas palavras-passe repetidamente e a descartamos a complexidade em favor do facilitismos quando escolhemos/criamos uma.
+As passwords também são difíceis de escolher. As regras recomendadas há uns tempos atrás, em que nos diziam para combinar maiúsculas com números e caracteres especiais (o # ou o _ sendo dois exemplos), já não são párias para um pequeno cluster de placas gráficas a processar informação para o hashcat." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hugo-paper.vercel.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hugo-paper.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-paper.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hugo-paper.vercel.app/"/>
+<meta name="twitter:title" content="Bitwarden, um gestor de passwords gratuito e cheio de funcionalidades"/>
+<meta name="twitter:description" content="As passwords são tão importantes quanto são difíceis de gerir. Este é um dos motivos que nos leva a utilizar as mesmas palavras-passe repetidamente e a descartamos a complexidade em favor do facilitismos quando escolhemos/criamos uma.
+As passwords também são difíceis de escolher. As regras recomendadas há uns tempos atrás, em que nos diziam para combinar maiúsculas com números e caracteres especiais (o # ou o _ sendo dois exemplos), já não são párias para um pequeno cluster de placas gráficas a processar informação para o hashcat."/>
+
+
+
+<meta property="og:title" content="Bitwarden, um gestor de passwords gratuito e cheio de funcionalidades" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://hugo-paper.vercel.app/">
+
+<meta property="og:url" content="https://hugo-paper.vercel.app/post/bitwarden-um-gestor-de-passwords-gratuito-e-cheio-de-funcionalidades/" />
+
+
+
+<meta property="og:description" content="As passwords são tão importantes quanto são difíceis de gerir. Este é um dos motivos que nos leva a utilizar as mesmas palavras-passe repetidamente e a descartamos a complexidade em favor do facilitismos quando escolhemos/criamos uma.
+As passwords também são difíceis de escolher. As regras recomendadas há uns tempos atrás, em que nos diziam para combinar maiúsculas com números e caracteres especiais (o # ou o _ sendo dois exemplos), já não são párias para um pequeno cluster de placas gráficas a processar informação para o hashcat." />
+
+
+
+
+<meta property="og:locale" content="pt" />
+
+
+
+
+<meta property="og:site_name" content=".blog" />
+
+
+
+
+<meta property="article:published_time" content="2018-09-03T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2018-09-03T00:00:00&#43;00:00" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hugo-paper.vercel.app/">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://userrepository.eu/">Lista Antonónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>3 de set. de 2018</time>
+      
+      
+    </p>
+    <h1>Bitwarden, um gestor de passwords gratuito e cheio de funcionalidades</h1>
+  </header>
+  
+	
+  <section class="post-content"><p><strong>As <em>passwords</em> são tão importantes quanto são difíceis de gerir.</strong> Este é um dos motivos que nos leva a utilizar as mesmas palavras-passe repetidamente e a descartamos a complexidade em favor do facilitismos quando escolhemos/criamos uma.</p>
+<p><strong>As <em>passwords</em> também são difíceis de escolher.</strong> As regras recomendadas há uns tempos atrás, em que nos diziam para combinar maiúsculas com números e caracteres especiais (o # ou o <em>_</em> sendo dois exemplos), já não são párias para um pequeno <em>cluster</em> de placas gráficas a processar informação para o <a href="https://hashcat.net/hashcat/"><em>hashcat</em></a>.</p>
+<p>E os <em>pins</em> dos cartões? Centenas e centenas de balões…</p>
+<p><a href="https://www.youtube.com/watch?v=IgQE7545LHs">https://www.youtube.com/watch?v=IgQE7545LHs</a></p>
+<p>…quer dizer, dois ou três cartões, pelo menos, com <em>pins</em> diferentes. Já nem falo do <em>Cartão de Cidadão</em>, que tem não sei quantos códigos diferentes.</p>
+<h3 id="memória-de-peixe">Memória de peixe</h3>
+<p>Caro leitor, quanto a ti não sei, mas eu não tenho <a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_eid%C3%A9tica">memória eidética</a>. Até gostava de ser assim uma espécie de <em>Sheldon Cooper</em>, da série <strong><em>A Teoria do Big Bang</em></strong>, e ter a vulgarmente conhecida como “memória fotográfica”, para poder finalmente dizer à minha namorada: “Lembras-te quando fizeste/disseste/whatever blá blá blá blá blá”. Não podem ser sempre elas a ter este discurso, pá…!</p>
+<p>Infelizmente não tenho e continua a ser só ela a ter estas conversas. Por não ter sido agraciado com esses genes, chega a uma altura em que preciso de algo que me ajude a gerir as <em>passwords</em> e <em>pins</em>.</p>
+<p>Esse algo tem que me permitir inserir a informação sem me preocupar com a realização de backups e cumprir os seguintes requisitos obrigatórios:</p>
+<ul>
+<li>aplicação para <em>desktop</em>;</li>
+<li>integração com o <em>browser</em>;</li>
+<li>aplicação para <em>smartphone</em>;</li>
+<li>sincronização entre dispositivos;</li>
+<li>encriptação (preferencialmente antes da informação ser enviada para sincronização);</li>
+<li>conta gratuita com as funcionalidades acima disponíveis.</li>
+</ul>
+<p>Existem algumas opções populares dentro dos gestores de <em>passwords</em>. O <strong><em>Lastpass</em></strong> e o <strong><em>Dashlane</em></strong> são talvez as mais conhecidas. As funcionalidades das contas gratuitas deixam, no entanto, muito a desejar no que toca ao cumprimento dos requisitos. Por exemplo, nenhum deles sincroniza entre dispositivos nas contas gratuitas, nem estas podem sequer ser usadas em mais que um equipamento.</p>
+<p>O juiz decidiu, está decidido. Nenhuma destas opções serve para o pretendido.</p>
+<h3 id="uma-viagem-longa-até-ao-destino">Uma viagem longa até ao destino</h3>
+<p>Tendo em conta a oferta atual, encontrar um gestor de <em>passwords</em> com as características que enumerei acima não é fácil. Mas não ser fácil não significa impossível. Pode é significar demorado e foi o que aconteceu: demorei até o encontrar, mas finalmente cheguei ao <a href="https://bitwarden.com/"><strong><em>Bitwarden</em></strong></a>.</p>
+<p>O <em>Bitwarden</em> é uma aplicação de código aberto e pode ser usada de duas formas. A primeira, dada a sua natureza <em>opensource</em>, é a possibilidade de a instalar num servidor próprio e usar as aplicações para <em>desktop</em> e sistemas operativos móveis para inserir os dados que se querem guardar. A outra forma é a criação de uma conta de utilizador no site, como com qualquer outro serviço.</p>
+<p>Se optares pela segunda opção, terás algumas limitações na conta gratuita. Só poderás, por exemplo, ter duas coleções, que são uma espécie de pastas que podes partilhar com outros utilizadores, e só poderás partilhar com dois utilizadores. Como eu só quero guardar mas minhas palavras-passe e <em>pins</em>, estas limitações passam-me ao lado e arrisco a dizer que será o mesmo no teu caso, car@ leitor@.</p>
+<p>O importante – encriptação, aplicações para <em>desktop</em> e <em>smartphone</em>, sincronização e integração com o <em>browser</em> – estão disponíveis a custo zero. A cereja no topo do bolo é que não há limite para o número de <em>passwords</em> que podemos guardar.</p>
+<p>Também importantes, mas já num nível mais secundário quando comparadas com as outras características, são a facilidade de utilização e a organização da informação. E aqui, novamente, o <em>Bitwarden</em> não desilude.</p>
+<h3 id="o-serviço">O serviço</h3>
+<p>O interface permite criar pastas e organizar os <em>logins</em> dessa forma. Para além dos <em>logins</em>, existem outros tipos de informação que podem ser guardados: cartões, identidades e notas.</p>
+<p>Cada um destes tipos de informação tem campos próprios para preencher e ainda é possível criar campos personalizados de diferentes tipos. Os campos onde se escrevem as <em>passwords</em> permitem gerar uma palavra-passe com forte entropia e ainda confirmar se a que escrevemos foi exposta em algum ataque informático.</p>
+<p>As imagens que se seguem dão-te uma ideia de como tudo está organizado e o que o serviço permite fazer.</p>
+<p><a href="https://i1.wp.com/espalhafactos.com/wp-content/uploads/2018/09/bitwarden.jpg?ssl=1"><img src="https://i1.wp.com/espalhafactos.com/wp-content/uploads/2018/09/bitwarden.jpg?resize=1156%2C548&amp;ssl=1" alt="bitwarden"></a></p>
+<p>Lista de <em>logins</em> e <em>pins</em></p>
+<p><a href="https://i2.wp.com/espalhafactos.com/wp-content/uploads/2018/09/bitwarden2.png?ssl=1"><img src="https://i2.wp.com/espalhafactos.com/wp-content/uploads/2018/09/bitwarden2.png?resize=1200%2C675&amp;ssl=1" alt="bitwarden"></a></p>
+<p>Ecrã para registo de <em>logins</em></p>
+<p>O serviço está longe de ser perfeito. Se lidas com chaves criptográficas, vais reparar que falta uma forma simples de as guardar no <em>Bitwarden</em>. Dá sempre para copiar o conteúdo das chaves e colar nas notas ou em campos personalizados - é uma forma de resolver a questão, mas não é prática.</p>
+<p>Fora estes pequenos “espinhos”, o <em>Bitwarden</em> é um ótimo serviço para gestão de <em>passwords</em> e que apresenta poucos limites para as contas gratuitas.</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://hugo-paper.vercel.app/post/cinco-sites-para-streaming/"><span>←</span><span>Cinco sites para streaming</span></a>
+     
+    <a class="next" href="https://hugo-paper.vercel.app/post/trying-debian-stable-for-everyday-desktop-usage/"><span>Trying Debian Stable for everyday desktop usage</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>

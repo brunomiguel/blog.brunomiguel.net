@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>manjaro on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/manjaro/</link>
+    <description>Recent content in manjaro on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A shitload of new packages on userrepository</title>
+      <link>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</guid>
+      <description>Since the 24th of January, the date of the last blog post, I&amp;rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
+Expect more packages, as I&amp;rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&amp;rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</description>
+    </item>
+    
+    <item>
+      <title>Updates on Userrepository and Jarvis</title>
+      <link>https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/</guid>
+      <description>Lately, I&amp;rsquo;ve been having some problems when building picom-ibhagwan-git and picom-tryone-git. The first one would build OK, but not the second one.
+After a bit of debugging, I found out that it was a problem related to the way makepkg and git handle the cache when building these forks. This would also happen when adding the picom-git package: it would build because it&amp;rsquo;s the first package in alphabetical order and Jarvis builds the packages that way, but not the other two.</description>
+    </item>
+    
+    <item>
+      <title>Status on userrepository changes</title>
+      <link>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</guid>
+      <description>It took me a while to update you about the latest changes to my Arch and Arch-compatible Linux distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&amp;rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.
+First on the &amp;ldquo;agenda&amp;rdquo;, I experimented with increasing the zstd compression level for the packages like I said I would do in my last post about the repository.</description>
+    </item>
+    
+    <item>
+      <title>Updates on userrepository</title>
+      <link>https://hugo-paper.vercel.app/post/updates-on-userrepository/</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/updates-on-userrepository/</guid>
+      <description>Since the last post about my Arch (and Arch-compatible distributions) binary repository, I&amp;rsquo;ve added a few more packages. Some examples are the Mullvad VPN desktop client and nimdow, a window manager written in the Nim programming language. Or Emptty, an amazing display manager that I encourage you to try.
+Despite adding more packages, the compilation and compression time only had a small increase and I&amp;rsquo;m still below the 5 hour mark.</description>
+    </item>
+    
+    <item>
+      <title>Userrepository.eu now available on Github</title>
+      <link>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</guid>
+      <description>My Arch/Manjaro (and any other Arch-based distro) repository continues to receive more packages from AUR. But this post is not about that. I&amp;rsquo;m writing this because I published the scripts I&amp;rsquo;m using to build the packages for userrepository.eu. You can get them at Github.</description>
+    </item>
+    
+    <item>
+      <title>Updates on my Arch/Manjaro repository</title>
+      <link>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</guid>
+      <description>Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&amp;rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
+After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&amp;rsquo;ve been (successfully) testing aurto to manage the repository updates.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ve built a Manjaro repository</title>
+      <link>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</guid>
+      <description>Due to my own dumbness (I mistakenly deleted my Ubuntu partition), I installed Manjaro, using the Manjaro Architect release, on my laptop. I&amp;rsquo;d been thinking about doing it for a while and finally made it because I was too stupid to read the instructions from cfdisk. The shit you create yourself because you&amp;rsquo;re in a hurry…
+Anyway, after installing Manjaro, I started reading a bit about this distro packaging and how I could leverage AUR and binary packages.</description>
+    </item>
+    
+    <item>
+      <title>New laptop</title>
+      <link>https://hugo-paper.vercel.app/post/new-laptop/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/new-laptop/</guid>
+      <description>A few days ago I bought a Lenovo Ideapad 320-15AST. I had a budget of €400 and, after browsing a few stores for a couple of hours, I found this one for a bit less than €350.
+At the hardware level, the computer has reasonable specs. They are (retrieved from inxi):
+CPU: AMD A9-9420 dual core (1397MHz/3000MHz | boost: 3600MHz) GPU: AMD Radeon R7 M260/M265 HDD: 1000.2GB 5400RPM RAM: 8GB DDR4 This is the first time I’m buying Lenovo.</description>
+    </item>
+    
+  </channel>
+</rss>

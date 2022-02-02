@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reddit on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/reddit/</link>
+    <description>Recent content in reddit on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ter fibromialgia be like...</title>
+      <link>https://hugo-paper.vercel.app/post/ter-fibromialgia-be-like/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/ter-fibromialgia-be-like/</guid>
+      <description>Imagem gamada do /r/fybromialgia</description>
+    </item>
+    
+    <item>
+      <title>O balanço é difícil</title>
+      <link>https://hugo-paper.vercel.app/post/o-balanco-e-dificil/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/o-balanco-e-dificil/</guid>
+      <description>via Reddit</description>
+    </item>
+    
+  </channel>
+</rss>

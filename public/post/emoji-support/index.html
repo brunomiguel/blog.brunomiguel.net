@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Emoji Support - .blog</title>
+
+  
+  
+  <meta name="description" content="Emoji can be enabled in a Hugo project in a number of ways." />
+  <meta name="author" content="lee.so" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hugo-paper.vercel.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hugo-paper.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-paper.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hugo-paper.vercel.app/">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://userrepository.eu/">Lista Antonónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>5 de mar. de 2019</time>
+      
+      <span>lee.so</span>
+      
+      
+    </p>
+    <h1>Emoji Support</h1>
+  </header>
+  
+	
+  <section class="post-content"><p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<!-- raw HTML omitted -->
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
+  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}</code></pre></div>
+
+<style>
+.emojify {
+	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+	font-size: 2rem;
+	vertical-align: middle;
+}
+@media screen and (max-width:650px) {
+  .nowrap {
+    display: block;
+    margin: 25px 0;
+  }
+}
+</style></section>
+
+  
+  
+  <footer class="post-tags">
+     
+    <a href="https://hugo-paper.vercel.app/tags/emoji">emoji</a>
+    
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://hugo-paper.vercel.app/post/math-typesetting/"><span>←</span><span>Math Typesetting</span></a>
+     
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>

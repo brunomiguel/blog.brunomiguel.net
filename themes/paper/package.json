@@ -1,0 +1,23 @@
+{
+  "name": "hugo-paper",
+  "version": "5.0.0",
+  "repository": "https://github.com/nanxiaobei/hugo-paper.git",
+  "author": "nanxiaobei <nanxiaobei@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "server": "hugo server -Dw --minify --disableFastRender --themesDir=../.. --source=exampleSite --bind=0.0.0.0",
+    "open": "open http://0.0.0.0:1313/",
+    "go": "cp exampleSite/go.default.mod exampleSite/go.mod",
+    "site": "hugo --gc --minify --themesDir=../.. --source=exampleSite --config=go.toml,config.toml",
+    "dev": "yarn open & yarn server",
+    "build": "yarn go & yarn site"
+  },
+  "dependencies": {
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.5.0",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}

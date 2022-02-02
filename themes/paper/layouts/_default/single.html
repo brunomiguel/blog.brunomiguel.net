@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      {{ if .Section }}
+      <time>{{ .Date | time.Format ":date_short" }}</time>
+      {{ if or .Params.Author site.Author.name }}
+      <span>{{ .Params.Author | default site.Author.name }}</span>
+      {{ end }}
+      {{ end }}
+    </p>
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ $featured := partial "utils/get-featured" . }}
+	{{ with $featured }}
+            <p class="featured-image full-width">{{ . }}</p>
+	{{ end }}
+  <section class="post-content">{{ .Content }}</section>
+
+  <!-- Post Tags -->
+  {{ if .Params.tags }}
+  <footer class="post-tags">
+
+	<small><strong>categorias</strong><br/>{{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
+    <a href="{{ $href }}">{{ . }}</a>
+    {{ end }}</small>
+	<br><br>
+  <small><strong>tags</strong><br/>{{ range .Params.tags }} {{ $href := print (absURL "tags/") (urlize .) }}
+  <a href="{{ $href }}">{{ . }}</a>
+  {{ end }}</small>
+  </footer>
+  {{ end }}
+
+  <!-- Post Nav -->
+  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}<!---->
+  {{ if and (gt (len $pages) 1) (in $pages . ) }}
+  <nav class="post-nav">
+    {{ with $pages.Next . }}
+    <a class="prev" href="{{ .Permalink }}"><span>←</span><span>{{ .Name | truncate 20 }}</span></a>
+    {{ end }} {{ with $pages.Prev . }}
+    <a class="next" href="{{ .Permalink }}"><span>{{ .Name | truncate 20 }}</span><span>→</span></a>
+    {{ end }}
+  </nav>
+  {{ end }}
+
+  <!-- Disqus -->
+  {{ if and site.DisqusShortname (not (eq .Params.comments false)) }}
+  <div id="disqus_thread" class="post-comments"></div>
+  <script>
+    var disqusShortname = '{{ site.DisqusShortname }}';
+    var script = document.createElement('script');
+    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', +new Date());
+    document.head.appendChild(script);
+  </script>
+  {{ end }}
+</article>
+
+{{ end }}

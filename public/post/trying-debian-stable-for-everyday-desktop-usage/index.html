@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Trying Debian Stable for everyday desktop usage - .blog</title>
+
+  
+  
+  <meta name="description" content="A few days ago I installed Debian Stable. I&rsquo;d been using Sparky Linux, which is based on Debian Testing, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.
+Well, since Sparky is based on Debian, the &ldquo;bunch of software available in the repositories&rdquo; part was a given from the start." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hugo-paper.vercel.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hugo-paper.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-paper.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hugo-paper.vercel.app/post/trying-debian-stable-for-everyday-desktop-usage/images/debian-squeeze.jpg"/>
+<meta name="twitter:title" content="Trying Debian Stable for everyday desktop usage"/>
+<meta name="twitter:description" content="A few days ago I installed Debian Stable. I&rsquo;d been using Sparky Linux, which is based on Debian Testing, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.
+Well, since Sparky is based on Debian, the &ldquo;bunch of software available in the repositories&rdquo; part was a given from the start."/>
+
+
+
+<meta property="og:title" content="Trying Debian Stable for everyday desktop usage" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://hugo-paper.vercel.app/post/trying-debian-stable-for-everyday-desktop-usage/images/debian-squeeze.jpg">
+
+<meta property="og:url" content="https://hugo-paper.vercel.app/post/trying-debian-stable-for-everyday-desktop-usage/" />
+
+
+
+<meta property="og:description" content="A few days ago I installed Debian Stable. I&rsquo;d been using Sparky Linux, which is based on Debian Testing, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.
+Well, since Sparky is based on Debian, the &ldquo;bunch of software available in the repositories&rdquo; part was a given from the start." />
+
+
+
+
+<meta property="og:locale" content="pt" />
+
+
+
+
+<meta property="og:site_name" content=".blog" />
+
+
+
+
+<meta property="article:published_time" content="2018-09-03T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2018-09-03T00:00:00&#43;00:00" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hugo-paper.vercel.app/">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://userrepository.eu/">Lista Antonónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>3 de set. de 2018</time>
+      
+      
+    </p>
+    <h1>Trying Debian Stable for everyday desktop usage</h1>
+  </header>
+  
+	
+            <p class="featured-image full-width"><img src="https://hugo-paper.vercel.app/post/trying-debian-stable-for-everyday-desktop-usage/images/debian-squeeze.jpg" class="w-full" alt="Featured Image"></p>
+	
+  <section class="post-content"><p>A few days ago I installed <em><a href="https://debian.org">Debian</a> Stable</em>. I&rsquo;d been using <em><a href="https://sparkylinux.org/">Sparky Linux</a></em>, which is based on <em>Debian Testing</em>, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.</p>
+<p>Well, since <em>Sparky</em> is based on <em>Debian</em>, the &ldquo;bunch of software available in the repositories&rdquo; part was a given from the start.</p>
+<p>Although happy, I was looking for an operating system a bit more conservative in terms of stability and reliability. I&rsquo;d been inspired very recently by the short <a href="https://openbsd.org"><em>OpenBSD</em></a> usage I had on a virtual machine and some readings about <em>BSD</em> systems, so I thought <em>Debian Stable</em> would be the best choice.</p>
+<p>Here are my motives for choosing <em>Debian</em> over, say, <em>CentOS</em> or <em>Slackware</em> or even a <em>BSD</em> system:</p>
+<ul>
+<li>It&rsquo;s a <em>Linux</em> kernel based operating system and I&rsquo;ve been mostly using <em>Debian Testing</em> or <em>Debian</em>-based systems for over a decade, so I&rsquo;m familiar with it;</li>
+<li>It prioritizes stability over the latest stable version of a software;</li>
+<li>It has a lot of software available;</li>
+<li>It has a very large community.</li>
+</ul>
+<p>Almost a week went by and my fears of using older versions of any software (motivated almost exclusively by a potential lack of some functionality) are gone. The system is really stable and I have almost all the tools I need in the repositories. I only needed to install a handfull of apps from external sources (<a href="http://www.deb-multimedia.org/"><em>deb-multimedia</em></a>, <em>github</em>, <em>flatpak</em> and <em>snap</em>) because they were not packaged in the distro&rsquo;s repositories.</p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+
+	<small><strong>categorias</strong><br/> 
+    <a href="https://hugo-paper.vercel.app/categories/geekices">geekices</a>
+    </small>
+	<br><br>
+  <small><strong>tags</strong><br/> 
+  <a href="https://hugo-paper.vercel.app/tags/bsd">bsd</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/debian">debian</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/linux">linux</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/openbsd">openbsd</a>
+  </small>
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://hugo-paper.vercel.app/post/bitwarden-um-gestor-de-passwords-gratuito-e-cheio-de-funcionalidades/"><span>←</span><span>Bitwarden, um gestor de passwords gratuito e cheio de funcionalidades</span></a>
+     
+    <a class="next" href="https://hugo-paper.vercel.app/post/as-passwords-sao-bichos-complicados/"><span>As passwords são bichos complicados</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>

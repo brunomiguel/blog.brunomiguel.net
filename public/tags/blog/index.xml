@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/blog/</link>
+    <description>Recent content in blog on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criei um blog para relatar a minha experiência horrível com a fibromialgia</title>
+      <link>https://hugo-paper.vercel.app/post/criei-um-blog-para-relatar-a-minha-experiencia-horrivel-com-a-fibromialgia/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/criei-um-blog-para-relatar-a-minha-experiencia-horrivel-com-a-fibromialgia/</guid>
+      <description>A minha experiência com a fibromialgia tem sido, no mínimo, horrível. E horrível é dizer muito pouco: aquilo por que tenho passado parece tirado de um pesadelo ou de um filme de terror. Não é à toa que o meu reumatologista descreve as dores que sinto como violentas, como podes ver na imagem que se segue.
+excerto do relatório
+Ao fim de um ano e uns meses, decidi documentar alguns episódios da minha experiência com a fibromialgia.</description>
+    </item>
+    
+  </channel>
+</rss>

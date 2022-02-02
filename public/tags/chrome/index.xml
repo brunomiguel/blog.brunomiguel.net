@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chrome on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/chrome/</link>
+    <description>Recent content in chrome on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improved new night mode for Twitter</title>
+      <link>https://hugo-paper.vercel.app/post/improved-new-night-mode-for-twitter/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/improved-new-night-mode-for-twitter/</guid>
+      <description>I got the new, event and flex-based, Twitter design a few days ago and decided to try out the night mode. This was also influenced by some tweet a contact of mine published.
+While not bad, I don&amp;rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the blue light stuff impacting our sleep. Even with a blue light filter, like the one from Plasma, it&amp;rsquo;s still too much blue.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Chrome?</title>
+      <link>https://hugo-paper.vercel.app/post/microsoft-chrome/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/microsoft-chrome/</guid>
+      <description>Está a circular um rumor que aponta para o fim do Edge, o browser que a Microsoft lançou em 2015 para substituir o Internet Explorer. O mesmo rumo refere que a empresa sediada em Redmond vai criar um novo navegador, agora baseado no Chromium.
+Sabe mais no meu artigo no Espalha-Factos.</description>
+    </item>
+    
+    <item>
+      <title>O Facebook mobile não é igual para todos</title>
+      <link>https://hugo-paper.vercel.app/post/facebook-mobile/</link>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/facebook-mobile/</guid>
+      <description>Que raio se passará com o site do Facebook? Cada vez demora mais a carregar, faz a temperatura do processador do meu portátil disparar e está cheio de coisas a tentar roubar constantemente um bocadinho da minha atenção. Na volta é por estar cheio de porcarias como esta.
+ Facebook answered 2,000 questions posed by the Senate Committee. Among these, Facebook explained that it collects information about users’ computers, phones, or other connected devices, including their mouse, reports India Today.</description>
+    </item>
+    
+  </channel>
+</rss>

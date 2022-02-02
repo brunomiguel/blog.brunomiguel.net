@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arch-wiki on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/arch-wiki/</link>
+    <description>Recent content in arch-wiki on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Mon, 14 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/arch-wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Userrepository now on Arch Wiki</title>
+      <link>https://hugo-paper.vercel.app/post/userrepository-now-on-arch-wiki/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/userrepository-now-on-arch-wiki/</guid>
+      <description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
+Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the chance to list all packages currently available at the time of writing:
+ acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
+    </item>
+    
+  </channel>
+</rss>

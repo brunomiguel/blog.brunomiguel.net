@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>compton-tryone on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/compton-tryone/</link>
+    <description>Recent content in compton-tryone on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/compton-tryone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LXQT</title>
+      <link>https://hugo-paper.vercel.app/post/lxqt/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/lxqt/</guid>
+      <description>In the last couple of months, I&amp;rsquo;ve been using LXQT as an alternative to Plasma Desktop. Coupled with compton_tryone for the blur bling, a nice dark and transparent theme, and some GTK and Kvantum dark themes to match, it&amp;rsquo;s actually a great desktop environment.</description>
+    </item>
+    
+  </channel>
+</rss>

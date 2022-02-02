@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>First own package on userrepository.eu - .blog</title>
+
+  
+  
+  <meta name="description" content="Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&rsquo;ve finally created my first package for Arch Linux on my repository. It&rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
+Here&rsquo;s the PKGBUILD at the time of writing:
+# Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&ldquo;Simple GTK web browser for GNOME&rdquo; arch=(&lsquo;x86_64&rsquo;) url=&ldquo;https://wiki." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hugo-paper.vercel.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hugo-paper.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-paper.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/images/arch-linux.jpg"/>
+<meta name="twitter:title" content="First own package on userrepository.eu"/>
+<meta name="twitter:description" content="Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&rsquo;ve finally created my first package for Arch Linux on my repository. It&rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
+Here&rsquo;s the PKGBUILD at the time of writing:
+# Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&ldquo;Simple GTK web browser for GNOME&rdquo; arch=(&lsquo;x86_64&rsquo;) url=&ldquo;https://wiki."/>
+
+
+
+<meta property="og:title" content="First own package on userrepository.eu" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/images/arch-linux.jpg">
+
+<meta property="og:url" content="https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/" />
+
+
+
+<meta property="og:description" content="Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&rsquo;ve finally created my first package for Arch Linux on my repository. It&rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
+Here&rsquo;s the PKGBUILD at the time of writing:
+# Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&ldquo;Simple GTK web browser for GNOME&rdquo; arch=(&lsquo;x86_64&rsquo;) url=&ldquo;https://wiki." />
+
+
+
+
+<meta property="og:locale" content="pt" />
+
+
+
+
+<meta property="og:site_name" content=".blog" />
+
+
+
+
+<meta property="article:published_time" content="2019-11-13T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2019-11-13T00:00:00&#43;00:00" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hugo-paper.vercel.app/">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://userrepository.eu/">Lista Antonónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>13 de nov. de 2019</time>
+      
+      
+    </p>
+    <h1>First own package on userrepository.eu</h1>
+  </header>
+  
+	
+            <p class="featured-image full-width"><img src="https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/images/arch-linux.jpg" class="w-full" alt="Featured Image"></p>
+	
+  <section class="post-content"><p>Until now, <a href="https://userrepository.eu">userrepository.eu</a> only used software from <em>AUR.</em> Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&rsquo;ve finally created my first package for <em>Arch Linux</em> on my repository. It&rsquo;s for a <em>GTK</em> web browser named <a href="https://gitlab.gnome.org/World/eolie/"><em>Eoli</em></a> and it builds from the master <em>git</em> branch.</p>
+<p>Here&rsquo;s the <em>PKGBUILD</em> at the time of writing:</p>
+<p># Maintainer: Bruno Miguel <omitted>
+​
+pkgname=eolie-git
+_gitname=eolie
+pkgver=da1899ff
+pkgrel=1
+pkgdesc=&ldquo;Simple GTK web browser for GNOME&rdquo;
+arch=(&lsquo;x86_64&rsquo;)
+url=&ldquo;<a href="https://wiki.gnome.org/Apps/Eolie%22">https://wiki.gnome.org/Apps/Eolie&quot;</a>
+license=(&lsquo;GPL3&rsquo;)
+depends=(&lsquo;gtkspell3&rsquo; &lsquo;python-cairo&rsquo; &lsquo;python-dateutil&rsquo; &lsquo;python-gobject&rsquo; &lsquo;webkit2gtk&rsquo;)
+makedepends=(&lsquo;git&rsquo; &lsquo;gobject-introspection&rsquo; &lsquo;meson&rsquo;)
+optdepends=(&lsquo;python-beautifulsoup4: Import html bookmarks&rsquo;
+           &lsquo;python-crypto: Firefox Sync support&rsquo;
+           &lsquo;python-fxa: Firefox Sync support&rsquo;
+           &lsquo;python-pyopenssl: Show SSL certificates&rsquo;
+           &lsquo;python-requests-hawk: Firefox Sync support&rsquo;)
+source=(&ldquo;git+https://gitlab.gnome.org/World/eolie.git&rdquo;)
+sha256sums=(&lsquo;SKIP&rsquo;)
+​
+pkgver() {
+cd &ldquo;${_gitname}&rdquo;
+( set -o pipefail
+git describe &ndash;long 2&gt;/dev/null | sed &rsquo;s/\([^-]*-g\)/r\1/;s/-/./g' ||
+printf &ldquo;r%s.%s&rdquo; &ldquo;$(git rev-list &ndash;count HEAD)&rdquo; &ldquo;$(git rev-parse &ndash;short HEAD)&rdquo;
+)
+}
+​
+build() {
+arch-meson &ldquo;${_gitname}&rdquo; build
+ninja -C build
+}
+​
+package() {
+DESTDIR=&quot;$pkgdir&rdquo; meson install -C build
+}
+​</p>
+<p>Every time there&rsquo;s a new commit, it will grab that source and build it. This means you might get a less than stable browser, but also that you&rsquo;ll always get the latest source.</p>
+<p>Happy free <em>softwareing</em>! :)</p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+
+	<small><strong>categorias</strong><br/> 
+    <a href="https://hugo-paper.vercel.app/categories/geekices">geekices</a>
+    </small>
+	<br><br>
+  <small><strong>tags</strong><br/> 
+  <a href="https://hugo-paper.vercel.app/tags/arch-linux">arch-linux</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/eolie">eolie</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/free-software">free-software</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/gtk">gtk</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/userrepository-eu">userrepository-eu</a>
+  </small>
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://hugo-paper.vercel.app/post/atualizacao-a-lista-antinonio/"><span>←</span><span>Atualização à lista AntiNónio</span></a>
+     
+    <a class="next" href="https://hugo-paper.vercel.app/post/raindogs-indigente/"><span>Raindogs - Indigente</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>

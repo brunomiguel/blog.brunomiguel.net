@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pacman on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/pacman/</link>
+    <description>Recent content in pacman on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Status on userrepository changes</title>
+      <link>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</guid>
+      <description>It took me a while to update you about the latest changes to my Arch and Arch-compatible Linux distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&amp;rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.
+First on the &amp;ldquo;agenda&amp;rdquo;, I experimented with increasing the zstd compression level for the packages like I said I would do in my last post about the repository.</description>
+    </item>
+    
+  </channel>
+</rss>

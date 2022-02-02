@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>privacy on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/privacy/</link>
+    <description>Recent content in privacy on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Chrome is a privacy hell</title>
+      <link>https://hugo-paper.vercel.app/post/google-chrome-is-a-privacy-hell/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/google-chrome-is-a-privacy-hell/</guid>
+      <description>Google Chrome is such a privacy hell that it has become it&amp;rsquo;s own hell in the japanese folklore. You&amp;rsquo;re better off with Firefox and you get better performance. But if you really want Chrome, Ungoogled Chromium is based on the previous (technically, it&amp;rsquo;s based on Chromium) with some bits removed for added privacy.</description>
+    </item>
+    
+    <item>
+      <title>Criptex, an encripted email service with focus on privacy</title>
+      <link>https://hugo-paper.vercel.app/post/criptex-an-encripted-email-service-with-focus-on-privacy/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/criptex-an-encripted-email-service-with-focus-on-privacy/</guid>
+      <description>Criptex is a new email client with a strong focus on the user&amp;rsquo;s privacy and data security, released by an independent company with the same name. The app stores all the emails on the device(s) it&amp;rsquo;s used, encrypted with the Signal Protocol, instead of storing them in their servers. This gives user&amp;rsquo;s total control over their data.
+This software is open source and available for Android, iOS and macOS. Linux and Windows releases will be available soon.</description>
+    </item>
+    
+  </channel>
+</rss>

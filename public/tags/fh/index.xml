@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fh on .blog</title>
+    <link>https://hugo-paper.vercel.app/tags/fh/</link>
+    <description>Recent content in fh on .blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Fri, 07 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/fh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Folding@home</title>
+      <link>https://hugo-paper.vercel.app/post/foldinghome/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/foldinghome/</guid>
+      <description>A couple of days ago, I decided to use my VPS spare CPU cycles to help out the Folding@home (F@h) project.
+If you haven&amp;rsquo;t heard of F@H, here is a description from their website:
+ Folding@home (FAH or F@h) is a distributed computing project for disease research that simulates protein folding, computational drug design, and other types of molecular dynamics. As of today, the project is using the idle resources of personal computers owned by volunteers from all over the world.</description>
+    </item>
+    
+  </channel>
+</rss>

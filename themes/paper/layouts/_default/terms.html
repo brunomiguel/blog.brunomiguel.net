@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<!-- Main Title -->
+{{ if .Title }}
+<h1 class="main-title">{{ .Title }}</h1>
+{{ end }}
+
+{{ range .Pages }}
+<article class="taxonomies">
+    <h3>
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>&nbsp;
+    </h3>
+</article>
+{{ end }}
+{{ end }}

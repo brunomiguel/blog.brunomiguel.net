@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>How to install an operating system to a USB drive - .blog</title>
+
+  
+  
+  <meta name="description" content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
+sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hugo-paper.vercel.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hugo-paper.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-paper.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hugo-paper.vercel.app/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png"/>
+<meta name="twitter:title" content="How to install an operating system to a USB drive"/>
+<meta name="twitter:description" content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
+sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive."/>
+
+
+
+<meta property="og:title" content="How to install an operating system to a USB drive" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://hugo-paper.vercel.app/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png">
+
+<meta property="og:url" content="https://hugo-paper.vercel.app/post/how-to-install-an-operating-system-to-a-usb-drive/" />
+
+
+
+<meta property="og:description" content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
+sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive." />
+
+
+
+
+<meta property="og:locale" content="pt" />
+
+
+
+
+<meta property="og:site_name" content=".blog" />
+
+
+
+
+<meta property="article:published_time" content="2018-08-28T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2018-08-28T00:00:00&#43;00:00" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hugo-paper.vercel.app/">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://userrepository.eu/">Lista Antonónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>28 de ago. de 2018</time>
+      
+      
+    </p>
+    <h1>How to install an operating system to a USB drive</h1>
+  </header>
+  
+	
+            <p class="featured-image full-width"><img src="https://hugo-paper.vercel.app/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png" class="w-full" alt="Featured Image"></p>
+	
+  <section class="post-content"><p>Sometimes, maybe for maintenance or data rescue reasons, you may want to have a <em>USB</em> thumbdrive with a <em>GNU/Linux</em> distribution installed. I&rsquo;m not referring to writing a live <em>ISO</em> to a <em>USB</em> drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software <em>Qemu</em>. Example:</p>
+<pre tabindex="0"><code>sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800
+</code></pre><p>In this example, the <code>-hda /dev/sdb</code> part tells <em>Qemu</em> that the device <em>/dev/sdb</em> (the <em>USB</em> drive) must be used as an hard drive.</p>
+<p>If you prefer <em>Ubuntu</em>, <em>Fedora</em>, <em>Arch</em> or any other distribution, you can install them this way too. There may be a need to adjust <em>QEMU</em> arguments, but in that case <em>Google</em> is your friend.</p>
+<p>This also works with other operating systems that are not <em>Linux</em> based. <a href="https://openbsd.org"><em>OpenBSD</em></a>, version 6.3, can be installed in a <em>USB</em> drive using the same parameters and booted after that.</p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+
+	<small><strong>categorias</strong><br/> 
+    <a href="https://hugo-paper.vercel.app/categories/geekices">geekices</a>
+    </small>
+	<br><br>
+  <small><strong>tags</strong><br/> 
+  <a href="https://hugo-paper.vercel.app/tags/linux">linux</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/qemu">qemu</a>
+   
+  <a href="https://hugo-paper.vercel.app/tags/usb">usb</a>
+  </small>
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://hugo-paper.vercel.app/post/vida-de-abacate/"><span>←</span><span>Vida de abacate</span></a>
+     
+    <a class="next" href="https://hugo-paper.vercel.app/post/fine-print/"><span>The fine print</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>
