@@ -742,6 +742,8 @@ a {
   padding: 0 0 0 calc(var(--gap) - 0.4rem);
   margin: 0 0 0 calc(var(--gap) * -1);
   border-left: 0.4rem solid var(--pro);
+	font-family: serif;
+	font-style: italic;
 }
 
 .post-content hr {
