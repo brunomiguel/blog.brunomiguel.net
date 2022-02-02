@@ -12,10 +12,12 @@
     </p>
     <h1>{{ .Title }}</h1>
   </header>
+
   {{ $featured := partial "utils/get-featured" . }}
 	{{ with $featured }}
-            <p class="featured-image full-width">{{ . }}</p>
+            <p class="featured-image">{{ . }}</p>
 	{{ end }}
+
   <section class="post-content">{{ .Content }}</section>
 
   <!-- Post Tags -->

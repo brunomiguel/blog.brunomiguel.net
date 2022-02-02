@@ -143,11 +143,11 @@ ol {
 a {
   color: inherit;
   text-decoration: none;
-	transition: color .2s;
+	transition: color .2s, border-bottom .2s;
 }
 
 a:hover {
-		transition: color .2s;
+		transition: color .2s, border-bottom .2s;
 }
 
 table {

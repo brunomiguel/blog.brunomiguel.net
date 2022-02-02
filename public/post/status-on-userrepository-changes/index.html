@@ -187,8 +187,10 @@ First on the &ldquo;agenda&rdquo;, I experimented with increasing the zstd compr
     </p>
     <h1>Status on userrepository changes</h1>
   </header>
+
   
 	
+
   <section class="post-content"><p>It took me a while to update you about the latest changes to my <em>Arch</em> and <em>Arch</em>-compatible <em>Linux</em> distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.</p>
 <p>First on the &ldquo;agenda&rdquo;, I experimented with increasing the <em>zstd</em> compression level for the packages like I said I would do in my <a href="https://blog.brunomiguel.net/geekices/updates-on-userrepository/">last post about the repository</a>. The trade-off was not worth it: the increase in packaging time was far superior to the small decrease in package size. So, I&rsquo;ll keep the <em>zstd</em> compression level to &ldquo;-12&rdquo; in the foreseeable future.</p>
 <p>Also, up to a few days ago, I would manually update the packages and, from time to time, do a full build. Now, I&rsquo;m using a <em>cron job</em> and <a href="https://github.com/Nukesor/pueue"><em>pueue</em></a> to manage the tasks and it always does a full build.</p>

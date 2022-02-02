@@ -187,10 +187,12 @@ The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, how
     </p>
     <h1>Some notes about userrepository performance with the new provider</h1>
   </header>
+
   
 	
-            <p class="featured-image full-width"><img src="https://hugo-paper.vercel.app/post/some-notes-about-userrepository-performance-with-the-new-provider/images/race.jpg" class="w-full" alt="Featured Image"></p>
+            <p class="featured-image"><img src="https://hugo-paper.vercel.app/post/some-notes-about-userrepository-performance-with-the-new-provider/images/race.jpg" alt="Featured Image"></p>
 	
+
   <section class="post-content"><p>In the previous post, I wrote about how I changed the virtual machine provider from <em>Scaleway</em> to <em>Hetzner</em>. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.</p>
 <p>The specs are very similar: 4 <em>vCPUs</em> and 8GB of <em>RAM</em>. There is one difference, however: with <em>Scaleway</em>, the <em>vCPUs</em> were some <em>Intel</em> low-end ones (although they&rsquo;ve upgraded to <em>AMD EPYC</em> very recently) and with <em>Hetzer</em> they are <em>AMD EPYC</em>. And what a difference this makes.</p>
 <p>Previously, 250 and something packages took almost 5 hours to complete the build and sync them to the webserver. Now, it takes around 4 hours and 12 minutes to build and sync 328 packages. That&rsquo;s a huge difference.</p>

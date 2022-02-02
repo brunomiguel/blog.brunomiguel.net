@@ -187,10 +187,12 @@ After a bit of debugging, I found out that it was a problem related to the way m
     </p>
     <h1>Updates on Userrepository and Jarvis</h1>
   </header>
+
   
 	
-            <p class="featured-image full-width"><img src="https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/images/jarvis.jpg" class="w-full" alt="Featured Image"></p>
+            <p class="featured-image"><img src="https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/images/jarvis.jpg" alt="Featured Image"></p>
 	
+
   <section class="post-content"><p>Lately, I&rsquo;ve been having some problems when building <code>picom-ibhagwan-git</code> and <code>picom-tryone-git</code>. The first one would build OK, but not the second one.</p>
 <p>After a bit of debugging, I found out that it was a problem related to the way <em>makepkg</em> and <em>git</em> handle the cache when building these forks. This would also happen when adding the <code>picom-git</code> package: it would build because it&rsquo;s the first package in alphabetical order and Jarvis builds the packages that way, but not the other two.</p>
 <p>To fix this, the <code>build()</code> function no longer uses <em>pushd</em> and <em>popd</em>, allowing the script to work outside the package directory it&rsquo;s building and delete some parts of the cache folder <strong><em>Jarvis</em></strong> uses.</p>

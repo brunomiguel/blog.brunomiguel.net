@@ -187,8 +187,10 @@ If you&rsquo;re reading this, you&rsquo;ll probably know that Arch Linux changed
     </p>
     <h1>Userrepository.eu is back (in beta)</h1>
   </header>
+
   
 	
+
   <section class="post-content"><p>After a small forced hiatus, <a href="http://userrepository.eu">userrepository.eu</a> is back. The Covid-19 pandemic made a hit in my income and the wife&rsquo;s income, so I had to temporarily suspend non-priority expenses. During this period, I had time to consider a few things about the future of the project and decided to change the provider from <em>Scaleway</em> to <em>Hetzner</em>, mostly because the <em>Arch</em> image they&rsquo;re using is essentially <em>abandonware</em>.</p>
 <p>If you&rsquo;re reading this, you&rsquo;ll probably know that <em>Arch Linux</em> changed the default package compression to <em>ZSTD</em>. In order to update or install any package, you&rsquo;ll need a <em>pacman</em> version that supports this compression and up-to-date libraries. These requirements aren&rsquo;t met in older <em>Arch</em> images, like the one used by <em>Scaleway</em>, so the only two solutions were installing another distribution, <em>chrooting</em> into it and hack an <em>Arch</em> install (the solution presented to me by <em>Scaleway</em> support) or change provider. The second option was the less time-consuming one.</p>
 <p><em>Hetzner</em> doesn&rsquo;t provide <em>Arch</em> by default when creating a virtual manchine, but after creating it the user can boot it in rescue mode and run the <em>installimage</em> script that makes the process almost a breeze. After running the script, I advise you to manually <em>chroot</em> and temporarily allow root logins for the <em>SSH</em> daemon in order to be able to login remotely after booting the <em>VM</em> normally.</p>

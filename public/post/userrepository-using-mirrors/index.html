@@ -187,8 +187,10 @@ Finally, a few days ago, I enabled the service. I also created a package with th
     </p>
     <h1>Userrepository using mirrors</h1>
   </header>
+
   
 	
+
   <section class="post-content"><p>For a few months, I considered using the <a href="https://docs.fosshost.org/en/home/mirrors-as-a-service">mirror service</a> from <a href="https://fosshost.org">Fosshost</a> in <a href="https://userrepository.eu">userrepository.eu</a>. The service results from a partnership between Fosshost and Fastly, giving projects access to <a href="https://www.fastly.com/network-map">several PoP&rsquo;s</a> around the globe.</p>
 <p>Finally, a few days ago, I enabled the service. I also created a package with the mirror&rsquo;s list, <em>userrepository-mirrors</em>, available in my repository and <a href="https://aur.archlinux.org/packages/userrepository-mirrors/">AUR</a>. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your <code>/etc/pacman.conf</code> configuration.</p>
 <p>The mirror service syncs every 4 hours. After each build, partial or full, the updated packages will be pushed to the servers with <code>rsync</code>.</p>
