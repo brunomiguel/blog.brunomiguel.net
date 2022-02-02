@@ -29,6 +29,7 @@ Sadly still, no kernels, although I would love to add one. I have jarvis — the
 
 If you want to take a detailed look at the changes, you can see the last 10 ones below:
 
+```
 commit 9704c81ad0c7c09a93f42d1c62489c3cf2637fbc
 Author: Bruno Miguel <omitted>
 Date:   Sun Jan 24 03:11:14 2021 +0000
@@ -643,5 +644,6 @@ index cec0e3f..d82bb69 160000
 @@ -1 +1 @@
 -Subproject commit cec0e3fcee8c305a301d6ceec8a75821940d1395
 +Subproject commit d82bb69aef406046ccf5126ae433373ffc2ee281		
+```
 
 Image from [Pixabay](https://pixabay.com/photos/laptop-apple-keyboard-technology-2588606/), by [StockSnap](https://pixabay.com/users/stocksnap-894430/).
