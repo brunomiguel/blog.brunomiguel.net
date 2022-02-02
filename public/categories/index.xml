@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on .blog</title>
+    <title>Categorias on .blog</title>
     <link>https://hugo-paper.vercel.app/categories/</link>
-    <description>Recent content in Categories on .blog</description>
+    <description>Recent content in Categorias on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
     <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>geekices</title>
+      <link>https://hugo-paper.vercel.app/categories/geekices/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/categories/geekices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>musica</title>
+      <link>https://hugo-paper.vercel.app/categories/musica/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/categories/musica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cenas</title>
+      <link>https://hugo-paper.vercel.app/categories/cenas/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/categories/cenas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>direitos-digitais</title>
+      <link>https://hugo-paper.vercel.app/categories/direitos-digitais/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/categories/direitos-digitais/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fotos</title>
+      <link>https://hugo-paper.vercel.app/categories/fotos/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/categories/fotos/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
