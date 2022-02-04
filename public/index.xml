@@ -9,6 +9,15 @@
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
     <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Sobre o blog e o autor</title>
+      <link>https://blog.brunomiguel.net/about/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/about/</guid>
+      <description>To be written.</description>
+    </item>
+    
+    <item>
       <title>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop</title>
       <link>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
@@ -854,17 +863,6 @@ After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99
       
       <guid>https://blog.brunomiguel.net/post/o-balanco-e-dificil/</guid>
       <description>via Reddit</description>
-    </item>
-    
-    <item>
-      <title>Sobre o blog e o autor</title>
-      <link>https://blog.brunomiguel.net/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
     </item>
     
     <item>
