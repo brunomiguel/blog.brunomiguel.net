@@ -6,3 +6,5 @@
           Header set Cache-Control "max-age=36000"
     </FilesMatch>
 </IfModule>
+
+ErrorDocument 404 /404.html
