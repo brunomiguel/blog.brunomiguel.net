@@ -4,18 +4,18 @@
 
 <IfModule mod_headers.c>
 
-		# Set 1 week cache for images, icons and web fonts
+		# Set 1 month cache for images, icons and web fonts
 
     <FilesMatch "\.(ico|gif|jpg|jpeg|png|webp|svg|woff|woff2)$">
-          Header set Cache-Control "max-age=604800"
+          Header set Cache-Control "max-age=2629743"
     </FilesMatch>
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    # Set 1 day cache for CSS and JS files
+    # Set 1 month cache for CSS and JS files
 
     <FilesMatch "\.(css|js)$">
-          Header set Cache-Control "max-age=86400"
+          Header set Cache-Control "max-age=2629743"
     </FilesMatch>
 </IfModule>
 
