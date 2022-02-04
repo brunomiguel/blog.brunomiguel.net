@@ -29,6 +29,8 @@ ErrorDocument 404 /404.html
 
 # ----------------------------------------------------------------------
 # | Compression                                                        |
+# | https://github.com/h5bp/server-configs-apache/blob/main/\          |
+#   h5bp/web_performance/compression.conf                              |
 # ----------------------------------------------------------------------
 
 <IfModule mod_deflate.c>
@@ -72,6 +74,8 @@ ErrorDocument 404 /404.html
                                       "font/opentype" \
                                       "font/otf" \
                                       "font/ttf" \
+                                      "font/woff2" \
+                                      "font/woff" \
                                       "image/bmp" \
                                       "image/jpeg" \
                                       "image/png" \
