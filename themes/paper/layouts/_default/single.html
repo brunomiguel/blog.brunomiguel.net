@@ -15,7 +15,7 @@
 
   {{ $featured := partial "utils/get-featured" . }}
 	{{ with $featured }}
-            <p class="featured-image">{{ . }}</p>
+            <p class="featured-image full-width">{{ . }}</p>
 	{{ end }}
 
   <section class="post-content">{{ .Content }}</section>
