@@ -7,7 +7,7 @@
 		# Set 1 month cache for images, icons and web fonts
 
     <FilesMatch "\.(ico|gif|jpg|jpeg|png|webp|svg|woff|woff2)$">
-          Header set Cache-Control "max-age=2629743"
+          Header set Cache-Control "max-age=2630000"
     </FilesMatch>
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -15,7 +15,7 @@
     # Set 1 month cache for CSS and JS files
 
     <FilesMatch "\.(css|js)$">
-          Header set Cache-Control "max-age=2629743"
+          Header set Cache-Control "max-age=2630000"
     </FilesMatch>
 </IfModule>
 
