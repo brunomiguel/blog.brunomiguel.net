@@ -40,7 +40,7 @@ theme = "paper"
   
   [[menu.main]]
     identifier = "antinonio"
-    name = "Lista Antonónio"
+    name = "Lista Antinónio"
     url = "https://github.com/brunomiguel/antinonio/"
     weight = 20
 
