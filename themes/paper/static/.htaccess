@@ -73,6 +73,8 @@ ErrorDocument 404 /404.html
                                       "font/otf" \
                                       "font/ttf" \
                                       "image/bmp" \
+                                      "image/jpeg" \
+                                      "image/png" \
                                       "image/svg+xml" \
                                       "image/vnd.microsoft.icon" \
                                       "image/x-icon" \
