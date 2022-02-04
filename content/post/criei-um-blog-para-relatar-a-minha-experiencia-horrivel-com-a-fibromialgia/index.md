@@ -15,9 +15,8 @@ featuredImage: "/post/criei-um-blog-para-relatar-a-minha-experiencia-horrivel-co
 
 A minha experiência com a fibromialgia tem sido, no mínimo, horrível. E horrível é dizer muito pouco: aquilo por que tenho passado parece tirado de um pesadelo ou de um filme de terror. Não é à toa que o meu reumatologista descreve as dores que sinto como violentas, como podes ver na imagem que se segue.
 
-![](images/excerto-relatorio.jpg)
-
-excerto do relatório
+<p class="full-width"><img src="images/excerto-relatorio.jpg"></p>
+<p><small><em><center>excerto do relatório</center></em></small></p>
 
 Ao fim de um ano e uns meses, decidi documentar alguns episódios da minha experiência com a fibromialgia. Eu já tinha esta ideia há algum tempo, mas as dores e o consaço constantes fizeram com que a guardasse _na gaveta_ algum tempo.
 

@@ -224,7 +224,7 @@ a {
 }
 
 .site-name {
-  max-width: calc(100% - 2rem - 3rem);
+  max-width: calc(100% - 2rem - 3.1rem);
   padding-bottom: 0.3rem;
   overflow: auto;
   font-size: 3.4rem;
