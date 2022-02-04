@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vps on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/vps/</link>
+    <link>https://blog.brunomiguel.net/tags/vps/</link>
     <description>Recent content in vps on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/vps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I&#39;ve built a Manjaro repository</title>
-      <link>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</link>
+      <link>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</guid>
+      <guid>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</guid>
       <description>Due to my own dumbness (I mistakenly deleted my Ubuntu partition), I installed Manjaro, using the Manjaro Architect release, on my laptop. I&amp;rsquo;d been thinking about doing it for a while and finally made it because I was too stupid to read the instructions from cfdisk. The shit you create yourself because you&amp;rsquo;re in a hurry…
 Anyway, after installing Manjaro, I started reading a bit about this distro packaging and how I could leverage AUR and binary packages.</description>
     </item>

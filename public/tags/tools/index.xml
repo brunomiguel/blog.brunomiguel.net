@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tools on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/tools/</link>
+    <link>https://blog.brunomiguel.net/tags/tools/</link>
     <description>Recent content in tools on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trying out Emacs again</title>
-      <link>https://hugo-paper.vercel.app/post/trying-out-emacs-again/</link>
+      <link>https://blog.brunomiguel.net/post/trying-out-emacs-again/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/trying-out-emacs-again/</guid>
+      <guid>https://blog.brunomiguel.net/post/trying-out-emacs-again/</guid>
       <description>A few days ago, I decided to give Emacs another try. I&amp;rsquo;ve previously attempted to use this text-editor / operating system — probably about 10 years ago or maybe a bit more — but never got the hang of it.
 A few years after my first try at Emacs, I discovered Markdown. Since then, I&amp;rsquo;ve used text editors with a GUI to write in this markup language. That was until two years ago when I encountered a Vim mode for Markdown and adapted it to my specific needs.</description>
     </item>
     
     <item>
       <title>My tools of trade in a Linux system</title>
-      <link>https://hugo-paper.vercel.app/post/my-tools-of-trade-in-a-linux-system/</link>
+      <link>https://blog.brunomiguel.net/post/my-tools-of-trade-in-a-linux-system/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/my-tools-of-trade-in-a-linux-system/</guid>
+      <guid>https://blog.brunomiguel.net/post/my-tools-of-trade-in-a-linux-system/</guid>
       <description>With no special order:
 Desktop environments and/or window managers  plasma (to me, the best desktop environment for any free software operating system) i3wm (paired with picom [https://github.com/ibhagwan/picom] for transparency, blur and rounded corners)  Terminal emulators  konsole (I&amp;rsquo;ve grown very fond if this terminal emulator since I switched to the plasma desktop, and it has blur for the blings ;)) urxvt-unicode (with tabbedex, so I can have tabs with it)  Text editors  micro (my favorite and because it supports gui keybinds, although it&amp;rsquo;s a cli text editor) nano (simple and super useful, available by default in a lot of linux distributions) vim (I have a custom mode for writing markdown text) gedit (for when I need a text editor with a gui)  Note taking  qownnotes  Browsers  firefox (my favorite for around a decade and an half.</description>
     </item>
     
     <item>
       <title>Managing dotfiles</title>
-      <link>https://hugo-paper.vercel.app/post/managing-dotfiles/</link>
+      <link>https://blog.brunomiguel.net/post/managing-dotfiles/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/managing-dotfiles/</guid>
+      <guid>https://blog.brunomiguel.net/post/managing-dotfiles/</guid>
       <description>I&amp;rsquo;ve been looking for a simple but powerful solution for managing my dotfiles, either the ones on my personal computer or the ones I use on virtual machines. After taking a look at a few options, I think I&amp;rsquo;ll give dotdrop a try and publish a new post as soon as I feel I&amp;rsquo;ve evaluated it enough.</description>
     </item>
     
     <item>
       <title>Bash: how-to improve history manipulation</title>
-      <link>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</link>
+      <link>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</guid>
+      <guid>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</guid>
       <description>By default, up and down keys allow you to navigate your bash history. Another option is the history built-in command and bash expansions (ex.: !2 runs the second command, oldest to newest, from your bash history).
 There are also tools, like bash-it, that allow for better history manipulation, but this also adds a lot of other stuff, so it might make your .bashrc load slower. It will make your bash look good as hell too.</description>
     </item>
     
     <item>
       <title>note-keeper, a script for your note taking needs</title>
-      <link>https://hugo-paper.vercel.app/post/note-keeper-a-script-for-your-note-taking-needs/</link>
+      <link>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/note-keeper-a-script-for-your-note-taking-needs/</guid>
+      <guid>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</guid>
       <description>note-keeper is a small bash script to simplify the creation, editing and management of notes. It uses the text editor set up in the $EDITOR environment variable, but if that variable is empty it defaults to Vim in insert mode.
 (the image from this post is the one found in the script repository at the time of this article publishing)</description>
     </item>

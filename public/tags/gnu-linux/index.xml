@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gnu-linux on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/gnu-linux/</link>
+    <link>https://blog.brunomiguel.net/tags/gnu-linux/</link>
     <description>Recent content in gnu-linux on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/gnu-linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/gnu-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updates on my Arch/Manjaro repository</title>
-      <link>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</guid>
       <description>Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&amp;rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
 After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&amp;rsquo;ve been (successfully) testing aurto to manage the repository updates.</description>
     </item>

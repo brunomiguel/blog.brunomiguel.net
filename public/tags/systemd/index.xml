@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>systemd on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/systemd/</link>
+    <link>https://blog.brunomiguel.net/tags/systemd/</link>
     <description>Recent content in systemd on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/systemd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/systemd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Improving boot time</title>
-      <link>https://hugo-paper.vercel.app/post/improving-boot-time/</link>
+      <link>https://blog.brunomiguel.net/post/improving-boot-time/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/improving-boot-time/</guid>
+      <guid>https://blog.brunomiguel.net/post/improving-boot-time/</guid>
       <description>Today, I&amp;rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &amp;ldquo;Why not?&amp;rdquo;.
 The first thing I made was disabling or masking the following systemd services:
  systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&amp;rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible.</description>

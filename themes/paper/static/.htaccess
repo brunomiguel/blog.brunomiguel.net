@@ -1,0 +1,1 @@
+RewriteRule ^categories/(.*)$ /categorias/$1 [R=301,NC,L] 

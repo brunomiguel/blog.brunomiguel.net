@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ddos on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/ddos/</link>
+    <link>https://blog.brunomiguel.net/tags/ddos/</link>
     <description>Recent content in ddos on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/ddos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/ddos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some statistics for Userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/some-statistics-for-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/some-statistics-for-userrepository/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/some-statistics-for-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/some-statistics-for-userrepository/</guid>
       <description>You might have noticed that Userrepository uses Cloudflare. I chose it for two main reasons: their ability to help mitigate (D)DoS attacks and to help hiding the IP address for the VM from script kiddies.
 It&amp;rsquo;s not that I think Userrepository will ever be a target for a (D)DoS attack, but better safe than sorry. Also, I have more than enough automated failed SSH authentication attempts without revealing the IP: 441 blocked _IP_s and counting for one fail2ban ssh rule and 2 for another fail2ban ssh rule.</description>
     </item>

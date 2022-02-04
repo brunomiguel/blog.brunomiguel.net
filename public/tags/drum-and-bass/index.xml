@@ -2,20 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>drum-and-bass on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/drum-and-bass/</link>
+    <link>https://blog.brunomiguel.net/tags/drum-and-bass/</link>
     <description>Recent content in drum-and-bass on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/drum-and-bass/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/drum-and-bass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A fine selection of chill Drum and Bass</title>
-      <link>https://hugo-paper.vercel.app/post/a-fine-selection-of-chill-drum-and-bass/</link>
+      <link>https://blog.brunomiguel.net/post/a-fine-selection-of-chill-drum-and-bass/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-fine-selection-of-chill-drum-and-bass/</guid>
-      <description>https://open.spotify.com/playlist/1AKgEdvMzN9Ejki3bR2CwE?si=7671ed3980dd46ec
-Link</description>
+      <guid>https://blog.brunomiguel.net/post/a-fine-selection-of-chill-drum-and-bass/</guid>
+      <description>Link</description>
     </item>
     
   </channel>

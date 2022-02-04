@@ -2,91 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>humor on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/humor/</link>
+    <link>https://blog.brunomiguel.net/tags/humor/</link>
     <description>Recent content in humor on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/humor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/humor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>São Patrício</title>
-      <link>https://hugo-paper.vercel.app/post/sao-patricio/</link>
+      <link>https://blog.brunomiguel.net/post/sao-patricio/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/sao-patricio/</guid>
+      <guid>https://blog.brunomiguel.net/post/sao-patricio/</guid>
       <description>A ideia partiu deste tweet. No Reddit.</description>
     </item>
     
     <item>
       <title>O balanço é difícil</title>
-      <link>https://hugo-paper.vercel.app/post/o-balanco-e-dificil/</link>
+      <link>https://blog.brunomiguel.net/post/o-balanco-e-dificil/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/o-balanco-e-dificil/</guid>
+      <guid>https://blog.brunomiguel.net/post/o-balanco-e-dificil/</guid>
       <description>via Reddit</description>
     </item>
     
     <item>
       <title>É bom saber que pagam as contas</title>
-      <link>https://hugo-paper.vercel.app/post/fugas-pagam-as-contas/</link>
+      <link>https://blog.brunomiguel.net/post/fugas-pagam-as-contas/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/fugas-pagam-as-contas/</guid>
+      <guid>https://blog.brunomiguel.net/post/fugas-pagam-as-contas/</guid>
       <description>Tive que tirar um screenshot para partilhar. Será um daqueles momentos em que a culpa é do(a) estagiário(a)? Bem, pelo menos é bom saber que pagam as contas.</description>
     </item>
     
     <item>
       <title>Deputados quânticos</title>
-      <link>https://hugo-paper.vercel.app/post/deputados-quanticos/</link>
+      <link>https://blog.brunomiguel.net/post/deputados-quanticos/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/deputados-quanticos/</guid>
+      <guid>https://blog.brunomiguel.net/post/deputados-quanticos/</guid>
       <description>Os deputados portugueses são a grande maravilha da física: possuem propriedades do entrelaçamento quântico, conseguindo estar em dois ou mais locais ao mesmo tempo. Alguém me explica porque andamos a estudar partículas quando podíamos estudar os nossos deputados?</description>
     </item>
     
     <item>
       <title>Lógica religiosa</title>
-      <link>https://hugo-paper.vercel.app/post/logica-religiosa/</link>
+      <link>https://blog.brunomiguel.net/post/logica-religiosa/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/logica-religiosa/</guid>
+      <guid>https://blog.brunomiguel.net/post/logica-religiosa/</guid>
       <description>Visto no /r/funny.</description>
     </item>
     
     <item>
       <title>As passwords são bichos complicados</title>
-      <link>https://hugo-paper.vercel.app/post/as-passwords-sao-bichos-complicados/</link>
+      <link>https://blog.brunomiguel.net/post/as-passwords-sao-bichos-complicados/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/as-passwords-sao-bichos-complicados/</guid>
+      <guid>https://blog.brunomiguel.net/post/as-passwords-sao-bichos-complicados/</guid>
       <description>Retirado do webcomic Wumo.</description>
     </item>
     
     <item>
       <title>Vida de abacate</title>
-      <link>https://hugo-paper.vercel.app/post/vida-de-abacate/</link>
+      <link>https://blog.brunomiguel.net/post/vida-de-abacate/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/vida-de-abacate/</guid>
+      <guid>https://blog.brunomiguel.net/post/vida-de-abacate/</guid>
       <description>Hoje comprei leite de amêndoa. Quando somos intolerantes à lactose, temos que procurar alternativas e hoje apeteceu-me experimentar esta.
 No momento da compra não me lembrei disto, mas quando cheguei a casa e olhei novamente para a embalagem fiquei com medo. Estarei eu a tornar-me hipster? Se for o caso, daqui a nada estou intolerante ao glúten só porque sim (a intolerância não-celíaca é, na verdade, aos frutanos, mas isso são detalhes) e começo a comer sandes de abacate a todas as refeições.</description>
     </item>
     
     <item>
       <title>The fine print</title>
-      <link>https://hugo-paper.vercel.app/post/fine-print/</link>
+      <link>https://blog.brunomiguel.net/post/fine-print/</link>
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/fine-print/</guid>
+      <guid>https://blog.brunomiguel.net/post/fine-print/</guid>
       <description>via Atheists of America</description>
     </item>
     
     <item>
       <title>Plants</title>
-      <link>https://hugo-paper.vercel.app/post/plants/</link>
+      <link>https://blog.brunomiguel.net/post/plants/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/plants/</guid>
+      <guid>https://blog.brunomiguel.net/post/plants/</guid>
       <description>I was browsing Reddit when I saw this cartoon. I immediately related to it, because I sometimes forget to water my bonsai and at one time I actually killed one dry. And I bet I&amp;rsquo;m far from alone in this.</description>
     </item>
     

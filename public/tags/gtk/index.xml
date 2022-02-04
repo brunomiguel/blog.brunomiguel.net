@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gtk on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/gtk/</link>
+    <link>https://blog.brunomiguel.net/tags/gtk/</link>
     <description>Recent content in gtk on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/gtk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/gtk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LXQT</title>
-      <link>https://hugo-paper.vercel.app/post/lxqt/</link>
+      <link>https://blog.brunomiguel.net/post/lxqt/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/lxqt/</guid>
+      <guid>https://blog.brunomiguel.net/post/lxqt/</guid>
       <description>In the last couple of months, I&amp;rsquo;ve been using LXQT as an alternative to Plasma Desktop. Coupled with compton_tryone for the blur bling, a nice dark and transparent theme, and some GTK and Kvantum dark themes to match, it&amp;rsquo;s actually a great desktop environment.</description>
     </item>
     
     <item>
       <title>First own package on userrepository.eu</title>
-      <link>https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/</link>
+      <link>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/</guid>
+      <guid>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</guid>
       <description>Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&amp;rsquo;ve finally created my first package for Arch Linux on my repository. It&amp;rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
 Here&amp;rsquo;s the PKGBUILD at the time of writing:
 # Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>

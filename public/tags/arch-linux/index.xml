@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arch-linux on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/arch-linux/</link>
+    <link>https://blog.brunomiguel.net/tags/arch-linux/</link>
     <description>Recent content in arch-linux on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop</title>
-      <link>https://hugo-paper.vercel.app/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</link>
+      <link>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</guid>
+      <guid>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</guid>
       <description>A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
 Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema.</description>
     </item>
     
     <item>
       <title>Userrepository using mirrors</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-using-mirrors/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-using-mirrors/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</guid>
       <description>For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&amp;rsquo;s around the globe.
 Finally, a few days ago, I enabled the service. I also created a package with the mirror&amp;rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.</description>
     </item>
     
     <item>
       <title>A Dark theme for AUR</title>
-      <link>https://hugo-paper.vercel.app/post/a-dark-theme-for-aur/</link>
+      <link>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-dark-theme-for-aur/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</guid>
       <description>I love AUR. Being able to use a simple PKGBUILD to install a software not available in the official Arch repositories is a blessing. Sadly, its user experience and looks need improvements to bring it to the 21st century.
 One of the things that bug me the most is the microscopic font size. I almost need a telescope to read the text.
 To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</description>
@@ -41,60 +41,60 @@ To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</de
     
     <item>
       <title>A shitload of new packages on userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/</guid>
       <description>Since the 24th of January, the date of the last blog post, I&amp;rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
 Expect more packages, as I&amp;rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&amp;rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</description>
     </item>
     
     <item>
       <title>Some statistics for Userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/some-statistics-for-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/some-statistics-for-userrepository/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/some-statistics-for-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/some-statistics-for-userrepository/</guid>
       <description>You might have noticed that Userrepository uses Cloudflare. I chose it for two main reasons: their ability to help mitigate (D)DoS attacks and to help hiding the IP address for the VM from script kiddies.
 It&amp;rsquo;s not that I think Userrepository will ever be a target for a (D)DoS attack, but better safe than sorry. Also, I have more than enough automated failed SSH authentication attempts without revealing the IP: 441 blocked _IP_s and counting for one fail2ban ssh rule and 2 for another fail2ban ssh rule.</description>
     </item>
     
     <item>
       <title>Status on userrepository changes</title>
-      <link>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</link>
+      <link>https://blog.brunomiguel.net/post/status-on-userrepository-changes/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</guid>
+      <guid>https://blog.brunomiguel.net/post/status-on-userrepository-changes/</guid>
       <description>It took me a while to update you about the latest changes to my Arch and Arch-compatible Linux distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&amp;rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.
 First on the &amp;ldquo;agenda&amp;rdquo;, I experimented with increasing the zstd compression level for the packages like I said I would do in my last post about the repository.</description>
     </item>
     
     <item>
       <title>Updates on userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/updates-on-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-userrepository/</link>
       <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-on-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-userrepository/</guid>
       <description>Since the last post about my Arch (and Arch-compatible distributions) binary repository, I&amp;rsquo;ve added a few more packages. Some examples are the Mullvad VPN desktop client and nimdow, a window manager written in the Nim programming language. Or Emptty, an amazing display manager that I encourage you to try.
 Despite adding more packages, the compilation and compression time only had a small increase and I&amp;rsquo;m still below the 5 hour mark.</description>
     </item>
     
     <item>
       <title>Userrepository.eu is back (in beta)</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-eu-is-back-in-beta/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-eu-is-back-in-beta/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/</guid>
       <description>After a small forced hiatus, userrepository.eu is back. The Covid-19 pandemic made a hit in my income and the wife&amp;rsquo;s income, so I had to temporarily suspend non-priority expenses. During this period, I had time to consider a few things about the future of the project and decided to change the provider from Scaleway to Hetzner, mostly because the Arch image they&amp;rsquo;re using is essentially abandonware.
 If you&amp;rsquo;re reading this, you&amp;rsquo;ll probably know that Arch Linux changed the default package compression to ZSTD.</description>
     </item>
     
     <item>
       <title>Improving boot time</title>
-      <link>https://hugo-paper.vercel.app/post/improving-boot-time/</link>
+      <link>https://blog.brunomiguel.net/post/improving-boot-time/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/improving-boot-time/</guid>
+      <guid>https://blog.brunomiguel.net/post/improving-boot-time/</guid>
       <description>Today, I&amp;rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &amp;ldquo;Why not?&amp;rdquo;.
 The first thing I made was disabling or masking the following systemd services:
  systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&amp;rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible.</description>
@@ -102,29 +102,29 @@ The first thing I made was disabling or masking the following systemd services:
     
     <item>
       <title>Suporte para o Cartão de Cidadão no userrepository.eu</title>
-      <link>https://hugo-paper.vercel.app/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</link>
+      <link>https://blog.brunomiguel.net/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</guid>
+      <guid>https://blog.brunomiguel.net/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</guid>
       <description>Ainda hoje, no máximo amanhã, devo disponibilizar a aplicação para autenticação nas plataformas do Estado com o Cartão de Cidadão. Assim que estiver disponível, basta usares o comando sudo pacman -Syyuv autenticacao-gov-pt para ser feita a instalação. Não te esqueças de adicionar o repositório primeiro, caso ainda não o tenhas feito. Fica atent@.</description>
     </item>
     
     <item>
       <title>Updates to Jarvis, my Arch buildbot</title>
-      <link>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</link>
+      <link>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</guid>
       <description>My Arch buildbot, Jarvis, received an update today in the options logic. Now, it can receive an argument in the add (-a) and delete (-d) options, so the user can specify the package to add or delete.
 The option to add a package, for now, only works for AUR. If you want to add a package that&amp;rsquo;s not in AUR, you&amp;rsquo;ll need to manually add the submodule. In the future, Jarvis will allow you to use a git repository with a PKGBUILD file.</description>
     </item>
     
     <item>
       <title>First own package on userrepository.eu</title>
-      <link>https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/</link>
+      <link>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/</guid>
+      <guid>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</guid>
       <description>Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&amp;rsquo;ve finally created my first package for Arch Linux on my repository. It&amp;rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
 Here&amp;rsquo;s the PKGBUILD at the time of writing:
 # Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>
@@ -132,10 +132,10 @@ Here&amp;rsquo;s the PKGBUILD at the time of writing:
     
     <item>
       <title>Metapackage for a personal installation of Arch Linux and Arch-based distributions</title>
-      <link>https://hugo-paper.vercel.app/post/metapackage-arch-linux/</link>
+      <link>https://blog.brunomiguel.net/post/metapackage-arch-linux/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/metapackage-arch-linux/</guid>
+      <guid>https://blog.brunomiguel.net/post/metapackage-arch-linux/</guid>
       <description>I&amp;rsquo;ve been using Arch or Arch-based distributions for over a year now. In this time testing a few of them, I&amp;rsquo;ve always lacked a simple and logical way of installing the same &amp;ldquo;essential&amp;rdquo; software. To tackle this, I&amp;rsquo;ve created a metapackage with all this software and this is what I&amp;rsquo;ve got so far:
 # Maintainer: Bruno Miguel https://twitter.com/brunomiguel
 pkgname=&amp;lsquo;bruno-essentials&amp;rsquo; pkgdesc=&amp;ldquo;A metapackage for some packages I find essential. Requires userrepository.eu repo&amp;rdquo; pkgver=&amp;lsquo;0.</description>

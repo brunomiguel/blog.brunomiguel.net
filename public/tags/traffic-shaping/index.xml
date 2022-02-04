@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>traffic-shaping on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/traffic-shaping/</link>
+    <link>https://blog.brunomiguel.net/tags/traffic-shaping/</link>
     <description>Recent content in traffic-shaping on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/traffic-shaping/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/traffic-shaping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A história de uma ligação à internet que ficou manca das duas pernas, com um braço ao peito e com o outro amputado</title>
-      <link>https://hugo-paper.vercel.app/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</link>
+      <link>https://blog.brunomiguel.net/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</guid>
       <description>Sou cliente NOS há algum tempo, com um serviço (tarifário de 20MB) que funciona pela rede móvel mas que é comercializado pela operadora como fixo. Recentemente até refidelizei o meu contrato porque, apesar de algumas vezes aplicarem traffic shaping, estava relativamente satisfeito. Vá, estava mais ou menos satisfeito, mas aplicaram-me um desconto de 20% e lá acabei por refidelizar o contrato.
 No final de Janeiro, ainda mal se falava da COVID-19, fiquei de baixa por questões de saúde que não estão relacionadas com esta pandemia.</description>
     </item>

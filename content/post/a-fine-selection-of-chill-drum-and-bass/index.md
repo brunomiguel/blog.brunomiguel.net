@@ -9,8 +9,9 @@ tags:
   - "music"
   - "musica"
   - "playlist"
+description: "A nice playlist full of chill D&B"
 ---
 
-https://open.spotify.com/playlist/1AKgEdvMzN9Ejki3bR2CwE?si=7671ed3980dd46ec
+{{< spotify type="playlist" id="1AKgEdvMzN9Ejki3bR2CwE" >}}
 
 [Link](https://open.spotify.com/playlist/1AKgEdvMzN9Ejki3bR2CwE?si=959179fa15204824)

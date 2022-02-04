@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/github/</link>
+    <link>https://blog.brunomiguel.net/tags/github/</link>
     <description>Recent content in github on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sun, 12 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Antinonio</title>
-      <link>https://hugo-paper.vercel.app/post/antinonio/</link>
+      <link>https://blog.brunomiguel.net/post/antinonio/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/antinonio/</guid>
+      <guid>https://blog.brunomiguel.net/post/antinonio/</guid>
       <description>Há uns tempos atrás, criei um repositório no Github com uma lista de bloqueio para adblockers com regras específicas para a plataforma Nonio, baseada numa outra lista feita para com suporte apenas para o uMatrix.
 Esta lista manteve-se inalterada até há 17 dias, quando o Pedro Fonseca submeteu um pull request com regras para o site d&#39;O Público, fechando também assim o bug #3. Nas duas semanas e pouco seguintes, recebei mais alguns pull requests no repositório, melhorando bastante a lista de bloqueio.</description>
     </item>

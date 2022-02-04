@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>css on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/css/</link>
+    <link>https://blog.brunomiguel.net/tags/css/</link>
     <description>Recent content in css on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Dark theme for AUR</title>
-      <link>https://hugo-paper.vercel.app/post/a-dark-theme-for-aur/</link>
+      <link>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-dark-theme-for-aur/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</guid>
       <description>I love AUR. Being able to use a simple PKGBUILD to install a software not available in the official Arch repositories is a blessing. Sadly, its user experience and looks need improvements to bring it to the 21st century.
 One of the things that bug me the most is the microscopic font size. I almost need a telescope to read the text.
 To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</description>
@@ -21,10 +21,10 @@ To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</de
     
     <item>
       <title>Improved new night mode for Twitter</title>
-      <link>https://hugo-paper.vercel.app/post/improved-new-night-mode-for-twitter/</link>
+      <link>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/improved-new-night-mode-for-twitter/</guid>
+      <guid>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</guid>
       <description>I got the new, event and flex-based, Twitter design a few days ago and decided to try out the night mode. This was also influenced by some tweet a contact of mine published.
 While not bad, I don&amp;rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the blue light stuff impacting our sleep. Even with a blue light filter, like the one from Plasma, it&amp;rsquo;s still too much blue.</description>
     </item>

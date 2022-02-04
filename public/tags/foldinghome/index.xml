@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>foldinghome on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/foldinghome/</link>
+    <link>https://blog.brunomiguel.net/tags/foldinghome/</link>
     <description>Recent content in foldinghome on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/foldinghome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/foldinghome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From F@h to Boinc</title>
-      <link>https://hugo-paper.vercel.app/post/from-fh-to-boinc/</link>
+      <link>https://blog.brunomiguel.net/post/from-fh-to-boinc/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/from-fh-to-boinc/</guid>
+      <guid>https://blog.brunomiguel.net/post/from-fh-to-boinc/</guid>
       <description>In the start of July 2019, I wrote about using the spare CPU cycles in my VPS to contribute to Folding@home (F@h). Since then, when not building packages for Arch Linux, the virtual machine has been crushing numbers as a peer in this project.
 Today, I&amp;rsquo;ve switched to Boinc with the Rosetta@home project. This change was due to the fact that Boinc is a free software application, whereas F@h is proprietary.</description>
     </item>
     
     <item>
       <title>Folding@home</title>
-      <link>https://hugo-paper.vercel.app/post/foldinghome/</link>
+      <link>https://blog.brunomiguel.net/post/foldinghome/</link>
       <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/foldinghome/</guid>
+      <guid>https://blog.brunomiguel.net/post/foldinghome/</guid>
       <description>A couple of days ago, I decided to use my VPS spare CPU cycles to help out the Folding@home (F@h) project.
 If you haven&amp;rsquo;t heard of F@H, here is a description from their website:
  Folding@home (FAH or F@h) is a distributed computing project for disease research that simulates protein folding, computational drug design, and other types of molecular dynamics. As of today, the project is using the idle resources of personal computers owned by volunteers from all over the world.</description>

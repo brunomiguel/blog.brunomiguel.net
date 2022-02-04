@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wireguard on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/wireguard/</link>
+    <link>https://blog.brunomiguel.net/tags/wireguard/</link>
     <description>Recent content in wireguard on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/wireguard/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/wireguard/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to set up a simple Wireguard VPN</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:

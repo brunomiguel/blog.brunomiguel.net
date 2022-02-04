@@ -1,7 +1,7 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Paper"
+name = "Paperino"
 license = "MIT"
 licenselink = "https://github.com/nanxiaobei/hugo-paper/blob/master/LICENSE"
 description = "A simple, clean, flexible Hugo theme"
@@ -11,7 +11,7 @@ features = ["Responsive", "One Column", "Blog"]
 min_version = "0.57.1"
 
 [author]
-	name = "Bruno Miguel"
+  name = "Bruno Miguel"
   homepage = "https://blog.brunomiguel.net"
 
 [original]

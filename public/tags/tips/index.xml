@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tips on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/tips/</link>
+    <link>https://blog.brunomiguel.net/tags/tips/</link>
     <description>Recent content in tips on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to disable a D-Bus service</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-disable-a-d-bus-service/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-disable-a-d-bus-service/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-disable-a-d-bus-service/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-disable-a-d-bus-service/</guid>
       <description>In some situations, you might want to disable a D-Bus service. One of those is, for example, when you use Dunst (a notification daemon) with a window manager. Still, you don&amp;rsquo;t want it to replace the notification daemon from your desktop environment.
 To disable it, you just need to add .disabled to the end of the target file name. Example:
 sudo mv /usr/share/dbus-1/services/org.knopwob.dunst.service /usr/share/dbus-1/services/org.knopwob.dunst.service.disabled In the above example, Dunst will no longer replace Plasma Desktop notification daemon when using that amazing desktop environment, and all will be good with the world again.</description>
@@ -21,10 +21,10 @@ sudo mv /usr/share/dbus-1/services/org.knopwob.dunst.service /usr/share/dbus-1/s
     
     <item>
       <title>How to set up a simple Wireguard VPN</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:
@@ -34,48 +34,48 @@ The first line is for the public and private keys of the client, named laptop be
     
     <item>
       <title>#LPT: access Firefox&#39;s &#39;about:&#39; pages</title>
-      <link>https://hugo-paper.vercel.app/post/lpt-access-firefoxs-about-pages/</link>
+      <link>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/lpt-access-firefoxs-about-pages/</guid>
+      <guid>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</guid>
       <description>To access all the Firefox&amp;rsquo;s about: pages, just type about:about in the address bar.</description>
     </item>
     
     <item>
       <title>Must have extensions for Firefox</title>
-      <link>https://hugo-paper.vercel.app/post/must-have-extensions-for-firefox/</link>
+      <link>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/must-have-extensions-for-firefox/</guid>
+      <guid>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</guid>
       <description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
 During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description>
     </item>
     
     <item>
       <title>How-to customize the Bash prompt</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-configure-the-bash-prompt/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-configure-the-bash-prompt/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</guid>
       <description>In order to adapt a bit more my Debian Stable installation to my workflow, I&amp;rsquo;ve been tweaking the bash prompt. Simplicity and small line width are key here, because I often have tmux running with several panes in the same window and small panes with large one-liner prompts suck a lot! Everything feels crammed and hard to read. Just take a look at the image below to get an idea.</description>
     </item>
     
     <item>
       <title>Bash: how-to improve history manipulation</title>
-      <link>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</link>
+      <link>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</guid>
+      <guid>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</guid>
       <description>By default, up and down keys allow you to navigate your bash history. Another option is the history built-in command and bash expansions (ex.: !2 runs the second command, oldest to newest, from your bash history).
 There are also tools, like bash-it, that allow for better history manipulation, but this also adds a lot of other stuff, so it might make your .bashrc load slower. It will make your bash look good as hell too.</description>
     </item>
     
     <item>
       <title>How to get good font rendering in Void Linux</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-get-good-font-rendering-in-void-linux/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-get-good-font-rendering-in-void-linux/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/</guid>
       <description>This post lacks an example image because I&amp;rsquo;ve recovered it from a backup (with only text and no image) and I&amp;rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&amp;rsquo;ll gladly use it here and give you credit.
 This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment.</description>
     </item>

@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bash on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/bash/</link>
+    <link>https://blog.brunomiguel.net/tags/bash/</link>
     <description>Recent content in bash on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updates to Jarvis, my Arch buildbot</title>
-      <link>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</link>
+      <link>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</guid>
       <description>My Arch buildbot, Jarvis, received an update today in the options logic. Now, it can receive an argument in the add (-a) and delete (-d) options, so the user can specify the package to add or delete.
 The option to add a package, for now, only works for AUR. If you want to add a package that&amp;rsquo;s not in AUR, you&amp;rsquo;ll need to manually add the submodule. In the future, Jarvis will allow you to use a git repository with a PKGBUILD file.</description>
     </item>
     
     <item>
       <title>Userrepository.eu now available on Github</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</guid>
       <description>My Arch/Manjaro (and any other Arch-based distro) repository continues to receive more packages from AUR. But this post is not about that. I&amp;rsquo;m writing this because I published the scripts I&amp;rsquo;m using to build the packages for userrepository.eu. You can get them at Github.</description>
     </item>
     
     <item>
       <title>How-to customize the Bash prompt</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-configure-the-bash-prompt/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-configure-the-bash-prompt/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</guid>
       <description>In order to adapt a bit more my Debian Stable installation to my workflow, I&amp;rsquo;ve been tweaking the bash prompt. Simplicity and small line width are key here, because I often have tmux running with several panes in the same window and small panes with large one-liner prompts suck a lot! Everything feels crammed and hard to read. Just take a look at the image below to get an idea.</description>
     </item>
     
     <item>
       <title>Bash: how-to improve history manipulation</title>
-      <link>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</link>
+      <link>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</guid>
+      <guid>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</guid>
       <description>By default, up and down keys allow you to navigate your bash history. Another option is the history built-in command and bash expansions (ex.: !2 runs the second command, oldest to newest, from your bash history).
 There are also tools, like bash-it, that allow for better history manipulation, but this also adds a lot of other stuff, so it might make your .bashrc load slower. It will make your bash look good as hell too.</description>
     </item>

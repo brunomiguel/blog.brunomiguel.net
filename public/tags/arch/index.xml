@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arch on .blog</title>
-    <link>https://hugo-paper.vercel.app/tags/arch/</link>
+    <link>https://blog.brunomiguel.net/tags/arch/</link>
     <description>Recent content in arch on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Userrepository using mirrors</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-using-mirrors/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-using-mirrors/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</guid>
       <description>For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&amp;rsquo;s around the globe.
 Finally, a few days ago, I enabled the service. I also created a package with the mirror&amp;rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.</description>
     </item>
     
     <item>
       <title>Status on userrepository changes</title>
-      <link>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</link>
+      <link>https://blog.brunomiguel.net/post/status-on-userrepository-changes/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</guid>
+      <guid>https://blog.brunomiguel.net/post/status-on-userrepository-changes/</guid>
       <description>It took me a while to update you about the latest changes to my Arch and Arch-compatible Linux distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&amp;rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.
 First on the &amp;ldquo;agenda&amp;rdquo;, I experimented with increasing the zstd compression level for the packages like I said I would do in my last post about the repository.</description>
     </item>
     
     <item>
       <title>How to set up a simple Wireguard VPN</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:
@@ -43,20 +43,20 @@ The first line is for the public and private keys of the client, named laptop be
     
     <item>
       <title>Updates to Jarvis, my Arch buildbot</title>
-      <link>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</link>
+      <link>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</guid>
       <description>My Arch buildbot, Jarvis, received an update today in the options logic. Now, it can receive an argument in the add (-a) and delete (-d) options, so the user can specify the package to add or delete.
 The option to add a package, for now, only works for AUR. If you want to add a package that&amp;rsquo;s not in AUR, you&amp;rsquo;ll need to manually add the submodule. In the future, Jarvis will allow you to use a git repository with a PKGBUILD file.</description>
     </item>
     
     <item>
       <title>Metapackage for a personal installation of Arch Linux and Arch-based distributions</title>
-      <link>https://hugo-paper.vercel.app/post/metapackage-arch-linux/</link>
+      <link>https://blog.brunomiguel.net/post/metapackage-arch-linux/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/metapackage-arch-linux/</guid>
+      <guid>https://blog.brunomiguel.net/post/metapackage-arch-linux/</guid>
       <description>I&amp;rsquo;ve been using Arch or Arch-based distributions for over a year now. In this time testing a few of them, I&amp;rsquo;ve always lacked a simple and logical way of installing the same &amp;ldquo;essential&amp;rdquo; software. To tackle this, I&amp;rsquo;ve created a metapackage with all this software and this is what I&amp;rsquo;ve got so far:
 # Maintainer: Bruno Miguel https://twitter.com/brunomiguel
 pkgname=&amp;lsquo;bruno-essentials&amp;rsquo; pkgdesc=&amp;ldquo;A metapackage for some packages I find essential. Requires userrepository.eu repo&amp;rdquo; pkgver=&amp;lsquo;0.</description>
@@ -64,10 +64,10 @@ pkgname=&amp;lsquo;bruno-essentials&amp;rsquo; pkgdesc=&amp;ldquo;A metapackage 
     
     <item>
       <title>Userrepository now on Arch Wiki</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-now-on-arch-wiki/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-now-on-arch-wiki/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</guid>
       <description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
 Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the chance to list all packages currently available at the time of writing:
  acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
@@ -75,19 +75,19 @@ Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the
     
     <item>
       <title>Userrepository.eu now available on Github</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</guid>
       <description>My Arch/Manjaro (and any other Arch-based distro) repository continues to receive more packages from AUR. But this post is not about that. I&amp;rsquo;m writing this because I published the scripts I&amp;rsquo;m using to build the packages for userrepository.eu. You can get them at Github.</description>
     </item>
     
     <item>
       <title>Updates on my Arch/Manjaro repository</title>
-      <link>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</guid>
       <description>Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&amp;rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
 After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&amp;rsquo;ve been (successfully) testing aurto to manage the repository updates.</description>
     </item>

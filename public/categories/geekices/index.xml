@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>geekices on .blog</title>
-    <link>https://hugo-paper.vercel.app/categories/geekices/</link>
+    <link>https://blog.brunomiguel.net/categories/geekices/</link>
     <description>Recent content in geekices on .blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/categories/geekices/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/categories/geekices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop</title>
-      <link>https://hugo-paper.vercel.app/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</link>
+      <link>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</guid>
+      <guid>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</guid>
       <description>A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
 Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema.</description>
     </item>
     
     <item>
       <title>Outro tiro no (I)Pé</title>
-      <link>https://hugo-paper.vercel.app/post/outro-tiro-no-ipe/</link>
+      <link>https://blog.brunomiguel.net/post/outro-tiro-no-ipe/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/outro-tiro-no-ipe/</guid>
+      <guid>https://blog.brunomiguel.net/post/outro-tiro-no-ipe/</guid>
       <description>Durante a tarde de ontem, foi votado em Comissão do Parlamento o projeto de lei que prevê o bloqueio de sites por IP, para além do que já acontece com o bloqueio por DNS. Ainda não sei o resultado da votação, mas tudo indica que há uma maioria parlamentar - composta por PS, PSD e CDS - que pretende a extensão do bloqueio por DNS aos IPs, de acordo com o Marcos Marado.</description>
     </item>
     
     <item>
       <title>Userrepository using mirrors</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-using-mirrors/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-using-mirrors/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</guid>
       <description>For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&amp;rsquo;s around the globe.
 Finally, a few days ago, I enabled the service. I also created a package with the mirror&amp;rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.</description>
     </item>
     
     <item>
       <title>A Dark theme for AUR</title>
-      <link>https://hugo-paper.vercel.app/post/a-dark-theme-for-aur/</link>
+      <link>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-dark-theme-for-aur/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</guid>
       <description>I love AUR. Being able to use a simple PKGBUILD to install a software not available in the official Arch repositories is a blessing. Sadly, its user experience and looks need improvements to bring it to the 21st century.
 One of the things that bug me the most is the microscopic font size. I almost need a telescope to read the text.
 To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</description>
@@ -50,10 +50,10 @@ To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</de
     
     <item>
       <title>How to disable a D-Bus service</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-disable-a-d-bus-service/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-disable-a-d-bus-service/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-disable-a-d-bus-service/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-disable-a-d-bus-service/</guid>
       <description>In some situations, you might want to disable a D-Bus service. One of those is, for example, when you use Dunst (a notification daemon) with a window manager. Still, you don&amp;rsquo;t want it to replace the notification daemon from your desktop environment.
 To disable it, you just need to add .disabled to the end of the target file name. Example:
 sudo mv /usr/share/dbus-1/services/org.knopwob.dunst.service /usr/share/dbus-1/services/org.knopwob.dunst.service.disabled In the above example, Dunst will no longer replace Plasma Desktop notification daemon when using that amazing desktop environment, and all will be good with the world again.</description>
@@ -61,29 +61,29 @@ sudo mv /usr/share/dbus-1/services/org.knopwob.dunst.service /usr/share/dbus-1/s
     
     <item>
       <title>São Patrício</title>
-      <link>https://hugo-paper.vercel.app/post/sao-patricio/</link>
+      <link>https://blog.brunomiguel.net/post/sao-patricio/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/sao-patricio/</guid>
+      <guid>https://blog.brunomiguel.net/post/sao-patricio/</guid>
       <description>A ideia partiu deste tweet. No Reddit.</description>
     </item>
     
     <item>
       <title>A shitload of new packages on userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-shitload-of-new-packages-on-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/</guid>
       <description>Since the 24th of January, the date of the last blog post, I&amp;rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
 Expect more packages, as I&amp;rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&amp;rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</description>
     </item>
     
     <item>
       <title>Some changes to userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/some-changes-to-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/some-changes-to-userrepository/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/some-changes-to-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/some-changes-to-userrepository/</guid>
       <description>Hello, folks. It has been a while since I last wrote about my AUR-based Arch Linux repository. To be precise, four months and twelve days.
 A lot has happened since then. One of the main changes was the removal of several packages no longer present in AUR or really outdated. Some examples are peafox, marp and gimp-dbp.
 Another important change was the addition of several new packages, as usual. If I find it may be useful for someone, I add it.</description>
@@ -91,39 +91,39 @@ Another important change was the addition of several new packages, as usual. If 
     
     <item>
       <title>My Emacs experience so far</title>
-      <link>https://hugo-paper.vercel.app/post/my-emacs-experience-so-far/</link>
+      <link>https://blog.brunomiguel.net/post/my-emacs-experience-so-far/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/my-emacs-experience-so-far/</guid>
+      <guid>https://blog.brunomiguel.net/post/my-emacs-experience-so-far/</guid>
       <description>Since my last blog post about Emacs (and the last post I published here), I&amp;rsquo;ve tested some Starter Kits. All of them were genuinely nice and came with a lot of tools included, but most of these tools were things I didn&amp;rsquo;t need.
 Not a long time after that, I found a Reddit post about nano-emacs. Unlike the other Starter Kits, this one is plain and incredibly beautiful. It even got better recently with the addition of the writer-mode minor mode for org-mode, as you can see in the featured image on this post.</description>
     </item>
     
     <item>
       <title>Trying out Emacs again</title>
-      <link>https://hugo-paper.vercel.app/post/trying-out-emacs-again/</link>
+      <link>https://blog.brunomiguel.net/post/trying-out-emacs-again/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/trying-out-emacs-again/</guid>
+      <guid>https://blog.brunomiguel.net/post/trying-out-emacs-again/</guid>
       <description>A few days ago, I decided to give Emacs another try. I&amp;rsquo;ve previously attempted to use this text-editor / operating system — probably about 10 years ago or maybe a bit more — but never got the hang of it.
 A few years after my first try at Emacs, I discovered Markdown. Since then, I&amp;rsquo;ve used text editors with a GUI to write in this markup language. That was until two years ago when I encountered a Vim mode for Markdown and adapted it to my specific needs.</description>
     </item>
     
     <item>
       <title>O2, um tema QML que ando doido para ver integrado no Plasma Desktop</title>
-      <link>https://hugo-paper.vercel.app/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</link>
+      <link>https://blog.brunomiguel.net/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</guid>
+      <guid>https://blog.brunomiguel.net/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</guid>
       <description>As imagens deste post são de um tema QML, chamado O2, que o Nuno Pinheiro anda a desenvolver. Partilho-as com a autorização dele, para que se possam babar tanto quanto eu me babei quando as vi. Mal posso ver a hora de o ver integrado no Plasma Desktop.</description>
     </item>
     
     <item>
       <title>Comissão Europeia prepara possível ataque às comunicações encriptadas</title>
-      <link>https://hugo-paper.vercel.app/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</link>
+      <link>https://blog.brunomiguel.net/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</guid>
+      <guid>https://blog.brunomiguel.net/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</guid>
       <description>O Financial Times teve acesso a uma alegada nota interna da Comissão Europeia que visa expandir o &amp;ldquo;acesso legal direcionado&amp;rdquo; às comunicações eletrónicas encriptadas como forma de combate às redes de pedofilia, terrorismo e crime organizado.
 A intenção, de acordo com a nota, é incentivar a discussão entre os estados membros para os entraves que a encriptação coloca na investigação e condenação de criminosos.
 A nota contém alegadamente o seguinte, de acordo com o jornal norte-americano:</description>
@@ -131,40 +131,40 @@ A nota contém alegadamente o seguinte, de acordo com o jornal norte-americano:<
     
     <item>
       <title>Updates on Userrepository and Jarvis</title>
-      <link>https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-on-userrepository-and-jarvis/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</guid>
       <description>Lately, I&amp;rsquo;ve been having some problems when building picom-ibhagwan-git and picom-tryone-git. The first one would build OK, but not the second one.
 After a bit of debugging, I found out that it was a problem related to the way makepkg and git handle the cache when building these forks. This would also happen when adding the picom-git package: it would build because it&amp;rsquo;s the first package in alphabetical order and Jarvis builds the packages that way, but not the other two.</description>
     </item>
     
     <item>
       <title>Some statistics for Userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/some-statistics-for-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/some-statistics-for-userrepository/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/some-statistics-for-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/some-statistics-for-userrepository/</guid>
       <description>You might have noticed that Userrepository uses Cloudflare. I chose it for two main reasons: their ability to help mitigate (D)DoS attacks and to help hiding the IP address for the VM from script kiddies.
 It&amp;rsquo;s not that I think Userrepository will ever be a target for a (D)DoS attack, but better safe than sorry. Also, I have more than enough automated failed SSH authentication attempts without revealing the IP: 441 blocked _IP_s and counting for one fail2ban ssh rule and 2 for another fail2ban ssh rule.</description>
     </item>
     
     <item>
       <title>Status on userrepository changes</title>
-      <link>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</link>
+      <link>https://blog.brunomiguel.net/post/status-on-userrepository-changes/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/status-on-userrepository-changes/</guid>
+      <guid>https://blog.brunomiguel.net/post/status-on-userrepository-changes/</guid>
       <description>It took me a while to update you about the latest changes to my Arch and Arch-compatible Linux distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&amp;rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.
 First on the &amp;ldquo;agenda&amp;rdquo;, I experimented with increasing the zstd compression level for the packages like I said I would do in my last post about the repository.</description>
     </item>
     
     <item>
       <title>Um SMS estranho que me levou a um endereço que copia o site dos CTT</title>
-      <link>https://hugo-paper.vercel.app/post/um-sms-estranho-que-me-levou-a-um-endereco-que-copia-o-site-dos-ctt/</link>
+      <link>https://blog.brunomiguel.net/post/um-sms-estranho-que-me-levou-a-um-endereco-que-copia-o-site-dos-ctt/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/um-sms-estranho-que-me-levou-a-um-endereco-que-copia-o-site-dos-ctt/</guid>
+      <guid>https://blog.brunomiguel.net/post/um-sms-estranho-que-me-levou-a-um-endereco-que-copia-o-site-dos-ctt/</guid>
       <description>Caso tenham inserido os dados do vosso cartão de crédito, peçam o cancelamento da subscrição à VodMood através do endereço customersupport@vodmood.com
 Hoje de manhã, ainda não eram 8h30, a esposa recebeu um SMS de um número estranho (5819PT). Ela pediu-me para ver a mensagem porque está a aguardar a receção de documentação através de uma transportadora e queria saber o estado do envio.
 Quando vi a mensagem, reparei que o endereço é estranho e não é um que eu tenha visto ser usado pelos CTT ou alguma transportadora.</description>
@@ -172,70 +172,70 @@ Quando vi a mensagem, reparei que o endereço é estranho e não é um que eu te
     
     <item>
       <title>Updates on userrepository</title>
-      <link>https://hugo-paper.vercel.app/post/updates-on-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-userrepository/</link>
       <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-on-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-userrepository/</guid>
       <description>Since the last post about my Arch (and Arch-compatible distributions) binary repository, I&amp;rsquo;ve added a few more packages. Some examples are the Mullvad VPN desktop client and nimdow, a window manager written in the Nim programming language. Or Emptty, an amazing display manager that I encourage you to try.
 Despite adding more packages, the compilation and compression time only had a small increase and I&amp;rsquo;m still below the 5 hour mark.</description>
     </item>
     
     <item>
       <title>Emptty, a blazing fast Display Manager</title>
-      <link>https://hugo-paper.vercel.app/post/emptty-a-blazing-fast-display-manager/</link>
+      <link>https://blog.brunomiguel.net/post/emptty-a-blazing-fast-display-manager/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/emptty-a-blazing-fast-display-manager/</guid>
+      <guid>https://blog.brunomiguel.net/post/emptty-a-blazing-fast-display-manager/</guid>
       <description>Emptty is one of the newest additions to userrepository.eu and already a favorite of mine. This CLI Display Manager is blazing fast and offers a few configuration options.
 One of these options and my personal favorite is setting the MOTD, like the one you see on the post image. As far as I can tell, it only supports plain text and ANSI color escape codes. If the possibility for scripts arises, it can allow some really cool stuff.</description>
     </item>
     
     <item>
       <title>Lista antinonio atualizada</title>
-      <link>https://hugo-paper.vercel.app/post/lista-antinonio-atualizada/</link>
+      <link>https://blog.brunomiguel.net/post/lista-antinonio-atualizada/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/lista-antinonio-atualizada/</guid>
+      <guid>https://blog.brunomiguel.net/post/lista-antinonio-atualizada/</guid>
       <description>Há alguns meses que não atualizava a minha lista de bloqueio, para adblockers, à merda do Nónio. Ela não me estava a dar problemas, por isso não senti necessidade de a rever.
 No dia 21 de junho, no entanto, um dos developers do uBlock Origin abriu um bug por causa dos tipos de regras usadas, bug esse que está relacionado com outro reportado no repositório deste adblocker. TL;DR: estava a misturar filtros estáticos com regras dinâmicas.</description>
     </item>
     
     <item>
       <title>My tools of trade in a Linux system</title>
-      <link>https://hugo-paper.vercel.app/post/my-tools-of-trade-in-a-linux-system/</link>
+      <link>https://blog.brunomiguel.net/post/my-tools-of-trade-in-a-linux-system/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/my-tools-of-trade-in-a-linux-system/</guid>
+      <guid>https://blog.brunomiguel.net/post/my-tools-of-trade-in-a-linux-system/</guid>
       <description>With no special order:
 Desktop environments and/or window managers  plasma (to me, the best desktop environment for any free software operating system) i3wm (paired with picom [https://github.com/ibhagwan/picom] for transparency, blur and rounded corners)  Terminal emulators  konsole (I&amp;rsquo;ve grown very fond if this terminal emulator since I switched to the plasma desktop, and it has blur for the blings ;)) urxvt-unicode (with tabbedex, so I can have tabs with it)  Text editors  micro (my favorite and because it supports gui keybinds, although it&amp;rsquo;s a cli text editor) nano (simple and super useful, available by default in a lot of linux distributions) vim (I have a custom mode for writing markdown text) gedit (for when I need a text editor with a gui)  Note taking  qownnotes  Browsers  firefox (my favorite for around a decade and an half.</description>
     </item>
     
     <item>
       <title>Some notes about userrepository performance with the new provider</title>
-      <link>https://hugo-paper.vercel.app/post/some-notes-about-userrepository-performance-with-the-new-provider/</link>
+      <link>https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/</link>
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/some-notes-about-userrepository-performance-with-the-new-provider/</guid>
+      <guid>https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/</guid>
       <description>In the previous post, I wrote about how I changed the virtual machine provider from Scaleway to Hetzner. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.
 The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, however: with Scaleway, the vCPUs were some Intel low-end ones (although they&amp;rsquo;ve upgraded to AMD EPYC very recently) and with Hetzer they are AMD EPYC.</description>
     </item>
     
     <item>
       <title>Userrepository.eu is back (in beta)</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-eu-is-back-in-beta/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-eu-is-back-in-beta/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/</guid>
       <description>After a small forced hiatus, userrepository.eu is back. The Covid-19 pandemic made a hit in my income and the wife&amp;rsquo;s income, so I had to temporarily suspend non-priority expenses. During this period, I had time to consider a few things about the future of the project and decided to change the provider from Scaleway to Hetzner, mostly because the Arch image they&amp;rsquo;re using is essentially abandonware.
 If you&amp;rsquo;re reading this, you&amp;rsquo;ll probably know that Arch Linux changed the default package compression to ZSTD.</description>
     </item>
     
     <item>
       <title>Improving boot time</title>
-      <link>https://hugo-paper.vercel.app/post/improving-boot-time/</link>
+      <link>https://blog.brunomiguel.net/post/improving-boot-time/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/improving-boot-time/</guid>
+      <guid>https://blog.brunomiguel.net/post/improving-boot-time/</guid>
       <description>Today, I&amp;rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &amp;ldquo;Why not?&amp;rdquo;.
 The first thing I made was disabling or masking the following systemd services:
  systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&amp;rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible.</description>
@@ -243,20 +243,20 @@ The first thing I made was disabling or masking the following systemd services:
     
     <item>
       <title>Como resolver problemas de ruído com o microfone interno em Linux</title>
-      <link>https://hugo-paper.vercel.app/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</link>
+      <link>https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</guid>
+      <guid>https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</guid>
       <description>Quer no meu portátil, quer no da esposa, temos um problema irritante com o microfone de cada equipamento quando usamos o Jitsi Meet, Skype, Messenger e outras aplicações do género. A situação é a seguinte: quando o volume do micro está baixo, não se ouve nada; aumentando, só se ouve distorção que dá uma dor de cabeça horrível.
 Andei uns dias de volta do alsa ou do pulseaudio, porque pensava que o problema era aí, até que descobri a solução no askubuntu.</description>
     </item>
     
     <item>
       <title>Debugging build times</title>
-      <link>https://hugo-paper.vercel.app/post/debugging-build-times/</link>
+      <link>https://blog.brunomiguel.net/post/debugging-build-times/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/debugging-build-times/</guid>
+      <guid>https://blog.brunomiguel.net/post/debugging-build-times/</guid>
       <description>Lately, the repository has been taking +10 hours to compile all the packages. I think that&amp;rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
    Pkg Hours Minutes     .</description>
@@ -264,39 +264,39 @@ After investigating the matter, I found out that 12 of the packages took four ho
     
     <item>
       <title>From F@h to Boinc</title>
-      <link>https://hugo-paper.vercel.app/post/from-fh-to-boinc/</link>
+      <link>https://blog.brunomiguel.net/post/from-fh-to-boinc/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/from-fh-to-boinc/</guid>
+      <guid>https://blog.brunomiguel.net/post/from-fh-to-boinc/</guid>
       <description>In the start of July 2019, I wrote about using the spare CPU cycles in my VPS to contribute to Folding@home (F@h). Since then, when not building packages for Arch Linux, the virtual machine has been crushing numbers as a peer in this project.
 Today, I&amp;rsquo;ve switched to Boinc with the Rosetta@home project. This change was due to the fact that Boinc is a free software application, whereas F@h is proprietary.</description>
     </item>
     
     <item>
       <title>Suporte para o Cartão de Cidadão no userrepository.eu</title>
-      <link>https://hugo-paper.vercel.app/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</link>
+      <link>https://blog.brunomiguel.net/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</guid>
+      <guid>https://blog.brunomiguel.net/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/</guid>
       <description>Ainda hoje, no máximo amanhã, devo disponibilizar a aplicação para autenticação nas plataformas do Estado com o Cartão de Cidadão. Assim que estiver disponível, basta usares o comando sudo pacman -Syyuv autenticacao-gov-pt para ser feita a instalação. Não te esqueças de adicionar o repositório primeiro, caso ainda não o tenhas feito. Fica atent@.</description>
     </item>
     
     <item>
       <title>A história de uma ligação à internet que ficou manca das duas pernas, com um braço ao peito e com o outro amputado</title>
-      <link>https://hugo-paper.vercel.app/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</link>
+      <link>https://blog.brunomiguel.net/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-historia-de-uma-ligacao-a-internet-que-ficou-manca-das-duas-pernas-com-um-braco-ao-peito-e-com-o-outro-amputado/</guid>
       <description>Sou cliente NOS há algum tempo, com um serviço (tarifário de 20MB) que funciona pela rede móvel mas que é comercializado pela operadora como fixo. Recentemente até refidelizei o meu contrato porque, apesar de algumas vezes aplicarem traffic shaping, estava relativamente satisfeito. Vá, estava mais ou menos satisfeito, mas aplicaram-me um desconto de 20% e lá acabei por refidelizar o contrato.
 No final de Janeiro, ainda mal se falava da COVID-19, fiquei de baixa por questões de saúde que não estão relacionadas com esta pandemia.</description>
     </item>
     
     <item>
       <title>How to set up a simple Wireguard VPN</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:
@@ -306,58 +306,58 @@ The first line is for the public and private keys of the client, named laptop be
     
     <item>
       <title>LXQT</title>
-      <link>https://hugo-paper.vercel.app/post/lxqt/</link>
+      <link>https://blog.brunomiguel.net/post/lxqt/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/lxqt/</guid>
+      <guid>https://blog.brunomiguel.net/post/lxqt/</guid>
       <description>In the last couple of months, I&amp;rsquo;ve been using LXQT as an alternative to Plasma Desktop. Coupled with compton_tryone for the blur bling, a nice dark and transparent theme, and some GTK and Kvantum dark themes to match, it&amp;rsquo;s actually a great desktop environment.</description>
     </item>
     
     <item>
       <title>MintBox 3 disponível</title>
-      <link>https://hugo-paper.vercel.app/post/mintbox-3-disponivel/</link>
+      <link>https://blog.brunomiguel.net/post/mintbox-3-disponivel/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/mintbox-3-disponivel/</guid>
+      <guid>https://blog.brunomiguel.net/post/mintbox-3-disponivel/</guid>
       <description>O MintBox3, o computador desenvolvido pela Compulab em parceria com o projeto Linux Mint, chegou. O equipamento está disponível em duas edições, Basic e Pro, e vem com a versão mais recente da distribuição, Linux Mint 19.3 Tricia, pré-instalada.
 Esta é a quinta interação do MintBox. A estética mantém-se semelhante às versões anteriores e apresenta uma boa capacidade de processamento, para além de algumas características interessantes, como uma quantidade bastante grande de portas USB (9 na versão Basic e 10 na versão Pro).</description>
     </item>
     
     <item>
       <title>#LPT: access Firefox&#39;s &#39;about:&#39; pages</title>
-      <link>https://hugo-paper.vercel.app/post/lpt-access-firefoxs-about-pages/</link>
+      <link>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/lpt-access-firefoxs-about-pages/</guid>
+      <guid>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</guid>
       <description>To access all the Firefox&amp;rsquo;s about: pages, just type about:about in the address bar.</description>
     </item>
     
     <item>
       <title>Updates to Jarvis, my Arch buildbot</title>
-      <link>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</link>
+      <link>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-to-jarvis-my-arch-buildbot/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/</guid>
       <description>My Arch buildbot, Jarvis, received an update today in the options logic. Now, it can receive an argument in the add (-a) and delete (-d) options, so the user can specify the package to add or delete.
 The option to add a package, for now, only works for AUR. If you want to add a package that&amp;rsquo;s not in AUR, you&amp;rsquo;ll need to manually add the submodule. In the future, Jarvis will allow you to use a git repository with a PKGBUILD file.</description>
     </item>
     
     <item>
       <title>Atualização à lista AntiNónio</title>
-      <link>https://hugo-paper.vercel.app/post/atualizacao-a-lista-antinonio/</link>
+      <link>https://blog.brunomiguel.net/post/atualizacao-a-lista-antinonio/</link>
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/atualizacao-a-lista-antinonio/</guid>
+      <guid>https://blog.brunomiguel.net/post/atualizacao-a-lista-antinonio/</guid>
       <description>Hoje, graças a ela, que tentou ver um vídeo do Miguel Sousa Tavares no site da TVI24, apercebi-me que as páginas com vídeos daquele endereço mostravam o spam do Nónio. &amp;ldquo;Estranho&amp;rdquo;, pensei eu. &amp;ldquo;Isto devia estar bloqueado&amp;rdquo;.
 Uma análise inicial levou-me a pensar que o culpado era um script relacionado com o leitor de vídeo que utilizam, devido à presença da palavra-chave nonio no código. Isto acabou por se revelar errado.</description>
     </item>
     
     <item>
       <title>First own package on userrepository.eu</title>
-      <link>https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/</link>
+      <link>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/first-own-package-on-userrepository-eu/</guid>
+      <guid>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</guid>
       <description>Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&amp;rsquo;ve finally created my first package for Arch Linux on my repository. It&amp;rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
 Here&amp;rsquo;s the PKGBUILD at the time of writing:
 # Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>
@@ -365,10 +365,10 @@ Here&amp;rsquo;s the PKGBUILD at the time of writing:
     
     <item>
       <title>Metapackage for a personal installation of Arch Linux and Arch-based distributions</title>
-      <link>https://hugo-paper.vercel.app/post/metapackage-arch-linux/</link>
+      <link>https://blog.brunomiguel.net/post/metapackage-arch-linux/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/metapackage-arch-linux/</guid>
+      <guid>https://blog.brunomiguel.net/post/metapackage-arch-linux/</guid>
       <description>I&amp;rsquo;ve been using Arch or Arch-based distributions for over a year now. In this time testing a few of them, I&amp;rsquo;ve always lacked a simple and logical way of installing the same &amp;ldquo;essential&amp;rdquo; software. To tackle this, I&amp;rsquo;ve created a metapackage with all this software and this is what I&amp;rsquo;ve got so far:
 # Maintainer: Bruno Miguel https://twitter.com/brunomiguel
 pkgname=&amp;lsquo;bruno-essentials&amp;rsquo; pkgdesc=&amp;ldquo;A metapackage for some packages I find essential. Requires userrepository.eu repo&amp;rdquo; pkgver=&amp;lsquo;0.</description>
@@ -376,10 +376,10 @@ pkgname=&amp;lsquo;bruno-essentials&amp;rsquo; pkgdesc=&amp;ldquo;A metapackage 
     
     <item>
       <title>Userrepository now on Arch Wiki</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-now-on-arch-wiki/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-now-on-arch-wiki/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</guid>
       <description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
 Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the chance to list all packages currently available at the time of writing:
  acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
@@ -387,107 +387,107 @@ Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the
     
     <item>
       <title>A minha desilusão cada vez maior com as redes sociais</title>
-      <link>https://hugo-paper.vercel.app/post/a-minha-desilusao-cada-vez-maior-com-as-redes-sociais/</link>
+      <link>https://blog.brunomiguel.net/post/a-minha-desilusao-cada-vez-maior-com-as-redes-sociais/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-minha-desilusao-cada-vez-maior-com-as-redes-sociais/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-minha-desilusao-cada-vez-maior-com-as-redes-sociais/</guid>
       <description>Há já algum tempo que tenho vindo a ficar desapontado com o estado atual das redes sociais que utilizo mais frequentemente: Facebook e Twitter. Em ambas há muita polarização de opiniões, uma presença forte e irritante do politicamente correto, partilha de informação falsa e/ou coisas que sem pés nem cabeça, e um massajar constante de egos entre utilizadores.
 Se a tua reação foi &amp;ldquo;qual a novidade?&amp;rdquo;, eu confesso que ainda sou do tempo em que era possível ter uma discussão - daquelas em que debates ideias e não daquelas em que quase andas à porrada - com pessoas com opiniões diferentes, principalmente no Twitter.</description>
     </item>
     
     <item>
       <title>E o streaming o vento levou</title>
-      <link>https://hugo-paper.vercel.app/post/e-o-streaming-o-vento-levou/</link>
+      <link>https://blog.brunomiguel.net/post/e-o-streaming-o-vento-levou/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/e-o-streaming-o-vento-levou/</guid>
+      <guid>https://blog.brunomiguel.net/post/e-o-streaming-o-vento-levou/</guid>
       <description>Os serviços de streaming prometiam facilitar o acesso legal a conteúdos. Prometiam, pois claro, qual estereótipo de político. E como no estereótipo, as promessas foram levadas pelo primeiro vento que se levantou. Hoje, temos que ter n subscrições para podermos ver uma mão cheia de séries: Netflix, HBO, CBS, Youtube, Amazon&amp;hellip;
 Entre estar a pagar a vários serviços para ver meia-dúzia de séries ou ir a um tracker de torrents, imaginem qual a opção que muita gente toma.</description>
     </item>
     
     <item>
       <title>Detetado o primeiro planeta potencialmente habitável, fora do sistema solar, com água na atmosfera</title>
-      <link>https://hugo-paper.vercel.app/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</link>
+      <link>https://blog.brunomiguel.net/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</guid>
+      <guid>https://blog.brunomiguel.net/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</guid>
       <description>Correndo o risco de parecer o Professor Farnsworth, da série Futurama: Good news, everyone! Um grupo de astrónomos confirmou a presença de vapor de água na atmosfera de um exoplaneta conhecido como K2-18b.
 O K2-18b foi detetado em 2015 pela Kepler e está a 111 anos-luz do nosso planeta. Ele é classificado como uma super-Terra, isto é, tem uma massa superior à do nosso planeta mas inferior à de planetas como Neptuno.</description>
     </item>
     
     <item>
       <title>“The polarization of our society is actually part of the business model.”</title>
-      <link>https://hugo-paper.vercel.app/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</link>
+      <link>https://blog.brunomiguel.net/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</guid>
+      <guid>https://blog.brunomiguel.net/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</guid>
       <description>Assustadoramente sóbrio. (vídeo completo)</description>
     </item>
     
     <item>
       <title>Uma dose de likes e um garrote</title>
-      <link>https://hugo-paper.vercel.app/post/uma-dose-de-likes-e-um-garrote/</link>
+      <link>https://blog.brunomiguel.net/post/uma-dose-de-likes-e-um-garrote/</link>
       <pubDate>Mon, 02 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/uma-dose-de-likes-e-um-garrote/</guid>
+      <guid>https://blog.brunomiguel.net/post/uma-dose-de-likes-e-um-garrote/</guid>
       <description>Adoro adquirir conhecimento novo e, quando há algo que não percebo, dá-me gozo tentar perceber e aprender. Apesar disto, ainda hoje não consigo entender um fenómeno - paranormal, diria - que só tenho visto acontecer no Instagram. Aliás, entender até entendo, só não consigo ver uma ponta que seja de lógica nele; é que nem um bocadinho à Danoninho.
 Qual a cena de partilharem fotos, seja de uma viagem ou de o raio que o parta, espaçadamente durante várias semanas ou meses no Instagram?</description>
     </item>
     
     <item>
       <title>A few notes about Opera and Vivaldi</title>
-      <link>https://hugo-paper.vercel.app/post/a-few-notes-about-opera-and-vivaldi/</link>
+      <link>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</link>
       <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/a-few-notes-about-opera-and-vivaldi/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</guid>
       <description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
 The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:</description>
     </item>
     
     <item>
       <title>Must have extensions for Firefox</title>
-      <link>https://hugo-paper.vercel.app/post/must-have-extensions-for-firefox/</link>
+      <link>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/must-have-extensions-for-firefox/</guid>
+      <guid>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</guid>
       <description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
 During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description>
     </item>
     
     <item>
       <title>Improved new night mode for Twitter</title>
-      <link>https://hugo-paper.vercel.app/post/improved-new-night-mode-for-twitter/</link>
+      <link>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/improved-new-night-mode-for-twitter/</guid>
+      <guid>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</guid>
       <description>I got the new, event and flex-based, Twitter design a few days ago and decided to try out the night mode. This was also influenced by some tweet a contact of mine published.
 While not bad, I don&amp;rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the blue light stuff impacting our sleep. Even with a blue light filter, like the one from Plasma, it&amp;rsquo;s still too much blue.</description>
     </item>
     
     <item>
       <title>Managing dotfiles</title>
-      <link>https://hugo-paper.vercel.app/post/managing-dotfiles/</link>
+      <link>https://blog.brunomiguel.net/post/managing-dotfiles/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/managing-dotfiles/</guid>
+      <guid>https://blog.brunomiguel.net/post/managing-dotfiles/</guid>
       <description>I&amp;rsquo;ve been looking for a simple but powerful solution for managing my dotfiles, either the ones on my personal computer or the ones I use on virtual machines. After taking a look at a few options, I think I&amp;rsquo;ll give dotdrop a try and publish a new post as soon as I feel I&amp;rsquo;ve evaluated it enough.</description>
     </item>
     
     <item>
       <title>Userrepository.eu now available on Github</title>
-      <link>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/userrepository-eu-now-available-on-github/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</guid>
       <description>My Arch/Manjaro (and any other Arch-based distro) repository continues to receive more packages from AUR. But this post is not about that. I&amp;rsquo;m writing this because I published the scripts I&amp;rsquo;m using to build the packages for userrepository.eu. You can get them at Github.</description>
     </item>
     
     <item>
       <title>Folding@home</title>
-      <link>https://hugo-paper.vercel.app/post/foldinghome/</link>
+      <link>https://blog.brunomiguel.net/post/foldinghome/</link>
       <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/foldinghome/</guid>
+      <guid>https://blog.brunomiguel.net/post/foldinghome/</guid>
       <description>A couple of days ago, I decided to use my VPS spare CPU cycles to help out the Folding@home (F@h) project.
 If you haven&amp;rsquo;t heard of F@H, here is a description from their website:
  Folding@home (FAH or F@h) is a distributed computing project for disease research that simulates protein folding, computational drug design, and other types of molecular dynamics. As of today, the project is using the idle resources of personal computers owned by volunteers from all over the world.</description>
@@ -495,50 +495,50 @@ If you haven&amp;rsquo;t heard of F@H, here is a description from their website:
     
     <item>
       <title>Antinonio</title>
-      <link>https://hugo-paper.vercel.app/post/antinonio/</link>
+      <link>https://blog.brunomiguel.net/post/antinonio/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/antinonio/</guid>
+      <guid>https://blog.brunomiguel.net/post/antinonio/</guid>
       <description>Há uns tempos atrás, criei um repositório no Github com uma lista de bloqueio para adblockers com regras específicas para a plataforma Nonio, baseada numa outra lista feita para com suporte apenas para o uMatrix.
 Esta lista manteve-se inalterada até há 17 dias, quando o Pedro Fonseca submeteu um pull request com regras para o site d&#39;O Público, fechando também assim o bug #3. Nas duas semanas e pouco seguintes, recebei mais alguns pull requests no repositório, melhorando bastante a lista de bloqueio.</description>
     </item>
     
     <item>
       <title>Bem disse Andreas Burkert que somos feitos do pó das estrelas</title>
-      <link>https://hugo-paper.vercel.app/post/bem-disse-andreas-burkert-que-somos-feitos-do-po-das-estrelas/</link>
+      <link>https://blog.brunomiguel.net/post/bem-disse-andreas-burkert-que-somos-feitos-do-po-das-estrelas/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/bem-disse-andreas-burkert-que-somos-feitos-do-po-das-estrelas/</guid>
+      <guid>https://blog.brunomiguel.net/post/bem-disse-andreas-burkert-que-somos-feitos-do-po-das-estrelas/</guid>
       <description>Astrophysicists Szabolcs Marka at Columbia University and Imre Bartos at the University of Florida, have identified a violent collision of two neutron stars 4.6 billion years ago as the likely source of some of the most coveted matter on Earth.
 This single cosmic event, close to our solar system, gave birth to 0.3 percent of the Earth&amp;rsquo;s heaviest elements, including gold, platinum and uranium, according to a new paper appearing in the May 2 issue of Nature.</description>
     </item>
     
     <item>
       <title>Updates on my Arch/Manjaro repository</title>
-      <link>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/updates-on-my-arch-manjaro-repository/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</guid>
       <description>Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&amp;rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
 After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&amp;rsquo;ve been (successfully) testing aurto to manage the repository updates.</description>
     </item>
     
     <item>
       <title>I&#39;ve built a Manjaro repository</title>
-      <link>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</link>
+      <link>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/ive-built-a-manjaro-repository/</guid>
+      <guid>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</guid>
       <description>Due to my own dumbness (I mistakenly deleted my Ubuntu partition), I installed Manjaro, using the Manjaro Architect release, on my laptop. I&amp;rsquo;d been thinking about doing it for a while and finally made it because I was too stupid to read the instructions from cfdisk. The shit you create yourself because you&amp;rsquo;re in a hurry…
 Anyway, after installing Manjaro, I started reading a bit about this distro packaging and how I could leverage AUR and binary packages.</description>
     </item>
     
     <item>
       <title>New Adwaita with smaller CSD height</title>
-      <link>https://hugo-paper.vercel.app/post/new-adwaita-with-smaller-csd-height/</link>
+      <link>https://blog.brunomiguel.net/post/new-adwaita-with-smaller-csd-height/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/new-adwaita-with-smaller-csd-height/</guid>
+      <guid>https://blog.brunomiguel.net/post/new-adwaita-with-smaller-csd-height/</guid>
       <description>I&amp;rsquo;ve patched the next GTK theme for Gnome, for a screen resolution of 1366 x 768 pixels. The changes include reducing the CSD height, changing the padding on some buttons and decreasing Gnome Terminal tabs height.
 There are still some bugs with the theme. For example, Eye of Gnome still has a huge CSD height. I&amp;rsquo;ll hopefully fix this in the near future, if doable via theming.
 Feel free to clone it or fork it.</description>
@@ -546,20 +546,20 @@ Feel free to clone it or fork it.</description>
     
     <item>
       <title>Agora já sou geek</title>
-      <link>https://hugo-paper.vercel.app/post/agora-ja-sou-geek/</link>
+      <link>https://blog.brunomiguel.net/post/agora-ja-sou-geek/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/agora-ja-sou-geek/</guid>
+      <guid>https://blog.brunomiguel.net/post/agora-ja-sou-geek/</guid>
       <description>Hoje chegaram os autocolantes que encomendei no Sticker Mule em dezembro, numa promoção em que o pack ficava a €1 e pouco. Com isto, já posso dizer que sou geek e o meu portátil ficou &amp;ldquo;lit af&amp;rdquo;.
 Só tenho pena que o pack não incluísse um autocolante do projeto GNU. Teria sido ouro sobre azul.</description>
     </item>
     
     <item>
       <title>Astronomers found a remnant from the Big Bang</title>
-      <link>https://hugo-paper.vercel.app/post/astronomers-found-a-remnant-of-the-big-bang/</link>
+      <link>https://blog.brunomiguel.net/post/astronomers-found-a-remnant-of-the-big-bang/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/astronomers-found-a-remnant-of-the-big-bang/</guid>
+      <guid>https://blog.brunomiguel.net/post/astronomers-found-a-remnant-of-the-big-bang/</guid>
       <description>Simulation of galaxies and gas in the universe. Within the gas in the (blue) filaments connecting the (orange) galaxies lurk rare pockets of pristine gas – vestiges of the Big Bang that have somehow been orphaned from the explosive, polluting deaths of stars, seen here as circular shock waves around some orange points. CREDIT: TNG COLLABORATION
 [Jim Parsons inserted by me]
 This is huge! A group of astronomers, led by Fred Robert and Michael Murphy of the Swinburne University of Technology in Australia, found a cloud of gas left over from the Big Bang, using the telescope located at W.</description>
@@ -567,50 +567,50 @@ This is huge! A group of astronomers, led by Fred Robert and Michael Murphy of t
     
     <item>
       <title>Continuamos sem saber escolher passwords</title>
-      <link>https://hugo-paper.vercel.app/post/continuamos-sem-saber-escolher-passwords/</link>
+      <link>https://blog.brunomiguel.net/post/continuamos-sem-saber-escolher-passwords/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/continuamos-sem-saber-escolher-passwords/</guid>
+      <guid>https://blog.brunomiguel.net/post/continuamos-sem-saber-escolher-passwords/</guid>
       <description>Quando li este post do Carlos Martins no Aberto até de Madrugada, a minha primeira reação foi partilhar a publicação no Facebook com uma mensagem um pouco agressiva. Algo como: &amp;ldquo;da série &amp;lsquo;as pessoas são idiotas&amp;rsquo;&amp;rdquo;.
 Acabei por me retrair no comentário, porque não há necessidade de agressividade e ninguém é obrigado a saber tudo, e partilhei a publicação na rede social. Mas, caramba, as pessoas são mesmo estúpidas. Repara só no top10 das passwords mais populares de 2018:</description>
     </item>
     
     <item>
       <title>Microsoft Chrome?</title>
-      <link>https://hugo-paper.vercel.app/post/microsoft-chrome/</link>
+      <link>https://blog.brunomiguel.net/post/microsoft-chrome/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/microsoft-chrome/</guid>
+      <guid>https://blog.brunomiguel.net/post/microsoft-chrome/</guid>
       <description>Está a circular um rumor que aponta para o fim do Edge, o browser que a Microsoft lançou em 2015 para substituir o Internet Explorer. O mesmo rumo refere que a empresa sediada em Redmond vai criar um novo navegador, agora baseado no Chromium.
 Sabe mais no meu artigo no Espalha-Factos.</description>
     </item>
     
     <item>
       <title>Why NASA is landing another spacecraft on Mars</title>
-      <link>https://hugo-paper.vercel.app/post/why-nasa-is-landing-another-spacecraft-on-mars/</link>
+      <link>https://blog.brunomiguel.net/post/why-nasa-is-landing-another-spacecraft-on-mars/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/why-nasa-is-landing-another-spacecraft-on-mars/</guid>
+      <guid>https://blog.brunomiguel.net/post/why-nasa-is-landing-another-spacecraft-on-mars/</guid>
       <description>To get the Biker Mice to Earth. That&amp;rsquo;s true, sheeple, NASA wants illegal aliens in our planet, so they can steal our jobs, rape our wives and all that crazy shit typically written by delusional right-wing folks.
 Jokes apart, tune in the NASA livestream if you want to watch the landing.</description>
     </item>
     
     <item>
       <title>Loving the Plasma Desktop</title>
-      <link>https://hugo-paper.vercel.app/post/543/</link>
+      <link>https://blog.brunomiguel.net/post/543/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/543/</guid>
+      <guid>https://blog.brunomiguel.net/post/543/</guid>
       <description>In the last few weeks, I&amp;rsquo;ve been using the Plasma Desktop full time in Ubuntu with the Kubuntu Backports PPA enabled. This way I can get the latest version of this desktop environment on Ubuntu 18.10.
 The latest Plasma Desktop version is 5.14 and it&amp;rsquo;s really amazing. On my hardware, it uses less resources than Gnome Shell, although it takes more time to get to the destkop. And the best part is not having the Gnome Shell process eating up more than 1GB or 2GB of RAM (even after the garbage collection patches).</description>
     </item>
     
     <item>
       <title>Current Gnome Shell desktop</title>
-      <link>https://hugo-paper.vercel.app/post/current-gnome-shell-desktop/</link>
+      <link>https://blog.brunomiguel.net/post/current-gnome-shell-desktop/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/current-gnome-shell-desktop/</guid>
+      <guid>https://blog.brunomiguel.net/post/current-gnome-shell-desktop/</guid>
       <description>GTK: Ant Nebula (slim standard buttons) https://www.gnome-look.org/p/1099856/
 Shell: Ant Nebula (slim standard buttons)
 Ícones: Plane https://www.opendesktop.org/p/1178976/
@@ -622,20 +622,20 @@ Typeface 2: Fira Code Retina https://github.com/bBoxType/FiraSans</description>
     
     <item>
       <title>Windows &#34;snail&#34; Update</title>
-      <link>https://hugo-paper.vercel.app/post/windows-snail-update/</link>
+      <link>https://blog.brunomiguel.net/post/windows-snail-update/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/windows-snail-update/</guid>
+      <guid>https://blog.brunomiguel.net/post/windows-snail-update/</guid>
       <description>Yesterday, I had to reinstall Windows 10 on a computer because the owner was complaining it was too slow. After a successful, albeit slow, reinstall, I had to change the language.
 This computer had Windows in English and the owner wanted it in European Portuguese. So, after reinstalling the OS, I selected the European Portuguese language in the system options (or whatever it is called) and chose the pt-PT langpack.</description>
     </item>
     
     <item>
       <title>Integrate Firefox with the Plasma Desktop</title>
-      <link>https://hugo-paper.vercel.app/post/firefox-plasma-desktop-integration/</link>
+      <link>https://blog.brunomiguel.net/post/firefox-plasma-desktop-integration/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/firefox-plasma-desktop-integration/</guid>
+      <guid>https://blog.brunomiguel.net/post/firefox-plasma-desktop-integration/</guid>
       <description>Image from the addon page
   Image from the addon page
   Lately, I&amp;rsquo;ve been switching between Gnome and Plasma. Both are great desktop environments and, like all the other software in the world, both have some shortcomings. So, this is not a flamewar post, nor is intended to start yet another one.
@@ -644,20 +644,20 @@ Yesterday, I logged on a Plasma session and opened Firefox to check my email
     
     <item>
       <title>Is Facebook an anti-democracy tool?</title>
-      <link>https://hugo-paper.vercel.app/post/is-facebook-an-anti-democracy-tool/</link>
+      <link>https://blog.brunomiguel.net/post/is-facebook-an-anti-democracy-tool/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/is-facebook-an-anti-democracy-tool/</guid>
+      <guid>https://blog.brunomiguel.net/post/is-facebook-an-anti-democracy-tool/</guid>
       <description>Read The Autocracy App, published in The New York Review of Books, and draw your own conclusions. It&amp;rsquo;s a long, but well worth, text about the impacts of Facebook on our societies and the apparent inclination it has for favoring dictatorships and autocracies.
 It gave me the chills&amp;hellip;</description>
     </item>
     
     <item>
       <title>Things to do after installing Fedora</title>
-      <link>https://hugo-paper.vercel.app/post/things-to-do-after-installing-fedora/</link>
+      <link>https://blog.brunomiguel.net/post/things-to-do-after-installing-fedora/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/things-to-do-after-installing-fedora/</guid>
+      <guid>https://blog.brunomiguel.net/post/things-to-do-after-installing-fedora/</guid>
       <description>WARNING
 Third-party repositories will be enabled and it was only tested on Fedora 28. This could have an impact on your system ranging from none to destroying all cat videos on the internet. You have been warned.
 Disable annoying AMD iommu warnings on boot Only for some AMD CPUs, like mine, an AMD A9-9420 Edit the /etc/default/grub file and append the following to the GRUB_CMDLINE_LINUX line:
@@ -666,19 +666,19 @@ iommu=soft amd_iommu=off Full example:</description>
     
     <item>
       <title>Google Chrome is a privacy hell</title>
-      <link>https://hugo-paper.vercel.app/post/google-chrome-is-a-privacy-hell/</link>
+      <link>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/google-chrome-is-a-privacy-hell/</guid>
+      <guid>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</guid>
       <description>Google Chrome is such a privacy hell that it has become it&amp;rsquo;s own hell in the japanese folklore. You&amp;rsquo;re better off with Firefox and you get better performance. But if you really want Chrome, Ungoogled Chromium is based on the previous (technically, it&amp;rsquo;s based on Chromium) with some bits removed for added privacy.</description>
     </item>
     
     <item>
       <title>New laptop</title>
-      <link>https://hugo-paper.vercel.app/post/new-laptop/</link>
+      <link>https://blog.brunomiguel.net/post/new-laptop/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/new-laptop/</guid>
+      <guid>https://blog.brunomiguel.net/post/new-laptop/</guid>
       <description>A few days ago I bought a Lenovo Ideapad 320-15AST. I had a budget of €400 and, after browsing a few stores for a couple of hours, I found this one for a bit less than €350.
 At the hardware level, the computer has reasonable specs. They are (retrieved from inxi):
 CPU: AMD A9-9420 dual core (1397MHz/3000MHz | boost: 3600MHz) GPU: AMD Radeon R7 M260/M265 HDD: 1000.2GB 5400RPM RAM: 8GB DDR4 This is the first time I’m buying Lenovo.</description>
@@ -686,116 +686,116 @@ CPU: AMD A9-9420 dual core (1397MHz/3000MHz | boost: 3600MHz) GPU: AMD Radeon R7
     
     <item>
       <title>How-to customize the Bash prompt</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-configure-the-bash-prompt/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-configure-the-bash-prompt/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</guid>
       <description>In order to adapt a bit more my Debian Stable installation to my workflow, I&amp;rsquo;ve been tweaking the bash prompt. Simplicity and small line width are key here, because I often have tmux running with several panes in the same window and small panes with large one-liner prompts suck a lot! Everything feels crammed and hard to read. Just take a look at the image below to get an idea.</description>
     </item>
     
     <item>
       <title>O Facebook mobile não é igual para todos</title>
-      <link>https://hugo-paper.vercel.app/post/facebook-mobile/</link>
+      <link>https://blog.brunomiguel.net/post/facebook-mobile/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/facebook-mobile/</guid>
+      <guid>https://blog.brunomiguel.net/post/facebook-mobile/</guid>
       <description>Que raio se passará com o site do Facebook? Cada vez demora mais a carregar, faz a temperatura do processador do meu portátil disparar e está cheio de coisas a tentar roubar constantemente um bocadinho da minha atenção. Na volta é por estar cheio de porcarias como esta.
  Facebook answered 2,000 questions posed by the Senate Committee. Among these, Facebook explained that it collects information about users’ computers, phones, or other connected devices, including their mouse, reports India Today.</description>
     </item>
     
     <item>
       <title>Cinco sites para streaming</title>
-      <link>https://hugo-paper.vercel.app/post/cinco-sites-para-streaming/</link>
+      <link>https://blog.brunomiguel.net/post/cinco-sites-para-streaming/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/cinco-sites-para-streaming/</guid>
+      <guid>https://blog.brunomiguel.net/post/cinco-sites-para-streaming/</guid>
       <description>Publiquei um artigo no Espalha Factos com uma lista de cinco sites para fazer streaming de filmes, séries, desporto e anime. Se quiseres saber quais são, clica aqui para seres reencaminhado para a lista.</description>
     </item>
     
     <item>
       <title>Bitwarden, um gestor de passwords gratuito e cheio de funcionalidades</title>
-      <link>https://hugo-paper.vercel.app/post/bitwarden-um-gestor-de-passwords-gratuito-e-cheio-de-funcionalidades/</link>
+      <link>https://blog.brunomiguel.net/post/bitwarden-um-gestor-de-passwords-gratuito-e-cheio-de-funcionalidades/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/bitwarden-um-gestor-de-passwords-gratuito-e-cheio-de-funcionalidades/</guid>
+      <guid>https://blog.brunomiguel.net/post/bitwarden-um-gestor-de-passwords-gratuito-e-cheio-de-funcionalidades/</guid>
       <description>As passwords são tão importantes quanto são difíceis de gerir. Este é um dos motivos que nos leva a utilizar as mesmas palavras-passe repetidamente e a descartamos a complexidade em favor do facilitismos quando escolhemos/criamos uma.
 As passwords também são difíceis de escolher. As regras recomendadas há uns tempos atrás, em que nos diziam para combinar maiúsculas com números e caracteres especiais (o # ou o _ sendo dois exemplos), já não são párias para um pequeno cluster de placas gráficas a processar informação para o hashcat.</description>
     </item>
     
     <item>
       <title>Trying Debian Stable for everyday desktop usage</title>
-      <link>https://hugo-paper.vercel.app/post/trying-debian-stable-for-everyday-desktop-usage/</link>
+      <link>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/trying-debian-stable-for-everyday-desktop-usage/</guid>
+      <guid>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</guid>
       <description>A few days ago I installed Debian Stable. I&amp;rsquo;d been using Sparky Linux, which is based on Debian Testing, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.
 Well, since Sparky is based on Debian, the &amp;ldquo;bunch of software available in the repositories&amp;rdquo; part was a given from the start.</description>
     </item>
     
     <item>
       <title>As passwords são bichos complicados</title>
-      <link>https://hugo-paper.vercel.app/post/as-passwords-sao-bichos-complicados/</link>
+      <link>https://blog.brunomiguel.net/post/as-passwords-sao-bichos-complicados/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/as-passwords-sao-bichos-complicados/</guid>
+      <guid>https://blog.brunomiguel.net/post/as-passwords-sao-bichos-complicados/</guid>
       <description>Retirado do webcomic Wumo.</description>
     </item>
     
     <item>
       <title>How to install an operating system to a USB drive</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-install-an-operating-system-to-a-usb-drive/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-install-an-operating-system-to-a-usb-drive/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/</guid>
       <description>Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&amp;rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
 sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive.</description>
     </item>
     
     <item>
       <title>Kalashnikov unveils a retro-styled electric car</title>
-      <link>https://hugo-paper.vercel.app/post/kalashnikov-unveils-a-retro-styled-electric-car/</link>
+      <link>https://blog.brunomiguel.net/post/kalashnikov-unveils-a-retro-styled-electric-car/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/kalashnikov-unveils-a-retro-styled-electric-car/</guid>
+      <guid>https://blog.brunomiguel.net/post/kalashnikov-unveils-a-retro-styled-electric-car/</guid>
       <description>Russian weapons manufacturer Kalashnikov unveiled a line of electric and hybrid cars, buggies and motorcycles this week. One of those vehicles is a retro-styled concept car named CV-1, capable of running for 350 kilometers with a single charge and accelerating from 0 to 100 km/h in 6 seconds. And it doesn&amp;rsquo;t look that bad.</description>
     </item>
     
     <item>
       <title>Canhoto ou destro, tudo depende da espinha dorsal</title>
-      <link>https://hugo-paper.vercel.app/post/canhoto-ou-destro-tudo-depende-da-espinha-dorsal/</link>
+      <link>https://blog.brunomiguel.net/post/canhoto-ou-destro-tudo-depende-da-espinha-dorsal/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/canhoto-ou-destro-tudo-depende-da-espinha-dorsal/</guid>
+      <guid>https://blog.brunomiguel.net/post/canhoto-ou-destro-tudo-depende-da-espinha-dorsal/</guid>
       <description>A espinha dorsal - e não o cérebro, como se pensava até agora - é que define se somos canhotos ou destros. Esta conclusão foi avançada num artigo da autoria investigadores da Universidade Ruhr de Bochum, juntamente com outros investigadores da Holanda e África do Sul.
  Um estudo publicado no eLife no ano passado sugere que, ao contrário do que se pensava, não nasces canhoto(a) ou destro(a) devido às diferenças genéticas entre os dois hemisférios do teu cérebro, mas sim a um mecanismo na espinha dorsal.</description>
     </item>
     
     <item>
       <title>Bash: how-to improve history manipulation</title>
-      <link>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</link>
+      <link>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/bash-better-history-manipulation/</guid>
+      <guid>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</guid>
       <description>By default, up and down keys allow you to navigate your bash history. Another option is the history built-in command and bash expansions (ex.: !2 runs the second command, oldest to newest, from your bash history).
 There are also tools, like bash-it, that allow for better history manipulation, but this also adds a lot of other stuff, so it might make your .bashrc load slower. It will make your bash look good as hell too.</description>
     </item>
     
     <item>
       <title>Criptex, an encripted email service with focus on privacy</title>
-      <link>https://hugo-paper.vercel.app/post/criptex-an-encripted-email-service-with-focus-on-privacy/</link>
+      <link>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/criptex-an-encripted-email-service-with-focus-on-privacy/</guid>
+      <guid>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</guid>
       <description>Criptex is a new email client with a strong focus on the user&amp;rsquo;s privacy and data security, released by an independent company with the same name. The app stores all the emails on the device(s) it&amp;rsquo;s used, encrypted with the Signal Protocol, instead of storing them in their servers. This gives user&amp;rsquo;s total control over their data.
 This software is open source and available for Android, iOS and macOS. Linux and Windows releases will be available soon.</description>
     </item>
     
     <item>
       <title>NASA open-sources its mini Mars rover, turns out to be a son of a (r)Pi</title>
-      <link>https://hugo-paper.vercel.app/post/nasa-mini-rover-open-source/</link>
+      <link>https://blog.brunomiguel.net/post/nasa-mini-rover-open-source/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/nasa-mini-rover-open-source/</guid>
+      <guid>https://blog.brunomiguel.net/post/nasa-mini-rover-open-source/</guid>
       <description>NASA&amp;rsquo;s Jet Propulsion Laboratory (JPL) developed a mini version of the Mars Curiosity Rover, and open sourced the design and software used. The source is hosted at the agency&amp;rsquo;s Github account.
 The project uses mostly consumer off-the-shelf parts. One of them is a Raspberry Pi, used as the &amp;ldquo;brain&amp;rdquo; of the rover.
 From the Github repo:
@@ -804,20 +804,20 @@ From the Github repo:
     
     <item>
       <title>note-keeper, a script for your note taking needs</title>
-      <link>https://hugo-paper.vercel.app/post/note-keeper-a-script-for-your-note-taking-needs/</link>
+      <link>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/note-keeper-a-script-for-your-note-taking-needs/</guid>
+      <guid>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</guid>
       <description>note-keeper is a small bash script to simplify the creation, editing and management of notes. It uses the text editor set up in the $EDITOR environment variable, but if that variable is empty it defaults to Vim in insert mode.
 (the image from this post is the one found in the script repository at the time of this article publishing)</description>
     </item>
     
     <item>
       <title>TESS is officially looking for exoplanets</title>
-      <link>https://hugo-paper.vercel.app/post/tess-is-officially-looking-for-exoplanets/</link>
+      <link>https://blog.brunomiguel.net/post/tess-is-officially-looking-for-exoplanets/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/tess-is-officially-looking-for-exoplanets/</guid>
+      <guid>https://blog.brunomiguel.net/post/tess-is-officially-looking-for-exoplanets/</guid>
       <description>Step aside, Kepler, TESS (Transiting Exoplanet Survey Satellite) is in town and ready to discover more exoplanets (planets outside of our solar system) and closer to &amp;ldquo;home&amp;rdquo;.
 From Engadget:
  TESS is a follow-up to Kepler, a spacecraft that has spent the last nine years searching for Earth-like exoplanets near Sun-like stars. Though it may be on its last legs, Kepler has already found 2,650 confirmed exoplanets and even more are expected to be discovered from the data it has collected.</description>
@@ -825,10 +825,10 @@ From Engadget:
     
     <item>
       <title>Firefox começou a bloquear a reprodução automática de áudio</title>
-      <link>https://hugo-paper.vercel.app/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link>
+      <link>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid>
+      <guid>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid>
       <description>O Firefox começou a permitir o bloqueio de áudio com reprodução automática nas nightly builds. Isto inclui, por exemplo, os vídeos que a CNET mete no site e que são irritantes como o caraças.
 O anúncio foi feito por Dale Harvey, um dos programadores do Firefox, no Twitter.
 https://twitter.com/daleharvey/status/1020619223863873539?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1020619223863873539&amp;amp;ref_url=https%3A%2F%2Fwww.engadget.com%2F2018%2F07%2F24%2Ffirefox-nightly-blocks-autoplaying-audio%2F
@@ -837,10 +837,10 @@ A funcionalidade tem três modos: desligada, pedir sempre permissão para reprod
     
     <item>
       <title>How to get good font rendering in Void Linux</title>
-      <link>https://hugo-paper.vercel.app/post/how-to-get-good-font-rendering-in-void-linux/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/how-to-get-good-font-rendering-in-void-linux/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/</guid>
       <description>This post lacks an example image because I&amp;rsquo;ve recovered it from a backup (with only text and no image) and I&amp;rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&amp;rsquo;ll gladly use it here and give you credit.
 This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment.</description>
     </item>
