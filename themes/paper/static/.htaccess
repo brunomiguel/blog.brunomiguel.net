@@ -33,10 +33,6 @@ ErrorDocument 404 /404.html
 #   h5bp/web_performance/compression.conf                              |
 # ----------------------------------------------------------------------
 
-# MIME Mappings
-AddType font/woff .woff
-AddType font/woff2 .woff2
-
 <IfModule mod_deflate.c>
 
     # Force compression for mangled `Accept-Encoding` request headers
