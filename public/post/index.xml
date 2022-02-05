@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logseq é a melhor coisa a seguir ao pão com dentes</title>
+      <link>https://blog.brunomiguel.net/post/logseq/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/logseq/</guid>
+      <description>A procura de uma ferramenta que me permita organizar notas, pensamentos rápidos, estudos, links, etc, de uma forma acessível e facilmente pesquisável é algo que faço há mais tempo do que quero admitir. Testei uma imensidão de aplicações durante esse tempo mas nunca nenhuma encaixou bem no que pretendia. Dois dos grandes problemas das ferramentas que testei eram a falta de interligação entre os conteúdos inseridos e a facilidade com que esses mesmos conteúdos ficavam esquecidos no &amp;ldquo;fundo do arquivo&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>Migrar de Wordpress para Hugo</title>
       <link>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</link>
@@ -232,15 +241,6 @@ Tendo em conta que isto é crónico, #FML.</description>
       
       <guid>https://blog.brunomiguel.net/post/37/</guid>
       <description>Imagem sob a licença CC-BY-NC-SA-2.0 | Autor: Tom Magliery</description>
-    </item>
-    
-    <item>
-      <title>Logseq é a melhor coisa a seguir ao pão com dentes</title>
-      <link>https://blog.brunomiguel.net/post/logseq/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/logseq/</guid>
-      <description>A procura de uma ferramenta que me permita organizar notas, pensamentos rápidos, estudos, links, etc, de uma forma acessível e facilmente pesquisável é algo que faço há mais tempo do que quero admitir. Testei uma imensidão de aplicações durante esse tempo mas nunca nenhuma encaixou bem no que pretendia. Dois dos grandes problemas das ferramentas que testei eram a falta de interligação entre os conteúdos inseridos e a facilidade com que esses mesmos conteúdos ficavam esquecidos no &amp;ldquo;fundo do arquivo&amp;rdquo;.</description>
     </item>
     
     <item>

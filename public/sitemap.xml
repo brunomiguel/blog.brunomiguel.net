@@ -3,15 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/blog/</loc>
-    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/ferramentas/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/logseq/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/logseq/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/notas/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/organiza%C3%A7%C3%A3o/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/software/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/blog/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/hugo/</loc>
@@ -23,16 +47,10 @@
     <loc>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/about/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/static-site-generator/</loc>
-    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/wordpress/</loc>
@@ -288,24 +306,6 @@
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/37/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/ferramentas/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/logseq/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/post/logseq/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/notas/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/organiza%C3%A7%C3%A3o/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/software/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/a-minha-curta-experiencia-a-viver-com-fibromialgia/</loc>

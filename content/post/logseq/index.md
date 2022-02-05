@@ -1,6 +1,6 @@
 ---
 title: "Logseq é a melhor coisa a seguir ao pão com dentes"
-date: "2020-10-16"
+date: "2022-02-05"
 categories: 
   - "geekices"
 tags: 
