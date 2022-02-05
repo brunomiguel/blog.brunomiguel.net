@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrar de Wordpress para Hugo</title>
+      <link>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</guid>
+      <description>Migrar este blog de Wordpress para um static site generator é algo que pretendia fazer há algum tempo. A fase de planeamento começou no início do segundo trimestre de 2020. Pouco tempo depois, a fibromialgia surgiu na minha vida e fui obrigado a arrumar a ideia numa gaveta. A vontade de o fazer, contudo, nunca desapareceu; só faltava a energia e a concentração para passar à ação e para a realização do trabalho.</description>
+    </item>
+    
     <item>
       <title>Sobre o blog e o autor</title>
       <link>https://blog.brunomiguel.net/about/</link>

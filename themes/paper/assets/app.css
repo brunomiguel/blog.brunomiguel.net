@@ -572,6 +572,10 @@ a {
   margin-inline: auto;
 }
 
+.post-content small {
+		font-size: 1.65rem;
+}
+
 .post-single .featured-image {
 	margin-bottom: var(--y-gap);
 }

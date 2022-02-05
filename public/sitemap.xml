@@ -2,11 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.brunomiguel.net/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/blog/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/hugo/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.brunomiguel.net/about/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
+    <loc>https://blog.brunomiguel.net/tags/static-site-generator/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/wordpress/</loc>
+    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/arch-linux/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
@@ -17,13 +47,7 @@
     <loc>https://blog.brunomiguel.net/tags/bluetooth/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/endeavouros/</loc>
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/linux/</loc>
@@ -41,20 +65,11 @@
     <loc>https://blog.brunomiguel.net/tags/playlist/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/spotify/</loc>
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/top-2021/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/blog/</loc>
-    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/cansaco/</loc>
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>

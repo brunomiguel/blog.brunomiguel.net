@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="pt">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Migrar de Wordpress para Hugo - .blog</title>
+
+  
+  
+  <meta name="description" content="Migrar este blog de Wordpress para um static site generator é algo que pretendia fazer há algum tempo. A fase de planeamento começou no início do segundo trimestre de 2020. Pouco tempo depois, a fibromialgia surgiu na minha vida e fui obrigado a arrumar a ideia numa gaveta. A vontade de o fazer, contudo, nunca desapareceu; só faltava a energia e a concentração para passar à ação e para a realização do trabalho." />
+  <meta name="author" content="" />
+  
+
+  
+  <script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://blog.brunomiguel.net/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://blog.brunomiguel.net/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://blog.brunomiguel.net/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://blog.brunomiguel.net/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://blog.brunomiguel.net/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://blog.brunomiguel.net/post/migrar-wordpress-hugo/images/chris-briggs-CG8lOT5dUew-unsplash.jpg"/>
+<meta name="twitter:title" content="Migrar de Wordpress para Hugo"/>
+<meta name="twitter:description" content="Durante muitos anos, este blog usou Wordpress. Agora, usa o static site generator Hugo e tem melhor performance."/>
+
+
+
+<meta property="og:title" content="Migrar de Wordpress para Hugo" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://blog.brunomiguel.net/post/migrar-wordpress-hugo/images/chris-briggs-CG8lOT5dUew-unsplash.jpg">
+
+<meta property="og:url" content="https://blog.brunomiguel.net/post/migrar-wordpress-hugo/" />
+
+
+<meta property="og:description" content="Durante muitos anos, este blog usou Wordpress. Agora, usa o static site generator Hugo e tem melhor performance." />
+
+
+
+<meta property="og:locale" content="pt" />
+
+
+
+
+<meta property="og:site_name" content=".blog" />
+
+
+
+
+<meta property="article:published_time" content="2022-02-04T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2022-02-04T00:00:00&#43;00:00" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://blog.brunomiguel.net">.blog</a>
+  </p>
+  
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">Sobre</a>
+    
+    <a class="" href="https://github.com/brunomiguel/antinonio/">Lista Antinónio</a>
+    
+    <a class="" href="https://userrepository.eu/">Userrepository</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/brunomiguel"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+  <a class="btn-dark"></a>
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      
+      <time>04/02/2022</time>
+      
+      
+    </p>
+    <h1>Migrar de Wordpress para Hugo</h1>
+  </header>
+
+  
+	
+            <p class="featured-image full-width"><img src="https://blog.brunomiguel.net/post/migrar-wordpress-hugo/images/chris-briggs-CG8lOT5dUew-unsplash.jpg" alt="Featured Image"></p>
+	
+
+  <section class="post-content"><p>Migrar este <em>blog</em> de <em>Wordpress</em> para um <em>static site generator</em> é algo que pretendia fazer há algum tempo. A fase de planeamento começou no início do segundo trimestre de 2020. Pouco tempo depois, a fibromialgia surgiu na minha vida e fui obrigado a arrumar a ideia numa gaveta. A vontade de o fazer, contudo, nunca desapareceu; só faltava a energia e a concentração para passar à ação e para a realização do trabalho.</p>
+<p>Em novembro do ano passado, aborrecido com a minha saúde e desejoso de arranjar algo para me ajudar a distrair das dores, comecei a preparar a migração. Vi algumas opções para <em>static site generator</em> e acabei por escolher o <em>Hugo</em>. De todos os que vi, foi o que me pareceu mais simples de usar sem sacrificar funcionalidades e com várias boas opções de <em>templates</em> como base para desenvolver o meu. A experiência a criar o <em>blog</em> sobre fibromialgia também ajudou nesta decisão - se bem que, nesse, escolhi um <em>template</em> em que praticamente não fiz modificações.</p>
+<h2 id="a-migração">A migração</h2>
+<p>A parte inicial da migração foi a leitura da documentação do <em>Hugo</em> e a análise de alguns <em>templates</em> (sempre há um lado positivo em ter problemas em dormir por causa das dores: fica-se com tempo livre a mais). Este passo facilitou bastante os seguintes porque me muniu de conhecimento suficiente para começar a trabalhar o <em>template</em> que escolhi como base a uma velocidade aceitável, dentro das muitas limitações que a fibromialgia me trouxe - como a dificuldade de concentração, por exemplo.</p>
+<p>Assim que aquilo que entendi como mínimo necessário para o <em>template</em> estava feito, tive de arranjar forma de migrar o conteúdo para ficheiros <em>markdown</em>. Fazê-lo manualmente era impensável, pois era algo que ia demorar imenso tempo. A solução passava claramente pela automatização.</p>
+<p>Encontrar uma ferramenta para fazer a conversão automaticamente não foi fácil. A documentação do <em>Hugo</em> menciona algumas aplicações, mas nenhuma delas conseguiu produzir resultados minimamente desejáveis. Só depois de uma pesquisa num motor de busca é que encontrei uma que gera resultados satisfatórios, quando cheguei a este <a href="https://loganmarchione.com/2021/02/migrating-from-wordpress-to-hugo/">post</a>. A aplicação chama-se <a href="https://github.com/lonekorean/wordpress-export-to-markdown">wordpress-export-to-markdown</a> e faz praticamente tudo bem na exportação menos gerar o <em>path</em> para a imagem de destaque conforme a implementação que fiz no <em>template</em>. Para resolver isso, bastou realizar umas pequenas alterações ao código-fonte, alterações essas que irei publicar eventualmente.</p>
+<p>Resolvido este problema, surgiu outro: corrigir a formatação de alguns <em>posts</em>. Este é um <em>work in progress</em> e será feito conforme a energia que vou tendo para isso. Sim, quer dizer que pode demorar algum tempo.</p>
+<h2 id="o-_template_">O <em>template</em></h2>
+<p>Por forma a ter bons tempos de carregamento e uma base sólida fácil de alterar, escolhi o <a href="https://github.com/nanxiaobei/hugo-paper"><em>Paper</em></a> como <em>template</em> base. Este é um dos mais conhecidos e usados para <em>Hugo</em>, o que significa boa documentação, manutenção e também, em teoria, menos dores de cabeça para mim. Para dores de cabeça, já me bastam a fibromialgia e a sinusite. 😮‍💨</p>
+<p>A base é boa, mas nem tudo é perfeito: por exemplo, o tema não suporta imagens de destaque. Para adicionar a funcionalidade, tive de usar a mesma implementação feita no <em>template</em> do <em>blog</em> sobre fibromialgia, e adaptar a <em>metadata</em> do <em>Opengraph</em> e <em>Twitter cards</em> a essa implementação. Assim não há risco da imagem de destaque de um <em>post</em> não aparecer quando é partilhado nas redes sociais.</p>
+<p>Esta não foi a única alteração que fiz. Algumas delas foram estéticas, como uma palete de cores diferente ou a forma como a navegação entre páginas e <em>posts</em> aparece. O <em>overflow</em> da imagem de destaque, que também pode ser aplicado às imagens dentro do <em>post</em> com a classe <em>CSS</em> <em>.full-width</em>, foi mais uma mudança que fiz ao original. Estas alterações aproximam o <em>template</em> do que usava em <em>Wordpress</em> e do qual gostava bastante.</p>
+<p>Outras das alterações que fiz foram, por exemplo, a criação de um <em>shortcode</em> para conteúdos do <em>Spotify</em>, regras de <em>Cache-Control</em> e ativação da compressão <em>gzip</em> na maioria dos conteúdos. Estas duas últimas alterações permitiram-me conseguir uma classificação de 100% para a página inicial no <em>PageSpeed Insights</em>.</p>
+<h2 id="repositório-_git_">Repositório <em>git</em></h2>
+<p>O conteúdo e o <em>template</em> estão disponíveis num repositório no <em><a href="https://github.com/brunomiguel/blog.brunomiguel.net/">Github</a></em>. Este repositório, no entanto, é temporário: quando tiver a migração mais avançada, vou colocar o <em>template</em> num e o conteúdo noutro. Enquanto isso não acontece, podes ver o que tenho feito até agora, incluindo os disparates, no histórico de <em>commits</em>. Algum do histórico de alterações não está lá porque só criei o repositório uns tempos depois de ter começado a trabalhar na migração. Ainda assim, dá para teres uma ideia do fiz até agora E podes submeter <em>pull-requests</em> e reportar <em>bugs</em>, que eu agradeço.</p>
+<p>Agora despeço-me com amizade. Até ao próximo <em>post</em>.</p>
+<p><small><em>A <a href="https://unsplash.com/photos/CG8lOT5dUew">imagem</a> deste post é da autoria de <a href="https://unsplash.com/@cgbriggs19">Chris Briggs</a> e foi publicada no Unsplash. A <a href="https://unsplash.com/license">licença</a> está disponível no site.</em></small></p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+
+	<small><strong>categorias</strong><br/> 
+    <a href="https://blog.brunomiguel.net/categories/geekices">geekices</a>
+    </small>
+	<br><br>
+  <small><strong>tags</strong><br/> 
+  <a href="https://blog.brunomiguel.net/tags/wordpress">wordpress</a>
+   
+  <a href="https://blog.brunomiguel.net/tags/hugo">hugo</a>
+   
+  <a href="https://blog.brunomiguel.net/tags/blog">blog</a>
+   
+  <a href="https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o">migração</a>
+   
+  <a href="https://blog.brunomiguel.net/tags/static-site-generator">static site generator</a>
+  </small>
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+     
+    <a class="next" href="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/"><span>Ativar a indicação …</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
+  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
+</footer>
+  </body>
+</html>
