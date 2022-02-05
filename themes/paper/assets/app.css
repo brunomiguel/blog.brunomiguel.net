@@ -293,7 +293,20 @@ a {
 	transition: background-color 0.2s;
 }
 
-.social a.twitter:hover, .social a.github:hover {
+.social a.rss {
+		background-color: var(--black);
+		-webkit-mask-size: contain;
+		mask-size: contain;
+		-webkit-mask-position: center;
+		mask-position: center;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+		mask-image: url(./rss.svg);
+		-webkit-mask-image: url(./rss.svg);
+		transition: background-color 0.2s;
+}
+
+.social a.twitter:hover, .social a.github:hover, .social a.rss:hover {
 	background-color: var(--hyperlink);
 	transition: background-color 0.2s;
 }
