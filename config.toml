@@ -11,6 +11,7 @@ enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 enableEmoji = true
 preserveTaxonomyNames = true
+disqusShortname = "blog-brunomiguel"
 
 # ------------------------------
 theme = "paper"
