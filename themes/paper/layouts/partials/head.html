@@ -10,9 +10,10 @@
   {{ if eq .Kind "page" }}
   <meta name="description" content="{{ .Summary }}" />
   <meta name="author" content="{{ .Params.Author | default site.Author.name }}" />
+  <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", "}}{{ end }}" />
   {{ else }}
   <meta name="description" content="{{ site.Params.description }}" />
-  <meta name="author" content="{{ site.Author.name }}" />
+  <meta name="author" content="{{ site.Params.author }}" />
   {{ end }}
 
   <!-- GoatCounter Stats -->

@@ -1,6 +1,5 @@
 baseURL = "https://blog.brunomiguel.net"
 title = ".blog"
-author = "Bruno Miguel"
 copyright = "Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 paginate = 5
 languageCode = "pt"
@@ -18,6 +17,8 @@ theme = "paper"
 #title = "Paper"
 
 [params]
+	description = "O melhor blog do universo e, quiçá, de Portugal"
+	author = "Bruno Miguel"
   twitter = 'brunomiguel'
   github = 'brunomiguel'
   #instagram = 'nan.xiaobei'

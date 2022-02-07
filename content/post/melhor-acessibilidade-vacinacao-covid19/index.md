@@ -1,6 +1,7 @@
 ---
 title: "Melhor acessibilidade para vacinação"
 description: "Quem tem mobilidade reduzida e/ou sofre de dor crónica agradece"
+author: "Bruno Miguel"
 date: "2022-02-07"
 categories: 
   - "cenas"
