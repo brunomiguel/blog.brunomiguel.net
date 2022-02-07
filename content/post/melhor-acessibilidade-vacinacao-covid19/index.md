@@ -29,5 +29,5 @@ Hoje, recebi um email do município de Coimbra, onde apresentam as seguintes sol
 
 Confesso que fiquei contente com a resposta e espero que a Administração Regional de Saúde do Centro, I.P. (ARSC) adote estas sugestões. Nós, com mobilidade reduzida e/ou dor crónica, agradecemos imenso não ficar com mais dores do que já temos 24/7!
 
-<small>_A [imagem](https://unsplash.com/photos/ju1yFZkrxVg) deste post é da autoria de [Daniel Ali](https://unsplash.com/@untodesign_) e foi publicada no Unsplash. A [licença](https://unsplash.com/license) está disponível no site.
+<small>_A [imagem](https://unsplash.com/photos/ju1yFZkrxVg) deste post é da autoria de [Daniel Ali](https://unsplash.com/@untodesign_) e foi publicada no Unsplash. A [licença](https://unsplash.com/license) está disponível no site_.</small>
 
