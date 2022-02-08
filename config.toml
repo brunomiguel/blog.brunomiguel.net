@@ -19,7 +19,7 @@ theme = "paper"
 [params]
 	description = "O melhor blog do universo e, quiçá, de Portugal"
 	author = "Bruno Miguel"
-	tags = "Bruno Miguel, blog, tecnologia, software livre, open-source, código aberto, normas abertas, linux, fotografia, antinonio, userrepository"
+	tags = "Bruno Miguel, blog, tecnologia, software livre, open-source, código aberto, normas abertas, linux, fotografia, antinonio, userrepository, dicas, tutoriais, tutorial"
   twitter = 'brunomiguel'
   github = 'brunomiguel'
   #instagram = 'nan.xiaobei'
