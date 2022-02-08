@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/acessibilidade/</loc>
-    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+    <loc>https://blog.brunomiguel.net/post/a-testar-o-codeberg/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/codeberg/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/git/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/github/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/open-source/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/software-livre/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/acessibilidade/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/cenas/</loc>
@@ -26,19 +56,10 @@
     <loc>https://blog.brunomiguel.net/tags/mobilidade-reduzida/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
-    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/vacina%C3%A7%C3%A3o/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/ferramentas/</loc>
-    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
     <lastmod>2022-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/logseq/</loc>
@@ -273,9 +294,6 @@
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/archlinux/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/git/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/some-changes-to-userrepository/</loc>
@@ -855,9 +873,6 @@
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/antinonio/</loc>
-    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/github/</loc>
     <lastmod>2019-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/construcao/</loc>
