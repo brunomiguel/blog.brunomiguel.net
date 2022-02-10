@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>canvas</title>
+      <link>https://blog.brunomiguel.net/tags/canvas/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/canvas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cookies</title>
+      <link>https://blog.brunomiguel.net/tags/cookies/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/cookies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fingerprinting</title>
+      <link>https://blog.brunomiguel.net/tags/fingerprinting/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/fingerprinting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacidade</title>
+      <link>https://blog.brunomiguel.net/tags/privacidade/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/privacidade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracking</title>
+      <link>https://blog.brunomiguel.net/tags/tracking/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webgl</title>
+      <link>https://blog.brunomiguel.net/tags/webgl/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/webgl/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Codeberg</title>
       <link>https://blog.brunomiguel.net/tags/codeberg/</link>
@@ -761,15 +815,6 @@
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/encriptacao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacidade</title>
-      <link>https://blog.brunomiguel.net/tags/privacidade/</link>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/privacidade/</guid>
       <description></description>
     </item>
     
