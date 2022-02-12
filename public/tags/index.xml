@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>404</title>
+      <link>https://blog.brunomiguel.net/tags/404/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/404/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://blog.brunomiguel.net/tags/blog/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>star trek</title>
+      <link>https://blog.brunomiguel.net/tags/star-trek/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/star-trek/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>canvas</title>
       <link>https://blog.brunomiguel.net/tags/canvas/</link>
@@ -203,15 +230,6 @@
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://blog.brunomiguel.net/tags/blog/</link>
-      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/blog/</guid>
       <description></description>
     </item>
     

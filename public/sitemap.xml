@@ -3,12 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/canvas/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
+    <loc>https://blog.brunomiguel.net/tags/404/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/blog/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/pagina-404/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/star-trek/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/canvas/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/cookies/</loc>
@@ -17,16 +38,7 @@
     <loc>https://blog.brunomiguel.net/tags/fingerprinting/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/privacidade/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/tracking/</loc>
@@ -97,9 +109,6 @@
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/software/</loc>
     <lastmod>2022-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/blog/</loc>
-    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/hugo/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>

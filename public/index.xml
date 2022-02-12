@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Página 404</title>
+      <link>https://blog.brunomiguel.net/post/pagina-404/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/pagina-404/</guid>
+      <description>A página deste blog para o erro 404 - o código HTTP que é enviado para o cliente quando o servidor não encontra o conteúdo solicitado - era algo muito simples, apenas com um texto a dizer 404. Eu queria um bocadinho mais que isso. O objetivo não era usar a página para ter um compêndio dos últimos posts nem nada do género, apenas tentar fazer rir um pouco quem acabasse nela.</description>
+    </item>
+    
     <item>
       <title>Web stalking/tracking</title>
       <link>https://blog.brunomiguel.net/post/web-stalking-tracking/</link>
