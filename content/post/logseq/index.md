@@ -1,6 +1,7 @@
 ---
 title: "Logseq é a melhor coisa a seguir ao pão com dentes"
 date: "2022-02-05"
+author: "Bruno Miguel"
 categories: 
   - "geekices"
 tags: 
