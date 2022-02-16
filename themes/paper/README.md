@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Paperino Diddly <sup><sup><sub>1.0</sub></sup></sup></h1>
-<h3>Based on the [Paper theme](https://themes.gohugo.io/hugo-paper/)</h3>
+<h3>Based on the <a href="https://themes.gohugo.io/hugo-paper/">Paper theme</a></h3>
 
 Demo → [My personal blog](https://blog.brunomiguel.net/)
 
