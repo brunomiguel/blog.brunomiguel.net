@@ -36,6 +36,7 @@ git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper
 ```
 
 _Update the section below_
+
 Open `config.toml`, change `theme` to `"paper"`:
 
 ```toml
