@@ -1,7 +1,8 @@
 <div align="center">
-<h1>Paper <sup><sup><sub>5.1</sub></sup></sup></h1>
+<h1>Paperino Diddly <sup><sup><sub>1.0</sub></sup></sup></h1>
+<h3>Based on the [Paper theme](https://themes.gohugo.io/hugo-paper/)
 
-Demo → [hugo-paper.vercel.app](https://hugo-paper.vercel.app/)
+Demo → [My personal blog](https://blog.brunomiguel.net/)
 
 <hr />
 
@@ -21,18 +22,25 @@ Hugo themes: [themes.gohugo.io/hugo-paper](https://themes.gohugo.io/hugo-paper/)
 
 ## Overview
 
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/master/images/screenshot.png)
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/master/images/screenshot_dark.png)
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/master/images/screenshot_mobile.png)
+![](https://raw.githubusercontent.com/brunomiguel/blog.brunomiguel.net/main/themes/paper/images/screenshot.png)
+![](https://raw.githubusercontent.com/brunomiguel/blog.brunomiguel.net/main/themes/paper/images/screenshot_dark.png)
+![](https://raw.githubusercontent.com/brunomiguel/blog.brunomiguel.net/main/themes/paper/images/screenshot_mobile.png)
 
 ## Install
 
 Inside the folder of your Hugo project, run:
 
+```TODO
+Update the section below
+```
+
 ```bash
 git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper
 ```
 
+```TODO
+Update the section below
+```
 Open `config.toml`, change `theme` to `"paper"`:
 
 ```toml
@@ -57,10 +65,5 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
 
 ## License
 
-[MIT License](https://github.com/nanxiaobei/hugo-paper/blob/master/LICENSE) (c) [nanxiaobei](https://lee.so/)
+[MIT License](https://github.com/brunomiguel/blog.brunomiguel.net/blob/main/themes/paper/LICENSE) (c) [brunomiguel](https://blog.brunomiguel.net/)
 
-## FUTAKE
-
-Try [**FUTAKE**](https://sotake.com/f) in WeChat. A mini app for your inspiration moments. 🌈
-
-![FUTAKE](https://s3.jpg.cm/2021/09/21/IFG3wi.png)
