@@ -61,5 +61,7 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
 
 ## License
 
+[MIT License](https://github.com/nanxiaobei/hugo-paper/blob/master/LICENSE) (c) [nanxiaobei](https://lee.so/)
+
 [MIT License](https://github.com/brunomiguel/blog.brunomiguel.net/blob/main/themes/paper/LICENSE) (c) [brunomiguel](https://blog.brunomiguel.net/)
 
