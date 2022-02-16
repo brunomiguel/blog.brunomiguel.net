@@ -207,7 +207,7 @@
 {{ $featured := ""}}
 
 {{ if $image }}
-	{{ $featured = print "<img src=\"" $image "\" alt=\"Featured Image\">" | safeHTML }}
+	{{ $featured = print "<img loading="lazy" src=\"" $image "\" alt=\"Featured Image\">" | safeHTML }}
 
 {{ end }}
 
