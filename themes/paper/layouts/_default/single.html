@@ -7,9 +7,9 @@
       <time>{{ .Date | time.Format ":date_short" }}</time>
       {{ if or .Params.Author site.Author.name }}
       <span>{{ .Params.Author | default site.Author.name }}</span>
+      {{ end }}
       <span>{{ $readTime := mul (div .WordCount 200.0) 60 }}{{ $minutes := math.Round (div $readTime 60) }}Tempo de leitura: {{ $minutes }} {{ cond (le $minutes 1) "minuto" "minutos" }}
       </span>
-      {{ end }}
       {{ end }}
     </p>
     <h1>{{ .Title }}</h1>
