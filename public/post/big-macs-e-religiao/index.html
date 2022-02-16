@@ -116,6 +116,16 @@ Se queres entender os processos que levam a maioria dos humanos à religião, es
 
 
 
+  
+  <script>
+    window.onload = function () {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
+          'prefers-color-scheme-dark')) {
+        localStorage.setItem('prefers-color-scheme-dark', true);
+      }
+    };
+  </script>
+
 </head>
 
 

@@ -116,6 +116,16 @@ This single cosmic event, close to our solar system, gave birth to 0.3 percent o
 
 
 
+  
+  <script>
+    window.onload = function () {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
+          'prefers-color-scheme-dark')) {
+        localStorage.setItem('prefers-color-scheme-dark', true);
+      }
+    };
+  </script>
+
 </head>
 
 

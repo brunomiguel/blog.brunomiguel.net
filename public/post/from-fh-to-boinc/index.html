@@ -116,6 +116,16 @@ Today, I&rsquo;ve switched to Boinc with the Rosetta@home project. This change w
 
 
 
+  
+  <script>
+    window.onload = function () {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
+          'prefers-color-scheme-dark')) {
+        localStorage.setItem('prefers-color-scheme-dark', true);
+      }
+    };
+  </script>
+
 </head>
 
 

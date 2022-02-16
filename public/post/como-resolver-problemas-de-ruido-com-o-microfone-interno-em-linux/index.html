@@ -116,6 +116,16 @@ Andei uns dias de volta do alsa ou do pulseaudio, porque pensava que o problema 
 
 
 
+  
+  <script>
+    window.onload = function () {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
+          'prefers-color-scheme-dark')) {
+        localStorage.setItem('prefers-color-scheme-dark', true);
+      }
+    };
+  </script>
+
 </head>
 
 

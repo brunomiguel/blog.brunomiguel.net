@@ -116,6 +116,16 @@ Finally, a few days ago, I enabled the service. I also created a package with th
 
 
 
+  
+  <script>
+    window.onload = function () {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
+          'prefers-color-scheme-dark')) {
+        localStorage.setItem('prefers-color-scheme-dark', true);
+      }
+    };
+  </script>
+
 </head>
 
 

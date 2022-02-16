@@ -112,6 +112,16 @@ O Codeberg é como o Github, um serviço para alojar repositórios Git, com func
 
 
 
+  
+  <script>
+    window.onload = function () {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
+          'prefers-color-scheme-dark')) {
+        localStorage.setItem('prefers-color-scheme-dark', true);
+      }
+    };
+  </script>
+
 </head>
 
 
@@ -188,6 +198,13 @@ O Codeberg é como o Github, um serviço para alojar repositórios Git, com func
       <time>08/02/2022</time>
       
       <span>Bruno Miguel</span>
+      <span>
+        
+
+        
+
+        Tempo de leitura: 1 minuto
+      </span>
       
       
     </p>
