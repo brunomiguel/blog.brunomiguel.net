@@ -8,7 +8,7 @@
       {{ if or .Params.Author .Site.Params.author }}
       <span>{{ .Params.Author | default .Site.Params.author }}</span>
       {{ end }}
-      <span>{{ $readTime := mul (div .WordCount 200.0) 60 }}{{ $minutes := math.Round (div $readTime 60) }}Tempo de leitura: {{ $minutes }} {{ cond (le $minutes 1) "minuto" "minutos" }}
+      <span>{{ $readTime := mul (div .WordCount 200) 60 }}{{ $minutes := math.Round (div $readTime 60) }}Tempo de leitura: {{ $minutes }} {{ cond (eq $minutes 1.0 ) "minuto" "minutos" }}
       </span>
       {{ end }}
     </p>
