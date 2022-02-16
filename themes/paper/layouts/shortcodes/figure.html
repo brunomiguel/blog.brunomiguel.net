@@ -1,0 +1,11 @@
+<!--
+Parameters:
+    class - full-width for expanded images or leave it blank
+    url - the url of the image
+-->
+
+{{ if .IsNamedParams }}
+	<p class="{{ .Get "class" }}"><img loading="lazy" src="{{ .Get "url" }}"></p>
+{{ else }}
+	<p><img loading="lazy" src="{{ .Get 0 }}"/></p>
+{{ end }}
