@@ -21,10 +21,10 @@ Porque raio perguntam pelos *cookies* se, no final, fica tudo praticamente na me
 As imagens abaixo mostram o antes e o depois da escolha em relação aos cookies.
 
 ### Antes
-<p class="full-width"><img src="images/stalking-antes.jpg"/></p>
+{{< figure class="full-width" url="images/stalking-antes.jpg" >}}
 
 ### Depois
-<p class="full-width"><img src="images/stalking-depois.jpg"></p>
+{{< figure class="full-width" url="images/stalking-depois.jpg" >}}
 
 A *CNBC* está longe de ser caso único. O *Twitter*, por exemplo, está constantemente a tentar injetar coisas. Se deixar o *browser* aberto um par de horas, tenho mais de mil elementos bloqueados pelo *adblocker*. Sim, leste bem, mais de mil! Isto é fácil de confirmar: abre o site da rede social (já com o *adblocker* ativo e *login* feito), não faças mais nada e vê o número de elementos bloqueados a aumentar. _True story._
 
