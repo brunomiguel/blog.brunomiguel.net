@@ -255,7 +255,7 @@ a {
 }
 
 .menu a.active {
-  opacity: 0.44;
+  color: var(--air);
 }
 
 .social {
