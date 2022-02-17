@@ -21,11 +21,11 @@
   --footer: calc(8rem + var(--safe-bottom));
 
   --light: 255, 255, 255;
-  --dark: 1, 22, 39;
-  --hljs-bg: #010b14;
-  --hyperlink: #FF9F1C;
-	--alternate-hyperlink: #E71D36;
-	--border: 1, 22, 39;
+  --dark: 9, 13, 21;
+  --hljs-bg: #121B2B;
+  --hyperlink: #F1320C;
+	--alternate-hyperlink: #42B336;
+	--border: 9, 13, 21;
 
   --safe-bottom: 0;
 }
@@ -43,11 +43,12 @@
 }
 
 .dark {
-  --light: 1, 22, 39;
+  --light: 9, 13, 21;
   --dark: 255, 255, 255;
-  --hljs-bg: #010b14;
-  --hyperlink: #FF9F1C;
-	--border: 253, 255, 252;
+  --hljs-bg: #121B2B;
+  --hyperlink: #ECEC0B;
+  --alternate-hyperlink: #42B336;
+	--border: 39, 168, 168;
 }
 
 *,
@@ -620,8 +621,8 @@ a {
 }
 
 .post-content a:hover {
-	color: var(--lit);
-	border-color: var(--lit);
+	color: var(--alternate-hyperlink);
+	border-color: var(--alternate-hyperlink);
 }
 
 .post-content a code {
@@ -810,8 +811,8 @@ a {
 }
 
 .footer a:hover {
-  color: var(--pro);
-  border-bottom: 1px solid var(--pro);
+  color: var(--alternate-hyperlink);
+  border-bottom: 1px solid var(--alternate-hyperlink);
 }
 
 /* 404

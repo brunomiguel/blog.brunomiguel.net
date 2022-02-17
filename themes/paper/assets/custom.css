@@ -124,3 +124,8 @@
 	content: "";
 	line-height: 1.2;
 }
+
+mark {
+		background-color: var(--hyperlink);
+		color: var(--white);
+}
