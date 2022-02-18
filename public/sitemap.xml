@@ -3,7 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/arch-linux/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/catppuccin/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/endeavouros/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/manjaro/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/open-source/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/pacman/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/palete-de-cores/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/repositorio-cara-lavada/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/userrepository/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/404/</loc>
     <lastmod>2022-02-12T00:00:00+00:00</lastmod>
@@ -11,22 +50,10 @@
     <loc>https://blog.brunomiguel.net/tags/blog/</loc>
     <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/post/pagina-404/</loc>
     <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/star-trek/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
     <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/canvas/</loc>
@@ -63,9 +90,6 @@
     <lastmod>2022-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/github/</loc>
-    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/open-source/</loc>
     <lastmod>2022-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/software-livre/</loc>
@@ -128,16 +152,10 @@
     <loc>https://blog.brunomiguel.net/tags/wordpress/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/arch-linux/</loc>
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/bluetooth/</loc>
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/endeavouros/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/linux/</loc>
@@ -314,13 +332,7 @@
     <loc>https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/manjaro/</loc>
-    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/packages/</loc>
-    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/userrepository/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/archlinux/</loc>
@@ -415,9 +427,6 @@
   </url><url>
     <loc>https://blog.brunomiguel.net/post/some-statistics-for-userrepository/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/pacman/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/seguranca/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>

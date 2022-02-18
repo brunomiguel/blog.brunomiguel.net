@@ -7,7 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arch-linux</title>
+      <link>https://blog.brunomiguel.net/tags/arch-linux/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>catppuccin</title>
+      <link>https://blog.brunomiguel.net/tags/catppuccin/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/catppuccin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>endeavouros</title>
+      <link>https://blog.brunomiguel.net/tags/endeavouros/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/endeavouros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>https://blog.brunomiguel.net/tags/manjaro/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/manjaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-Source</title>
+      <link>https://blog.brunomiguel.net/tags/open-source/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pacman</title>
+      <link>https://blog.brunomiguel.net/tags/pacman/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/pacman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>palete de cores</title>
+      <link>https://blog.brunomiguel.net/tags/palete-de-cores/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/palete-de-cores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>userrepository</title>
+      <link>https://blog.brunomiguel.net/tags/userrepository/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/userrepository/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>404</title>
       <link>https://blog.brunomiguel.net/tags/404/</link>
@@ -122,15 +194,6 @@
       <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open-Source</title>
-      <link>https://blog.brunomiguel.net/tags/open-source/</link>
-      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/open-source/</guid>
       <description></description>
     </item>
     
@@ -270,29 +333,11 @@
     </item>
     
     <item>
-      <title>arch-linux</title>
-      <link>https://blog.brunomiguel.net/tags/arch-linux/</link>
-      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/arch-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bluetooth</title>
       <link>https://blog.brunomiguel.net/tags/bluetooth/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/bluetooth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>endeavouros</title>
-      <link>https://blog.brunomiguel.net/tags/endeavouros/</link>
-      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/endeavouros/</guid>
       <description></description>
     </item>
     
@@ -675,29 +720,11 @@
     </item>
     
     <item>
-      <title>manjaro</title>
-      <link>https://blog.brunomiguel.net/tags/manjaro/</link>
-      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/manjaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>packages</title>
       <link>https://blog.brunomiguel.net/tags/packages/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/packages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>userrepository</title>
-      <link>https://blog.brunomiguel.net/tags/userrepository/</link>
-      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/userrepository/</guid>
       <description></description>
     </item>
     
@@ -860,15 +887,6 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/ddos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pacman</title>
-      <link>https://blog.brunomiguel.net/tags/pacman/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/pacman/</guid>
       <description></description>
     </item>
     
