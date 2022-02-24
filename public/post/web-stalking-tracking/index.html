@@ -1,298 +1,106 @@
-<!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html lang="pt">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>Web stalking/tracking - .blog</title>
-
-  
-  
-  <meta name="description" content="Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais." />
-  <meta name="author" content="Bruno Miguel" />
-  <meta name="keywords" content="cookies, privacidade, fingerprinting, canvas, webgl, tracking" />
-  
-
-  
-  <link rel="canonical" href="https://blog.brunomiguel.net/post/web-stalking-tracking/" />
-
-  
-  <script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/app.min.css" />
-
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/an-old-hope.min.css" />
-  <script
-    defer
-    src="https://blog.brunomiguel.net/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/theme.png" />
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/twitter.svg" />
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/github.svg" />
-  
-
-  
-  <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://blog.brunomiguel.net/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-  
-
-  
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.brunomiguel.net/post/web-stalking-tracking/images/arthur-mazi-a8CxRWIu8yw-unsplash.jpg"/>
-<meta name="twitter:title" content="Web stalking/tracking"/>
-<meta name="twitter:description" content="Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais."/>
-
-
-
-<meta property="og:title" content="Web stalking/tracking" />
-<meta property="og:type" content="article" />
-
-
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>Web stalking/tracking - .blog</title>
+<meta name=description content="Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais.">
+<meta name=author content="Bruno Miguel">
+<meta name=keywords content="cookies,privacidade,fingerprinting,canvas,webgl,tracking">
+<link rel=canonical href=https://blog.brunomiguel.net/post/web-stalking-tracking/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net/post/web-stalking-tracking/images/arthur-mazi-a8CxRWIu8yw-unsplash.jpg">
+<meta name=twitter:title content="Web stalking/tracking">
+<meta name=twitter:description content="Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais.">
+<meta property="og:title" content="Web stalking/tracking">
+<meta property="og:type" content="article">
 <meta property="og:image" content="https://blog.brunomiguel.net/post/web-stalking-tracking/images/arthur-mazi-a8CxRWIu8yw-unsplash.jpg">
-
-<meta property="og:url" content="https://blog.brunomiguel.net/post/web-stalking-tracking/" />
-
-
-
-<meta property="og:description" content="Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais." />
-
-
-
-
-<meta property="og:locale" content="pt" />
-
-
-
-
-<meta property="og:site_name" content=".blog" />
-
-
-
-
-<meta property="article:published_time" content="2022-02-10T00:00:00&#43;00:00" />
-
-
-<meta property="article:modified_time" content="2022-02-10T00:00:00&#43;00:00" />
-
-
-
-
-  
-  <script>
-    window.onload = function () {
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
-          'prefers-color-scheme-dark')) {
-        localStorage.setItem('prefers-color-scheme-dark', true);
-      }
-    };
-  </script>
-
+<meta property="og:url" content="https://blog.brunomiguel.net/post/web-stalking-tracking/">
+<meta property="og:description" content="Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais.">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2022-02-10T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-02-10T00:00:00+00:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
 </head>
-
-
-  <body class="not-ready" data-menu="true">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://blog.brunomiguel.net">.blog</a>
-  </p>
-  
-
-  
-  
-  <nav class="menu">
-    
-    <a class="" href="/about/">Sobre</a>
-    
-    <a class="" href="https://github.com/brunomiguel/antinonio/">Lista Antinónio</a>
-    
-    <a class="" href="https://userrepository.eu/">Userrepository</a>
-    
-  </nav>
-  
-
-  
-  <nav class="social">
-    
-    <a
-      class="twitter"
-      style="--url: url(./twitter.svg)"
-      href="https://twitter.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a
-      class="github"
-      style="--url: url(./github.svg)"
-      href="https://github.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a class="rss" style="--url: url(./rss.svg)" href="https://blog.brunomiguel.net/index.xml" target="_blank"></a>
-  </nav>
-  
-  <a class="btn-dark"></a>
-
-  <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
-
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
-    };
-
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
-
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
-  </script>
-  
+<body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p>
+<nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+</nav>
+<nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav>
+<a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
 </header>
-
-
-    <main class="main">
-
-<article class="post-single">
-  <header class="post-title">
-    <p>
-      
-      <time>10/02/2022</time>
-      
-      <span>Bruno Miguel</span>
-      
-      <span>Tempo de leitura: 1 minuto
-      </span>
-      
-    </p>
-    <h1>Web stalking/tracking</h1>
-  </header>
-
-  
-	
-            <p class="featured-image full-width"><img loading="lazy" src="https://blog.brunomiguel.net/post/web-stalking-tracking/images/arthur-mazi-a8CxRWIu8yw-unsplash.jpg" alt="Featured Image"></p>
-	
-
-  <section class="post-content"><p>Que raio se passa com a <em>Web</em>? A quantidade de <em>tracking</em> a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da <em>CNBC</em> para ler uma <a href="https://www.cnbc.com/2022/02/08/tiktok-shares-your-data-more-than-any-other-social-media-app-study.html">notícia</a>, e ainda antes de fazer a minha escolha em relação aos <em>cookies</em>, já tinha paletes deles bloqueados pelo <em>uBlock Origin</em> e pelo <em>Privacy Badger</em>. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais.</p>
+<main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>10/02/2022</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 1 minuto
+</span>
+</p>
+<h1>Web stalking/tracking</h1>
+</header>
+<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/web-stalking-tracking/images/arthur-mazi-a8CxRWIu8yw-unsplash.jpg alt="Featured Image"></p>
+<section class=post-content><p>Que raio se passa com a <em>Web</em>? A quantidade de <em>tracking</em> a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da <em>CNBC</em> para ler uma <a href=https://www.cnbc.com/2022/02/08/tiktok-shares-your-data-more-than-any-other-social-media-app-study.html>notícia</a>, e ainda antes de fazer a minha escolha em relação aos <em>cookies</em>, já tinha paletes deles bloqueados pelo <em>uBlock Origin</em> e pelo <em>Privacy Badger</em>. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais.</p>
 <p>Porque raio perguntam pelos <em>cookies</em> se, no final, fica tudo praticamente na mesma? É verdade que não fui confirmar se o que escolhi para ficar desativo ficou realmente bloqueado. E para quê?! O número de coisas a tentar fazer <em>tracking</em> da minha navegação continuava alto como o caraças.</p>
 <p>As imagens abaixo mostram o antes e o depois da escolha em relação aos cookies.</p>
-<h3 id="antes">Antes</h3>
-
-
-
-	<p class="full-width"><img loading="lazy" src="images/stalking-antes.jpg"></p>
-
-
-<h3 id="depois">Depois</h3>
-
-
-
-	<p class="full-width"><img loading="lazy" src="images/stalking-depois.jpg"></p>
-
-
+<h3 id=antes>Antes</h3>
+<p class=full-width><img loading=lazy src=images/stalking-antes.jpg></p>
+<h3 id=depois>Depois</h3>
+<p class=full-width><img loading=lazy src=images/stalking-depois.jpg></p>
 <p>A <em>CNBC</em> está longe de ser caso único. O <em>Twitter</em>, por exemplo, está constantemente a tentar injetar coisas. Se deixar o <em>browser</em> aberto um par de horas, tenho mais de mil elementos bloqueados pelo <em>adblocker</em>. Sim, leste bem, mais de mil! Isto é fácil de confirmar: abre o site da rede social (já com o <em>adblocker</em> ativo e <em>login</em> feito), não faças mais nada e vê o número de elementos bloqueados a aumentar. <em>True story.</em></p>
-<p>Tenho saudades de quando navegar na web não significava ter centenas e centenas de <del><a href="https://www.youtube.com/watch?v=IgQE7545LHs">balões</a></del> <em>trackers</em> a olhar para nós. Isto é arrepiante, para não dizer mais. Mesmo com <em>adblockers</em>, continuam a fazer <em>tracking</em> por <em><a href="https://browserleaks.com/canvas">Canvas</a></em>, <em><a href="https://news.ycombinator.com/item?id=26844928">WebGL</a></em> e sabe-se lá que outros métodos. De certeza que deve haver uma forma mais ética de fazer isto.</p>
-<p><small><em>A primeira <a href="https://unsplash.com/photos/a8CxRWIu8yw">imagem</a> deste post é da autoria de <a href="https://unsplash.com/@arthurbizkit">Arthur Mazi</a> e foi publicada no Unsplash. A <a href="https://unsplash.com/license">licença</a> está disponível no site.</em>
-<em>As restantes imagens são screenshots da minha autoria e estão disponíveis sob a licença Creative Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>)</em></small></p>
+<p>Tenho saudades de quando navegar na web não significava ter centenas e centenas de <del><a href="https://www.youtube.com/watch?v=IgQE7545LHs">balões</a></del> <em>trackers</em> a olhar para nós. Isto é arrepiante, para não dizer mais. Mesmo com <em>adblockers</em>, continuam a fazer <em>tracking</em> por <em><a href=https://browserleaks.com/canvas>Canvas</a></em>, <em><a href="https://news.ycombinator.com/item?id=26844928">WebGL</a></em> e sabe-se lá que outros métodos. De certeza que deve haver uma forma mais ética de fazer isto.</p>
+<p><small><em>A primeira <a href=https://unsplash.com/photos/a8CxRWIu8yw>imagem</a> deste post é da autoria de <a href=https://unsplash.com/@arthurbizkit>Arthur Mazi</a> e foi publicada no Unsplash. A <a href=https://unsplash.com/license>licença</a> está disponível no site.</em>
+<em>As restantes imagens são screenshots da minha autoria e estão disponíveis sob a licença Creative Commons (<a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a>)</em></small></p>
 </section>
-
-  
-  
-  <footer class="post-tags">
-
-	<small><strong>categorias</strong><br/> 
-    <a href="https://blog.brunomiguel.net/categories/geekices">geekices</a>
-    </small>
-	<br><br>
-  <small><strong>tags</strong><br/> 
-  <a href="https://blog.brunomiguel.net/tags/cookies">cookies</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/privacidade">privacidade</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/fingerprinting">fingerprinting</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/canvas">canvas</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/webgl">webgl</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/tracking">tracking</a>
-  </small>
-  </footer>
-  
-
-  
-
-  
-  <div id="disqus_thread" class="post-comments"></div>
-  <script>
-    var disqusShortname = 'blog-brunomiguel';
-    var script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  
-
-  
-  
-  
-  <nav class="post-nav">
-    
-    <a class="prev" href="https://blog.brunomiguel.net/post/pagina-404/"><span>←</span><span>Página 404</span></a>
-     
-    <a class="next" href="https://blog.brunomiguel.net/post/a-testar-o-codeberg/"><span>A testar o Codeberg …</span><span>→</span></a>
-    
-  </nav>
-  
-
-</article>
-
-</main>
-
-    <footer class="footer">
-  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
-  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
-  <p>Alojado pela <a href="https://webtuga.pt" rel="noopener" target="_blank">Webtuga</a></p>
+<footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/cookies>cookies</a>
+<a href=https://blog.brunomiguel.net/tags/privacidade>privacidade</a>
+<a href=https://blog.brunomiguel.net/tags/fingerprinting>fingerprinting</a>
+<a href=https://blog.brunomiguel.net/tags/canvas>canvas</a>
+<a href=https://blog.brunomiguel.net/tags/webgl>webgl</a>
+<a href=https://blog.brunomiguel.net/tags/tracking>tracking</a>
+</small>
 </footer>
-
-  </body>
+<div id=disqus_thread class=post-comments></div>
+<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=prev href=https://blog.brunomiguel.net/post/pagina-404/><span>←</span><span>Página 404</span></a>
+<a class=next href=https://blog.brunomiguel.net/post/a-testar-o-codeberg/><span>A testar o Codeberg …</span><span>→</span></a>
+</nav>
+</article>
+</main>
+<footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
+<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
+<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
+</footer>
+</body>
 </html>

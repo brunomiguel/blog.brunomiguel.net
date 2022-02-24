@@ -1,42 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>software on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/software/</link>
-    <description>Recent content in software on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/software/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Logseq é a melhor coisa a seguir ao pão com dentes</title>
-      <link>https://blog.brunomiguel.net/post/logseq/</link>
-      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/logseq/</guid>
-      <description>A procura de uma ferramenta que me permita organizar notas, pensamentos rápidos, estudos, links, etc, de uma forma acessível e facilmente pesquisável é algo que faço há mais tempo do que quero admitir. Testei uma imensidão de aplicações durante esse tempo mas nunca nenhuma encaixou bem no que pretendia. Dois dos grandes problemas das ferramentas que testei eram a falta de interligação entre os conteúdos inseridos e a facilidade com que esses mesmos conteúdos ficavam esquecidos no &amp;ldquo;fundo do arquivo&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Userrepository now on Arch Wiki</title>
-      <link>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</link>
-      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</guid>
-      <description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software on .blog</title><link>https://blog.brunomiguel.net/tags/software/</link><description>Recent content in software on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Logseq é a melhor coisa a seguir ao pão com dentes</title><link>https://blog.brunomiguel.net/post/logseq/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/logseq/</guid><description>A procura de uma ferramenta que me permita organizar notas, pensamentos rápidos, estudos, links, etc, de uma forma acessível e facilmente pesquisável é algo que faço há mais tempo do que quero admitir. Testei uma imensidão de aplicações durante esse tempo mas nunca nenhuma encaixou bem no que pretendia. Dois dos grandes problemas das ferramentas que testei eram a falta de interligação entre os conteúdos inseridos e a facilidade com que esses mesmos conteúdos ficavam esquecidos no &amp;ldquo;fundo do arquivo&amp;rdquo;.</description></item><item><title>Userrepository now on Arch Wiki</title><link>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</link><pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</guid><description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
 Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the chance to list all packages currently available at the time of writing:
- acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
-    </item>
-    
-    <item>
-      <title>note-keeper, a script for your note taking needs</title>
-      <link>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</link>
-      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</guid>
-      <description>note-keeper is a small bash script to simplify the creation, editing and management of notes. It uses the text editor set up in the $EDITOR environment variable, but if that variable is empty it defaults to Vim in insert mode.
-(the image from this post is the one found in the script repository at the time of this article publishing)</description>
-    </item>
-    
-  </channel>
-</rss>
+acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description></item><item><title>note-keeper, a script for your note taking needs</title><link>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</link><pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/note-keeper-a-script-for-your-note-taking-needs/</guid><description>note-keeper is a small bash script to simplify the creation, editing and management of notes. It uses the text editor set up in the $EDITOR environment variable, but if that variable is empty it defaults to Vim in insert mode.
+(the image from this post is the one found in the script repository at the time of this article publishing)</description></item></channel></rss>

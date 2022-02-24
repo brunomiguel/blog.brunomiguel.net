@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>opera on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/opera/</link>
-    <description>Recent content in opera on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/opera/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A few notes about Opera and Vivaldi</title>
-      <link>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</guid>
-      <description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
-The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>opera on .blog</title><link>https://blog.brunomiguel.net/tags/opera/</link><description>Recent content in opera on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/opera/index.xml" rel="self" type="application/rss+xml"/><item><title>A few notes about Opera and Vivaldi</title><link>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</link><pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</guid><description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
+The good sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell) The bad resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both) The following specs were used when testing both browsers:</description></item></channel></rss>

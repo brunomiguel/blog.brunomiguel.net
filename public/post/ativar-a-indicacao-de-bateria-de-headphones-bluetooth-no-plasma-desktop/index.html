@@ -1,226 +1,77 @@
-<!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html lang="pt">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop - .blog</title>
-
-  
-  
-  <meta name="description" content="A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
-Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema." />
-  <meta name="author" content="" />
-  <meta name="keywords" content="arch-linux, bluetooth, endeavouros, linux" />
-  
-
-  
-  <link rel="canonical" href="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/" />
-
-  
-  <script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/app.min.css" />
-
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/an-old-hope.min.css" />
-  <script
-    defer
-    src="https://blog.brunomiguel.net/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/theme.png" />
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/twitter.svg" />
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/github.svg" />
-  
-
-  
-  <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://blog.brunomiguel.net/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-  
-
-  
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/images/jason-leung-xR4JHzr69Og-unsplash.jpg"/>
-<meta name="twitter:title" content="Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop"/>
-<meta name="twitter:description" content="A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
-Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema."/>
-
-
-
-<meta property="og:title" content="Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop" />
-<meta property="og:type" content="article" />
-
-
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop - .blog</title>
+<meta name=description content="A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
+Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema.">
+<meta name=author content>
+<meta name=keywords content="arch-linux,bluetooth,endeavouros,linux">
+<link rel=canonical href=https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/images/jason-leung-xR4JHzr69Og-unsplash.jpg">
+<meta name=twitter:title content="Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop">
+<meta name=twitter:description content="A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
+Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema.">
+<meta property="og:title" content="Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop">
+<meta property="og:type" content="article">
 <meta property="og:image" content="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/images/jason-leung-xR4JHzr69Og-unsplash.jpg">
-
-<meta property="og:url" content="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/" />
-
-
-
+<meta property="og:url" content="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/">
 <meta property="og:description" content="A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
-Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema." />
-
-
-
-
-<meta property="og:locale" content="pt" />
-
-
-
-
-<meta property="og:site_name" content=".blog" />
-
-
-
-
-<meta property="article:published_time" content="2022-01-21T00:00:00&#43;00:00" />
-
-
-<meta property="article:modified_time" content="2022-01-21T00:00:00&#43;00:00" />
-
-
-
-
-  
-  <script>
-    window.onload = function () {
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
-          'prefers-color-scheme-dark')) {
-        localStorage.setItem('prefers-color-scheme-dark', true);
-      }
-    };
-  </script>
-
+Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema.">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2022-01-21T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-01-21T00:00:00+00:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
 </head>
-
-
-  <body class="not-ready" data-menu="true">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://blog.brunomiguel.net">.blog</a>
-  </p>
-  
-
-  
-  
-  <nav class="menu">
-    
-    <a class="" href="/about/">Sobre</a>
-    
-    <a class="" href="https://github.com/brunomiguel/antinonio/">Lista Antinónio</a>
-    
-    <a class="" href="https://userrepository.eu/">Userrepository</a>
-    
-  </nav>
-  
-
-  
-  <nav class="social">
-    
-    <a
-      class="twitter"
-      style="--url: url(./twitter.svg)"
-      href="https://twitter.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a
-      class="github"
-      style="--url: url(./github.svg)"
-      href="https://github.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a class="rss" style="--url: url(./rss.svg)" href="https://blog.brunomiguel.net/index.xml" target="_blank"></a>
-  </nav>
-  
-  <a class="btn-dark"></a>
-
-  <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
-
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
-    };
-
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
-
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
-  </script>
-  
+<body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p>
+<nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+</nav>
+<nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav>
+<a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
 </header>
-
-
-    <main class="main">
-
-<article class="post-single">
-  <header class="post-title">
-    <p>
-      
-      <time>21/01/2022</time>
-      
-      <span>Bruno Miguel</span>
-      
-      <span>Tempo de leitura: 1 minuto
-      </span>
-      
-    </p>
-    <h1>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop</h1>
-  </header>
-
-  
-	
-            <p class="featured-image full-width"><img loading="lazy" src="https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/images/jason-leung-xR4JHzr69Og-unsplash.jpg" alt="Featured Image"></p>
-	
-
-  <section class="post-content"><p>A última vez que atualizei este <em>blog</em> foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este <em>post</em>, uma dica útil para quem usa o <em>Plasma Desktop</em> e <em>headphones Bluetooth</em>, e quer ver a percentagem de bateria na <em>applet</em>.</p>
+<main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>21/01/2022</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 1 minuto
+</span>
+</p>
+<h1>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop</h1>
+</header>
+<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/images/jason-leung-xR4JHzr69Og-unsplash.jpg alt="Featured Image"></p>
+<section class=post-content><p>A última vez que atualizei este <em>blog</em> foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este <em>post</em>, uma dica útil para quem usa o <em>Plasma Desktop</em> e <em>headphones Bluetooth</em>, e quer ver a percentagem de bateria na <em>applet</em>.</p>
 <p>Esta dica aplica-se a <em>EndeavourOS</em>, <em>Arch Linux</em> e outras distribuições baseadas em <em>Arch</em>. Noutras, o <em>path</em> do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema. Para além disso, se usares uma distribuição com outro <em>init system</em>, como o <em>runit</em>, também terás de ter isso em consideração.</p>
 <p>Ativar a visualização da bateria de headphones Bluetooth no Plasma é simples. Abre o ficheiro <code>/usr/lib/systemd/system/bluetooth.service</code> com o teu editor de texto preferido e, na linha <code>ExecStart=/usr/lib/bluetooth/bluetoothd</code>, adiciona <code>--experimental</code> à frente.</p>
 <p>Exemplo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo micro /usr/lib/systemd/system/bluetooth.service
-</code></pre></div><pre tabindex="0"><code>[Unit]
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo micro /usr/lib/systemd/system/bluetooth.service
+</code></pre></div><pre tabindex=0><code>[Unit]
 Description=Bluetooth service
 Documentation=man:bluetoothd(8)
 ConditionPathIsDirectory=/sys/class/bluetooth
@@ -242,64 +93,33 @@ WantedBy=bluetooth.target
 Alias=dbus-org.bluez.service
 </code></pre><p>Posto isto, necessitas de reiniciar o serviço do <em>bluetooth</em> com o comando <code>sudo systemctl restart bluetooth</code>, sair da sessão atual do <em>Plasma</em> e fazer <em>login</em> novamente.</p>
 <p>Queres ver como fica antes de adicionar a <em>flag</em>? Vê o <em>tweet</em> que publiquei sobre isto.</p>
-<p><a href="https://twitter.com/brunomiguel/status/1484344633509306368">https://twitter.com/brunomiguel/status/1484344633509306368</a></p>
-<p><em>foto do <a href="https://unsplash.com/photos/xR4JHzr69Og">Unsplash</a></em></p>
+<p><a href=https://twitter.com/brunomiguel/status/1484344633509306368>https://twitter.com/brunomiguel/status/1484344633509306368</a></p>
+<p><em>foto do <a href=https://unsplash.com/photos/xR4JHzr69Og>Unsplash</a></em></p>
 </section>
-
-  
-  
-  <footer class="post-tags">
-
-	<small><strong>categorias</strong><br/> 
-    <a href="https://blog.brunomiguel.net/categories/geekices">geekices</a>
-    </small>
-	<br><br>
-  <small><strong>tags</strong><br/> 
-  <a href="https://blog.brunomiguel.net/tags/arch-linux">arch-linux</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/bluetooth">bluetooth</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/endeavouros">endeavouros</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/linux">linux</a>
-  </small>
-  </footer>
-  
-
-  
-
-  
-  <div id="disqus_thread" class="post-comments"></div>
-  <script>
-    var disqusShortname = 'blog-brunomiguel';
-    var script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  
-
-  
-  
-  
-  <nav class="post-nav">
-    
-    <a class="prev" href="https://blog.brunomiguel.net/post/migrar-wordpress-hugo/"><span>←</span><span>Migrar de Wordpress …</span></a>
-     
-    <a class="next" href="https://blog.brunomiguel.net/post/o-meu-top-de-2021-no-spotify/"><span>O meu top de 2021 no …</span><span>→</span></a>
-    
-  </nav>
-  
-
-</article>
-
-</main>
-
-    <footer class="footer">
-  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
-  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
-  <p>Alojado pela <a href="https://webtuga.pt" rel="noopener" target="_blank">Webtuga</a></p>
+<footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/arch-linux>arch-linux</a>
+<a href=https://blog.brunomiguel.net/tags/bluetooth>bluetooth</a>
+<a href=https://blog.brunomiguel.net/tags/endeavouros>endeavouros</a>
+<a href=https://blog.brunomiguel.net/tags/linux>linux</a>
+</small>
 </footer>
-
-  </body>
+<div id=disqus_thread class=post-comments></div>
+<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=prev href=https://blog.brunomiguel.net/post/migrar-wordpress-hugo/><span>←</span><span>Migrar de Wordpress …</span></a>
+<a class=next href=https://blog.brunomiguel.net/post/o-meu-top-de-2021-no-spotify/><span>O meu top de 2021 no …</span><span>→</span></a>
+</nav>
+</article>
+</main>
+<footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
+<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
+<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
+</footer>
+</body>
 </html>

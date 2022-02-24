@@ -1,63 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>aur on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/aur/</link>
-    <description>Recent content in aur on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/aur/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Userrepository using mirrors</title>
-      <link>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</link>
-      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</guid>
-      <description>For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&amp;rsquo;s around the globe.
-Finally, a few days ago, I enabled the service. I also created a package with the mirror&amp;rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.</description>
-    </item>
-    
-    <item>
-      <title>A Dark theme for AUR</title>
-      <link>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</link>
-      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</guid>
-      <description>I love AUR. Being able to use a simple PKGBUILD to install a software not available in the official Arch repositories is a blessing. Sadly, its user experience and looks need improvements to bring it to the 21st century.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>aur on .blog</title><link>https://blog.brunomiguel.net/tags/aur/</link><description>Recent content in aur on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/aur/index.xml" rel="self" type="application/rss+xml"/><item><title>Userrepository using mirrors</title><link>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</guid><description>For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&amp;rsquo;s around the globe.
+Finally, a few days ago, I enabled the service. I also created a package with the mirror&amp;rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.</description></item><item><title>A Dark theme for AUR</title><link>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</link><pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</guid><description>I love AUR. Being able to use a simple PKGBUILD to install a software not available in the official Arch repositories is a blessing. Sadly, its user experience and looks need improvements to bring it to the 21st century.
 One of the things that bug me the most is the microscopic font size. I almost need a telescope to read the text.
-To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</description>
-    </item>
-    
-    <item>
-      <title>Updates on Userrepository and Jarvis</title>
-      <link>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</link>
-      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</guid>
-      <description>Lately, I&amp;rsquo;ve been having some problems when building picom-ibhagwan-git and picom-tryone-git. The first one would build OK, but not the second one.
-After a bit of debugging, I found out that it was a problem related to the way makepkg and git handle the cache when building these forks. This would also happen when adding the picom-git package: it would build because it&amp;rsquo;s the first package in alphabetical order and Jarvis builds the packages that way, but not the other two.</description>
-    </item>
-    
-    <item>
-      <title>Updates on my Arch/Manjaro repository</title>
-      <link>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</link>
-      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</guid>
-      <description>Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&amp;rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
-After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&amp;rsquo;ve been (successfully) testing aurto to manage the repository updates.</description>
-    </item>
-    
-    <item>
-      <title>I&#39;ve built a Manjaro repository</title>
-      <link>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</guid>
-      <description>Due to my own dumbness (I mistakenly deleted my Ubuntu partition), I installed Manjaro, using the Manjaro Architect release, on my laptop. I&amp;rsquo;d been thinking about doing it for a while and finally made it because I was too stupid to read the instructions from cfdisk. The shit you create yourself because you&amp;rsquo;re in a hurry…
-Anyway, after installing Manjaro, I started reading a bit about this distro packaging and how I could leverage AUR and binary packages.</description>
-    </item>
-    
-  </channel>
-</rss>
+To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</description></item><item><title>Updates on Userrepository and Jarvis</title><link>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</link><pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</guid><description>Lately, I&amp;rsquo;ve been having some problems when building picom-ibhagwan-git and picom-tryone-git. The first one would build OK, but not the second one.
+After a bit of debugging, I found out that it was a problem related to the way makepkg and git handle the cache when building these forks. This would also happen when adding the picom-git package: it would build because it&amp;rsquo;s the first package in alphabetical order and Jarvis builds the packages that way, but not the other two.</description></item><item><title>Updates on my Arch/Manjaro repository</title><link>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</link><pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</guid><description>Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&amp;rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
+After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&amp;rsquo;ve been (successfully) testing aurto to manage the repository updates.</description></item><item><title>I've built a Manjaro repository</title><link>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</link><pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</guid><description>Due to my own dumbness (I mistakenly deleted my Ubuntu partition), I installed Manjaro, using the Manjaro Architect release, on my laptop. I&amp;rsquo;d been thinking about doing it for a while and finally made it because I was too stupid to read the instructions from cfdisk. The shit you create yourself because you&amp;rsquo;re in a hurry…
+Anyway, after installing Manjaro, I started reading a bit about this distro packaging and how I could leverage AUR and binary packages.</description></item></channel></rss>

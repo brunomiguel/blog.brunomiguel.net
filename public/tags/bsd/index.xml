@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bsd on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/bsd/</link>
-    <description>Recent content in bsd on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/bsd/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Trying Debian Stable for everyday desktop usage</title>
-      <link>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</guid>
-      <description>A few days ago I installed Debian Stable. I&amp;rsquo;d been using Sparky Linux, which is based on Debian Testing, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.
-Well, since Sparky is based on Debian, the &amp;ldquo;bunch of software available in the repositories&amp;rdquo; part was a given from the start.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bsd on .blog</title><link>https://blog.brunomiguel.net/tags/bsd/</link><description>Recent content in bsd on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/bsd/index.xml" rel="self" type="application/rss+xml"/><item><title>Trying Debian Stable for everyday desktop usage</title><link>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</guid><description>A few days ago I installed Debian Stable. I&amp;rsquo;d been using Sparky Linux, which is based on Debian Testing, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.
+Well, since Sparky is based on Debian, the &amp;ldquo;bunch of software available in the repositories&amp;rdquo; part was a given from the start.</description></item></channel></rss>

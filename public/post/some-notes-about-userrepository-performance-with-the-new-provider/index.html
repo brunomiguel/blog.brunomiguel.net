@@ -1,274 +1,97 @@
-<!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html lang="pt">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>Some notes about userrepository performance with the new provider - .blog</title>
-
-  
-  
-  <meta name="description" content="In the previous post, I wrote about how I changed the virtual machine provider from Scaleway to Hetzner. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.
-The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, however: with Scaleway, the vCPUs were some Intel low-end ones (although they&rsquo;ve upgraded to AMD EPYC very recently) and with Hetzer they are AMD EPYC." />
-  <meta name="author" content="" />
-  <meta name="keywords" content="userrepository-eu" />
-  
-
-  
-  <link rel="canonical" href="https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/" />
-
-  
-  <script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/app.min.css" />
-
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/an-old-hope.min.css" />
-  <script
-    defer
-    src="https://blog.brunomiguel.net/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/theme.png" />
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/twitter.svg" />
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/github.svg" />
-  
-
-  
-  <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://blog.brunomiguel.net/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-  
-
-  
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/images/race.jpg"/>
-<meta name="twitter:title" content="Some notes about userrepository performance with the new provider"/>
-<meta name="twitter:description" content="In the previous post, I wrote about how I changed the virtual machine provider from Scaleway to Hetzner. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.
-The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, however: with Scaleway, the vCPUs were some Intel low-end ones (although they&rsquo;ve upgraded to AMD EPYC very recently) and with Hetzer they are AMD EPYC."/>
-
-
-
-<meta property="og:title" content="Some notes about userrepository performance with the new provider" />
-<meta property="og:type" content="article" />
-
-
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>Some notes about userrepository performance with the new provider - .blog</title>
+<meta name=description content="In the previous post, I wrote about how I changed the virtual machine provider from Scaleway to Hetzner. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.
+The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, however: with Scaleway, the vCPUs were some Intel low-end ones (although they&rsquo;ve upgraded to AMD EPYC very recently) and with Hetzer they are AMD EPYC.">
+<meta name=author content>
+<meta name=keywords content="userrepository-eu">
+<link rel=canonical href=https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/images/race.jpg">
+<meta name=twitter:title content="Some notes about userrepository performance with the new provider">
+<meta name=twitter:description content="In the previous post, I wrote about how I changed the virtual machine provider from Scaleway to Hetzner. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.
+The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, however: with Scaleway, the vCPUs were some Intel low-end ones (although they&rsquo;ve upgraded to AMD EPYC very recently) and with Hetzer they are AMD EPYC.">
+<meta property="og:title" content="Some notes about userrepository performance with the new provider">
+<meta property="og:type" content="article">
 <meta property="og:image" content="https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/images/race.jpg">
-
-<meta property="og:url" content="https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/" />
-
-
-
+<meta property="og:url" content="https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/">
 <meta property="og:description" content="In the previous post, I wrote about how I changed the virtual machine provider from Scaleway to Hetzner. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.
-The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, however: with Scaleway, the vCPUs were some Intel low-end ones (although they&rsquo;ve upgraded to AMD EPYC very recently) and with Hetzer they are AMD EPYC." />
-
-
-
-
-<meta property="og:locale" content="pt" />
-
-
-
-
-<meta property="og:site_name" content=".blog" />
-
-
-
-
-<meta property="article:published_time" content="2020-06-04T00:00:00&#43;00:00" />
-
-
-<meta property="article:modified_time" content="2020-06-04T00:00:00&#43;00:00" />
-
-
-
-
-  
-  <script>
-    window.onload = function () {
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
-          'prefers-color-scheme-dark')) {
-        localStorage.setItem('prefers-color-scheme-dark', true);
-      }
-    };
-  </script>
-
+The specs are very similar: 4 vCPUs and 8GB of RAM. There is one difference, however: with Scaleway, the vCPUs were some Intel low-end ones (although they&rsquo;ve upgraded to AMD EPYC very recently) and with Hetzer they are AMD EPYC.">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2020-06-04T00:00:00+00:00">
+<meta property="article:modified_time" content="2020-06-04T00:00:00+00:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
 </head>
-
-
-  <body class="not-ready" data-menu="true">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://blog.brunomiguel.net">.blog</a>
-  </p>
-  
-
-  
-  
-  <nav class="menu">
-    
-    <a class="" href="/about/">Sobre</a>
-    
-    <a class="" href="https://github.com/brunomiguel/antinonio/">Lista Antinónio</a>
-    
-    <a class="" href="https://userrepository.eu/">Userrepository</a>
-    
-  </nav>
-  
-
-  
-  <nav class="social">
-    
-    <a
-      class="twitter"
-      style="--url: url(./twitter.svg)"
-      href="https://twitter.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a
-      class="github"
-      style="--url: url(./github.svg)"
-      href="https://github.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a class="rss" style="--url: url(./rss.svg)" href="https://blog.brunomiguel.net/index.xml" target="_blank"></a>
-  </nav>
-  
-  <a class="btn-dark"></a>
-
-  <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
-
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
-    };
-
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
-
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
-  </script>
-  
+<body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p>
+<nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+</nav>
+<nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav>
+<a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
 </header>
-
-
-    <main class="main">
-
-<article class="post-single">
-  <header class="post-title">
-    <p>
-      
-      <time>04/06/2020</time>
-      
-      <span>Bruno Miguel</span>
-      
-      <span>Tempo de leitura: 0 minutos
-      </span>
-      
-    </p>
-    <h1>Some notes about userrepository performance with the new provider</h1>
-  </header>
-
-  
-	
-            <p class="featured-image full-width"><img loading="lazy" src="https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/images/race.jpg" alt="Featured Image"></p>
-	
-
-  <section class="post-content"><p>In the previous post, I wrote about how I changed the virtual machine provider from <em>Scaleway</em> to <em>Hetzner</em>. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.</p>
+<main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>04/06/2020</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 0 minutos
+</span>
+</p>
+<h1>Some notes about userrepository performance with the new provider</h1>
+</header>
+<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/some-notes-about-userrepository-performance-with-the-new-provider/images/race.jpg alt="Featured Image"></p>
+<section class=post-content><p>In the previous post, I wrote about how I changed the virtual machine provider from <em>Scaleway</em> to <em>Hetzner</em>. In the days following the transition, I timed how much it took to build all the packages and sync them to the webserver, so I could compare the new provider with the previous one.</p>
 <p>The specs are very similar: 4 <em>vCPUs</em> and 8GB of <em>RAM</em>. There is one difference, however: with <em>Scaleway</em>, the <em>vCPUs</em> were some <em>Intel</em> low-end ones (although they&rsquo;ve upgraded to <em>AMD EPYC</em> very recently) and with <em>Hetzer</em> they are <em>AMD EPYC</em>. And what a difference this makes.</p>
 <p>Previously, 250 and something packages took almost 5 hours to complete the build and sync them to the webserver. Now, it takes around 4 hours and 12 minutes to build and sync 328 packages. That&rsquo;s a huge difference.</p>
-<p>I&rsquo;ve only been using <em>Hetzer</em> for <em><a href="https://userrepository.eu">userrepository</a></em> for about a week, but so far it feels like an improvement. But I&rsquo;ve yet to test the network performance.</p>
+<p>I&rsquo;ve only been using <em>Hetzer</em> for <em><a href=https://userrepository.eu>userrepository</a></em> for about a week, but so far it feels like an improvement. But I&rsquo;ve yet to test the network performance.</p>
 </section>
-
-  
-  
-  <footer class="post-tags">
-
-	<small><strong>categorias</strong><br/> 
-    <a href="https://blog.brunomiguel.net/categories/geekices">geekices</a>
-    </small>
-	<br><br>
-  <small><strong>tags</strong><br/> 
-  <a href="https://blog.brunomiguel.net/tags/userrepository-eu">userrepository-eu</a>
-  </small>
-  </footer>
-  
-
-  
-
-  
-  <div id="disqus_thread" class="post-comments"></div>
-  <script>
-    var disqusShortname = 'blog-brunomiguel';
-    var script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  
-
-  
-  
-  
-  <nav class="post-nav">
-    
-    <a class="prev" href="https://blog.brunomiguel.net/post/saudosofm/"><span>←</span><span>SaudosoFM</span></a>
-     
-    <a class="next" href="https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/"><span>Userrepository.eu is …</span><span>→</span></a>
-    
-  </nav>
-  
-
-</article>
-
-</main>
-
-    <footer class="footer">
-  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
-  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
-  <p>Alojado pela <a href="https://webtuga.pt" rel="noopener" target="_blank">Webtuga</a></p>
+<footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/userrepository-eu>userrepository-eu</a>
+</small>
 </footer>
-
-  </body>
+<div id=disqus_thread class=post-comments></div>
+<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=prev href=https://blog.brunomiguel.net/post/saudosofm/><span>←</span><span>SaudosoFM</span></a>
+<a class=next href=https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/><span>Userrepository.eu is …</span><span>→</span></a>
+</nav>
+</article>
+</main>
+<footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
+<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
+<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
+</footer>
+</body>
 </html>

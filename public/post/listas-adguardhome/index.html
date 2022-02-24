@@ -1,0 +1,107 @@
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>Listas de bloqueio para o AdGuardHome - .blog</title>
+<meta name=description content="No post anterior, expliquei muito sucintamente como instalar o AdGuardHome. O processo é assim tão simples quanto parece e a utilização de recursos é surpreendentemente reduzida.
+Após a conclusão da instalação a aplicação, podes pretender ter mais listas de bloqueio ativas que a lista padrão. No momento de escrita deste post, são vinte e quatro as listas incluídas, desde listas para bloquear tracking a listas para bloquear malware. Para adicionares uma ou mais, deves ir Filters > DNS blocklists, carregar no botão Add blocklist e, na modal box que aparece, optar por uma das seguintes opções:">
+<meta name=author content="Bruno Miguel">
+<meta name=keywords content="AdGuardHome,DNS,Git,Software Livre,Open-Source,Código Fonte,resolver,unbound,DNS resolver">
+<link rel=canonical href=https://blog.brunomiguel.net/post/listas-adguardhome/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net/post/listas-adguardhome/images/adguardhome-filter-list.png">
+<meta name=twitter:title content="Listas de bloqueio para o AdGuardHome">
+<meta name=twitter:description content="O AdGuardHome vem com vinte e quatro listas de bloqueio incluídas e podes adicionar as tuas também">
+<meta property="og:title" content="Listas de bloqueio para o AdGuardHome">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://blog.brunomiguel.net/post/listas-adguardhome/images/adguardhome-filter-list.png">
+<meta property="og:url" content="https://blog.brunomiguel.net/post/listas-adguardhome/">
+<meta property="og:description" content="O AdGuardHome vem com vinte e quatro listas de bloqueio incluídas e podes adicionar as tuas também">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2022-02-24T11:30:00+01:00">
+<meta property="article:modified_time" content="2022-02-24T11:30:00+01:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
+</head>
+<body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p>
+<nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+</nav>
+<nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav>
+<a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>24/02/2022</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 1 minuto
+</span>
+</p>
+<h1>Listas de bloqueio para o AdGuardHome</h1>
+</header>
+<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/listas-adguardhome/images/adguardhome-filter-list.png alt="Featured Image"></p>
+<section class=post-content><p>No <a href=https://blog.brunomiguel.net/post/adguard/><em>post</em> anterior</a>, expliquei muito sucintamente como instalar o <em>AdGuardHome</em>. O processo é assim tão simples quanto parece e a utilização de recursos é surpreendentemente reduzida.</p>
+<p>Após a conclusão da instalação a aplicação, podes pretender ter mais listas de bloqueio ativas que a lista padrão. No momento de escrita deste <em>post</em>, são vinte e quatro as listas incluídas, desde listas para bloquear <em>tracking</em> a listas para bloquear <em>malware</em>. Para adicionares uma ou mais, deves ir <code>Filters > DNS blocklists</code>, carregar no botão <code>Add blocklist</code> e, na <em>modal box</em> que aparece, optar por uma das seguintes opções:</p>
+<ul>
+<li><code>Choose from list</code> se quiseres usar uma ou mais listas incluídas;</li>
+<li><code>Add custom list</code> para adicionares uma lista externa.</li>
+</ul>
+<p>Para adicionares a minha <a href=https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt>lista <em>Antinónio</em> adaptada ao <em>AdGuardHome</em></a>, o botão a pressionar é <code>Add custom list</code>. Depois inseres o nome e o link direto para o ficheiro: <a href=https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt>https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt</a></p>
+<p>Nalgumas situações, como a utilização do <em>software</em> numa <em>VPS</em> aberta ao mundo, obriga a pelo menos mais dois passos extra: obtenção de um certificado <em>SSL</em> e inserção do mesmo no <em>AdGuardHome</em>. O mais simples nesta situação é usar um certificado da <em>Let&rsquo;s Encrypt</em>, como é <a href=https://github.com/AdguardTeam/AdGuardHome/wiki/Encryption>explicado</a> na <em>wiki</em> do projeto.</p>
+<p><small><em>A imagem deste post é um screenshot da minha configuração de listas do AdGuardHome e está disponível sob a licença Creative Commons (<a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a>)</em></small></p>
+</section>
+<footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/adguardhome>AdGuardHome</a>
+<a href=https://blog.brunomiguel.net/tags/dns>DNS</a>
+<a href=https://blog.brunomiguel.net/tags/git>Git</a>
+<a href=https://blog.brunomiguel.net/tags/software-livre>Software Livre</a>
+<a href=https://blog.brunomiguel.net/tags/open-source>Open-Source</a>
+<a href=https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte>Código Fonte</a>
+<a href=https://blog.brunomiguel.net/tags/resolver>resolver</a>
+<a href=https://blog.brunomiguel.net/tags/unbound>unbound</a>
+<a href=https://blog.brunomiguel.net/tags/dns-resolver>DNS resolver</a>
+</small>
+</footer>
+<div id=disqus_thread class=post-comments></div>
+<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=next href=https://blog.brunomiguel.net/post/adguard/><span>Instalar o …</span><span>→</span></a>
+</nav>
+</article>
+</main>
+<footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
+<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
+<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
+</footer>
+</body>
+</html>

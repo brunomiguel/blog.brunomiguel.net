@@ -1,34 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>politica on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/politica/</link>
-    <description>Recent content in politica on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/politica/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deputados quânticos</title>
-      <link>https://blog.brunomiguel.net/post/deputados-quanticos/</link>
-      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/deputados-quanticos/</guid>
-      <description>Os deputados portugueses são a grande maravilha da física: possuem propriedades do entrelaçamento quântico, conseguindo estar em dois ou mais locais ao mesmo tempo. Alguém me explica porque andamos a estudar partículas quando podíamos estudar os nossos deputados?</description>
-    </item>
-    
-    <item>
-      <title>Planeta de idiotas</title>
-      <link>https://blog.brunomiguel.net/post/planeta-de-idiotas/</link>
-      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/planeta-de-idiotas/</guid>
-      <description>Já o tinha dito algumas vezes mas sempre em contexto de brincadeira porque não acreditava nisso, mas afinal, a brincar, tinha razão: o Idiocracy não é um filme de comédia, é uma premonição. Veja-se:
-  o imbecil do trump foi eleito presidente
-  a besta do duterte foi eleito presidente
-  a poia humana que é o bolsonaro vai a caminho de ser eleito presidente
-  Se a moda pega por cá, daqui a nada estamos a eleger o Bruno de Carvalho ou o Mário Machado para Presidente da República.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>politica on .blog</title><link>https://blog.brunomiguel.net/tags/politica/</link><description>Recent content in politica on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/politica/index.xml" rel="self" type="application/rss+xml"/><item><title>Deputados quânticos</title><link>https://blog.brunomiguel.net/post/deputados-quanticos/</link><pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/deputados-quanticos/</guid><description>Os deputados portugueses são a grande maravilha da física: possuem propriedades do entrelaçamento quântico, conseguindo estar em dois ou mais locais ao mesmo tempo. Alguém me explica porque andamos a estudar partículas quando podíamos estudar os nossos deputados?</description></item><item><title>Planeta de idiotas</title><link>https://blog.brunomiguel.net/post/planeta-de-idiotas/</link><pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/planeta-de-idiotas/</guid><description>Já o tinha dito algumas vezes mas sempre em contexto de brincadeira porque não acreditava nisso, mas afinal, a brincar, tinha razão: o Idiocracy não é um filme de comédia, é uma premonição. Veja-se:
+o imbecil do trump foi eleito presidente
+a besta do duterte foi eleito presidente
+a poia humana que é o bolsonaro vai a caminho de ser eleito presidente
+Se a moda pega por cá, daqui a nada estamos a eleger o Bruno de Carvalho ou o Mário Machado para Presidente da República.</description></item></channel></rss>

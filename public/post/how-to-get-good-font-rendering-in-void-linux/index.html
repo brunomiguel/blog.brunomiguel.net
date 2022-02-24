@@ -1,220 +1,72 @@
-<!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html lang="pt">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>How to get good font rendering in Void Linux - .blog</title>
-
-  
-  
-  <meta name="description" content="This post lacks an example image because I&rsquo;ve recovered it from a backup (with only text and no image) and I&rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&rsquo;ll gladly use it here and give you credit.
-This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment." />
-  <meta name="author" content="" />
-  <meta name="keywords" content="font-rendering, howto, tips, truetype, void-linux" />
-  
-
-  
-  <link rel="canonical" href="https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/" />
-
-  
-  <script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/app.min.css" />
-
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/an-old-hope.min.css" />
-  <script
-    defer
-    src="https://blog.brunomiguel.net/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/theme.png" />
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/twitter.svg" />
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/github.svg" />
-  
-
-  
-  <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://blog.brunomiguel.net/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-  
-
-  
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.brunomiguel.net"/>
-<meta name="twitter:title" content="How to get good font rendering in Void Linux"/>
-<meta name="twitter:description" content="This post lacks an example image because I&rsquo;ve recovered it from a backup (with only text and no image) and I&rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&rsquo;ll gladly use it here and give you credit.
-This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment."/>
-
-
-
-<meta property="og:title" content="How to get good font rendering in Void Linux" />
-<meta property="og:type" content="article" />
-
-
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>How to get good font rendering in Void Linux - .blog</title>
+<meta name=description content="This post lacks an example image because I&rsquo;ve recovered it from a backup (with only text and no image) and I&rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&rsquo;ll gladly use it here and give you credit.
+This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment.">
+<meta name=author content>
+<meta name=keywords content="font-rendering,howto,tips,truetype,void-linux">
+<link rel=canonical href=https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net">
+<meta name=twitter:title content="How to get good font rendering in Void Linux">
+<meta name=twitter:description content="This post lacks an example image because I&rsquo;ve recovered it from a backup (with only text and no image) and I&rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&rsquo;ll gladly use it here and give you credit.
+This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment.">
+<meta property="og:title" content="How to get good font rendering in Void Linux">
+<meta property="og:type" content="article">
 <meta property="og:image" content="https://blog.brunomiguel.net">
-
-<meta property="og:url" content="https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/" />
-
-
-
+<meta property="og:url" content="https://blog.brunomiguel.net/post/how-to-get-good-font-rendering-in-void-linux/">
 <meta property="og:description" content="This post lacks an example image because I&rsquo;ve recovered it from a backup (with only text and no image) and I&rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&rsquo;ll gladly use it here and give you credit.
-This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment." />
-
-
-
-
-<meta property="og:locale" content="pt" />
-
-
-
-
-<meta property="og:site_name" content=".blog" />
-
-
-
-
-<meta property="article:published_time" content="2018-07-24T00:00:00&#43;00:00" />
-
-
-<meta property="article:modified_time" content="2018-07-24T00:00:00&#43;00:00" />
-
-
-
-
-  
-  <script>
-    window.onload = function () {
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
-          'prefers-color-scheme-dark')) {
-        localStorage.setItem('prefers-color-scheme-dark', true);
-      }
-    };
-  </script>
-
+This guide assumes you are using Void Linux (you can probably replicate it in other distributions; just check the paths), have Freetype installed and using some sort of Window Manager or Desktop Environment.">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2018-07-24T00:00:00+00:00">
+<meta property="article:modified_time" content="2018-07-24T00:00:00+00:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
 </head>
-
-
-  <body class="not-ready" data-menu="true">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://blog.brunomiguel.net">.blog</a>
-  </p>
-  
-
-  
-  
-  <nav class="menu">
-    
-    <a class="" href="/about/">Sobre</a>
-    
-    <a class="" href="https://github.com/brunomiguel/antinonio/">Lista Antinónio</a>
-    
-    <a class="" href="https://userrepository.eu/">Userrepository</a>
-    
-  </nav>
-  
-
-  
-  <nav class="social">
-    
-    <a
-      class="twitter"
-      style="--url: url(./twitter.svg)"
-      href="https://twitter.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a
-      class="github"
-      style="--url: url(./github.svg)"
-      href="https://github.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a class="rss" style="--url: url(./rss.svg)" href="https://blog.brunomiguel.net/index.xml" target="_blank"></a>
-  </nav>
-  
-  <a class="btn-dark"></a>
-
-  <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
-
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
-    };
-
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
-
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
-  </script>
-  
+<body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p>
+<nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+</nav>
+<nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav>
+<a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
 </header>
-
-
-    <main class="main">
-
-<article class="post-single">
-  <header class="post-title">
-    <p>
-      
-      <time>24/07/2018</time>
-      
-      <span>Bruno Miguel</span>
-      
-      <span>Tempo de leitura: 1 minuto
-      </span>
-      
-    </p>
-    <h1>How to get good font rendering in Void Linux</h1>
-  </header>
-
-  
-	
-
-  <section class="post-content"><p>This post lacks an example image because I&rsquo;ve recovered it from a backup (with only text and no image) and I&rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&rsquo;ll gladly use it here and give you credit.</p>
-<p>This guide assumes you are using <a href="http://voidlinux.eu/">Void Linux</a> (you can probably replicate it in other distributions; just check the paths), have <em>Freetype</em> installed and using some sort of <em>Window Manager</em> or <em>Desktop Environment</em>. If you don&rsquo;t, <em>sudo xi</em> them. After that, fire up a terminal and create a symbolic link, from the following files in <em>/usr/share/fontconfig/conf.avail/,</em> to <em>/etc/fonts/conf.d</em>:</p>
+<main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>24/07/2018</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 1 minuto
+</span>
+</p>
+<h1>How to get good font rendering in Void Linux</h1>
+</header>
+<section class=post-content><p>This post lacks an example image because I&rsquo;ve recovered it from a backup (with only text and no image) and I&rsquo;m not using Void Linux at the moment. If you follow this guide and decide to share an image, I&rsquo;ll gladly use it here and give you credit.</p>
+<p>This guide assumes you are using <a href=http://voidlinux.eu/>Void Linux</a> (you can probably replicate it in other distributions; just check the paths), have <em>Freetype</em> installed and using some sort of <em>Window Manager</em> or <em>Desktop Environment</em>. If you don&rsquo;t, <em>sudo xi</em> them. After that, fire up a terminal and create a symbolic link, from the following files in <em>/usr/share/fontconfig/conf.avail/,</em> to <em>/etc/fonts/conf.d</em>:</p>
 <ul>
 <li>10-hinting-slight.conf</li>
 <li>10-scale-bitmap-fonts.conf</li>
@@ -260,72 +112,41 @@ Xft.lcdfilter: lcddefault</p>
 <p>Also, I'&rsquo;ve created the <em>/etc/profile.d/freetype2.sh</em> file with this content:</p>
 <p># Subpixel hinting mode can be chosen by setting the right TrueType interpreter<br>
 # version. The available settings are:</p>
-<h1 id="heading"></h1>
+<h1 id=heading></h1>
 <p># truetype:interpreter-version=35 # Classic mode (default in 2.6)<br>
 # truetype:interpreter-version=38 # Infinality mode<br>
 # truetype:interpreter-version=40 # Minimal mode (default in 2.7)</p>
-<h1 id="heading-1"></h1>
+<h1 id=heading-1></h1>
 <p># There are more properties that can be set, separated by whitespace. Please<br>
 # refer to the FreeType documentation for details.</p>
 <p># Uncomment and configure below</p>
 <p>export FREETYPE_PROPERTIES=&ldquo;truetype:interpreter-version=38&rdquo;</p>
 <p>Have an happy GNU Experience :)</p>
 </section>
-
-  
-  
-  <footer class="post-tags">
-
-	<small><strong>categorias</strong><br/> 
-    <a href="https://blog.brunomiguel.net/categories/geekices">geekices</a>
-    </small>
-	<br><br>
-  <small><strong>tags</strong><br/> 
-  <a href="https://blog.brunomiguel.net/tags/font-rendering">font-rendering</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/howto">howto</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/tips">tips</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/truetype">truetype</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/void-linux">void-linux</a>
-  </small>
-  </footer>
-  
-
-  
-
-  
-  <div id="disqus_thread" class="post-comments"></div>
-  <script>
-    var disqusShortname = 'blog-brunomiguel';
-    var script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  
-
-  
-  
-  
-  <nav class="post-nav">
-    
-    <a class="prev" href="https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/"><span>←</span><span>Firefox começou a …</span></a>
-     
-  </nav>
-  
-
-</article>
-
-</main>
-
-    <footer class="footer">
-  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
-  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
-  <p>Alojado pela <a href="https://webtuga.pt" rel="noopener" target="_blank">Webtuga</a></p>
+<footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/font-rendering>font-rendering</a>
+<a href=https://blog.brunomiguel.net/tags/howto>howto</a>
+<a href=https://blog.brunomiguel.net/tags/tips>tips</a>
+<a href=https://blog.brunomiguel.net/tags/truetype>truetype</a>
+<a href=https://blog.brunomiguel.net/tags/void-linux>void-linux</a>
+</small>
 </footer>
-
-  </body>
+<div id=disqus_thread class=post-comments></div>
+<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=prev href=https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/><span>←</span><span>Firefox começou a …</span></a>
+</nav>
+</article>
+</main>
+<footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
+<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
+<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
+</footer>
+</body>
 </html>

@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>criptex on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/criptex/</link>
-    <description>Recent content in criptex on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/criptex/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Criptex, an encripted email service with focus on privacy</title>
-      <link>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</link>
-      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</guid>
-      <description>Criptex is a new email client with a strong focus on the user&amp;rsquo;s privacy and data security, released by an independent company with the same name. The app stores all the emails on the device(s) it&amp;rsquo;s used, encrypted with the Signal Protocol, instead of storing them in their servers. This gives user&amp;rsquo;s total control over their data.
-This software is open source and available for Android, iOS and macOS. Linux and Windows releases will be available soon.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>criptex on .blog</title><link>https://blog.brunomiguel.net/tags/criptex/</link><description>Recent content in criptex on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/criptex/index.xml" rel="self" type="application/rss+xml"/><item><title>Criptex, an encripted email service with focus on privacy</title><link>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</guid><description>Criptex is a new email client with a strong focus on the user&amp;rsquo;s privacy and data security, released by an independent company with the same name. The app stores all the emails on the device(s) it&amp;rsquo;s used, encrypted with the Signal Protocol, instead of storing them in their servers. This gives user&amp;rsquo;s total control over their data.
+This software is open source and available for Android, iOS and macOS. Linux and Windows releases will be available soon.</description></item></channel></rss>

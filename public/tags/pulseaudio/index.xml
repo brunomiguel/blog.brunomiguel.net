@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>pulseaudio on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/pulseaudio/</link>
-    <description>Recent content in pulseaudio on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/pulseaudio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Como resolver problemas de ruído com o microfone interno em Linux</title>
-      <link>https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</guid>
-      <description>Quer no meu portátil, quer no da esposa, temos um problema irritante com o microfone de cada equipamento quando usamos o Jitsi Meet, Skype, Messenger e outras aplicações do género. A situação é a seguinte: quando o volume do micro está baixo, não se ouve nada; aumentando, só se ouve distorção que dá uma dor de cabeça horrível.
-Andei uns dias de volta do alsa ou do pulseaudio, porque pensava que o problema era aí, até que descobri a solução no askubuntu.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pulseaudio on .blog</title><link>https://blog.brunomiguel.net/tags/pulseaudio/</link><description>Recent content in pulseaudio on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/pulseaudio/index.xml" rel="self" type="application/rss+xml"/><item><title>Como resolver problemas de ruído com o microfone interno em Linux</title><link>https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/</guid><description>Quer no meu portátil, quer no da esposa, temos um problema irritante com o microfone de cada equipamento quando usamos o Jitsi Meet, Skype, Messenger e outras aplicações do género. A situação é a seguinte: quando o volume do micro está baixo, não se ouve nada; aumentando, só se ouve distorção que dá uma dor de cabeça horrível.
+Andei uns dias de volta do alsa ou do pulseaudio, porque pensava que o problema era aí, até que descobri a solução no askubuntu.</description></item></channel></rss>

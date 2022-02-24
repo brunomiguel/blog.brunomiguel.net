@@ -1,224 +1,75 @@
-<!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html lang="pt">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>Debugging build times - .blog</title>
-
-  
-  
-  <meta name="description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>Debugging build times - .blog</title>
+<meta name=description content="Lately, the repository has been taking +10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
-   Pkg Hours Minutes     ." />
-  <meta name="author" content="" />
-  <meta name="keywords" content="jarvis, packages, repository, userrepository-eu" />
-  
-
-  
-  <link rel="canonical" href="https://blog.brunomiguel.net/post/debugging-build-times/" />
-
-  
-  <script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/app.min.css" />
-
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/an-old-hope.min.css" />
-  <script
-    defer
-    src="https://blog.brunomiguel.net/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/theme.png" />
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/twitter.svg" />
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/github.svg" />
-  
-
-  
-  <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://blog.brunomiguel.net/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-  
-
-  
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.brunomiguel.net/post/debugging-build-times/images/jarvis-news.jpg"/>
-<meta name="twitter:title" content="Debugging build times"/>
-<meta name="twitter:description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+   Pkg Hours Minutes     .">
+<meta name=author content>
+<meta name=keywords content="jarvis,packages,repository,userrepository-eu">
+<link rel=canonical href=https://blog.brunomiguel.net/post/debugging-build-times/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net/post/debugging-build-times/images/jarvis-news.jpg">
+<meta name=twitter:title content="Debugging build times">
+<meta name=twitter:description content="Lately, the repository has been taking +10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
-   Pkg Hours Minutes     ."/>
-
-
-
-<meta property="og:title" content="Debugging build times" />
-<meta property="og:type" content="article" />
-
-
+   Pkg Hours Minutes     .">
+<meta property="og:title" content="Debugging build times">
+<meta property="og:type" content="article">
 <meta property="og:image" content="https://blog.brunomiguel.net/post/debugging-build-times/images/jarvis-news.jpg">
-
-<meta property="og:url" content="https://blog.brunomiguel.net/post/debugging-build-times/" />
-
-
-
-<meta property="og:description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+<meta property="og:url" content="https://blog.brunomiguel.net/post/debugging-build-times/">
+<meta property="og:description" content="Lately, the repository has been taking +10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
-   Pkg Hours Minutes     ." />
-
-
-
-
-<meta property="og:locale" content="pt" />
-
-
-
-
-<meta property="og:site_name" content=".blog" />
-
-
-
-
-<meta property="article:published_time" content="2020-04-17T00:00:00&#43;00:00" />
-
-
-<meta property="article:modified_time" content="2020-04-17T00:00:00&#43;00:00" />
-
-
-
-
-  
-  <script>
-    window.onload = function () {
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
-          'prefers-color-scheme-dark')) {
-        localStorage.setItem('prefers-color-scheme-dark', true);
-      }
-    };
-  </script>
-
+   Pkg Hours Minutes     .">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2020-04-17T00:00:00+00:00">
+<meta property="article:modified_time" content="2020-04-17T00:00:00+00:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
 </head>
-
-
-  <body class="not-ready" data-menu="true">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://blog.brunomiguel.net">.blog</a>
-  </p>
-  
-
-  
-  
-  <nav class="menu">
-    
-    <a class="" href="/about/">Sobre</a>
-    
-    <a class="" href="https://github.com/brunomiguel/antinonio/">Lista Antinónio</a>
-    
-    <a class="" href="https://userrepository.eu/">Userrepository</a>
-    
-  </nav>
-  
-
-  
-  <nav class="social">
-    
-    <a
-      class="twitter"
-      style="--url: url(./twitter.svg)"
-      href="https://twitter.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a
-      class="github"
-      style="--url: url(./github.svg)"
-      href="https://github.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a class="rss" style="--url: url(./rss.svg)" href="https://blog.brunomiguel.net/index.xml" target="_blank"></a>
-  </nav>
-  
-  <a class="btn-dark"></a>
-
-  <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
-
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
-    };
-
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
-
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
-  </script>
-  
+<body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p>
+<nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+</nav>
+<nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav>
+<a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
 </header>
-
-
-    <main class="main">
-
-<article class="post-single">
-  <header class="post-title">
-    <p>
-      
-      <time>17/04/2020</time>
-      
-      <span>Bruno Miguel</span>
-      
-      <span>Tempo de leitura: 1 minuto
-      </span>
-      
-    </p>
-    <h1>Debugging build times</h1>
-  </header>
-
-  
-	
-            <p class="featured-image full-width"><img loading="lazy" src="https://blog.brunomiguel.net/post/debugging-build-times/images/jarvis-news.jpg" alt="Featured Image"></p>
-	
-
-  <section class="post-content"><p><strong>Lately, the repository has been taking +10 hours to compile all the packages.</strong> I think that&rsquo;s a lot for <strong>a little more than 250 packages</strong>, most of them small utilities and/or <code>_-bin_</code> files from <em>AUR</em>, built in a <em>DEV1-L</em> (4 cores, 8 Gb <em>RAM</em>) virtual machine from <em>Scaleway</em>.</p>
+<main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>17/04/2020</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 1 minuto
+</span>
+</p>
+<h1>Debugging build times</h1>
+</header>
+<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/debugging-build-times/images/jarvis-news.jpg alt="Featured Image"></p>
+<section class=post-content><p><strong>Lately, the repository has been taking +10 hours to compile all the packages.</strong> I think that&rsquo;s a lot for <strong>a little more than 250 packages</strong>, most of them small utilities and/or <code>_-bin_</code> files from <em>AUR</em>, built in a <em>DEV1-L</em> (4 cores, 8 Gb <em>RAM</em>) virtual machine from <em>Scaleway</em>.</p>
 <p>After investigating the matter, I found out that <strong>12 of the packages took four hours and sixteen minutes to build.</strong></p>
 <table>
 <thead>
@@ -305,8 +156,8 @@ After investigating the matter, I found out that 12 of the packages took four ho
 <li><em>session-desktop</em> with <em>session-desktop-bin</em>.</li>
 </ul>
 <p>.ugb-8f198eb .ugb-cta__item{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__item:before{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__title{color:#e36d60}</p>
-<h4 id="if-you-used-any-of-the-packages-i-removed-please-let-me-know-and-ill-add-it-again">If you used any of the packages I removed, please let me know and I&rsquo;ll add it again</h4>
-<p>Next, I inserted the <code>_MAKEFLAGS=&quot;-j4&quot;_</code> environment variable in the <code>_config_</code> file, so that compilers use the four cores when possible.</p>
+<h4 id=if-you-used-any-of-the-packages-i-removed-please-let-me-know-and-ill-add-it-again>If you used any of the packages I removed, please let me know and I&rsquo;ll add it again</h4>
+<p>Next, I inserted the <code>_MAKEFLAGS="-j4"_</code> environment variable in the <code>_config_</code> file, so that compilers use the four cores when possible.</p>
 <table>
 <thead>
 <tr>
@@ -385,63 +236,32 @@ After investigating the matter, I found out that 12 of the packages took four ho
 </table>
 <p><strong>With the above changes, the twelve &ldquo;worst offenders&rdquo; decrease to almost two and an half hours.</strong> The total build time is likely to decrease a little more after I take a look at what packages <code>_[userrepository](https://userrepository.eu/)_</code> shares with <code>_[chaotic-aur](https://lonewolf.pedrohlc.com/chaotic-aur/)_</code> and decide which, if any, I should remove.</p>
 <p>In the <em>TODO</em> list are also some tests to be made to the <em>zstd</em> compression level. The current level is <em>10</em>, with the default being <em>3</em>. I intend to see if the trade-off between the increase in package creation time and the reduction in package size is worth increasing the level to somewhere between <em>15</em> and <em>19</em>, the highest preset level.</p>
-<p>Eventually, I&rsquo;ll begin to sign the packages. For now, enjoy the latest batch and <strong><a href="https://www.patreon.com/bePatron?u=31667183&amp;redirect_uri=https%3A%2F%2Fuserrepository.eu%2F&amp;utm_medium=widget">become a patron</a>.</strong></p>
+<p>Eventually, I&rsquo;ll begin to sign the packages. For now, enjoy the latest batch and <strong><a href="https://www.patreon.com/bePatron?u=31667183&redirect_uri=https%3A%2F%2Fuserrepository.eu%2F&utm_medium=widget">become a patron</a>.</strong></p>
 </section>
-
-  
-  
-  <footer class="post-tags">
-
-	<small><strong>categorias</strong><br/> 
-    <a href="https://blog.brunomiguel.net/categories/geekices">geekices</a>
-    </small>
-	<br><br>
-  <small><strong>tags</strong><br/> 
-  <a href="https://blog.brunomiguel.net/tags/jarvis">jarvis</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/packages">packages</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/repository">repository</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/userrepository-eu">userrepository-eu</a>
-  </small>
-  </footer>
-  
-
-  
-
-  
-  <div id="disqus_thread" class="post-comments"></div>
-  <script>
-    var disqusShortname = 'blog-brunomiguel';
-    var script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  
-
-  
-  
-  
-  <nav class="post-nav">
-    
-    <a class="prev" href="https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/"><span>←</span><span>Como resolver …</span></a>
-     
-    <a class="next" href="https://blog.brunomiguel.net/post/from-fh-to-boinc/"><span>From F@h to Boinc</span><span>→</span></a>
-    
-  </nav>
-  
-
-</article>
-
-</main>
-
-    <footer class="footer">
-  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
-  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
-  <p>Alojado pela <a href="https://webtuga.pt" rel="noopener" target="_blank">Webtuga</a></p>
+<footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/jarvis>jarvis</a>
+<a href=https://blog.brunomiguel.net/tags/packages>packages</a>
+<a href=https://blog.brunomiguel.net/tags/repository>repository</a>
+<a href=https://blog.brunomiguel.net/tags/userrepository-eu>userrepository-eu</a>
+</small>
 </footer>
-
-  </body>
+<div id=disqus_thread class=post-comments></div>
+<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=prev href=https://blog.brunomiguel.net/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/><span>←</span><span>Como resolver …</span></a>
+<a class=next href=https://blog.brunomiguel.net/post/from-fh-to-boinc/><span>From F@h to Boinc</span><span>→</span></a>
+</nav>
+</article>
+</main>
+<footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
+<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
+<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
+</footer>
+</body>
 </html>

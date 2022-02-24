@@ -1,279 +1,100 @@
-<!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html lang="pt">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>How to install an operating system to a USB drive - .blog</title>
-
-  
-  
-  <meta name="description" content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
-sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive." />
-  <meta name="author" content="" />
-  <meta name="keywords" content="linux, qemu, usb" />
-  
-
-  
-  <link rel="canonical" href="https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/" />
-
-  
-  <script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/app.min.css" />
-
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.brunomiguel.net/an-old-hope.min.css" />
-  <script
-    defer
-    src="https://blog.brunomiguel.net/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/theme.png" />
-
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/twitter.svg" />
-  
-  <link rel="preload" as="image" href="https://blog.brunomiguel.net/github.svg" />
-  
-
-  
-  <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://blog.brunomiguel.net/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-  
-
-  
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png"/>
-<meta name="twitter:title" content="How to install an operating system to a USB drive"/>
-<meta name="twitter:description" content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
-sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive."/>
-
-
-
-<meta property="og:title" content="How to install an operating system to a USB drive" />
-<meta property="og:type" content="article" />
-
-
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>How to install an operating system to a USB drive - .blog</title>
+<meta name=description content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
+sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive.">
+<meta name=author content>
+<meta name=keywords content="linux,qemu,usb">
+<link rel=canonical href=https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png">
+<meta name=twitter:title content="How to install an operating system to a USB drive">
+<meta name=twitter:description content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
+sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive.">
+<meta property="og:title" content="How to install an operating system to a USB drive">
+<meta property="og:type" content="article">
 <meta property="og:image" content="https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png">
-
-<meta property="og:url" content="https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/" />
-
-
-
+<meta property="og:url" content="https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/">
 <meta property="og:description" content="Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
-sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive." />
-
-
-
-
-<meta property="og:locale" content="pt" />
-
-
-
-
-<meta property="og:site_name" content=".blog" />
-
-
-
-
-<meta property="article:published_time" content="2018-08-28T00:00:00&#43;00:00" />
-
-
-<meta property="article:modified_time" content="2018-08-28T00:00:00&#43;00:00" />
-
-
-
-
-  
-  <script>
-    window.onload = function () {
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches && !localStorage.getItem(
-          'prefers-color-scheme-dark')) {
-        localStorage.setItem('prefers-color-scheme-dark', true);
-      }
-    };
-  </script>
-
+sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive.">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2018-08-28T00:00:00+00:00">
+<meta property="article:modified_time" content="2018-08-28T00:00:00+00:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
 </head>
-
-
-  <body class="not-ready" data-menu="true">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://blog.brunomiguel.net">.blog</a>
-  </p>
-  
-
-  
-  
-  <nav class="menu">
-    
-    <a class="" href="/about/">Sobre</a>
-    
-    <a class="" href="https://github.com/brunomiguel/antinonio/">Lista Antinónio</a>
-    
-    <a class="" href="https://userrepository.eu/">Userrepository</a>
-    
-  </nav>
-  
-
-  
-  <nav class="social">
-    
-    <a
-      class="twitter"
-      style="--url: url(./twitter.svg)"
-      href="https://twitter.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a
-      class="github"
-      style="--url: url(./github.svg)"
-      href="https://github.com/brunomiguel"
-      target="_blank"
-    ></a>
-    
-    <a class="rss" style="--url: url(./rss.svg)" href="https://blog.brunomiguel.net/index.xml" target="_blank"></a>
-  </nav>
-  
-  <a class="btn-dark"></a>
-
-  <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
-
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
-    };
-
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
-
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
-  </script>
-  
+<body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p>
+<nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+</nav>
+<nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav>
+<a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
 </header>
-
-
-    <main class="main">
-
-<article class="post-single">
-  <header class="post-title">
-    <p>
-      
-      <time>28/08/2018</time>
-      
-      <span>Bruno Miguel</span>
-      
-      <span>Tempo de leitura: 0 minutos
-      </span>
-      
-    </p>
-    <h1>How to install an operating system to a USB drive</h1>
-  </header>
-
-  
-	
-            <p class="featured-image full-width"><img loading="lazy" src="https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png" alt="Featured Image"></p>
-	
-
-  <section class="post-content"><p>Sometimes, maybe for maintenance or data rescue reasons, you may want to have a <em>USB</em> thumbdrive with a <em>GNU/Linux</em> distribution installed. I&rsquo;m not referring to writing a live <em>ISO</em> to a <em>USB</em> drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software <em>Qemu</em>. Example:</p>
-<pre tabindex="0"><code>sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800
+<main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>28/08/2018</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 0 minutos
+</span>
+</p>
+<h1>How to install an operating system to a USB drive</h1>
+</header>
+<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/images/Captura-de-ecr%C3%A3-de-2018-08-28-22-58-35.png alt="Featured Image"></p>
+<section class=post-content><p>Sometimes, maybe for maintenance or data rescue reasons, you may want to have a <em>USB</em> thumbdrive with a <em>GNU/Linux</em> distribution installed. I&rsquo;m not referring to writing a live <em>ISO</em> to a <em>USB</em> drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software <em>Qemu</em>. Example:</p>
+<pre tabindex=0><code>sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800
 </code></pre><p>In this example, the <code>-hda /dev/sdb</code> part tells <em>Qemu</em> that the device <em>/dev/sdb</em> (the <em>USB</em> drive) must be used as an hard drive.</p>
 <p>If you prefer <em>Ubuntu</em>, <em>Fedora</em>, <em>Arch</em> or any other distribution, you can install them this way too. There may be a need to adjust <em>QEMU</em> arguments, but in that case <em>Google</em> is your friend.</p>
-<p>This also works with other operating systems that are not <em>Linux</em> based. <a href="https://openbsd.org"><em>OpenBSD</em></a>, version 6.3, can be installed in a <em>USB</em> drive using the same parameters and booted after that.</p>
+<p>This also works with other operating systems that are not <em>Linux</em> based. <a href=https://openbsd.org><em>OpenBSD</em></a>, version 6.3, can be installed in a <em>USB</em> drive using the same parameters and booted after that.</p>
 </section>
-
-  
-  
-  <footer class="post-tags">
-
-	<small><strong>categorias</strong><br/> 
-    <a href="https://blog.brunomiguel.net/categories/geekices">geekices</a>
-    </small>
-	<br><br>
-  <small><strong>tags</strong><br/> 
-  <a href="https://blog.brunomiguel.net/tags/linux">linux</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/qemu">qemu</a>
-   
-  <a href="https://blog.brunomiguel.net/tags/usb">usb</a>
-  </small>
-  </footer>
-  
-
-  
-
-  
-  <div id="disqus_thread" class="post-comments"></div>
-  <script>
-    var disqusShortname = 'blog-brunomiguel';
-    var script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  
-
-  
-  
-  
-  <nav class="post-nav">
-    
-    <a class="prev" href="https://blog.brunomiguel.net/post/vida-de-abacate/"><span>←</span><span>Vida de abacate</span></a>
-     
-    <a class="next" href="https://blog.brunomiguel.net/post/fine-print/"><span>The fine print</span><span>→</span></a>
-    
-  </nav>
-  
-
-</article>
-
-</main>
-
-    <footer class="footer">
-  <p>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></p>
-  <p>Baseado em <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️ and <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></p>
-  <p>Alojado pela <a href="https://webtuga.pt" rel="noopener" target="_blank">Webtuga</a></p>
+<footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/linux>linux</a>
+<a href=https://blog.brunomiguel.net/tags/qemu>qemu</a>
+<a href=https://blog.brunomiguel.net/tags/usb>usb</a>
+</small>
 </footer>
-
-  </body>
+<div id=disqus_thread class=post-comments></div>
+<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=prev href=https://blog.brunomiguel.net/post/vida-de-abacate/><span>←</span><span>Vida de abacate</span></a>
+<a class=next href=https://blog.brunomiguel.net/post/fine-print/><span>The fine print</span><span>→</span></a>
+</nav>
+</article>
+</main>
+<footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
+<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
+<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
+</footer>
+</body>
 </html>

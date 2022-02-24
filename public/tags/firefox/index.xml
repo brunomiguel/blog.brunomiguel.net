@@ -1,82 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>firefox on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/firefox/</link>
-    <description>Recent content in firefox on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>#LPT: access Firefox&#39;s &#39;about:&#39; pages</title>
-      <link>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</link>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</guid>
-      <description>To access all the Firefox&amp;rsquo;s about: pages, just type about:about in the address bar.</description>
-    </item>
-    
-    <item>
-      <title>A few notes about Opera and Vivaldi</title>
-      <link>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</guid>
-      <description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
-The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:</description>
-    </item>
-    
-    <item>
-      <title>Must have extensions for Firefox</title>
-      <link>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</link>
-      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</guid>
-      <description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
-During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description>
-    </item>
-    
-    <item>
-      <title>Improved new night mode for Twitter</title>
-      <link>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</link>
-      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</guid>
-      <description>I got the new, event and flex-based, Twitter design a few days ago and decided to try out the night mode. This was also influenced by some tweet a contact of mine published.
-While not bad, I don&amp;rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the blue light stuff impacting our sleep. Even with a blue light filter, like the one from Plasma, it&amp;rsquo;s still too much blue.</description>
-    </item>
-    
-    <item>
-      <title>Google Chrome is a privacy hell</title>
-      <link>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</guid>
-      <description>Google Chrome is such a privacy hell that it has become it&amp;rsquo;s own hell in the japanese folklore. You&amp;rsquo;re better off with Firefox and you get better performance. But if you really want Chrome, Ungoogled Chromium is based on the previous (technically, it&amp;rsquo;s based on Chromium) with some bits removed for added privacy.</description>
-    </item>
-    
-    <item>
-      <title>O Facebook mobile não é igual para todos</title>
-      <link>https://blog.brunomiguel.net/post/facebook-mobile/</link>
-      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/facebook-mobile/</guid>
-      <description>Que raio se passará com o site do Facebook? Cada vez demora mais a carregar, faz a temperatura do processador do meu portátil disparar e está cheio de coisas a tentar roubar constantemente um bocadinho da minha atenção. Na volta é por estar cheio de porcarias como esta.
- Facebook answered 2,000 questions posed by the Senate Committee. Among these, Facebook explained that it collects information about users’ computers, phones, or other connected devices, including their mouse, reports India Today.</description>
-    </item>
-    
-    <item>
-      <title>Firefox começou a bloquear a reprodução automática de áudio</title>
-      <link>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid>
-      <description>O Firefox começou a permitir o bloqueio de áudio com reprodução automática nas nightly builds. Isto inclui, por exemplo, os vídeos que a CNET mete no site e que são irritantes como o caraças.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>firefox on .blog</title><link>https://blog.brunomiguel.net/tags/firefox/</link><description>Recent content in firefox on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/firefox/index.xml" rel="self" type="application/rss+xml"/><item><title>#LPT: access Firefox's 'about:' pages</title><link>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</link><pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</guid><description>To access all the Firefox&amp;rsquo;s about: pages, just type about:about in the address bar.</description></item><item><title>A few notes about Opera and Vivaldi</title><link>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</link><pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</guid><description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
+The good sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell) The bad resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both) The following specs were used when testing both browsers:</description></item><item><title>Must have extensions for Firefox</title><link>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</guid><description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
+During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description></item><item><title>Improved new night mode for Twitter</title><link>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</link><pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/</guid><description>I got the new, event and flex-based, Twitter design a few days ago and decided to try out the night mode. This was also influenced by some tweet a contact of mine published.
+While not bad, I don&amp;rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the blue light stuff impacting our sleep. Even with a blue light filter, like the one from Plasma, it&amp;rsquo;s still too much blue.</description></item><item><title>Google Chrome is a privacy hell</title><link>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</link><pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</guid><description>Google Chrome is such a privacy hell that it has become it&amp;rsquo;s own hell in the japanese folklore. You&amp;rsquo;re better off with Firefox and you get better performance. But if you really want Chrome, Ungoogled Chromium is based on the previous (technically, it&amp;rsquo;s based on Chromium) with some bits removed for added privacy.</description></item><item><title>O Facebook mobile não é igual para todos</title><link>https://blog.brunomiguel.net/post/facebook-mobile/</link><pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/facebook-mobile/</guid><description>Que raio se passará com o site do Facebook? Cada vez demora mais a carregar, faz a temperatura do processador do meu portátil disparar e está cheio de coisas a tentar roubar constantemente um bocadinho da minha atenção. Na volta é por estar cheio de porcarias como esta.
+Facebook answered 2,000 questions posed by the Senate Committee. Among these, Facebook explained that it collects information about users’ computers, phones, or other connected devices, including their mouse, reports India Today.</description></item><item><title>Firefox começou a bloquear a reprodução automática de áudio</title><link>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link><pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid><description>O Firefox começou a permitir o bloqueio de áudio com reprodução automática nas nightly builds. Isto inclui, por exemplo, os vídeos que a CNET mete no site e que são irritantes como o caraças.
 O anúncio foi feito por Dale Harvey, um dos programadores do Firefox, no Twitter.
 https://twitter.com/daleharvey/status/1020619223863873539?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1020619223863873539&amp;amp;ref_url=https%3A%2F%2Fwww.engadget.com%2F2018%2F07%2F24%2Ffirefox-nightly-blocks-autoplaying-audio%2F
-A funcionalidade tem três modos: desligada, pedir sempre permissão para reproduzir e bloquear sempre. Vai ser também possível definir uma lista de endereços com permissão para reprodução automática de conteúdos com som.</description>
-    </item>
-    
-  </channel>
-</rss>
+A funcionalidade tem três modos: desligada, pedir sempre permissão para reproduzir e bloquear sempre. Vai ser também possível definir uma lista de endereços com permissão para reprodução automática de conteúdos com som.</description></item></channel></rss>

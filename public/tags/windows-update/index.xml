@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>windows-update on .blog</title>
-    <link>https://blog.brunomiguel.net/tags/windows-update/</link>
-    <description>Recent content in windows-update on .blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language>
-    <copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sun, 04 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/windows-update/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Windows &#34;snail&#34; Update</title>
-      <link>https://blog.brunomiguel.net/post/windows-snail-update/</link>
-      <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/post/windows-snail-update/</guid>
-      <description>Yesterday, I had to reinstall Windows 10 on a computer because the owner was complaining it was too slow. After a successful, albeit slow, reinstall, I had to change the language.
-This computer had Windows in English and the owner wanted it in European Portuguese. So, after reinstalling the OS, I selected the European Portuguese language in the system options (or whatever it is called) and chose the pt-PT langpack.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>windows-update on .blog</title><link>https://blog.brunomiguel.net/tags/windows-update/</link><description>Recent content in windows-update on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sun, 04 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/windows-update/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows "snail" Update</title><link>https://blog.brunomiguel.net/post/windows-snail-update/</link><pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/windows-snail-update/</guid><description>Yesterday, I had to reinstall Windows 10 on a computer because the owner was complaining it was too slow. After a successful, albeit slow, reinstall, I had to change the language.
+This computer had Windows in English and the owner wanted it in European Portuguese. So, after reinstalling the OS, I selected the European Portuguese language in the system options (or whatever it is called) and chose the pt-PT langpack.</description></item></channel></rss>
