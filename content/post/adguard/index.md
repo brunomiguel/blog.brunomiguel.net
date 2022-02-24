@@ -118,3 +118,5 @@ Se pretenderes mais listas de bloqueio, o *interface web* permite escolher vári
 # Conclusão
 
 Isto é uma introdução muito simples ao processo de instalação do _AdGuardHome_ e assume que estás minimamente à vontade com um terminal. Se não for o teu caso, é melhor leres a [documentação](https://github.com/AdguardTeam/AdGuardHome/wiki) do projeto.
+
+<small>_A imagem deste post é um screenshot da minha instalação do AdGuardHome e está disponível sob a licença Creative Commons ([CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/))_</small>
