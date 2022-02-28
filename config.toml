@@ -53,6 +53,12 @@ theme = "paper"
     url = "https://userrepository.eu/"
     weight = 30
 
+  [[menu.main]]
+    identifier = "Apoia a Ucrânia"
+    name = "Apoia a Ucrânia"
+    url = "https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine"
+    weight = 40
+
 [privacy]
 
   [privacy.vimeo]
