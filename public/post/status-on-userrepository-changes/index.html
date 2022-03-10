@@ -3,8 +3,7 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Status on userrepository changes - .blog</title>
-<meta name=description content="It took me a while to update you about the latest changes to my Arch and Arch-compatible Linux distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.
+<title>Status on userrepository changes - .blog</title><meta name=description content="It took me a while to update you about the latest changes to my Arch and Arch-compatible Linux distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.
 First on the &ldquo;agenda&rdquo;, I experimented with increasing the zstd compression level for the packages like I said I would do in my last post about the repository.">
 <meta name=author content>
 <meta name=keywords content="arch,arch-linux,linux,manjaro,pacman,userrepository-eu">
@@ -18,7 +17,7 @@ First on the &ldquo;agenda&rdquo;, I experimented with increasing the zstd compr
 <link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
 <link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
 <link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.2">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.brunomiguel.net">
 <meta name=twitter:title content="Status on userrepository changes">
@@ -34,28 +33,23 @@ First on the &ldquo;agenda&rdquo;, I experimented with increasing the zstd compr
 <meta property="og:site_name" content=".blog">
 <meta property="article:published_time" content="2020-08-13T00:00:00+00:00">
 <meta property="article:modified_time" content="2020-08-13T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
-</head>
-<body class=not-ready data-menu=true>
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
 <header class=header>
 <p class=logo>
 <a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p>
-<nav class=menu>
+</p><nav class=menu>
 <a href=/about/>Sobre</a>
 <a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
 <a href=https://userrepository.eu/>Userrepository</a>
 <a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav>
-<nav class=social>
+</nav><nav class=social>
 <a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
 <a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
 <a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav>
-<a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
-</header>
-<main class=main>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
 <article class=post-single>
 <header class=post-title>
 <p>
@@ -63,17 +57,7 @@ First on the &ldquo;agenda&rdquo;, I experimented with increasing the zstd compr
 <span>Bruno Miguel</span>
 <span>Tempo de leitura: 1 minuto
 </span>
-</p>
-<h1>Status on userrepository changes</h1>
-</header>
-<section class=post-content><p>It took me a while to update you about the latest changes to my <em>Arch</em> and <em>Arch</em>-compatible <em>Linux</em> distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.</p>
-<p>First on the &ldquo;agenda&rdquo;, I experimented with increasing the <em>zstd</em> compression level for the packages like I said I would do in my <a href=https://blog.brunomiguel.net/geekices/updates-on-userrepository/>last post about the repository</a>. The trade-off was not worth it: the increase in packaging time was far superior to the small decrease in package size. So, I&rsquo;ll keep the <em>zstd</em> compression level to &ldquo;-12&rdquo; in the foreseeable future.</p>
-<p>Also, up to a few days ago, I would manually update the packages and, from time to time, do a full build. Now, I&rsquo;m using a <em>cron job</em> and <a href=https://github.com/Nukesor/pueue><em>pueue</em></a> to manage the tasks and it always does a full build.</p>
-<p>If you don&rsquo;t know <em>pueue</em>, this application is a command-line task management tool for sequential and parallel execution of long-running tasks. Besides adding tasks, you can watch the logs for them, the exit codes and even follow what the task is doing (just like using &ldquo;<code>tail -f /destination/file</code>"). But <em>pueue</em> can do much more. Go <a href=https://github.com/Nukesor/pueue>check it out</a> at Github.</p>
-<p><a href=http://userrepository.eu>Userrepository.eu</a> also has a few more packages. For example: <em>vimtips</em>, <em>wego</em>, <em>wttr</em>, <em>plymouth</em> and <em>performance-tweaks</em>. All of them are at <em>AUR</em> and at the <a href=https://github.com/brunomiguel/userrepository/commits/master><em>Git</em> repository</a> where I have <em>userrepository.eu</em> sources, if you want to take a look at the commits (just ignore some of the commit messages, because I can be lazy with them at times ^^').</p>
-<p>One last thing: <strong><a href=https://www.patreon.com/brunomiguel>please become a Patron</a></strong> if you want to support userrepository.eu. Even €1 will help cover the monthly expenses, just over €15. If I get enough patrons, I’ll be able to upgrade the <em>virtual machine</em> to one with better specs, which will allow a higher package compression level, shorter build times and maybe even packaged kernels. Thank you!</p>
-</section>
-<footer class=post-tags>
+</p><h1>Status on userrepository changes</h1></header><section class=post-content><p>It took me a while to update you about the latest changes to my <em>Arch</em> and <em>Arch</em>-compatible <em>Linux</em> distributions repository. But first, let me apologize for the delay: work, personal life and, for about 3 weeks now, a horrible back pain (that just doesn&rsquo;t stop, even with an handful of medication) have kept me from doing this in the time frame I expected.</p><p>First on the &ldquo;agenda&rdquo;, I experimented with increasing the <em>zstd</em> compression level for the packages like I said I would do in my <a href=https://blog.brunomiguel.net/geekices/updates-on-userrepository/>last post about the repository</a>. The trade-off was not worth it: the increase in packaging time was far superior to the small decrease in package size. So, I&rsquo;ll keep the <em>zstd</em> compression level to &ldquo;-12&rdquo; in the foreseeable future.</p><p>Also, up to a few days ago, I would manually update the packages and, from time to time, do a full build. Now, I&rsquo;m using a <em>cron job</em> and <a href=https://github.com/Nukesor/pueue><em>pueue</em></a> to manage the tasks and it always does a full build.</p><p>If you don&rsquo;t know <em>pueue</em>, this application is a command-line task management tool for sequential and parallel execution of long-running tasks. Besides adding tasks, you can watch the logs for them, the exit codes and even follow what the task is doing (just like using &ldquo;<code>tail -f /destination/file</code>&rdquo;). But <em>pueue</em> can do much more. Go <a href=https://github.com/Nukesor/pueue>check it out</a> at Github.</p><p><a href=http://userrepository.eu>Userrepository.eu</a> also has a few more packages. For example: <em>vimtips</em>, <em>wego</em>, <em>wttr</em>, <em>plymouth</em> and <em>performance-tweaks</em>. All of them are at <em>AUR</em> and at the <a href=https://github.com/brunomiguel/userrepository/commits/master><em>Git</em> repository</a> where I have <em>userrepository.eu</em> sources, if you want to take a look at the commits (just ignore some of the commit messages, because I can be lazy with them at times ^^&rsquo;).</p><p>One last thing: <strong><a href=https://www.patreon.com/brunomiguel>please become a Patron</a></strong> if you want to support userrepository.eu. Even €1 will help cover the monthly expenses, just over €15. If I get enough patrons, I’ll be able to upgrade the <em>virtual machine</em> to one with better specs, which will allow a higher package compression level, shorter build times and maybe even packaged kernels. Thank you!</p></section><footer class=post-tags>
 <small><strong>categorias</strong><br>
 <a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
 </small>
@@ -86,19 +70,9 @@ First on the &ldquo;agenda&rdquo;, I experimented with increasing the zstd compr
 <a href=https://blog.brunomiguel.net/tags/pacman>pacman</a>
 <a href=https://blog.brunomiguel.net/tags/userrepository-eu>userrepository-eu</a>
 </small>
-</footer>
-<div id=disqus_thread class=post-comments></div>
-<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
 <nav class=post-nav>
 <a class=prev href=https://blog.brunomiguel.net/post/some-statistics-for-userrepository/><span>←</span><span>Some statistics for …</span></a>
 <a class=next href=https://blog.brunomiguel.net/post/um-sms-estranho-que-me-levou-a-um-endereco-que-copia-o-site-dos-ctt/><span>Um SMS estranho que …</span><span>→</span></a>
-</nav>
-</article>
-</main>
-<footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
-<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
-<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
-</footer>
-</body>
-</html>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>

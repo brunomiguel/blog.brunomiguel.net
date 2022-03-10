@@ -3,8 +3,7 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Userrepository using mirrors - .blog</title>
-<meta name=description content="For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&rsquo;s around the globe.
+<title>Userrepository using mirrors - .blog</title><meta name=description content="For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&rsquo;s around the globe.
 Finally, a few days ago, I enabled the service. I also created a package with the mirror&rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.">
 <meta name=author content>
 <meta name=keywords content="arch,arch-linux,aur,fosshost,linux,package,repository,userrepository-eu">
@@ -18,7 +17,7 @@ Finally, a few days ago, I enabled the service. I also created a package with th
 <link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
 <link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
 <link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.2">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.brunomiguel.net">
 <meta name=twitter:title content="Userrepository using mirrors">
@@ -34,28 +33,23 @@ Finally, a few days ago, I enabled the service. I also created a package with th
 <meta property="og:site_name" content=".blog">
 <meta property="article:published_time" content="2021-10-16T00:00:00+00:00">
 <meta property="article:modified_time" content="2021-10-16T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
-</head>
-<body class=not-ready data-menu=true>
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
 <header class=header>
 <p class=logo>
 <a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p>
-<nav class=menu>
+</p><nav class=menu>
 <a href=/about/>Sobre</a>
 <a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
 <a href=https://userrepository.eu/>Userrepository</a>
 <a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav>
-<nav class=social>
+</nav><nav class=social>
 <a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
 <a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
 <a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav>
-<a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
-</header>
-<main class=main>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
 <article class=post-single>
 <header class=post-title>
 <p>
@@ -63,15 +57,7 @@ Finally, a few days ago, I enabled the service. I also created a package with th
 <span>Bruno Miguel</span>
 <span>Tempo de leitura: 0 minutos
 </span>
-</p>
-<h1>Userrepository using mirrors</h1>
-</header>
-<section class=post-content><p>For a few months, I considered using the <a href=https://docs.fosshost.org/en/home/mirrors-as-a-service>mirror service</a> from <a href=https://fosshost.org>Fosshost</a> in <a href=https://userrepository.eu>userrepository.eu</a>. The service results from a partnership between Fosshost and Fastly, giving projects access to <a href=https://www.fastly.com/network-map>several PoP&rsquo;s</a> around the globe.</p>
-<p>Finally, a few days ago, I enabled the service. I also created a package with the mirror&rsquo;s list, <em>userrepository-mirrors</em>, available in my repository and <a href=https://aur.archlinux.org/packages/userrepository-mirrors/>AUR</a>. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your <code>/etc/pacman.conf</code> configuration.</p>
-<p>The mirror service syncs every 4 hours. After each build, partial or full, the updated packages will be pushed to the servers with <code>rsync</code>.</p>
-<p>If you&rsquo;re wondering why it took me so long, the answer is simple: fibromyalgia and pain 24/7.</p>
-</section>
-<footer class=post-tags>
+</p><h1>Userrepository using mirrors</h1></header><section class=post-content><p>For a few months, I considered using the <a href=https://docs.fosshost.org/en/home/mirrors-as-a-service>mirror service</a> from <a href=https://fosshost.org>Fosshost</a> in <a href=https://userrepository.eu>userrepository.eu</a>. The service results from a partnership between Fosshost and Fastly, giving projects access to <a href=https://www.fastly.com/network-map>several PoP&rsquo;s</a> around the globe.</p><p>Finally, a few days ago, I enabled the service. I also created a package with the mirror&rsquo;s list, <em>userrepository-mirrors</em>, available in my repository and <a href=https://aur.archlinux.org/packages/userrepository-mirrors/>AUR</a>. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your <code>/etc/pacman.conf</code> configuration.</p><p>The mirror service syncs every 4 hours. After each build, partial or full, the updated packages will be pushed to the servers with <code>rsync</code>.</p><p>If you&rsquo;re wondering why it took me so long, the answer is simple: fibromyalgia and pain 24/7.</p></section><footer class=post-tags>
 <small><strong>categorias</strong><br>
 <a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
 </small>
@@ -86,19 +72,9 @@ Finally, a few days ago, I enabled the service. I also created a package with th
 <a href=https://blog.brunomiguel.net/tags/repository>repository</a>
 <a href=https://blog.brunomiguel.net/tags/userrepository-eu>userrepository-eu</a>
 </small>
-</footer>
-<div id=disqus_thread class=post-comments></div>
-<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
 <nav class=post-nav>
 <a class=prev href=https://blog.brunomiguel.net/post/38/><span>←</span><span>38</span></a>
 <a class=next href=https://blog.brunomiguel.net/post/a-dark-theme-for-aur/><span>A Dark theme for AUR</span><span>→</span></a>
-</nav>
-</article>
-</main>
-<footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
-<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
-<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
-</footer>
-</body>
-</html>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>

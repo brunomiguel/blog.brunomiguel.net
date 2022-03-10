@@ -3,10 +3,9 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Instalar o AdGuardHome - .blog</title>
-<meta name=description content="Há mais de um ano que uso o unbound como DNS resolver local. Esta é uma boa forma de poder abstrair a gestão dos servidores de DNS usados no meu portátil, sem ter de passar a vida a editar o /etc/resolv.conf ou a lutar contra aplicações como o systemd-resolvconf e o network-manager.
+<title>Instalar o AdGuardHome - .blog</title><meta name=description content="Há mais de um ano que uso o unbound como DNS resolver local. Esta é uma boa forma de poder abstrair a gestão dos servidores de DNS usados no meu portátil, sem ter de passar a vida a editar o /etc/resolv.conf ou a lutar contra aplicações como o systemd-resolvconf e o network-manager.
 A configuração ativa que tenho no unbound é a que se segue:
-server: access-control: 127.0.0.0/8 allow access-control: ::1/128 allow interface: :: interface: 0.">
+server:  access-control: 127.0.0.0/8 allow  access-control: ::1/128 allow  interface: ::  interface: 0.">
 <meta name=author content="Bruno Miguel">
 <meta name=keywords content="AdGuardHome,DNS,Git,Software Livre,Open-Source,Código Fonte,resolver,unbound,DNS resolver">
 <link rel=canonical href=https://blog.brunomiguel.net/post/adguard/>
@@ -19,7 +18,7 @@ server: access-control: 127.0.0.0/8 allow access-control: ::1/128 allow interfac
 <link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
 <link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
 <link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.2">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.brunomiguel.net/post/adguard/images/adguardhome.png">
 <meta name=twitter:title content="Instalar o AdGuardHome">
@@ -33,28 +32,23 @@ server: access-control: 127.0.0.0/8 allow access-control: ::1/128 allow interfac
 <meta property="og:site_name" content=".blog">
 <meta property="article:published_time" content="2022-02-24T00:00:00+00:00">
 <meta property="article:modified_time" content="2022-02-24T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
-</head>
-<body class=not-ready data-menu=true>
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
 <header class=header>
 <p class=logo>
 <a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p>
-<nav class=menu>
+</p><nav class=menu>
 <a href=/about/>Sobre</a>
 <a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
 <a href=https://userrepository.eu/>Userrepository</a>
 <a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav>
-<nav class=social>
+</nav><nav class=social>
 <a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
 <a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
 <a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav>
-<a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
-</header>
-<main class=main>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
 <article class=post-single>
 <header class=post-title>
 <p>
@@ -62,83 +56,55 @@ server: access-control: 127.0.0.0/8 allow access-control: ::1/128 allow interfac
 <span>Bruno Miguel</span>
 <span>Tempo de leitura: 4 minutos
 </span>
-</p>
-<h1>Instalar o AdGuardHome</h1>
-</header>
-<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/adguard/images/adguardhome.png alt="Featured Image"></p>
-<section class=post-content><p>Há mais de um ano que uso o <em>unbound</em> como <em>DNS resolver</em> local. Esta é uma boa forma de poder abstrair a gestão dos servidores de <em>DNS</em> usados no meu portátil, sem ter de passar a vida a editar o <code>/etc/resolv.conf</code> ou a lutar contra aplicações como o <em>systemd-resolvconf</em> e o <em>network-manager</em>.</p>
-<p>A configuração ativa que tenho no <em>unbound</em> é a que se segue:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#f92672>server</span>:
-  <span style=color:#f92672>access-control</span>: <span style=color:#ae81ff>127.0.0.0</span><span style=color:#ae81ff>/8 allow</span>
-  <span style=color:#f92672>access-control</span>: ::<span style=color:#ae81ff>1</span><span style=color:#ae81ff>/128 allow</span>
-  <span style=color:#f92672>interface</span>: <span style=color:#f92672>:</span>:
-  <span style=color:#f92672>interface</span>: <span style=color:#ae81ff>0.0.0.0</span>
-        <span style=color:#f92672>do-ip4</span>: <span style=color:#66d9ef>yes</span>
-        <span style=color:#f92672>do-ip6</span>: <span style=color:#66d9ef>yes</span>
-        <span style=color:#f92672>do-udp</span>: <span style=color:#66d9ef>yes</span>
-        <span style=color:#f92672>do-tcp</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>aggressive-nsec</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>cache-max-ttl</span>: <span style=color:#ae81ff>14400</span>
-  <span style=color:#f92672>cache-min-ttl</span>: <span style=color:#ae81ff>300</span>
-  <span style=color:#f92672>hide-identity</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>hide-version</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>minimal-responses</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>prefetch</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>qname-minimisation</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>rrset-roundrobin</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>use-caps-for-id</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>verbosity</span>: <span style=color:#ae81ff>0</span>
-  <span style=color:#f92672>tls-upstream</span>: <span style=color:#66d9ef>yes</span>
-  <span style=color:#f92672>tls-cert-bundle</span>: <span style=color:#ae81ff>/etc/ssl/certs/ca-certificates.crt</span>
-<span style=color:#f92672>forward-zone</span>:
-   <span style=color:#f92672>name</span>: <span style=color:#e6db74>&#34;.&#34;</span>
-   <span style=color:#f92672>forward-tls-upstream</span>: <span style=color:#66d9ef>yes</span>
-   <span style=color:#f92672>forward-first</span>: <span style=color:#66d9ef>no</span> <span style=color:#75715e># do NOT send direct</span>
-   <span style=color:#75715e># Quad 9 DNS - default</span>
-   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>9.9.9.9</span>@<span style=color:#ae81ff>853</span><span style=color:#75715e>#dns.quad9.net</span>
-   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>149.112.112.112</span>@<span style=color:#ae81ff>853</span><span style=color:#75715e>#dns.quad9.net</span>
-   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>2620</span>:<span style=color:#ae81ff>fe::fe@853#dns.quad9.net</span>
-   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>2620</span>:<span style=color:#ae81ff>fe::9@853#dns.quad9.net</span>
-   <span style=color:#75715e># Quad9 DNS - unfiltered</span>
-   <span style=color:#75715e>#forward-addr: 9.9.9.10@853#quad9.net</span>
-   <span style=color:#75715e>#forward-addr: 149.112.112.10@853#quad9.net</span>
-   <span style=color:#75715e>#forward-addr: 2620:fe::10@853#quad9.net</span>
-   <span style=color:#75715e>#forward-addr: 2620:fe::fe:10@853#quad9.net</span>
-   <span style=color:#75715e># AdGuard DNS</span>
-   <span style=color:#75715e>#forward-addr: 94.140.14.140@853#dns-unfiltered.adguard.com</span>
-   <span style=color:#75715e>#forward-addr: 94.140.15.15@853#dns-unfiltered.adguard.com</span>
-   <span style=color:#75715e>#forward-addr: 2a10:50c0::1:ff@853#dns-unfiltered.adguard.com</span>
-   <span style=color:#75715e>#forward-addr: 2a10:50c0::2:ff@853#dns-unfiltered.adguard.com</span>
-   <span style=color:#75715e># Cloudflare DNS</span>
-   <span style=color:#75715e>#forward-addr: 2606:4700:4700::1111@853#cloudflare-dns.com</span>
-   <span style=color:#75715e>#forward-addr: 1.1.1.1@853#cloudflare-dns.com</span>
-   <span style=color:#75715e>#forward-addr: 2606:4700:4700::1001@853#cloudflare-dns.com</span>
-   <span style=color:#75715e>#forward-addr: 1.0.0.1@853#cloudflare-dns.com</span>
-</code></pre></div><p>No entanto, já há algum tempo que tinha curiosidade em testar o <em>AdGuardHome</em>. A funcionalidade de <em>adblocker</em> interessou-me bastante e parece-me uma boa forma de impedir que alguns <em>scripts</em> de <em>tracking</em> cheguem, não só ao <em>browser</em>, mas às aplicações como o <em>Discord</em> e outras potencialmente problemáticas no que toca à privacidade.</p>
-<p>Existe também uma funcionalidade que permite usar o <em>AdGuardHome</em> como servidor <em>DHCP</em>. Como pretendo utilizá-lo apenas no meu portátil, esta não me interessa. Quem tem um computador ou uma <em>SoC</em> para atribuir <em>IPs</em> na rede pode ter interesse nela, ao mesmo tempo que bloqueia algum <em>tracking</em>.</p>
-<h1 id=instalação>Instalação</h1>
-<h2 id=usar-binário-pré-compilado>Usar binário pré-compilado</h2>
-<p>O projeto tem <em>releases</em> binárias para além do código-fonte no <em>Github</em>. Sempre que uma nova versão é <em>tagada</em>, os binários para diferentes sistemas operativos e arquiteturas de <em>hardware</em> são colocados na <a href=https://github.com/AdguardTeam/AdGuardHome/releases>secção de <em>releases</em> do repositório</a>. A forma mais simples de usar o <em>AdGuardHome</em> é descarregar uma destas <em>releases</em>, descompactar e correr a aplicação como <em>root</em>.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>sudo ./AdGuardHome
-</code></pre></div><p>Usar estes binários não torna a ativação persistente. Para isso é necessário abrir um terminal, ir até à pasta onde está o binário e usar o comando <code>sudo ./AdGuardHome -s install</code>. Ao fazeres isto, o binário é colocado em <code>/var/lib/adguardhome</code>, o serviço do <em>systemd</em> é instalado e o seu estado passa a poder ser controlado pelo <code>systemctl</code> se preferires este interface.</p>
-<p>Sempre que sair uma versão nova, tens de a descarregar e voltar a correr o comando de instalação <code>sudo ./AdGuardHome -s install</code>.</p>
-<h2 id=compilar-o-código-fonte>Compilar o código-fonte</h2>
-<p>A compilação do <em>AdGuardHome</em> pode ser feita de duas formas: usando o código-fonte de uma <em><a href=https://github.com/AdguardTeam/AdGuardHome/releases>release</a></em> específica ou a <em>brach master</em> do repositório <em>git</em>. Qualquer que seja a tua opção, deves garantir que todas as dependências estão instaladas. Tudo o que é necessário está no <a href=https://github.com/AdguardTeam/AdGuardHome#how-to-build><em>README.md</em></a>.</p>
-<p>Posto isto, basta apenas executar o <code>make</code> na pasta do código-fonte.</p>
-<p>Caso pretendas compilar apenas o binário para o teu sistema operativo e arquitetura específica, podes complementar o <code>make</code> da seguinte forma:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>make GOOS<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;linux&#39;</span> GOARCH<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;amd64&#39;</span>
-</code></pre></div><p>No exemplo acima, o binário vai ser compilado para <em>Linux</em> e processadores <em>x86_64</em>. Se tiveres um <em>rPI</em> ou uma <em>SoC</em> idêntica, podes trocar <code>amd64</code> por <code>arm64</code> ou <code>arm7</code>, por exemplo. O <em><a href=scripts/make/build-release.sh>scripts/make/build-release.sh</a></em> tem a listagem dos sistemas operativos e arquiteturas de <em>hadware</em> suportadas. Se quiseres dar uma vista de olhos, aquele é o ficheiro a consultar obrigatoriamente.</p>
-<p>O binário criado fica na raiz da pasta com o código-fonte. Para o tornar persistente, tal como na opção anterior, é necessário usares o comando <code>sudo ./AdGuardHome -s install</code>. Como no exemplo anterior, o binário é colocado em <code>/var/lib/adguardhome</code>, o serviço do <em>systemd</em> é instalado e o seu estado passa a poder ser controlado pelo <code>systemctl</code> se preferires este interface.</p>
-<p>Sempre que atualizares o repositório para um <em>commit</em> mais recente, tens de recompilar e correr novamente o comando de instalação <code>sudo ./AdGuardHome -s install</code>.</p>
-<h1 id=configuração>Configuração</h1>
-<p>A configuração do <em>AdGuardHome</em> é simples. Quando o abres pela primeira vez, dá-te o endereço para abrires no <em>browser</em> e mostra um assistente de configuração simples. Basta seguires os poucos passos do processo e ficas com os <em>defaults</em>, que deverão ser suficientes.</p>
-<p>Se pretenderes mais listas de bloqueio, o <em>interface web</em> permite escolher várias pré-definidas e adicionar externas. Eu fiz um pequeno <em><a href=https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt>port</a></em> da minha lista <em>Antinónio</em> para o <em>AdGuardHome</em>, se estiveres interessado.</p>
-<p>É possível, contúdo, que tenhas de adicionar exceções à lista de bloqueios através do <em>interface web</em> da aplicação. Eu só fui forçado a fazê-lo uma vez depois de adicionar mais listas, apenas para não ter acesso bloqueado ao endereço das estatísticas deste <em>blog</em>, o <em>goatcounter.com</em>. A lista que contém o bloqueio barra tudo desse domínio.</p>
-<h1 id=conclusão>Conclusão</h1>
-<p>Isto é uma introdução muito simples ao processo de instalação do <em>AdGuardHome</em> e assume que estás minimamente à vontade com um terminal. Se não for o teu caso, é melhor leres a <a href=https://github.com/AdguardTeam/AdGuardHome/wiki>documentação</a> do projeto.</p>
-<p><small><em>A imagem deste post é um screenshot da minha instalação do AdGuardHome e está disponível sob a licença Creative Commons (<a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a>)</em></small></p>
-</section>
-<footer class=post-tags>
+</p><h1>Instalar o AdGuardHome</h1></header><p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/adguard/images/adguardhome.png alt="Featured Image"></p><section class=post-content><p>Há mais de um ano que uso o <em>unbound</em> como <em>DNS resolver</em> local. Esta é uma boa forma de poder abstrair a gestão dos servidores de <em>DNS</em> usados no meu portátil, sem ter de passar a vida a editar o <code>/etc/resolv.conf</code> ou a lutar contra aplicações como o <em>systemd-resolvconf</em> e o <em>network-manager</em>.</p><p>A configuração ativa que tenho no <em>unbound</em> é a que se segue:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>server</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>access-control</span>: <span style=color:#ae81ff>127.0.0.0</span><span style=color:#ae81ff>/8 allow</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>access-control</span>: ::<span style=color:#ae81ff>1</span><span style=color:#ae81ff>/128 allow</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>interface</span>: <span style=color:#f92672>:</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>interface</span>: <span style=color:#ae81ff>0.0.0.0</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>do-ip4</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>do-ip6</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>do-udp</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>do-tcp</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>aggressive-nsec</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>cache-max-ttl</span>: <span style=color:#ae81ff>14400</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>cache-min-ttl</span>: <span style=color:#ae81ff>300</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>hide-identity</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>hide-version</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>minimal-responses</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>prefetch</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>qname-minimisation</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>rrset-roundrobin</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>use-caps-for-id</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>verbosity</span>: <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>tls-upstream</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>tls-cert-bundle</span>: <span style=color:#ae81ff>/etc/ssl/certs/ca-certificates.crt</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>forward-zone</span>:
+</span></span><span style=display:flex><span>   <span style=color:#f92672>name</span>: <span style=color:#e6db74>&#34;.&#34;</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>forward-tls-upstream</span>: <span style=color:#66d9ef>yes</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>forward-first</span>: <span style=color:#66d9ef>no</span> <span style=color:#75715e># do NOT send direct</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># Quad 9 DNS - default</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>9.9.9.9</span>@<span style=color:#ae81ff>853</span><span style=color:#75715e>#dns.quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>149.112.112.112</span>@<span style=color:#ae81ff>853</span><span style=color:#75715e>#dns.quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>2620</span>:<span style=color:#ae81ff>fe::fe@853#dns.quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>forward-addr</span>: <span style=color:#ae81ff>2620</span>:<span style=color:#ae81ff>fe::9@853#dns.quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># Quad9 DNS - unfiltered</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 9.9.9.10@853#quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 149.112.112.10@853#quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 2620:fe::10@853#quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 2620:fe::fe:10@853#quad9.net</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># AdGuard DNS</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 94.140.14.140@853#dns-unfiltered.adguard.com</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 94.140.15.15@853#dns-unfiltered.adguard.com</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 2a10:50c0::1:ff@853#dns-unfiltered.adguard.com</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 2a10:50c0::2:ff@853#dns-unfiltered.adguard.com</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># Cloudflare DNS</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 2606:4700:4700::1111@853#cloudflare-dns.com</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 1.1.1.1@853#cloudflare-dns.com</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 2606:4700:4700::1001@853#cloudflare-dns.com</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e>#forward-addr: 1.0.0.1@853#cloudflare-dns.com</span>
+</span></span></code></pre></div><p>No entanto, já há algum tempo que tinha curiosidade em testar o <em>AdGuardHome</em>. A funcionalidade de <em>adblocker</em> interessou-me bastante e parece-me uma boa forma de impedir que alguns <em>scripts</em> de <em>tracking</em> cheguem, não só ao <em>browser</em>, mas às aplicações como o <em>Discord</em> e outras potencialmente problemáticas no que toca à privacidade.</p><p>Existe também uma funcionalidade que permite usar o <em>AdGuardHome</em> como servidor <em>DHCP</em>. Como pretendo utilizá-lo apenas no meu portátil, esta não me interessa. Quem tem um computador ou uma <em>SoC</em> para atribuir <em>IPs</em> na rede pode ter interesse nela, ao mesmo tempo que bloqueia algum <em>tracking</em>.</p><h1 id=instalação>Instalação</h1><h2 id=usar-binário-pré-compilado>Usar binário pré-compilado</h2><p>O projeto tem <em>releases</em> binárias para além do código-fonte no <em>Github</em>. Sempre que uma nova versão é <em>tagada</em>, os binários para diferentes sistemas operativos e arquiteturas de <em>hardware</em> são colocados na <a href=https://github.com/AdguardTeam/AdGuardHome/releases>secção de <em>releases</em> do repositório</a>. A forma mais simples de usar o <em>AdGuardHome</em> é descarregar uma destas <em>releases</em>, descompactar e correr a aplicação como <em>root</em>.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>sudo ./AdGuardHome
+</span></span></code></pre></div><p>Usar estes binários não torna a ativação persistente. Para isso é necessário abrir um terminal, ir até à pasta onde está o binário e usar o comando <code>sudo ./AdGuardHome -s install</code>. Ao fazeres isto, o binário é colocado em <code>/var/lib/adguardhome</code>, o serviço do <em>systemd</em> é instalado e o seu estado passa a poder ser controlado pelo <code>systemctl</code> se preferires este interface.</p><p>Sempre que sair uma versão nova, tens de a descarregar e voltar a correr o comando de instalação <code>sudo ./AdGuardHome -s install</code>.</p><h2 id=compilar-o-código-fonte>Compilar o código-fonte</h2><p>A compilação do <em>AdGuardHome</em> pode ser feita de duas formas: usando o código-fonte de uma <em><a href=https://github.com/AdguardTeam/AdGuardHome/releases>release</a></em> específica ou a <em>brach master</em> do repositório <em>git</em>. Qualquer que seja a tua opção, deves garantir que todas as dependências estão instaladas. Tudo o que é necessário está no <a href=https://github.com/AdguardTeam/AdGuardHome#how-to-build><em>README.md</em></a>.</p><p>Posto isto, basta apenas executar o <code>make</code> na pasta do código-fonte.</p><p>Caso pretendas compilar apenas o binário para o teu sistema operativo e arquitetura específica, podes complementar o <code>make</code> da seguinte forma:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>make GOOS<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;linux&#39;</span> GOARCH<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;amd64&#39;</span>
+</span></span></code></pre></div><p>No exemplo acima, o binário vai ser compilado para <em>Linux</em> e processadores <em>x86_64</em>. Se tiveres um <em>rPI</em> ou uma <em>SoC</em> idêntica, podes trocar <code>amd64</code> por <code>arm64</code> ou <code>arm7</code>, por exemplo. O <em><a href=scripts/make/build-release.sh>scripts/make/build-release.sh</a></em> tem a listagem dos sistemas operativos e arquiteturas de <em>hadware</em> suportadas. Se quiseres dar uma vista de olhos, aquele é o ficheiro a consultar obrigatoriamente.</p><p>O binário criado fica na raiz da pasta com o código-fonte. Para o tornar persistente, tal como na opção anterior, é necessário usares o comando <code>sudo ./AdGuardHome -s install</code>. Como no exemplo anterior, o binário é colocado em <code>/var/lib/adguardhome</code>, o serviço do <em>systemd</em> é instalado e o seu estado passa a poder ser controlado pelo <code>systemctl</code> se preferires este interface.</p><p>Sempre que atualizares o repositório para um <em>commit</em> mais recente, tens de recompilar e correr novamente o comando de instalação <code>sudo ./AdGuardHome -s install</code>.</p><h1 id=configuração>Configuração</h1><p>A configuração do <em>AdGuardHome</em> é simples. Quando o abres pela primeira vez, dá-te o endereço para abrires no <em>browser</em> e mostra um assistente de configuração simples. Basta seguires os poucos passos do processo e ficas com os <em>defaults</em>, que deverão ser suficientes.</p><p>Se pretenderes mais listas de bloqueio, o <em>interface web</em> permite escolher várias pré-definidas e adicionar externas. Eu fiz um pequeno <em><a href=https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt>port</a></em> da minha lista <em>Antinónio</em> para o <em>AdGuardHome</em>, se estiveres interessado.</p><p>É possível, contúdo, que tenhas de adicionar exceções à lista de bloqueios através do <em>interface web</em> da aplicação. Eu só fui forçado a fazê-lo uma vez depois de adicionar mais listas, apenas para não ter acesso bloqueado ao endereço das estatísticas deste <em>blog</em>, o <em>goatcounter.com</em>. A lista que contém o bloqueio barra tudo desse domínio.</p><h1 id=conclusão>Conclusão</h1><p>Isto é uma introdução muito simples ao processo de instalação do <em>AdGuardHome</em> e assume que estás minimamente à vontade com um terminal. Se não for o teu caso, é melhor leres a <a href=https://github.com/AdguardTeam/AdGuardHome/wiki>documentação</a> do projeto.</p><p><small><em>A imagem deste post é um screenshot da minha instalação do AdGuardHome e está disponível sob a licença Creative Commons (<a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a>)</em></small></p></section><footer class=post-tags>
 <small><strong>categorias</strong><br>
 <a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
 </small>
@@ -154,19 +120,9 @@ server: access-control: 127.0.0.0/8 allow access-control: ::1/128 allow interfac
 <a href=https://blog.brunomiguel.net/tags/unbound>unbound</a>
 <a href=https://blog.brunomiguel.net/tags/dns-resolver>DNS resolver</a>
 </small>
-</footer>
-<div id=disqus_thread class=post-comments></div>
-<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
 <nav class=post-nav>
 <a class=prev href=https://blog.brunomiguel.net/post/listas-adguardhome/><span>←</span><span>Listas de bloqueio …</span></a>
 <a class=next href=https://blog.brunomiguel.net/post/repositorio-cara-lavada/><span>Repositório com cara …</span><span>→</span></a>
-</nav>
-</article>
-</main>
-<footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
-<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
-<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
-</footer>
-</body>
-</html>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>

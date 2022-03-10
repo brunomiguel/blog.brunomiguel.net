@@ -3,8 +3,7 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Updates on my Arch/Manjaro repository - .blog</title>
-<meta name=description content="Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
+<title>Updates on my Arch/Manjaro repository - .blog</title><meta name=description content="Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
 After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&rsquo;ve been (successfully) testing aurto to manage the repository updates.">
 <meta name=author content>
 <meta name=keywords content="arch,aur,aurto,gnu-linux,linux,manjaro,repository">
@@ -18,7 +17,7 @@ After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99
 <link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
 <link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
 <link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.2">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.brunomiguel.net">
 <meta name=twitter:title content="Updates on my Arch/Manjaro repository">
@@ -34,28 +33,23 @@ After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99
 <meta property="og:site_name" content=".blog">
 <meta property="article:published_time" content="2019-03-26T00:00:00+00:00">
 <meta property="article:modified_time" content="2019-03-26T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
-</head>
-<body class=not-ready data-menu=true>
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
 <header class=header>
 <p class=logo>
 <a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p>
-<nav class=menu>
+</p><nav class=menu>
 <a href=/about/>Sobre</a>
 <a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
 <a href=https://userrepository.eu/>Userrepository</a>
 <a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav>
-<nav class=social>
+</nav><nav class=social>
 <a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
 <a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
 <a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav>
-<a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
-</header>
-<main class=main>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
 <article class=post-single>
 <header class=post-title>
 <p>
@@ -63,19 +57,9 @@ After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99
 <span>Bruno Miguel</span>
 <span>Tempo de leitura: 0 minutos
 </span>
-</p>
-<h1>Updates on my Arch/Manjaro repository</h1>
-</header>
-<section class=post-content><p>Ever since Carlos Silva left a <a href=http://blog.brunomiguel.net/geekices/ive-built-a-manjaro-repository/#comment-1114>comment</a> on my last post about this repository, I was left wondering if it wouldn&rsquo;t be better to migrate my current <em>VM</em> to <em>Scaleway</em>. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of <em>RAM</em> and 50Gb of disk space.</p>
-<p>After a couple of weeks of reflection, I bought a <em>“Start1-S” VPS</em> for €3,99/month and I&rsquo;ve been (successfully) testing <em><a href=https://github.com/alexheretic/aurto/>aurto</a></em> to manage the repository updates. Things have been working out so great that I bought the <a href=http://userrepository.eu>userrepository.eu</a> domain.</p>
-<p><em>(I will add a certificate to the website, I promise!)</em></p>
-<p>The address has all the instructions for you to add it to your system. But in case you can&rsquo;t visit right now, here&rsquo;s what you need to add to the <em>/etc/pacman.conf</em> file:</p>
-<p>[aurto]<br>
+</p><h1>Updates on my Arch/Manjaro repository</h1></header><section class=post-content><p>Ever since Carlos Silva left a <a href=http://blog.brunomiguel.net/geekices/ive-built-a-manjaro-repository/#comment-1114>comment</a> on my last post about this repository, I was left wondering if it wouldn&rsquo;t be better to migrate my current <em>VM</em> to <em>Scaleway</em>. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of <em>RAM</em> and 50Gb of disk space.</p><p>After a couple of weeks of reflection, I bought a <em>“Start1-S” VPS</em> for €3,99/month and I&rsquo;ve been (successfully) testing <em><a href=https://github.com/alexheretic/aurto/>aurto</a></em> to manage the repository updates. Things have been working out so great that I bought the <a href=http://userrepository.eu>userrepository.eu</a> domain.</p><p><em>(I will add a certificate to the website, I promise!)</em></p><p>The address has all the instructions for you to add it to your system. But in case you can&rsquo;t visit right now, here&rsquo;s what you need to add to the <em>/etc/pacman.conf</em> file:</p><p>[aurto]<br>
 Server = http://51.15.233.8<br>
-SigLevel = Optional TrustAll</p>
-<p>I remind you, dear reader, that this repo only contains <em>AUR</em> packages.</p>
-</section>
-<footer class=post-tags>
+SigLevel = Optional TrustAll</p><p>I remind you, dear reader, that this repo only contains <em>AUR</em> packages.</p></section><footer class=post-tags>
 <small><strong>categorias</strong><br>
 <a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
 </small>
@@ -89,19 +73,9 @@ SigLevel = Optional TrustAll</p>
 <a href=https://blog.brunomiguel.net/tags/manjaro>manjaro</a>
 <a href=https://blog.brunomiguel.net/tags/repository>repository</a>
 </small>
-</footer>
-<div id=disqus_thread class=post-comments></div>
-<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
 <nav class=post-nav>
 <a class=prev href=https://blog.brunomiguel.net/post/happy-zombie-jesus-day/><span>←</span><span>Happy Zombie Jesus …</span></a>
 <a class=next href=https://blog.brunomiguel.net/post/o-balanco-e-dificil/><span>O balanço é difícil</span><span>→</span></a>
-</nav>
-</article>
-</main>
-<footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
-<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
-<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
-</footer>
-</body>
-</html>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>

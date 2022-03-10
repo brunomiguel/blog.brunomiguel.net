@@ -1,0 +1,77 @@
+<!doctype html><html lang=pt>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>Balanço da utilização do AdGuardHome - .blog</title><meta name=description content="Há mais ou menos um mês que substitui o Unbound pelo AdGuardHome como DNS resolver no meu portátil. O Unbound funciona excecionalmente bem, é muito eficiente na utilização dos poucos recursos de que necessita e pode ser configurado para uma enormidade de tipos de redes. Apesar destas capacidades todas - e não são poucas, diga-se de passagem - falta-lhe bloqueio nativo de trackers e anúncios. Há algumas ferramentas third-party que podes usar, mas&mldr;">
+<meta name=author content="Bruno Miguel">
+<meta name=keywords content="AdGuardHome,DNS,Git,Software Livre,Open-Source,Código Fonte,resolver,unbound,DNS resolver">
+<link rel=canonical href=https://blog.brunomiguel.net/post/balanco-uso-adguardhome/>
+<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.min.css>
+<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
+<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
+<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
+<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
+<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
+<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.93.2">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.brunomiguel.net/post/balanco-uso-adguardhome/images/adguardhome.png">
+<meta name=twitter:title content="Balanço da utilização do AdGuardHome">
+<meta name=twitter:description content="O meu balanço da utilização do AdGuardHome é bastante positivo e recomendo a aplicação">
+<meta property="og:title" content="Balanço da utilização do AdGuardHome">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://blog.brunomiguel.net/post/balanco-uso-adguardhome/images/adguardhome.png">
+<meta property="og:url" content="https://blog.brunomiguel.net/post/balanco-uso-adguardhome/">
+<meta property="og:description" content="O meu balanço da utilização do AdGuardHome é bastante positivo e recomendo a aplicação">
+<meta property="og:locale" content="pt">
+<meta property="og:site_name" content=".blog">
+<meta property="article:published_time" content="2022-03-10T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-03-10T00:00:00+00:00">
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
+<header class=header>
+<p class=logo>
+<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
+</p><nav class=menu>
+<a href=/about/>Sobre</a>
+<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
+<a href=https://userrepository.eu/>Userrepository</a>
+<a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
+</nav><nav class=social>
+<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
+<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
+<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
+<article class=post-single>
+<header class=post-title>
+<p>
+<time>10/03/2022</time>
+<span>Bruno Miguel</span>
+<span>Tempo de leitura: 1 minuto
+</span>
+</p><h1>Balanço da utilização do AdGuardHome</h1></header><p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/balanco-uso-adguardhome/images/adguardhome.png alt="Featured Image"></p><section class=post-content><p>Há mais ou menos um mês que substitui o <em>Unbound</em> pelo <em><a href=https://adguard.com/en/adguard-home/overview.html>AdGuardHome</a></em> como <em>DNS resolver</em> no meu portátil. O <em>Unbound</em> funciona excecionalmente bem, é muito eficiente na utilização dos poucos recursos de que necessita e pode ser configurado para uma enormidade de tipos de redes. Apesar destas capacidades todas - e não são poucas, diga-se de passagem - falta-lhe bloqueio nativo de <em>trackers</em> e anúncios. Há algumas ferramentas <em>third-party</em> que podes usar, mas&mldr;</p><p>É aqui que o <em>AdGuardHome</em> entra. Esta aplicação fica aquém da capacidade de configuração do <em>Unbound</em>, o que não é necessariamente uma desvantagem numa rede doméstica, mas compensa isso com suporte nativo para bloqueio de anúncios e <em>trackers</em>. É como ter um <em>adblocker</em> fora do <em>browser</em>, disponível para todas as aplicações do sistema.</p><p>Desde que utilizo esta aplicação, só tive de adicionar uma exceção para o <em>goatcounter</em> às listas de bloqueio. Sem essa exceção, não consigo ver as estatísticas do <em>blog</em>. De resto, não foi necessário mais nada.</p><p>Eu uso o <em>software</em> como <em>resolver</em> local, como mencionei no primeiro parágrafo. Numa <em>SoC</em>, por exemplo, daria para fazer coisas bem mais interessantes. Algumas dessas possibilidades são usar o <em>AdGuardHome</em> também como servidor <em>DHCP</em> para todos os equipamentos ligados ao <em>router</em>, bloquear o acesso de um dispositivo a um ou mais <em>sites</em> enquanto permite que os outros acedam normalmente, ou bloquear o acesso a uma lista pré-definida de sites em todos os dispositivos.</p><p>O <em>AdGuardHome</em> é software livre e está disponível para vários sistemas operativos, como <em>Linux</em>, <em>FreeBSD</em>, <em>OpenBSD</em> e <em>Android</em>. Até sistemas operativos inferiores, como <em>Windows</em> e <em>macOS</em>, são suportados. Para além disso, arquiteturas como <em>MIPS</em> e <em>Arm</em> também são suportadas nalgumas configurações.</p><p>Queres fazer o download? Visita o <a href=https://github.com/AdguardTeam/AdGuardHome/>repositório</a> da aplicação no <em>Github</em> e <a href=https://github.com/AdguardTeam/AdGuardHome/releases>descarrega</a> o ficheiro para o teu sistema operativo.</p></section><footer class=post-tags>
+<small><strong>categorias</strong><br>
+<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
+</small>
+<br><br>
+<small><strong>tags</strong><br>
+<a href=https://blog.brunomiguel.net/tags/adguardhome>AdGuardHome</a>
+<a href=https://blog.brunomiguel.net/tags/dns>DNS</a>
+<a href=https://blog.brunomiguel.net/tags/git>Git</a>
+<a href=https://blog.brunomiguel.net/tags/software-livre>Software Livre</a>
+<a href=https://blog.brunomiguel.net/tags/open-source>Open-Source</a>
+<a href=https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte>Código Fonte</a>
+<a href=https://blog.brunomiguel.net/tags/resolver>resolver</a>
+<a href=https://blog.brunomiguel.net/tags/unbound>unbound</a>
+<a href=https://blog.brunomiguel.net/tags/dns-resolver>DNS resolver</a>
+</small>
+</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
+<nav class=post-nav>
+<a class=next href=https://blog.brunomiguel.net/post/listas-adguardhome/><span>Listas de bloqueio …</span><span>→</span></a>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>

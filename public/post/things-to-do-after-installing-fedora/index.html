@@ -3,8 +3,7 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Things to do after installing Fedora - .blog</title>
-<meta name=description content="WARNING
+<title>Things to do after installing Fedora - .blog</title><meta name=description content="WARNING
 Third-party repositories will be enabled and it was only tested on Fedora 28. This could have an impact on your system ranging from none to destroying all cat videos on the internet. You have been warned.
 Disable annoying AMD iommu warnings on boot Only for some AMD CPUs, like mine, an AMD A9-9420 Edit the /etc/default/grub file and append the following to the GRUB_CMDLINE_LINUX line:
 iommu=soft amd_iommu=off Full example:">
@@ -20,7 +19,7 @@ iommu=soft amd_iommu=off Full example:">
 <link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
 <link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
 <link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.2">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.brunomiguel.net">
 <meta name=twitter:title content="Things to do after installing Fedora">
@@ -40,28 +39,23 @@ iommu=soft amd_iommu=off Full example:">
 <meta property="og:site_name" content=".blog">
 <meta property="article:published_time" content="2018-10-07T00:00:00+00:00">
 <meta property="article:modified_time" content="2018-10-07T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
-</head>
-<body class=not-ready data-menu=true>
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
 <header class=header>
 <p class=logo>
 <a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p>
-<nav class=menu>
+</p><nav class=menu>
 <a href=/about/>Sobre</a>
 <a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
 <a href=https://userrepository.eu/>Userrepository</a>
 <a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav>
-<nav class=social>
+</nav><nav class=social>
 <a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
 <a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
 <a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav>
-<a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
-</header>
-<main class=main>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
 <article class=post-single>
 <header class=post-title>
 <p>
@@ -69,58 +63,22 @@ iommu=soft amd_iommu=off Full example:">
 <span>Bruno Miguel</span>
 <span>Tempo de leitura: 1 minuto
 </span>
-</p>
-<h1>Things to do after installing Fedora</h1>
-</header>
-<section class=post-content><p>WARNING</p>
-<p>Third-party repositories will be enabled and it was only tested on <em>Fedora 28</em>. This could have an impact on your system ranging from none to destroying all cat videos on the internet. You have been warned.</p>
-<h3 id=disable-annoying-_amd-iommu_-warnings-on-boot>Disable annoying <em>AMD iommu</em> warnings on boot</h3>
-<h5 id=only-for-some-_amd-cpus_-like-mine-an-_amd-a9-9420_>Only for some <em>AMD CPUs</em>, like mine, an <em>AMD A9-9420</em></h5>
-<p>Edit the <em>/etc/default/grub</em> file and append the following to the <em>GRUB_CMDLINE_LINUX</em> line:</p>
-<pre tabindex=0><code>iommu=soft amd_iommu=off
-</code></pre><p>Full example:</p>
-<pre tabindex=0><code>GRUB_CMDLINE_LINUX=&quot;resume=/dev/mapper/fedora_localhost--live-swap rd.lvm.lv=fedora_localhost-live/root rd.lvm.lv=fedora_localhost-live/swap rhgb quiet iommu=soft amd_iommu=off&quot;
-</code></pre><p>Finally, generate the new <em>GRUB</em> configuration to take effect on your next reboot and any kernel update thereafter:</p>
-<pre tabindex=0><code>sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
-</code></pre><h3 id=enable-_negativo17_-multimedia-repository>Enable <em>Negativo17</em> multimedia repository</h3>
-<h5 id=_negativo17-has-more-repositories-you-can-use-them-to-install-steam-spotify-and-more-apps-check-their-websitehttpsnegativo17org-for-more-info_><em>Negativo17 has more repositories. You can use them to install Steam, Spotify and more apps. Check their <a href=https://negativo17.org/>website</a> for more info.</em></h5>
-<p>This repositories contains codecs and multimedia software (HandBrake and Blender with CUDA support, for example). A must have.</p>
-<pre tabindex=0><code>sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-multimedia.repo -y
-</code></pre><h3 id=enable-third-party-repositories-supported-by-fedora>Enable third-party repositories &ldquo;supported&rdquo; by Fedora</h3>
-<p>Refer to the <a href=https://fedoraproject.org/wiki/Workstation/Third_Party_Software_Repositories>Fedora Wiki</a> for more info.</p>
-<h3 id=enable-visual-studio-code-repository>Enable Visual Studio Code repository</h3>
-<pre tabindex=0><code>sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+</p><h1>Things to do after installing Fedora</h1></header><section class=post-content><p>WARNING</p><p>Third-party repositories will be enabled and it was only tested on <em>Fedora 28</em>. This could have an impact on your system ranging from none to destroying all cat videos on the internet. You have been warned.</p><h3 id=disable-annoying-_amd-iommu_-warnings-on-boot>Disable annoying <em>AMD iommu</em> warnings on boot</h3><h5 id=only-for-some-_amd-cpus_-like-mine-an-_amd-a9-9420_>Only for some <em>AMD CPUs</em>, like mine, an <em>AMD A9-9420</em></h5><p>Edit the <em>/etc/default/grub</em> file and append the following to the <em>GRUB_CMDLINE_LINUX</em> line:</p><pre tabindex=0><code>iommu=soft amd_iommu=off
+</code></pre><p>Full example:</p><pre tabindex=0><code>GRUB_CMDLINE_LINUX=&#34;resume=/dev/mapper/fedora_localhost--live-swap rd.lvm.lv=fedora_localhost-live/root rd.lvm.lv=fedora_localhost-live/swap rhgb quiet iommu=soft amd_iommu=off&#34;
+</code></pre><p>Finally, generate the new <em>GRUB</em> configuration to take effect on your next reboot and any kernel update thereafter:</p><pre tabindex=0><code>sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+</code></pre><h3 id=enable-_negativo17_-multimedia-repository>Enable <em>Negativo17</em> multimedia repository</h3><h5 id=_negativo17-has-more-repositories-you-can-use-them-to-install-steam-spotify-and-more-apps-check-their-websitehttpsnegativo17org-for-more-info_><em>Negativo17 has more repositories. You can use them to install Steam, Spotify and more apps. Check their <a href=https://negativo17.org/>website</a> for more info.</em></h5><p>This repositories contains codecs and multimedia software (HandBrake and Blender with CUDA support, for example). A must have.</p><pre tabindex=0><code>sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-multimedia.repo -y
+</code></pre><h3 id=enable-third-party-repositories-supported-by-fedora>Enable third-party repositories &ldquo;supported&rdquo; by Fedora</h3><p>Refer to the <a href=https://fedoraproject.org/wiki/Workstation/Third_Party_Software_Repositories>Fedora Wiki</a> for more info.</p><h3 id=enable-visual-studio-code-repository>Enable Visual Studio Code repository</h3><pre tabindex=0><code>sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
-sudo sh -c 'echo -e &quot;[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc&quot; &gt; /etc/yum.repos.d/vscode.repo'
-</code></pre><h3 id=install-all-codecs>Install all codecs</h3>
-<pre tabindex=0><code>sudo dnf install gstreamer1-{plugin-crystalhd,ffmpeg,plugins-{good,ugly,bad{,-free,-nonfree,-freeworld,-extras}{,-extras}}} libmpg123 lame-libs --setopt=strict=0 -y
-</code></pre><h3 id=apps-to-install-with-_dnf_>Apps to install with <em>DNF</em></h3>
-<h5 id=_needs-negativo17-repos-enabled-not-only-the-multimedia-one_><em>Needs Negativo17 repos enabled (not only the multimedia one)</em></h5>
-<pre tabindex=0><code>sudo dnf install -y snapd gnome-tweaks dconf-editor mpv gnome-mpv vlc dnfdragora gimp gimpfx-foundry gimp-luminosity-masks gimp-fourier-plugin gimp-focusblur-plugin gmic gmic-gimp inkscape flameshot vokoscreen kodi jpegoptim optipng micro steam qemu-system-x86 youtube-dl mplayer qbittorrent spotify steam pycharm-community pycharm-community-plugins code
-</code></pre><h3 id=apps-to-install-with-_flatpak_>Apps to install with <em>Flatpak</em></h3>
-<h5 id=first-enable-_flathub_-repo-for-_flatpak_>First, enable <em>flathub</em> repo for <em>Flatpak</em></h5>
-<pre tabindex=0><code>sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-</code></pre><h5 id=then-install-the-apps>Then install the apps</h5>
-<pre tabindex=0><code>sudo flatpak install flathub io.github.wereturtle.ghostwrhiter com.github.marktext.marktext io.github.Pithos
-</code></pre><h3 id=blacklist-_radeon_-driver>Blacklist <em>radeon</em> driver</h3>
-<p>For some reason, the system completely freezes randomly if I don&rsquo;t blacklist the radeon <em>driver</em>. Maybe it interferes with the <em>amdgpu</em> driver that is needed by my <em>GPUs</em> or maybe it&rsquo;s something related to <a href=https://wiki.archlinux.org/index.php/PRIME><em>Prime</em></a>, but this are just guesses.</p>
-<pre tabindex=0><code>echo 'blacklist radeon' | sudo tee --append /etc/modules.d/blacklist.conf
-</code></pre><h3 id=optional-install-minimal-_plasma-desktop-environment_>(Optional) Install minimal <em>Plasma Desktop Environment</em></h3>
-<pre tabindex=0><code>sudo dnf install @critical-path-kde plasma-workspace plasma-workspace-wayland kde-settings kde-settings-plasma kde-settings-pulseaudio plasma-nm plasma-nm-openvpn plasma-nm-ssh plasma-applet-redshift-control plasma-browser-integration kde-l10n-pt kde-gtk-config dolphin konsole gwenview plasma-workspace kate-plugins kate konsole5 kde-gtk-config ksysguard -y
-</code></pre><p>Thanks, <a href=https://www.reddit.com/user/jflory7>/u/jflory7</a>, for the tips to improve this &ldquo;guide&rdquo;.</p>
-</section>
-<div id=disqus_thread class=post-comments></div>
-<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+sudo sh -c &#39;echo -e &#34;[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc&#34; &gt; /etc/yum.repos.d/vscode.repo&#39;
+</code></pre><h3 id=install-all-codecs>Install all codecs</h3><pre tabindex=0><code>sudo dnf install gstreamer1-{plugin-crystalhd,ffmpeg,plugins-{good,ugly,bad{,-free,-nonfree,-freeworld,-extras}{,-extras}}} libmpg123 lame-libs --setopt=strict=0 -y
+</code></pre><h3 id=apps-to-install-with-_dnf_>Apps to install with <em>DNF</em></h3><h5 id=_needs-negativo17-repos-enabled-not-only-the-multimedia-one_><em>Needs Negativo17 repos enabled (not only the multimedia one)</em></h5><pre tabindex=0><code>sudo dnf install -y snapd gnome-tweaks dconf-editor mpv gnome-mpv vlc dnfdragora gimp gimpfx-foundry gimp-luminosity-masks gimp-fourier-plugin gimp-focusblur-plugin gmic gmic-gimp inkscape flameshot vokoscreen kodi jpegoptim optipng micro steam qemu-system-x86 youtube-dl mplayer qbittorrent spotify steam pycharm-community pycharm-community-plugins code
+</code></pre><h3 id=apps-to-install-with-_flatpak_>Apps to install with <em>Flatpak</em></h3><h5 id=first-enable-_flathub_-repo-for-_flatpak_>First, enable <em>flathub</em> repo for <em>Flatpak</em></h5><pre tabindex=0><code>sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+</code></pre><h5 id=then-install-the-apps>Then install the apps</h5><pre tabindex=0><code>sudo flatpak install flathub io.github.wereturtle.ghostwrhiter com.github.marktext.marktext io.github.Pithos
+</code></pre><h3 id=blacklist-_radeon_-driver>Blacklist <em>radeon</em> driver</h3><p>For some reason, the system completely freezes randomly if I don&rsquo;t blacklist the radeon <em>driver</em>. Maybe it interferes with the <em>amdgpu</em> driver that is needed by my <em>GPUs</em> or maybe it&rsquo;s something related to <a href=https://wiki.archlinux.org/index.php/PRIME><em>Prime</em></a>, but this are just guesses.</p><pre tabindex=0><code>echo &#39;blacklist radeon&#39; | sudo tee --append /etc/modules.d/blacklist.conf
+</code></pre><h3 id=optional-install-minimal-_plasma-desktop-environment_>(Optional) Install minimal <em>Plasma Desktop Environment</em></h3><pre tabindex=0><code>sudo dnf install @critical-path-kde plasma-workspace plasma-workspace-wayland kde-settings kde-settings-plasma kde-settings-pulseaudio plasma-nm plasma-nm-openvpn plasma-nm-ssh plasma-applet-redshift-control plasma-browser-integration kde-l10n-pt kde-gtk-config dolphin konsole gwenview plasma-workspace kate-plugins kate konsole5 kde-gtk-config ksysguard -y
+</code></pre><p>Thanks, <a href=https://www.reddit.com/user/jflory7>/u/jflory7</a>, for the tips to improve this &ldquo;guide&rdquo;.</p></section><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
 <nav class=post-nav>
 <a class=prev href=https://blog.brunomiguel.net/post/spaceship-like-cat-beds/><span>←</span><span>Spaceship-like cat …</span></a>
 <a class=next href=https://blog.brunomiguel.net/post/iq-tests-are-flawed/><span>IQ tests are flawed?</span><span>→</span></a>
-</nav>
-</article>
-</main>
-<footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
-<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
-<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
-</footer>
-</body>
-</html>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>

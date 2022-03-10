@@ -3,8 +3,7 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Some changes to userrepository - .blog</title>
-<meta name=description content="Hello, folks. It has been a while since I last wrote about my AUR-based Arch Linux repository. To be precise, four months and twelve days.
+<title>Some changes to userrepository - .blog</title><meta name=description content="Hello, folks. It has been a while since I last wrote about my AUR-based Arch Linux repository. To be precise, four months and twelve days.
 A lot has happened since then. One of the main changes was the removal of several packages no longer present in AUR or really outdated. Some examples are peafox, marp and gimp-dbp.
 Another important change was the addition of several new packages, as usual. If I find it may be useful for someone, I add it.">
 <meta name=author content>
@@ -19,7 +18,7 @@ Another important change was the addition of several new packages, as usual. If 
 <link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
 <link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
 <link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.2">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.brunomiguel.net/post/some-changes-to-userrepository/images/laptop-2588606_1920.jpg">
 <meta name=twitter:title content="Some changes to userrepository">
@@ -37,28 +36,23 @@ Another important change was the addition of several new packages, as usual. If 
 <meta property="og:site_name" content=".blog">
 <meta property="article:published_time" content="2021-01-24T00:00:00+00:00">
 <meta property="article:modified_time" content="2021-01-24T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
-</head>
-<body class=not-ready data-menu=true>
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
 <header class=header>
 <p class=logo>
 <a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p>
-<nav class=menu>
+</p><nav class=menu>
 <a href=/about/>Sobre</a>
 <a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
 <a href=https://userrepository.eu/>Userrepository</a>
 <a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav>
-<nav class=social>
+</nav><nav class=social>
 <a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
 <a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
 <a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav>
-<a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
-</header>
-<main class=main>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
 <article class=post-single>
 <header class=post-title>
 <p>
@@ -66,23 +60,8 @@ Another important change was the addition of several new packages, as usual. If 
 <span>Bruno Miguel</span>
 <span>Tempo de leitura: 10 minutos
 </span>
-</p>
-<h1>Some changes to userrepository</h1>
-</header>
-<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/some-changes-to-userrepository/images/laptop-2588606_1920.jpg alt="Featured Image"></p>
-<section class=post-content><p>Hello, folks. It has been a <a href=https://blog.brunomiguel.net/geekices/updates-on-userrepository-and-jarvis/>while</a> since I last wrote about my AUR-based Arch Linux <a href=https://userrepository.eu>repository</a>. To be precise, four months and twelve days.</p>
-<p>A lot has happened since then. One of the main changes was the removal of several packages no longer present in AUR or really outdated. Some examples are peafox, marp and gimp-dbp.</p>
-<p>Another important change was the addition of several new packages, as usual. If I find it may be useful for someone, I add it.</p>
-<p>Also, I created three metapackages for a minimal — and opinionated — Plasma Desktop, GNOME and XFCE installation. You can install them by choosing one of the following:</p>
-<ul>
-<li>gnome-minimal</li>
-<li>plasma-minimal</li>
-<li>xfce-minimal</li>
-</ul>
-<p>More, for Mate, Cinnamon and other desktop environments or window managers might be released soon.</p>
-<p>Sadly still, no kernels, although I would love to add one. I have jarvis — the build bot — doing a full build every 8 hours, so adding a kernel will likely force me to increase this time span. As of now, I would like to avoid it, but that might change in the future. Let&rsquo;s see how it goes.</p>
-<p>If you want to take a detailed look at the changes, you can see the last 10 ones below:</p>
-<pre tabindex=0><code>commit 9704c81ad0c7c09a93f42d1c62489c3cf2637fbc
+</p><h1>Some changes to userrepository</h1></header><p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/some-changes-to-userrepository/images/laptop-2588606_1920.jpg alt="Featured Image"></p><section class=post-content><p>Hello, folks. It has been a <a href=https://blog.brunomiguel.net/geekices/updates-on-userrepository-and-jarvis/>while</a> since I last wrote about my AUR-based Arch Linux <a href=https://userrepository.eu>repository</a>. To be precise, four months and twelve days.</p><p>A lot has happened since then. One of the main changes was the removal of several packages no longer present in AUR or really outdated. Some examples are peafox, marp and gimp-dbp.</p><p>Another important change was the addition of several new packages, as usual. If I find it may be useful for someone, I add it.</p><p>Also, I created three metapackages for a minimal — and opinionated — Plasma Desktop, GNOME and XFCE installation. You can install them by choosing one of the following:</p><ul>
+<li>gnome-minimal</li><li>plasma-minimal</li><li>xfce-minimal</li></ul><p>More, for Mate, Cinnamon and other desktop environments or window managers might be released soon.</p><p>Sadly still, no kernels, although I would love to add one. I have jarvis — the build bot — doing a full build every 8 hours, so adding a kernel will likely force me to increase this time span. As of now, I would like to avoid it, but that might change in the future. Let&rsquo;s see how it goes.</p><p>If you want to take a detailed look at the changes, you can see the last 10 ones below:</p><pre tabindex=0><code>commit 9704c81ad0c7c09a93f42d1c62489c3cf2637fbc
 Author: Bruno Miguel &lt;omitted&gt;
 Date:   Sun Jan 24 03:11:14 2021 +0000
 
@@ -93,25 +72,25 @@ index 1b59c51..49f1149 100644
 --- a/.gitmodules
 +++ b/.gitmodules
 @@ -1768,3 +1768,21 @@
- \[submodule &quot;pkgbuild/pilgo&quot;\]
+ \[submodule &#34;pkgbuild/pilgo&#34;\]
  	path = pkgbuild/pilgo
  	url = https://aur.archlinux.org/pilgo
-+\[submodule &quot;pkgbuild/ipscan&quot;\]
++\[submodule &#34;pkgbuild/ipscan&#34;\]
 +	path = pkgbuild/ipscan
 +	url = https://aur.archlinux.org/ipscan
-+\[submodule &quot;pkgbuild/otoclone&quot;\]
++\[submodule &#34;pkgbuild/otoclone&#34;\]
 +	path = pkgbuild/otoclone
 +	url = https://aur.archlinux.org/otoclone
-+\[submodule &quot;pkgbuild/sfwbar&quot;\]
++\[submodule &#34;pkgbuild/sfwbar&#34;\]
 +	path = pkgbuild/sfwbar
 +	url = https://aur.archlinux.org/sfwbar
-+\[submodule &quot;pkgbuild/mediad&quot;\]
++\[submodule &#34;pkgbuild/mediad&#34;\]
 +	path = pkgbuild/mediad
 +	url = https://aur.archlinux.org/mediad
-+\[submodule &quot;pkgbuild/novelwriter&quot;\]
++\[submodule &#34;pkgbuild/novelwriter&#34;\]
 +	path = pkgbuild/novelwriter
 +	url = https://aur.archlinux.org/novelwriter
-+\[submodule &quot;pkgbuild/aur-update&quot;\]
++\[submodule &#34;pkgbuild/aur-update&#34;\]
 +	path = pkgbuild/aur-update
 +	url = https://aur.archlinux.org/aur-update
 diff --git a/pkgbuild/android-messages-desktop-bin b/pkgbuild/android-messages-desktop-bin
@@ -441,13 +420,13 @@ index e992d3c..1b59c51 100644
 --- a/.gitmodules
 +++ b/.gitmodules
 @@ -1762,3 +1762,9 @@
- \[submodule &quot;pkgbuild/sslyze&quot;\]
+ \[submodule &#34;pkgbuild/sslyze&#34;\]
  	path = pkgbuild/sslyze
  	url = https://aur.archlinux.org/sslyze
-+\[submodule &quot;pkgbuild/flat-remix&quot;\]
++\[submodule &#34;pkgbuild/flat-remix&#34;\]
 +	path = pkgbuild/flat-remix
 +	url = https://aur.archlinux.org/flat-remix
-+\[submodule &quot;pkgbuild/pilgo&quot;\]
++\[submodule &#34;pkgbuild/pilgo&#34;\]
 +	path = pkgbuild/pilgo
 +	url = https://aur.archlinux.org/pilgo
 diff --git a/pkgbuild/flat-remix b/pkgbuild/flat-remix
@@ -498,27 +477,27 @@ index 533a9f6..e992d3c 100644
 +++ b/.gitmodules
 @@ -306,7 +306,7 @@
  	url = https://aur.archlinux.org/rofimoji-git.git
- \[submodule &quot;pkgbuild/scaleway-cli&quot;\]
+ \[submodule &#34;pkgbuild/scaleway-cli&#34;\]
  	path = pkgbuild/scaleway-cli
 -	url = https://aur.archlinux.org/scaleway-cli.git
 +	url = https://aur.archlinux.org/scaleway-cli
- \[submodule &quot;pkgbuild/scat&quot;\]
+ \[submodule &#34;pkgbuild/scat&#34;\]
  	path = pkgbuild/scat
  	url = https://aur.archlinux.org/scat.git
 @@ -1750,3 +1750,15 @@
- \[submodule &quot;pkgbuild/speedread-git&quot;\]
+ \[submodule &#34;pkgbuild/speedread-git&#34;\]
  	path = pkgbuild/speedread-git
  	url = https://aur.archlinux.org/speedread-git
-+\[submodule &quot;pkgbuild/haruna&quot;\]
++\[submodule &#34;pkgbuild/haruna&#34;\]
 +	path = pkgbuild/haruna
 +	url = https://aur.archlinux.org/haruna
-+\[submodule &quot;pkgbuild/plotinus&quot;\]
++\[submodule &#34;pkgbuild/plotinus&#34;\]
 +	path = pkgbuild/plotinus
 +	url = https://aur.archlinux.org/plotinus
-+\[submodule &quot;pkgbuild/howdoi&quot;\]
++\[submodule &#34;pkgbuild/howdoi&#34;\]
 +	path = pkgbuild/howdoi
 +	url = https://aur.archlinux.org/howdoi
-+\[submodule &quot;pkgbuild/sslyze&quot;\]
++\[submodule &#34;pkgbuild/sslyze&#34;\]
 +	path = pkgbuild/sslyze
 +	url = https://aur.archlinux.org/sslyze
 diff --git a/pkgbuild/airgeddon-git b/pkgbuild/airgeddon-git
@@ -568,13 +547,13 @@ index 108024d..533a9f6 100644
 --- a/.gitmodules
 +++ b/.gitmodules
 @@ -850,9 +850,6 @@
- \[submodule &quot;pkgbuild/gimp-plugin-lqr&quot;\]
+ \[submodule &#34;pkgbuild/gimp-plugin-lqr&#34;\]
  	path = pkgbuild/gimp-plugin-lqr
  	url = https://aur.archlinux.org/gimp-plugin-lqr
--\[submodule &quot;pkgbuild/gimp-dbp&quot;\]
+-\[submodule &#34;pkgbuild/gimp-dbp&#34;\]
 -	path = pkgbuild/gimp-dbp
 -	url = https://aur.archlinux.org/gimp-dbp
- \[submodule &quot;pkgbuild/giti-git&quot;\]
+ \[submodule &#34;pkgbuild/giti-git&#34;\]
  	path = pkgbuild/giti-git
  	url = https://aur.archlinux.org/giti-git
 
@@ -603,13 +582,13 @@ index 2d9cf96..108024d 100644
 --- a/.gitmodules
 +++ b/.gitmodules
 @@ -1144,9 +1144,6 @@
- \[submodule &quot;pkgbuild/scrotpush&quot;\]
+ \[submodule &#34;pkgbuild/scrotpush&#34;\]
  	path = pkgbuild/scrotpush
  	url = https://aur.archlinux.org/scrotpush
--\[submodule &quot;pkgbuild/peafox&quot;\]
+-\[submodule &#34;pkgbuild/peafox&#34;\]
 -	path = pkgbuild/peafox
 -	url = https://aur.archlinux.org/peafox
- \[submodule &quot;pkgbuild/cowspeak&quot;\]
+ \[submodule &#34;pkgbuild/cowspeak&#34;\]
  	path = pkgbuild/cowspeak
  	url = https://aur.archlinux.org/cowspeak
 
@@ -638,13 +617,13 @@ index ffff862..2d9cf96 100644
 --- a/.gitmodules
 +++ b/.gitmodules
 @@ -634,9 +634,6 @@
- \[submodule &quot;pkgbuild/dnsproxy-adguard&quot;\]
+ \[submodule &#34;pkgbuild/dnsproxy-adguard&#34;\]
  	path = pkgbuild/dnsproxy-adguard
  	url = https://aur.archlinux.org/dnsproxy-adguard
--\[submodule &quot;pkgbuild/karma&quot;\]
+-\[submodule &#34;pkgbuild/karma&#34;\]
 -	path = pkgbuild/karma
 -	url = https://aur.archlinux.org/karma
- \[submodule &quot;pkgbuild/gedit-plugin-markdown\_preview-git&quot;\]
+ \[submodule &#34;pkgbuild/gedit-plugin-markdown\_preview-git&#34;\]
  	path = pkgbuild/gedit-plugin-markdown\_preview-git
  	url = https://aur.archlinux.org/gedit-plugin-markdown\_preview-git
 
@@ -673,13 +652,13 @@ index bac6ed8..ffff862 100644
 --- a/.gitmodules
 +++ b/.gitmodules
 @@ -196,9 +196,6 @@
- \[submodule &quot;pkgbuild/marktext-bin&quot;\]
+ \[submodule &#34;pkgbuild/marktext-bin&#34;\]
  	path = pkgbuild/marktext-bin
  	url = https://aur.archlinux.org/marktext-bin.git
--\[submodule &quot;pkgbuild/marp&quot;\]
+-\[submodule &#34;pkgbuild/marp&#34;\]
 -	path = pkgbuild/marp
 -	url = https://aur.archlinux.org/marp.git
- \[submodule &quot;pkgbuild/micro&quot;\]
+ \[submodule &#34;pkgbuild/micro&#34;\]
  	path = pkgbuild/micro
  	url = https://aur.archlinux.org/micro.git
 diff --git a/pkgbuild/yambar b/pkgbuild/yambar
@@ -696,9 +675,7 @@ index cec0e3f..d82bb69 160000
 @@ -1 +1 @@
 -Subproject commit cec0e3fcee8c305a301d6ceec8a75821940d1395
 +Subproject commit d82bb69aef406046ccf5126ae433373ffc2ee281		
-</code></pre><p>Image from <a href=https://pixabay.com/photos/laptop-apple-keyboard-technology-2588606/>Pixabay</a>, by <a href=https://pixabay.com/users/stocksnap-894430/>StockSnap</a>.</p>
-</section>
-<footer class=post-tags>
+</code></pre><p>Image from <a href=https://pixabay.com/photos/laptop-apple-keyboard-technology-2588606/>Pixabay</a>, by <a href=https://pixabay.com/users/stocksnap-894430/>StockSnap</a>.</p></section><footer class=post-tags>
 <small><strong>categorias</strong><br>
 <a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
 </small>
@@ -709,19 +686,9 @@ index cec0e3f..d82bb69 160000
 <a href=https://blog.brunomiguel.net/tags/userrepository>userrepository</a>
 <a href=https://blog.brunomiguel.net/tags/userrepository-eu>userrepository-eu</a>
 </small>
-</footer>
-<div id=disqus_thread class=post-comments></div>
-<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
 <nav class=post-nav>
 <a class=prev href=https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/><span>←</span><span>A shitload of new …</span></a>
 <a class=next href=https://blog.brunomiguel.net/post/ter-fibromialgia-be-like/><span>Ter fibromialgia be …</span><span>→</span></a>
-</nav>
-</article>
-</main>
-<footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
-<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
-<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
-</footer>
-</body>
-</html>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>

@@ -3,8 +3,7 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Improved new night mode for Twitter - .blog</title>
-<meta name=description content="I got the new, event and flex-based, Twitter design a few days ago and decided to try out the night mode. This was also influenced by some tweet a contact of mine published.
+<title>Improved new night mode for Twitter - .blog</title><meta name=description content="I got the new, event and flex-based, Twitter design a few days ago and decided to try out the night mode. This was also influenced by some tweet a contact of mine published.
 While not bad, I don&rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the blue light stuff impacting our sleep. Even with a blue light filter, like the one from Plasma, it&rsquo;s still too much blue.">
 <meta name=author content>
 <meta name=keywords content="chrome,css,firefox,night-mode,stylus,twitter">
@@ -18,7 +17,7 @@ While not bad, I don&rsquo;t like what I think is an exaggerated use of blue hue
 <link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
 <link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
 <link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.2">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/images/twitter-night-mode.png">
 <meta name=twitter:title content="Improved new night mode for Twitter">
@@ -34,28 +33,23 @@ While not bad, I don&rsquo;t like what I think is an exaggerated use of blue hue
 <meta property="og:site_name" content=".blog">
 <meta property="article:published_time" content="2019-06-30T00:00:00+00:00">
 <meta property="article:modified_time" content="2019-06-30T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem('prefers-color-scheme-dark')&&localStorage.setItem('prefers-color-scheme-dark',!0)}</script>
-</head>
-<body class=not-ready data-menu=true>
+<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
+</head><body class=not-ready data-menu=true>
 <header class=header>
 <p class=logo>
 <a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p>
-<nav class=menu>
+</p><nav class=menu>
 <a href=/about/>Sobre</a>
 <a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
 <a href=https://userrepository.eu/>Userrepository</a>
 <a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav>
-<nav class=social>
+</nav><nav class=social>
 <a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
 <a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
 <a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav>
-<a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector('.btn-dark'),sysDark=window.matchMedia('(prefers-color-scheme: dark)'),darkVal=localStorage.getItem('dark'),setDark=a=>{bodyClx[a?'add':'remove']('dark'),localStorage.setItem('dark',a?'yes':'no')};setDark(darkVal?darkVal==='yes':sysDark.matches),requestAnimationFrame(()=>bodyClx.remove('not-ready')),btnDark.addEventListener('click',()=>setDark(!bodyClx.contains('dark'))),sysDark.addEventListener('change',a=>setDark(a.matches))</script>
-</header>
-<main class=main>
+</nav><a class=btn-dark></a>
+<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
+</header><main class=main>
 <article class=post-single>
 <header class=post-title>
 <p>
@@ -63,33 +57,17 @@ While not bad, I don&rsquo;t like what I think is an exaggerated use of blue hue
 <span>Bruno Miguel</span>
 <span>Tempo de leitura: 1 minuto
 </span>
-</p>
-<h1>Improved new night mode for Twitter</h1>
-</header>
-<p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/images/twitter-night-mode.png alt="Featured Image"></p>
-<section class=post-content><p>I got the new, event and flex-based, <strong><em>Twitter</em></strong> design a few days ago and decided to try out the night mode. This was also influenced by some <em>tweet</em> a contact of mine published.</p>
-<p>While not bad, I don&rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the <a href=https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side>blue light stuff impacting our sleep</a>. Even with a blue light filter, like the one from Plasma, it&rsquo;s still too much blue.</p>
-<p>I understand blue is part of <em>Twitter</em>&rsquo;s brand, but even so&mldr; Too much blue!</p>
-<p>So, I decided to change the <em>stylesheet</em> to use warmer colors. I used Stylus, an extension for <em>Firefox</em> and <em>Chrome</em>, to save and apply the changes and make using <em>Twitter</em> a better experience.</p>
-<p>This is still a work-in-progress, so bear that in mind. Here are the <em>stylesheet</em> changes:</p>
-<p>body {background-color: rgb(47, 46, 42) !important;}
+</p><h1>Improved new night mode for Twitter</h1></header><p class="featured-image full-width"><img loading=lazy src=https://blog.brunomiguel.net/post/improved-new-night-mode-for-twitter/images/twitter-night-mode.png alt="Featured Image"></p><section class=post-content><p>I got the new, event and flex-based, <strong><em>Twitter</em></strong> design a few days ago and decided to try out the night mode. This was also influenced by some <em>tweet</em> a contact of mine published.</p><p>While not bad, I don&rsquo;t like what I think is an exaggerated use of blue hues and shades. I find it even worse at night, due to the <a href=https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side>blue light stuff impacting our sleep</a>. Even with a blue light filter, like the one from Plasma, it&rsquo;s still too much blue.</p><p>I understand blue is part of <em>Twitter</em>&rsquo;s brand, but even so&mldr; Too much blue!</p><p>So, I decided to change the <em>stylesheet</em> to use warmer colors. I used Stylus, an extension for <em>Firefox</em> and <em>Chrome</em>, to save and apply the changes and make using <em>Twitter</em> a better experience.</p><p>This is still a work-in-progress, so bear that in mind. Here are the <em>stylesheet</em> changes:</p><p>body {background-color: rgb(47, 46, 42) !important;}
 .r-yfoy6g {background-color: rgb(47, 46, 42) !important;}
-.r-1uaug3w {background-color: rgb(30, 29, 24) !important;}</p>
-<p>.r-111h2gw {color: rgb(198, 195, 141) !important;}
+.r-1uaug3w {background-color: rgb(30, 29, 24) !important;}</p><p>.r-111h2gw {color: rgb(198, 195, 141) !important;}
 .r-aaos50, .r-r72n3l, .r-1nvv5a4 {background-color: rgba(0,0,0,0.2) !important;}
 .r-13gxpu9 {color: rgb(227, 96, 61) !important;}
 .r-zv2cs0 {background-color: rgba(255,255,255,0.1) !important;}
 .r-p1n3y5 {border-color: rgba(227, 96, 61,0.8) !important;}
 input {color: rgb(198, 195, 141) !important;}
 .r-urgr8i {background-color: rgb(168, 159, 60) !important;}
-.r-1q3imqu, .r-ny3pxa {background-color: rgb(159, 147, 7) !important;}</p>
-<p>.r-f8p6my {background-color: rgba(0, 0, 0, 0.5) !important; filter: blur(20px) !important;}</p>
-<p>.r-1ila09b {border-bottom-color: rgba(255,255,255,0.07) !important;}
-.r-18bvks7 {border-color: rgba(255,255,255,0.07) !important;}</p>
-<p>.r-1n1174f {color: rgb(99, 171, 216) !important;}</p>
-<p>.r-xnswec {box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 25px, rgba(255, 255, 255, 0.04) 0px 0px 7px 1px !important;}</p>
-</section>
-<footer class=post-tags>
+.r-1q3imqu, .r-ny3pxa {background-color: rgb(159, 147, 7) !important;}</p><p>.r-f8p6my {background-color: rgba(0, 0, 0, 0.5) !important; filter: blur(20px) !important;}</p><p>.r-1ila09b {border-bottom-color: rgba(255,255,255,0.07) !important;}
+.r-18bvks7 {border-color: rgba(255,255,255,0.07) !important;}</p><p>.r-1n1174f {color: rgb(99, 171, 216) !important;}</p><p>.r-xnswec {box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 25px, rgba(255, 255, 255, 0.04) 0px 0px 7px 1px !important;}</p></section><footer class=post-tags>
 <small><strong>categorias</strong><br>
 <a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
 </small>
@@ -102,19 +80,9 @@ input {color: rgb(198, 195, 141) !important;}
 <a href=https://blog.brunomiguel.net/tags/stylus>stylus</a>
 <a href=https://blog.brunomiguel.net/tags/twitter>twitter</a>
 </small>
-</footer>
-<div id=disqus_thread class=post-comments></div>
-<script>var disqusShortname='blog-brunomiguel',script=document.createElement('script');script.src='https://'+disqusShortname+'.disqus.com/embed.js',script.setAttribute('data-timestamp',+new Date),document.head.appendChild(script)</script>
+</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
 <nav class=post-nav>
 <a class=prev href=https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/><span>←</span><span>Must have extensions …</span></a>
 <a class=next href=https://blog.brunomiguel.net/post/mare-reworks/><span>Mare Reworks</span><span>→</span></a>
-</nav>
-</article>
-</main>
-<footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p>
-<p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p>
-<p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p>
-</footer>
-</body>
-</html>
+</nav></article></main><footer class=footer>
+<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>
