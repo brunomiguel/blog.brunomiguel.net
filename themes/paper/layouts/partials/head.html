@@ -31,7 +31,7 @@
   <!---->
   {{ $app_css := resources.Get "app.css" }}
   <!---->
-  {{ $css := slice $custom_css $app_css | resources.Concat "app.css" | minify }}
+  {{ $css := slice $custom_css $app_css | resources.Concat "app.css" | resources.PostCSS | minify }}
   <link rel="preload stylesheet" as="style" href="{{ $css.Permalink }}" />
 
   {{ if and .IsPage (not site.Params.disableHLJS) }}
