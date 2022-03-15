@@ -31,9 +31,9 @@
   <!---->
   {{ $app_css := resources.Get "app.css" }}
   <!---->
-  {{ $options := dict "use" "autoprefixer" }}
+  {{ $autoprefixer := dict "use" "autoprefixer" }}
   <!---->
-  {{ $css := slice $custom_css $app_css | resources.Concat "app.css" | resources.PostCSS $options | minify }}
+  {{ $css := slice $custom_css $app_css | resources.Concat "app.css" | resources.PostCSS $autoprefixer }}
   <link rel="preload stylesheet" as="style" href="{{ $css.Permalink }}" />
 
   {{ if and .IsPage (not site.Params.disableHLJS) }}

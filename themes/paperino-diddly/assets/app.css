@@ -11,6 +11,7 @@
 
 /* Theme
  -------------------------------------------------- */
+
 :root {
   --gap: 3.5rem;
   --y-gap: 8rem;
@@ -88,6 +89,11 @@ body {
   word-break: break-word;
   background: var(--white);
   transition: background 0.4s ease-out;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*font-smooth: grayscale !important;*/
+  font-smooth: always;
 }
 
 .emoji {
