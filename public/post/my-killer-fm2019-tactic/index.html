@@ -1,1 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt" dir="auto">
 
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My &#34;killer&#34; #FM2019 tactic | .blog</title>
+<meta name="keywords" content="fm2019, football-manager, games" />
+<meta name="description" content="In the last 5 months or so (I&rsquo;m really bad with dates), I&rsquo;ve been improving the first tactic I built for Football Manager 2019. This was done using the latest official game update at the time of writing.
+Before this, I was using a tactic made by some user from fmscout.com. I can&rsquo;t really recall which was but I had good results, yet would notice some instability in the performance every few games even against weaker adversaries.">
+<meta name="author" content="Bruno Miguel">
+<link rel="canonical"
+    href="/post/my-killer-fm2019-tactic/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.97393d543273cd7c2f7aefc568b172754502c536050d860c3ce214dd6ed6e2f6.css" integrity="sha256-lzk9VDJzzXwveu/FaLFydUUCxTYFDYYMPOIU3W7W4vY="
+    rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16"
+    href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"
+    href="/favicon-32x32.png">
+<link rel="apple-touch-icon"
+    href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript><link rel="preload" href="/fonts/rubik-v14-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff" as="font" type="font/woff" crossorigin>
+
+
+<script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script defer data-domain="blog.brunomiguel.net" src="https://plausible.matterho.st/js/plausible.js"></script><div id="cookie-notice">
+    <span>Este site usa cookies do GoatCounter e do Plausible, dois softwares de código aberto, para estatísticas.</span>
+    <a id="cookie-notice-close" class="btn btn-primary btn-sm">Fechar</a>
+    <a href="/privacidade" class="btn btn-primary btn-sm">Mais info</a></div>
+    <script>
+        function createCookie(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            createCookie(name,"",-1);
+        }
+    
+        if(readCookie('cookie-notice-option')=='true') {
+            
+    
+            
+        } else if (readCookie('cookie-notice-option')!='false'){
+            document.getElementById('cookie-notice').style.display = 'block';
+        }
+    
+        document.getElementById('cookie-notice-close').addEventListener("click",function() {
+            createCookie('cookie-notice-option','true',31);
+            document.getElementById('cookie-notice').style.display = 'none';
+            location.reload();
+        });
+    
+    </script><meta property="og:title" content="My &#34;killer&#34; #FM2019 tactic" />
+<meta property="og:description" content="In the last 5 months or so (I&rsquo;m really bad with dates), I&rsquo;ve been improving the first tactic I built for Football Manager 2019. This was done using the latest official game update at the time of writing.
+Before this, I was using a tactic made by some user from fmscout.com. I can&rsquo;t really recall which was but I had good results, yet would notice some instability in the performance every few games even against weaker adversaries." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/my-killer-fm2019-tactic/" /><meta property="og:image" content="/papermod-cover.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2019-09-07T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2019-09-07T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/papermod-cover.png"/>
+
+<meta name="twitter:title" content="My &#34;killer&#34; #FM2019 tactic"/>
+<meta name="twitter:description" content="In the last 5 months or so (I&rsquo;m really bad with dates), I&rsquo;ve been improving the first tactic I built for Football Manager 2019. This was done using the latest official game update at the time of writing.
+Before this, I was using a tactic made by some user from fmscout.com. I can&rsquo;t really recall which was but I had good results, yet would notice some instability in the performance every few games even against weaker adversaries."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/post/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "My \"killer\" #FM2019 tactic",
+      "item": "/post/my-killer-fm2019-tactic/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "My \"killer\" #FM2019 tactic",
+  "name": "My \u0022killer\u0022 #FM2019 tactic",
+  "description": "In the last 5 months or so (I\u0026rsquo;m really bad with dates), I\u0026rsquo;ve been improving the first tactic I built for Football Manager 2019. This was done using the latest official game update at the time of writing.\nBefore this, I was using a tactic made by some user from fmscout.com. I can\u0026rsquo;t really recall which was but I had good results, yet would notice some instability in the performance every few games even against weaker adversaries.",
+  "keywords": [
+    "fm2019", "football-manager", "games"
+  ],
+  "articleBody": "  \n  \n  \n  \n  In the last 5 months or so (I’m really bad with dates), I’ve been improving the first tactic I built for Football Manager 2019. This was done using the latest official game update at the time of writing.\nBefore this, I was using a tactic made by some user from fmscout.com. I can’t really recall which was but I had good results, yet would notice some instability in the performance every few games even against weaker adversaries. Playing with Benfica, I would be league champion but with one or two defeats, and a few ties. Of course, winning the Champions League would be a really hard thing to accomplish.\nI wanted to change that and, at the same time, build my first FM2019 tactic. So I began building it, tweaking and tweaking after every game until I could find a tactic that would be good at attacking and defending, and would also act as a positional block in both stages of the game.\nThe secret to this was making the right and left defenders work as defensive midfielders when the team is attacking. This allows the central midfielders to focus more on attacking, while also allowing this defenders to enter the area from time to time to score some goals.\nWith this and some other specificities to this tactic, I get 20+ shots against 4 to 5 from the opposite team, even in away games. Of course, if you’re playing, let’s say, with Benfica against Barcelona in their own stadium, it will be a tough game but you’ll most likely win.\nKeep in mind that this tactic doesn’t make miracles. You’ll most likely loose, even when playing at home, if your opponent is far better than you.\nDownload the tactic\n",
+  "wordCount" : "290",
+  "inLanguage": "pt",
+  "datePublished": "2019-09-07T00:00:00Z",
+  "dateModified": "2019-09-07T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Bruno Miguel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/my-killer-fm2019-tactic/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": ".blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title=".blog (Alt + H)">.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/search/" title="Pesquisa">
+                    <span>Pesquisa</span>
+                </a>
+            </li>
+            <li>
+                <a href="/arquivo" title="Arquivo">
+                    <span>Arquivo</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categorias">
+                    <span>Categorias</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/privacidade/" title="Privacidade">
+                    <span>Privacidade</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/post/">Posts</a></div>
+    <h1 class="post-title">
+      My &#34;killer&#34; #FM2019 tactic
+    </h1>
+    
+    <div class="post-meta"><span title='2019-09-07 00:00:00 +0000 UTC'>setembro 7, 2019</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel
+
+</div>
+  </header> 
+
+
+
+  <div class="post-content"><ul>
+<li>
+<p><a href="http://blog.brunomiguel.net/wp-content/uploads/2019/09/seta.png"><img loading="lazy" src="images/seta.png" alt=""  />
+</a></p>
+</li>
+<li>
+<p><a href="http://blog.brunomiguel.net/wp-content/uploads/2019/09/2.png"><img loading="lazy" src="images/2.png" alt=""  />
+</a></p>
+</li>
+<li>
+<p><a href="http://blog.brunomiguel.net/wp-content/uploads/2019/09/3.png"><img loading="lazy" src="images/3.png" alt=""  />
+</a></p>
+</li>
+<li>
+<p><a href="http://blog.brunomiguel.net/wp-content/uploads/2019/09/4.png"><img loading="lazy" src="images/4.png" alt=""  />
+</a></p>
+</li>
+</ul>
+<p>In the last 5 months or so (I&rsquo;m really bad with dates), I&rsquo;ve been improving the first <strong>tactic</strong> I built for <strong><em>Football Manager 2019</em></strong>. This was done using the latest official game update at the time of writing.</p>
+<p>Before this, I was using a tactic made by some user from fmscout.com. I can&rsquo;t really recall which was but I had good results, yet would notice some instability in the performance every few games even against weaker adversaries. Playing with <em>Benfica</em>, I would be league champion but with one or two defeats, and a few ties. Of course, winning the <em>Champions League</em> would be a really hard thing to accomplish.</p>
+<p>I wanted to change that and, at the same time, build my first <em>FM2019</em> tactic. So I began building it, tweaking and tweaking after every game until I could find a tactic that would be <strong>good at attacking and defending</strong>, and would also <strong>act as a positional block in both stages of the game</strong>.</p>
+<p><strong>The secret to this was making the right and left defenders work as defensive midfielders when the team is attacking.</strong> This allows the central midfielders to focus more on attacking, while also allowing this defenders to enter the area from time to time to score some goals.</p>
+<p>With this and some other specificities to this tactic, I get 20+ shots against 4 to 5 from the opposite team, even in away games. Of course, if you&rsquo;re playing, let&rsquo;s say, with <em>Benfica</em> against <em>Barcelona</em> in their own stadium, it will be a tough game but you&rsquo;ll most likely win.</p>
+<p><strong>Keep in mind that this tactic doesn&rsquo;t make miracles.</strong> You&rsquo;ll most likely loose, even when playing at home, if your opponent is far better than you.</p>
+<p><a href="https://mega.nz/#!2FZyWYgK!Ief3lvkDxMZK8hNCRO0azxRYdMdI0Iy_-zuO5X-BlmU">Download the tactic</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/fm2019/">fm2019</a></li>
+      <li><a href="/tags/football-manager/">football-manager</a></li>
+      <li><a href="/tags/games/">games</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/">
+    <span class="title">« Página Anterior</span>
+    <br>
+    <span>“The polarization of our …</span>
+  </a>
+  <a class="next" href="/post/uma-dose-de-likes-e-um-garrote/">
+    <span class="title">Próxima Página »</span>
+    <br>
+    <span>Uma dose de likes e um garrote</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">.blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

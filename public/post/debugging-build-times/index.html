@@ -1,1 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt" dir="auto">
 
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Debugging build times | .blog</title>
+<meta name="keywords" content="jarvis, packages, repository, userrepository-eu" />
+<meta name="description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
+   Pkg Hours Minutes     .">
+<meta name="author" content="Bruno Miguel">
+<link rel="canonical"
+    href="/post/debugging-build-times/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.97393d543273cd7c2f7aefc568b172754502c536050d860c3ce214dd6ed6e2f6.css" integrity="sha256-lzk9VDJzzXwveu/FaLFydUUCxTYFDYYMPOIU3W7W4vY="
+    rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16"
+    href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"
+    href="/favicon-32x32.png">
+<link rel="apple-touch-icon"
+    href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript><link rel="preload" href="/fonts/rubik-v14-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff" as="font" type="font/woff" crossorigin>
+
+
+<script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script defer data-domain="blog.brunomiguel.net" src="https://plausible.matterho.st/js/plausible.js"></script><div id="cookie-notice">
+    <span>Este site usa cookies do GoatCounter e do Plausible, dois softwares de código aberto, para estatísticas.</span>
+    <a id="cookie-notice-close" class="btn btn-primary btn-sm">Fechar</a>
+    <a href="/privacidade" class="btn btn-primary btn-sm">Mais info</a></div>
+    <script>
+        function createCookie(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            createCookie(name,"",-1);
+        }
+    
+        if(readCookie('cookie-notice-option')=='true') {
+            
+    
+            
+        } else if (readCookie('cookie-notice-option')!='false'){
+            document.getElementById('cookie-notice').style.display = 'block';
+        }
+    
+        document.getElementById('cookie-notice-close').addEventListener("click",function() {
+            createCookie('cookie-notice-option','true',31);
+            document.getElementById('cookie-notice').style.display = 'none';
+            location.reload();
+        });
+    
+    </script><meta property="og:title" content="Debugging build times" />
+<meta property="og:description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
+   Pkg Hours Minutes     ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/debugging-build-times/" /><meta property="og:image" content="/papermod-cover.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-04-17T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2020-04-17T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/papermod-cover.png"/>
+
+<meta name="twitter:title" content="Debugging build times"/>
+<meta name="twitter:description" content="Lately, the repository has been taking &#43;10 hours to compile all the packages. I think that&rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
+After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
+   Pkg Hours Minutes     ."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/post/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Debugging build times",
+      "item": "/post/debugging-build-times/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Debugging build times",
+  "name": "Debugging build times",
+  "description": "Lately, the repository has been taking +10 hours to compile all the packages. I think that\u0026rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.\nAfter investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.\n   Pkg Hours Minutes     .",
+  "keywords": [
+    "jarvis", "packages", "repository", "userrepository-eu"
+  ],
+  "articleBody": "Lately, the repository has been taking +10 hours to compile all the packages. I think that’s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.\nAfter investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.\n   Pkg Hours Minutes     ./pueue/makepkg.log 0 12   ./ffsend/makepkg.log 0 15   ./joplin/makepkg.log 0 15   ./bandwhich/makepkg.log 0 16   ./session-desktop/makepkg.log 0 17   ./mindforger/makepkg.log 0 17   ./giada-git/makepkg.log 0 17   ./brackets/makepkg.log 0 21   ./newbreeze-git/makepkg.log 0 24   ./falkon-git/makepkg.log 0 24   ./newsflash-git/makepkg.log 0 31   ./firefox-kde-opensuse/makepkg.log 0 47     256    I decided to give it a go at reducing the packages build time. The first set of changes I made were:\n remove newsflash-git; remove newbreeze-git; remove giada-git; replace firefox-kde-opensuse with firefox-kde-opensuse-rpm; session-desktop with session-desktop-bin.  .ugb-8f198eb .ugb-cta__item{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__item:before{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__title{color:#e36d60}\nIf you used any of the packages I removed, please let me know and I’ll add it again Next, I inserted the _MAKEFLAGS=\"-j4\"_ environment variable in the _config_ file, so that compilers use the four cores when possible.\n   Pkg Hours Minutes     ./brackets/makepkg.log 0 20   ./bamr/makepkg.log 0 19   ./falkon-git/makepkg.log 0 19   ./joplin/makepkg.log 0 15   ./ffsend/makepkg.log 0 15   ./mindforger/makepkg.log 0 13   ./pueue/makepkg.log 0 12   ./broot/makepkg.log 0 7   ./navi/makepkg.log 0 7   ./boostnote-bin/makepkg.log 0 7   ./qownnotes/makepkg.log 0 7   ./kitematic-git/makepkg.log 0 6     147    With the above changes, the twelve “worst offenders” decrease to almost two and an half hours. The total build time is likely to decrease a little more after I take a look at what packages _[userrepository](https://userrepository.eu/)_ shares with _[chaotic-aur](https://lonewolf.pedrohlc.com/chaotic-aur/)_ and decide which, if any, I should remove.\nIn the TODO list are also some tests to be made to the zstd compression level. The current level is 10, with the default being 3. I intend to see if the trade-off between the increase in package creation time and the reduction in package size is worth increasing the level to somewhere between 15 and 19, the highest preset level.\nEventually, I’ll begin to sign the packages. For now, enjoy the latest batch and become a patron.\n",
+  "wordCount" : "351",
+  "inLanguage": "pt",
+  "datePublished": "2020-04-17T00:00:00Z",
+  "dateModified": "2020-04-17T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Bruno Miguel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/debugging-build-times/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": ".blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title=".blog (Alt + H)">.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/search/" title="Pesquisa">
+                    <span>Pesquisa</span>
+                </a>
+            </li>
+            <li>
+                <a href="/arquivo" title="Arquivo">
+                    <span>Arquivo</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categorias">
+                    <span>Categorias</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/privacidade/" title="Privacidade">
+                    <span>Privacidade</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/post/">Posts</a></div>
+    <h1 class="post-title">
+      Debugging build times
+    </h1>
+    
+    <div class="post-meta"><span title='2020-04-17 00:00:00 +0000 UTC'>abril 17, 2020</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="lazy" src="/post/debugging-build-times/images/jarvis-news.jpg">
+</figure>
+
+
+  <div class="post-content"><p><strong>Lately, the repository has been taking +10 hours to compile all the packages.</strong> I think that&rsquo;s a lot for <strong>a little more than 250 packages</strong>, most of them small utilities and/or <code>_-bin_</code> files from <em>AUR</em>, built in a <em>DEV1-L</em> (4 cores, 8 Gb <em>RAM</em>) virtual machine from <em>Scaleway</em>.</p>
+<p>After investigating the matter, I found out that <strong>12 of the packages took four hours and sixteen minutes to build.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pkg</th>
+<th>Hours</th>
+<th>Minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>./pueue/makepkg.log</td>
+<td>0</td>
+<td>12</td>
+</tr>
+<tr>
+<td>./ffsend/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./joplin/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./bandwhich/makepkg.log</td>
+<td>0</td>
+<td>16</td>
+</tr>
+<tr>
+<td>./session-desktop/makepkg.log</td>
+<td>0</td>
+<td>17</td>
+</tr>
+<tr>
+<td>./mindforger/makepkg.log</td>
+<td>0</td>
+<td>17</td>
+</tr>
+<tr>
+<td>./giada-git/makepkg.log</td>
+<td>0</td>
+<td>17</td>
+</tr>
+<tr>
+<td>./brackets/makepkg.log</td>
+<td>0</td>
+<td>21</td>
+</tr>
+<tr>
+<td>./newbreeze-git/makepkg.log</td>
+<td>0</td>
+<td>24</td>
+</tr>
+<tr>
+<td>./falkon-git/makepkg.log</td>
+<td>0</td>
+<td>24</td>
+</tr>
+<tr>
+<td>./newsflash-git/makepkg.log</td>
+<td>0</td>
+<td>31</td>
+</tr>
+<tr>
+<td>./firefox-kde-opensuse/makepkg.log</td>
+<td>0</td>
+<td>47</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>256</td>
+</tr>
+</tbody>
+</table>
+<p>I decided to give it a go at reducing the packages build time. The first set of changes I made were:</p>
+<ul>
+<li>remove <em>newsflash-git</em>;</li>
+<li>remove <em>newbreeze-git</em>;</li>
+<li>remove <em>giada-git</em>;</li>
+<li>replace <em>firefox-kde-opensuse</em> with <em>firefox-kde-opensuse-rpm</em>;</li>
+<li><em>session-desktop</em> with <em>session-desktop-bin</em>.</li>
+</ul>
+<p>.ugb-8f198eb .ugb-cta__item{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__item:before{background-color:#fff3ef !important}.ugb-8f198eb .ugb-cta__title{color:#e36d60}</p>
+<h4 id="if-you-used-any-of-the-packages-i-removed-please-let-me-know-and-ill-add-it-again">If you used any of the packages I removed, please let me know and I&rsquo;ll add it again<a hidden class="anchor" aria-hidden="true" href="#if-you-used-any-of-the-packages-i-removed-please-let-me-know-and-ill-add-it-again">#</a></h4>
+<p>Next, I inserted the <code>_MAKEFLAGS=&quot;-j4&quot;_</code> environment variable in the <code>_config_</code> file, so that compilers use the four cores when possible.</p>
+<table>
+<thead>
+<tr>
+<th>Pkg</th>
+<th>Hours</th>
+<th>Minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>./brackets/makepkg.log</td>
+<td>0</td>
+<td>20</td>
+</tr>
+<tr>
+<td>./bamr/makepkg.log</td>
+<td>0</td>
+<td>19</td>
+</tr>
+<tr>
+<td>./falkon-git/makepkg.log</td>
+<td>0</td>
+<td>19</td>
+</tr>
+<tr>
+<td>./joplin/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./ffsend/makepkg.log</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>./mindforger/makepkg.log</td>
+<td>0</td>
+<td>13</td>
+</tr>
+<tr>
+<td>./pueue/makepkg.log</td>
+<td>0</td>
+<td>12</td>
+</tr>
+<tr>
+<td>./broot/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./navi/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./boostnote-bin/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./qownnotes/makepkg.log</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>./kitematic-git/makepkg.log</td>
+<td>0</td>
+<td>6</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>147</td>
+</tr>
+</tbody>
+</table>
+<p><strong>With the above changes, the twelve &ldquo;worst offenders&rdquo; decrease to almost two and an half hours.</strong> The total build time is likely to decrease a little more after I take a look at what packages <code>_[userrepository](https://userrepository.eu/)_</code> shares with <code>_[chaotic-aur](https://lonewolf.pedrohlc.com/chaotic-aur/)_</code> and decide which, if any, I should remove.</p>
+<p>In the <em>TODO</em> list are also some tests to be made to the <em>zstd</em> compression level. The current level is <em>10</em>, with the default being <em>3</em>. I intend to see if the trade-off between the increase in package creation time and the reduction in package size is worth increasing the level to somewhere between <em>15</em> and <em>19</em>, the highest preset level.</p>
+<p>Eventually, I&rsquo;ll begin to sign the packages. For now, enjoy the latest batch and <strong><a href="https://www.patreon.com/bePatron?u=31667183&amp;redirect_uri=https%3A%2F%2Fuserrepository.eu%2F&amp;utm_medium=widget">become a patron</a>.</strong></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/jarvis/">jarvis</a></li>
+      <li><a href="/tags/packages/">packages</a></li>
+      <li><a href="/tags/repository/">repository</a></li>
+      <li><a href="/tags/userrepository-eu/">userrepository-eu</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/post/como-resolver-problemas-de-ruido-com-o-microfone-interno-em-linux/">
+    <span class="title">« Página Anterior</span>
+    <br>
+    <span>Como resolver problemas de …</span>
+  </a>
+  <a class="next" href="/post/from-fh-to-boinc/">
+    <span class="title">Próxima Página »</span>
+    <br>
+    <span>From F@h to Boinc</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">.blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

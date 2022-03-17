@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>userrepository on .blog</title>
     <link>/tags/userrepository/</link>
     <description>Recent content in userrepository on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/userrepository/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +17,7 @@
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/repositorio-cara-lavada/</guid>
-      <description>O meu repositório de software para Arch Linux e distribuições compatíveis, Userrepository, levou umas alterações cosméticas para melhorar aquele aspeto cru normal de um open dir. Agora, quem acede a ele através do browser vai ver um template HTML todo catita com a listagem dos pacotes e uma link para o blog do repositório.
-Esta alteração não tem qualquer impacto na forma como instalas os pacotes a partir de lá. Eles continuam à distância de um pacman -Syu como estavam anteriormente.</description>
+      <description>O meu repositório de software para Arch Linux e distribuições compatíveis levou umas alterações cosméticas</description>
     </item>
     
     <item>

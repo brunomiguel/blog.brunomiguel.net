@@ -1,1 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt" dir="auto">
 
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Listas de bloqueio para o AdGuardHome | .blog</title>
+<meta name="keywords" content="AdGuardHome, DNS, Git, Software Livre, Open-Source, Código Fonte, resolver, unbound, DNS resolver" />
+<meta name="description" content="O AdGuardHome vem com vinte e quatro listas de bloqueio incluídas e podes adicionar as tuas também">
+<meta name="author" content="Bruno Miguel">
+<link rel="canonical"
+    href="/post/listas-adguardhome/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.97393d543273cd7c2f7aefc568b172754502c536050d860c3ce214dd6ed6e2f6.css" integrity="sha256-lzk9VDJzzXwveu/FaLFydUUCxTYFDYYMPOIU3W7W4vY="
+    rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16"
+    href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"
+    href="/favicon-32x32.png">
+<link rel="apple-touch-icon"
+    href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript><link rel="preload" href="/fonts/rubik-v14-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff" as="font" type="font/woff" crossorigin>
+
+
+<script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script defer data-domain="blog.brunomiguel.net" src="https://plausible.matterho.st/js/plausible.js"></script><div id="cookie-notice">
+    <span>Este site usa cookies do GoatCounter e do Plausible, dois softwares de código aberto, para estatísticas.</span>
+    <a id="cookie-notice-close" class="btn btn-primary btn-sm">Fechar</a>
+    <a href="/privacidade" class="btn btn-primary btn-sm">Mais info</a></div>
+    <script>
+        function createCookie(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            createCookie(name,"",-1);
+        }
+    
+        if(readCookie('cookie-notice-option')=='true') {
+            
+    
+            
+        } else if (readCookie('cookie-notice-option')!='false'){
+            document.getElementById('cookie-notice').style.display = 'block';
+        }
+    
+        document.getElementById('cookie-notice-close').addEventListener("click",function() {
+            createCookie('cookie-notice-option','true',31);
+            document.getElementById('cookie-notice').style.display = 'none';
+            location.reload();
+        });
+    
+    </script><meta property="og:title" content="Listas de bloqueio para o AdGuardHome" />
+<meta property="og:description" content="O AdGuardHome vem com vinte e quatro listas de bloqueio incluídas e podes adicionar as tuas também" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/listas-adguardhome/" /><meta property="og:image" content="/papermod-cover.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-02-24T11:30:00&#43;01:00" />
+<meta property="article:modified_time" content="2022-02-24T11:30:00&#43;01:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/papermod-cover.png"/>
+
+<meta name="twitter:title" content="Listas de bloqueio para o AdGuardHome"/>
+<meta name="twitter:description" content="O AdGuardHome vem com vinte e quatro listas de bloqueio incluídas e podes adicionar as tuas também"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/post/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Listas de bloqueio para o AdGuardHome",
+      "item": "/post/listas-adguardhome/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Listas de bloqueio para o AdGuardHome",
+  "name": "Listas de bloqueio para o AdGuardHome",
+  "description": "O AdGuardHome vem com vinte e quatro listas de bloqueio incluídas e podes adicionar as tuas também",
+  "keywords": [
+    "AdGuardHome", "DNS", "Git", "Software Livre", "Open-Source", "Código Fonte", "resolver", "unbound", "DNS resolver"
+  ],
+  "articleBody": "No post anterior, expliquei muito sucintamente como instalar o AdGuardHome. O processo é assim tão simples quanto parece e a utilização de recursos é surpreendentemente reduzida.\nApós a conclusão da instalação a aplicação, podes pretender ter mais listas de bloqueio ativas que a lista padrão. No momento de escrita deste post, são vinte e quatro as listas incluídas, desde listas para bloquear tracking a listas para bloquear malware. Para adicionares uma ou mais, deves ir Filters  DNS blocklists, carregar no botão Add blocklist e, na modal box que aparece, optar por uma das seguintes opções:\n Choose from list se quiseres usar uma ou mais listas incluídas; Add custom list para adicionares uma lista externa.  Para adicionares a minha lista Antinónio adaptada ao AdGuardHome, o botão a pressionar é Add custom list. Depois inseres o nome e o link direto para o ficheiro: https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt\nNalgumas situações, como a utilização do software numa VPS aberta ao mundo, obriga a pelo menos mais dois passos extra: obtenção de um certificado SSL e inserção do mesmo no AdGuardHome. O mais simples nesta situação é usar um certificado da Let’s Encrypt, como é explicado na wiki do projeto.\nA imagem deste post é um screenshot da minha configuração de listas do AdGuardHome e está disponível sob a licença Creative Commons (CC-BY-SA-4.0)\n",
+  "wordCount" : "217",
+  "inLanguage": "pt",
+  "datePublished": "2022-02-24T11:30:00+01:00",
+  "dateModified": "2022-02-24T11:30:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Bruno Miguel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/listas-adguardhome/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": ".blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title=".blog (Alt + H)">.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/search/" title="Pesquisa">
+                    <span>Pesquisa</span>
+                </a>
+            </li>
+            <li>
+                <a href="/arquivo" title="Arquivo">
+                    <span>Arquivo</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categorias">
+                    <span>Categorias</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/privacidade/" title="Privacidade">
+                    <span>Privacidade</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/post/">Posts</a></div>
+    <h1 class="post-title">
+      Listas de bloqueio para o AdGuardHome
+    </h1>
+    
+    <div class="post-meta"><span title='2022-02-24 11:30:00 +0100 +0100'>fevereiro 24, 2022</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="lazy" src="/post/listas-adguardhome/images/adguardhome-filter-list.png">
+</figure>
+
+
+  <div class="post-content"><p>No <a href="https://blog.brunomiguel.net/post/adguard/"><em>post</em> anterior</a>, expliquei muito sucintamente como instalar o <em>AdGuardHome</em>. O processo é assim tão simples quanto parece e a utilização de recursos é surpreendentemente reduzida.</p>
+<p>Após a conclusão da instalação a aplicação, podes pretender ter mais listas de bloqueio ativas que a lista padrão. No momento de escrita deste <em>post</em>, são vinte e quatro as listas incluídas, desde listas para bloquear <em>tracking</em> a listas para bloquear <em>malware</em>. Para adicionares uma ou mais, deves ir <code>Filters &gt; DNS blocklists</code>, carregar no botão <code>Add blocklist</code> e, na <em>modal box</em> que aparece, optar por uma das seguintes opções:</p>
+<ul>
+<li><code>Choose from list</code> se quiseres usar uma ou mais listas incluídas;</li>
+<li><code>Add custom list</code> para adicionares uma lista externa.</li>
+</ul>
+<p>Para adicionares a minha <a href="https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt">lista <em>Antinónio</em> adaptada ao <em>AdGuardHome</em></a>, o botão a pressionar é <code>Add custom list</code>. Depois inseres o nome e o link direto para o ficheiro: <a href="https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt">https://raw.githubusercontent.com/brunomiguel/antinonio/master/antinonio-adguard.txt</a></p>
+<p>Nalgumas situações, como a utilização do <em>software</em> numa <em>VPS</em> aberta ao mundo, obriga a pelo menos mais dois passos extra: obtenção de um certificado <em>SSL</em> e inserção do mesmo no <em>AdGuardHome</em>. O mais simples nesta situação é usar um certificado da <em>Let&rsquo;s Encrypt</em>, como é <a href="https://github.com/AdguardTeam/AdGuardHome/wiki/Encryption">explicado</a> na <em>wiki</em> do projeto.</p>
+<p><small><em>A imagem deste post é um screenshot da minha configuração de listas do AdGuardHome e está disponível sob a licença Creative Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>)</em></small></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/adguardhome/">AdGuardHome</a></li>
+      <li><a href="/tags/dns/">DNS</a></li>
+      <li><a href="/tags/git/">Git</a></li>
+      <li><a href="/tags/software-livre/">Software Livre</a></li>
+      <li><a href="/tags/open-source/">Open-Source</a></li>
+      <li><a href="/tags/c%C3%B3digo-fonte/">Código Fonte</a></li>
+      <li><a href="/tags/resolver/">resolver</a></li>
+      <li><a href="/tags/unbound/">unbound</a></li>
+      <li><a href="/tags/dns-resolver/">DNS resolver</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/post/balanco-uso-adguardhome/">
+    <span class="title">« Página Anterior</span>
+    <br>
+    <span>Balanço da utilização do …</span>
+  </a>
+  <a class="next" href="/post/adguard/">
+    <span class="title">Próxima Página »</span>
+    <br>
+    <span>Instalar o AdGuardHome</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">.blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

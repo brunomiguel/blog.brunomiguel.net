@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>star trek on .blog</title>
     <link>/tags/star-trek/</link>
     <description>Recent content in star trek on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/star-trek/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +17,7 @@
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/pagina-404/</guid>
-      <description>A página deste blog para o erro 404 - o código HTTP que é enviado para o cliente quando o servidor não encontra o conteúdo solicitado - era algo muito simples, apenas com um texto a dizer 404. Eu queria um bocadinho mais que isso. O objetivo não era usar a página para ter um compêndio dos últimos posts nem nada do género, apenas tentar fazer rir um pouco quem acabasse nela.</description>
+      <description>Este blog tem, finalmente, uma página minimanente decente para o erro 404</description>
     </item>
     
   </channel>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>big-bang on .blog</title>
     <link>/tags/big-bang/</link>
     <description>Recent content in big-bang on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/big-bang/index.xml" rel="self" type="application/rss+xml" />

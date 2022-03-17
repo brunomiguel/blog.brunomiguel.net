@@ -17,7 +17,7 @@ pygmentsUseClasses: true
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: false
 
 menu:
     main:

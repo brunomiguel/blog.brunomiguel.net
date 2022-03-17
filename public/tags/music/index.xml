@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>music on .blog</title>
     <link>/tags/music/</link>
     <description>Recent content in music on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +17,7 @@
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/post/a-fine-selection-of-chill-drum-and-bass/</guid>
-      <description>Link</description>
+      <description>A nice playlist full of chill D&amp;amp;B</description>
     </item>
     
   </channel>
