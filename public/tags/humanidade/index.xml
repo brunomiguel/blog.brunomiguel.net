@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>humanidade on .blog</title><link>https://blog.brunomiguel.net/tags/humanidade/</link><description>Recent content in humanidade on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sun, 08 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/humanidade/index.xml" rel="self" type="application/rss+xml"/><item><title>“The polarization of our society is actually part of the business model.”</title><link>https://blog.brunomiguel.net/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</link><pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</guid><description>Assustadoramente sóbrio. (vídeo completo)</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>humanidade on .blog</title>
+    <link>/tags/humanidade/</link>
+    <description>Recent content in humanidade on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Sun, 08 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/humanidade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“The polarization of our society is actually part of the business model.”</title>
+      <link>/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</guid>
+      <description>Assustadoramente sóbrio. (vídeo completo)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>internet-explorer on .blog</title><link>https://blog.brunomiguel.net/tags/internet-explorer/</link><description>Recent content in internet-explorer on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/internet-explorer/index.xml" rel="self" type="application/rss+xml"/><item><title>Microsoft Chrome?</title><link>https://blog.brunomiguel.net/post/microsoft-chrome/</link><pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/microsoft-chrome/</guid><description>Está a circular um rumor que aponta para o fim do Edge, o browser que a Microsoft lançou em 2015 para substituir o Internet Explorer. O mesmo rumo refere que a empresa sediada em Redmond vai criar um novo navegador, agora baseado no Chromium.
-Sabe mais no meu artigo no Espalha-Factos.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>internet-explorer on .blog</title>
+    <link>/tags/internet-explorer/</link>
+    <description>Recent content in internet-explorer on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/internet-explorer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Chrome?</title>
+      <link>/post/microsoft-chrome/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/microsoft-chrome/</guid>
+      <description>Está a circular um rumor que aponta para o fim do Edge, o browser que a Microsoft lançou em 2015 para substituir o Internet Explorer. O mesmo rumo refere que a empresa sediada em Redmond vai criar um novo navegador, agora baseado no Chromium.
+Sabe mais no meu artigo no Espalha-Factos.</description>
+    </item>
+    
+  </channel>
+</rss>

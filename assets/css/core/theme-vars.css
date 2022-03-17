@@ -1,0 +1,42 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 4px;
+    --theme: rgb(255, 253, 252);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(99, 144, 180);
+    --secondary: rgb(87, 82, 104);
+    --meta: rgb(152, 139, 162);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(30, 30, 46);
+    --hljs-bg: rgb(22, 19, 32);
+    --code-bg: rgb(255, 240, 237);
+    --border: rgb(201, 203, 255);
+    --primary-hover: rgb(235, 108, 108);
+}
+
+.dark {
+    --theme: rgb(22, 19, 32);
+    --entry: rgb(30, 30, 46);
+    --primary: rgb(243, 202, 113);
+    --secondary: rgb(217, 224, 238);
+    --meta: rgb(152, 139, 162);
+    --tertiary: rgb(87, 82, 104);
+    --content: rgb(217, 224, 238);
+    --hljs-bg: rgb(30, 30, 46);
+    --code-bg: rgb(48, 45, 65);
+    --border: rgb(48, 45, 65);
+    --primary-hover: rgb(235, 108, 108);
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}

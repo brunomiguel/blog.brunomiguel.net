@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>qml on .blog</title><link>https://blog.brunomiguel.net/tags/qml/</link><description>Recent content in qml on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/qml/index.xml" rel="self" type="application/rss+xml"/><item><title>O2, um tema QML que ando doido para ver integrado no Plasma Desktop</title><link>https://blog.brunomiguel.net/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</guid><description>As imagens deste post são de um tema QML, chamado O2, que o Nuno Pinheiro anda a desenvolver. Partilho-as com a autorização dele, para que se possam babar tanto quanto eu me babei quando as vi. Mal posso ver a hora de o ver integrado no Plasma Desktop.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>qml on .blog</title>
+    <link>/tags/qml/</link>
+    <description>Recent content in qml on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/qml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O2, um tema QML que ando doido para ver integrado no Plasma Desktop</title>
+      <link>/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/o2-um-tema-qml-que-ando-doido-para-ver-integrado-no-plasma-desktop/</guid>
+      <description>As imagens deste post são de um tema QML, chamado O2, que o Nuno Pinheiro anda a desenvolver. Partilho-as com a autorização dele, para que se possam babar tanto quanto eu me babei quando as vi. Mal posso ver a hora de o ver integrado no Plasma Desktop.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>health on .blog</title><link>https://blog.brunomiguel.net/tags/health/</link><description>Recent content in health on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/health/index.xml" rel="self" type="application/rss+xml"/><item><title>Depression</title><link>https://blog.brunomiguel.net/post/depression/</link><pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/depression/</guid><description>https://www.youtube.com/watch?v=z-IR48Mb3W0
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>health on .blog</title>
+    <link>/tags/health/</link>
+    <description>Recent content in health on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Depression</title>
+      <link>/post/depression/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/depression/</guid>
+      <description>https://www.youtube.com/watch?v=z-IR48Mb3W0
 Link: https://www.youtube.com/watch?v=z-IR48Mb3W0
-This animation, by TED Ed, explains what clinical depression really is and how debilitating it can be. Like van Gogh wrote to his brother: &amp;ldquo;One feels as if one were lying bound hand and foot at the bottom of a deep dark well, utterly helpless.&amp;rdquo;</description></item><item><title>The "joys" of IBS</title><link>https://blog.brunomiguel.net/post/ibs/</link><pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/ibs/</guid><description>About 7 or 8 years ago, I was diagnosed with IBS. If you don&amp;rsquo;t know what it is, it stands for Irritable Bowel Syndrome and it&amp;rsquo;s a functional gastrointestinal disorder that&amp;rsquo;s estimated to affect 10% to 15% of the world population.
-In most cases, as far as I know, a simple change in diet allows one to keep the symptoms mostly at bay and have a normal life. For some unlucky few, it will fuck up their life in ways they can&amp;rsquo;t imagine.</description></item></channel></rss>
+This animation, by TED Ed, explains what clinical depression really is and how debilitating it can be. Like van Gogh wrote to his brother: &amp;ldquo;One feels as if one were lying bound hand and foot at the bottom of a deep dark well, utterly helpless.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>The &#34;joys&#34; of IBS</title>
+      <link>/post/ibs/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ibs/</guid>
+      <description>About 7 or 8 years ago, I was diagnosed with IBS. If you don&amp;rsquo;t know what it is, it stands for Irritable Bowel Syndrome and it&amp;rsquo;s a functional gastrointestinal disorder that&amp;rsquo;s estimated to affect 10% to 15% of the world population.
+In most cases, as far as I know, a simple change in diet allows one to keep the symptoms mostly at bay and have a normal life. For some unlucky few, it will fuck up their life in ways they can&amp;rsquo;t imagine.</description>
+    </item>
+    
+  </channel>
+</rss>

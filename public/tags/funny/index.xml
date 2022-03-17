@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>funny on .blog</title><link>https://blog.brunomiguel.net/tags/funny/</link><description>Recent content in funny on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Tue, 07 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/funny/index.xml" rel="self" type="application/rss+xml"/><item><title>Plants</title><link>https://blog.brunomiguel.net/post/plants/</link><pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/plants/</guid><description>I was browsing Reddit when I saw this cartoon. I immediately related to it, because I sometimes forget to water my bonsai and at one time I actually killed one dry. And I bet I&amp;rsquo;m far from alone in this.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>funny on .blog</title>
+    <link>/tags/funny/</link>
+    <description>Recent content in funny on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 07 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/funny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plants</title>
+      <link>/post/plants/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/plants/</guid>
+      <description>I was browsing Reddit when I saw this cartoon. I immediately related to it, because I sometimes forget to water my bonsai and at one time I actually killed one dry. And I bet I&amp;rsquo;m far from alone in this.</description>
+    </item>
+    
+  </channel>
+</rss>

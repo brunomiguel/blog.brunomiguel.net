@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cv-1 on .blog</title><link>https://blog.brunomiguel.net/tags/cv-1/</link><description>Recent content in cv-1 on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/cv-1/index.xml" rel="self" type="application/rss+xml"/><item><title>Kalashnikov unveils a retro-styled electric car</title><link>https://blog.brunomiguel.net/post/kalashnikov-unveils-a-retro-styled-electric-car/</link><pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/kalashnikov-unveils-a-retro-styled-electric-car/</guid><description>Russian weapons manufacturer Kalashnikov unveiled a line of electric and hybrid cars, buggies and motorcycles this week. One of those vehicles is a retro-styled concept car named CV-1, capable of running for 350 kilometers with a single charge and accelerating from 0 to 100 km/h in 6 seconds. And it doesn&amp;rsquo;t look that bad.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cv-1 on .blog</title>
+    <link>/tags/cv-1/</link>
+    <description>Recent content in cv-1 on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cv-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kalashnikov unveils a retro-styled electric car</title>
+      <link>/post/kalashnikov-unveils-a-retro-styled-electric-car/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/kalashnikov-unveils-a-retro-styled-electric-car/</guid>
+      <description>Russian weapons manufacturer Kalashnikov unveiled a line of electric and hybrid cars, buggies and motorcycles this week. One of those vehicles is a retro-styled concept car named CV-1, capable of running for 350 kilometers with a single charge and accelerating from 0 to 100 km/h in 6 seconds. And it doesn&amp;rsquo;t look that bad.</description>
+    </item>
+    
+  </channel>
+</rss>

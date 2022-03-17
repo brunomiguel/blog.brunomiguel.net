@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kvantum on .blog</title><link>https://blog.brunomiguel.net/tags/kvantum/</link><description>Recent content in kvantum on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/kvantum/index.xml" rel="self" type="application/rss+xml"/><item><title>LXQT</title><link>https://blog.brunomiguel.net/post/lxqt/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/lxqt/</guid><description>In the last couple of months, I&amp;rsquo;ve been using LXQT as an alternative to Plasma Desktop. Coupled with compton_tryone for the blur bling, a nice dark and transparent theme, and some GTK and Kvantum dark themes to match, it&amp;rsquo;s actually a great desktop environment.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>kvantum on .blog</title>
+    <link>/tags/kvantum/</link>
+    <description>Recent content in kvantum on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/kvantum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LXQT</title>
+      <link>/post/lxqt/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lxqt/</guid>
+      <description>In the last couple of months, I&amp;rsquo;ve been using LXQT as an alternative to Plasma Desktop. Coupled with compton_tryone for the blur bling, a nice dark and transparent theme, and some GTK and Kvantum dark themes to match, it&amp;rsquo;s actually a great desktop environment.</description>
+    </item>
+    
+  </channel>
+</rss>

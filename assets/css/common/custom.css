@@ -1,0 +1,296 @@
+body {
+	font-family: rubik, sans-serif !important;
+	/*background: var(--entry) !important;*/
+	transition: all 0.6s;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--content);
+}
+
+a {
+	transition: all 0.4s;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: var(--primary-hover) !important;
+	transition: all 0.4s;
+}
+
+header a {
+	color: var(--primary-hover) !important;
+	transition: 0.4 all;
+}
+
+header a:hover,
+header a:active,
+header a:focus {
+	color: var(--primary) !important;
+	transition: 0.4 all;
+}
+
+button#theme-toggle {
+	color: rgb(243, 202, 113);
+	transition: 0.4 all !important;
+}
+
+button#theme-toggle:hover,
+button#theme-toggle:active,
+button#theme-toggle:focus {
+	color: rgb(235, 108, 108);
+	transition: 0.4 all !important;
+}
+
+.dark button#theme-toggle:hover,
+.dark button#theme-toggle:active,
+.dark button#theme-toggle:focus {
+	color: rgb(123, 168, 204);
+	transition: 0.4 all !important;
+}
+
+#searchbox input {
+	color: var(--content) !important;
+}
+
+.dark .post-entry {
+	box-shadow: unset;
+	transition: 0.4s all;
+}
+
+.post-entry {
+	box-shadow: unset;
+	transition: 0.4s all !important;
+}
+
+.post-entry:hover {
+	transition: 0.4s all
+}
+
+.dark .post-entry:hover {
+	transition: 0.4s all
+}
+
+.post-entry:active,
+.post-entry:focus {
+	box-shadow: inset 0 2px 2px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 4px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 7px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 10px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 14px hsl(0deg 0% 0% / 0.045);
+	transition: 0.4s all
+}
+
+.dark .post-entry:active,
+.dark .post-entry:focus {
+	box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.045),
+		inset 0 2px 4px rgba(255, 255, 255, 0.045),
+		inset 0 2px 7px rgba(255, 255, 255, 0.045),
+		inset 0 2px 10px rgba(255, 255, 255, 0.045),
+		inset 0 2px 14px rgba(255, 255, 255, 0.045);
+	transition: 0.4s all
+}
+
+.post-entry .entry-header h2 {
+	color: var(--primary);
+}
+
+.post-entry .entry-footer {
+	color: var(--meta)
+}
+
+.post-single .entry-cover {
+	margin-bottom: calc(var(--content-gap)*2);
+}
+
+.post-content dl,
+.post-content ol,
+.post-content p,
+.post-content figure,
+.post-content ul {
+	margin-bottom: var(--gap) !important;
+}
+
+.post-content p code {
+	background: var(--secondary) !important;
+	color: var(--theme) !important;
+}
+
+.post-content .highlight {
+	margin: 10px auto var(--gap) !important;
+}
+
+.post-content .highlight pre {
+	border-radius: var(--radius);
+}
+
+.post-content pre code {
+	padding: 26px !important;
+}
+
+.post-content blockquote {
+	font-family: heuristica, sans-serif !important;
+	font-style: italic !important;
+}
+
+.breadcrumbs {
+	margin-bottom: var(--content-gap);
+}
+
+.breadcrumbs a {
+	color: var(--secondary) !important;
+}
+
+.post-meta {
+	margin-bottom: calc(var(--content-gap)*2);
+}
+
+.post-meta,
+.post-meta span {
+	color: var(--meta) !important;
+}
+
+.post-tags a {
+	background: var(--theme) !important;
+}
+
+.post-tags a:hover {
+	background: var(--code-bg) !important;
+}
+
+.dark .post-tags a:hover {
+	color: var(--primary) !important;
+}
+
+.terms-tags a {
+	background-color: rgb(217, 224, 238) !important;
+}
+
+.dark .terms-tags a {
+	background-color: var(--code-bg) !important;
+}
+
+.post-footer {
+	border-top: 1px solid var(--border) !important;
+	padding-top: 56px !important;
+}
+
+.pagination a {
+	transition: all 0.5s;
+}
+
+.pagination a:hover {
+	background-color: var(--primary-hover) !important;
+	color: var(--theme) !important;
+	box-shadow: 0 2px 2px hsl(0deg 0% 0% / 0.045),
+		0 2px 4px hsl(0deg 0% 0% / 0.045),
+		0 2px 7px hsl(0deg 0% 0% / 0.045),
+		0 2px 10px hsl(0deg 0% 0% / 0.045),
+		0 2px 14px hsl(0deg 0% 0% / 0.1);
+	transition: 0.4 all;
+}
+
+.pagination a:active,
+.pagination a:focus {
+	box-shadow: inset 0 2px 2px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 4px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 7px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 10px hsl(0deg 0% 0% / 0.045),
+		inset 0 2px 14px hsl(0deg 0% 0% / 0.1);
+	transition: 0.4 all;
+}
+
+.dark .pagination a:hover {
+	color: var(--content) !important;
+	box-shadow: 0 2px 2px rgba(255, 255, 255, 0.045),
+		0 2px 4px rgba(255, 255, 255, 0.045),
+		0 2px 7px rgba(255, 255, 255, 0.045),
+		0 2px 10px rgba(255, 255, 255, 0.045),
+		0 2px 14px rgba(255, 255, 255, 0.1);
+	transition: 0.4 all;
+}
+
+.dark .pagination a:active,
+.dark .pagination a:focus {
+	box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.045),
+		inset 0 2px 4px rgba(0, 0, 0, 0.045),
+		inset 0 2px 7px rgba(0, 0, 0, 0.045),
+		inset 0 2px 10px rgba(0, 0, 0, 0.045),
+		inset 0 2px 14px rgba(0, 0, 0, 0.1);
+	transition: 0.4 all;
+}
+
+.paginav {
+	margin-top: 56px !important;
+	font-size: 16px !important;
+	background: var(--theme) !important;
+	padding-block: calc(var(--content-gap) / 2);
+}
+
+.paginav .title {
+	letter-spacing: 0px !important;
+	text-transform: none !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+
+.paginav a {
+	background: var(--theme) !important;
+	border-radius: 0 !important;
+}
+
+.paginav a:hover,
+.paginav a:hover {
+	background: var(--theme) !important;
+}
+
+#cookie-notice {
+	font-size: 14px;
+	display: none;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0px;
+	padding-top: var(--gap);
+	padding-bottom: var(--gap);
+	width: 100%;
+	background: var(--entry);
+	color: var(--content);
+	z-index: 100;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+#cookie-notice a {
+	font-weight: 600;
+	display: inline-flex;
+	cursor: pointer;
+	margin-left: 0.5rem;
+}
+
+#cookie-notice-close {
+	color: var(--primary);
+}
+
+@media (max-width: 767px) {
+	#cookie-notice span {
+		display: block;
+		padding-top: 3px;
+		margin-bottom: 1rem;
+	}
+
+	#cookie-notice a {
+		position: relative;
+		bottom: 4px;
+	}
+
+	#cookie-notice {
+		left: 0px;
+	}
+}

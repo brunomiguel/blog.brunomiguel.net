@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>brexit on .blog</title><link>https://blog.brunomiguel.net/tags/brexit/</link><description>Recent content in brexit on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/brexit/index.xml" rel="self" type="application/rss+xml"/><item><title>Sobre o veto do Brexit no parlamento britânico</title><link>https://blog.brunomiguel.net/post/sobre-o-veto-do-brexit-no-parlamento-britanico/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/sobre-o-veto-do-brexit-no-parlamento-britanico/</guid><description>Só me ocorre esta música dos Beatles:
-They all live in a sinking submarine, sinking submarine, sinking submarine.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>brexit on .blog</title>
+    <link>/tags/brexit/</link>
+    <description>Recent content in brexit on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/brexit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sobre o veto do Brexit no parlamento britânico</title>
+      <link>/post/sobre-o-veto-do-brexit-no-parlamento-britanico/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sobre-o-veto-do-brexit-no-parlamento-britanico/</guid>
+      <description>Só me ocorre esta música dos Beatles:
+ They all live in a sinking submarine, sinking submarine, sinking submarine.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

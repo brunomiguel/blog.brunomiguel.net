@@ -1,280 +1,617 @@
-<!doctype html><html lang=pt>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>A shitload of new packages on userrepository - .blog</title><meta name=description content="Since the 24th of January, the date of the last blog post, I&rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
+<!DOCTYPE html>
+<html lang="pt" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A shitload of new packages on userrepository | .blog</title>
+<meta name="keywords" content="arch-linux, endeavouros, manjaro, packages, userrepository, userrepository-eu" />
+<meta name="description" content="Since the 24th of January, the date of the last blog post, I&rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
 Expect more packages, as I&rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.">
-<meta name=author content>
-<meta name=keywords content="arch-linux,endeavouros,manjaro,packages,userrepository,userrepository-eu">
-<link rel=canonical href=https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/>
-<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
-<script defer data-domain=blog.brunomiguel.net src=https://plausible.matterho.st/js/plausible.js></script>
-<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.css>
-<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
-<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
-<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
-<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
-<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
-<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
-<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.93.2">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://blog.brunomiguel.net">
-<meta name=twitter:title content="A shitload of new packages on userrepository">
-<meta name=twitter:description content="Since the 24th of January, the date of the last blog post, I&rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
-Expect more packages, as I&rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.">
-<meta property="og:title" content="A shitload of new packages on userrepository">
-<meta property="og:type" content="article">
-<meta property="og:image" content="https://blog.brunomiguel.net">
-<meta property="og:url" content="https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/">
+<meta name="author" content="Bruno Miguel">
+<link rel="canonical"
+    href="/post/a-shitload-of-new-packages-on-userrepository/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.049a68b2dbabd1f8948a1d2643daaf7a54b61eb5b7dc9b6221ddb1ac60284923.css" integrity="sha256-BJpostur0fiUih0mQ9qvelS2HrW33JtiId2xrGAoSSM="
+    rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16"
+    href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"
+    href="/favicon-32x32.png">
+<link rel="apple-touch-icon"
+    href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+
+
+<script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script defer data-domain="blog.brunomiguel.net" src="https://plausible.matterho.st/js/plausible.js"></script><div id="cookie-notice">
+    <span>Este site usa cookies do GoatCounter e do Plausible, dois softwares de código aberto, para estatísticas.</span>
+    <a id="cookie-notice-close" class="btn btn-primary btn-sm">Fechar</a>
+    <a href="/privacidade" class="btn btn-primary btn-sm">Mais info</a></div>
+    <script>
+        function createCookie(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            createCookie(name,"",-1);
+        }
+    
+        if(readCookie('cookie-notice-option')=='true') {
+            
+    
+            
+        } else if (readCookie('cookie-notice-option')!='false'){
+            document.getElementById('cookie-notice').style.display = 'block';
+        }
+    
+        document.getElementById('cookie-notice-close').addEventListener("click",function() {
+            createCookie('cookie-notice-option','true',31);
+            document.getElementById('cookie-notice').style.display = 'none';
+            location.reload();
+        });
+    
+    </script><meta property="og:title" content="A shitload of new packages on userrepository" />
 <meta property="og:description" content="Since the 24th of January, the date of the last blog post, I&rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
-Expect more packages, as I&rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.">
-<meta property="og:locale" content="pt">
-<meta property="og:site_name" content=".blog">
-<meta property="article:published_time" content="2021-03-03T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-03-03T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
-</head><body class=not-ready data-menu=true>
-<header class=header>
-<p class=logo>
-<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p><nav class=menu>
-<a href=/about/>Sobre</a>
-<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
-<a href=https://userrepository.eu/>Userrepository</a>
-<a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav><nav class=social>
-<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
-<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
-<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav><a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
-</header><main class=main>
-<article class=post-single>
-<header class=post-title>
-<p>
-<time>03/03/2021</time>
-<span>Bruno Miguel</span>
-<span>Tempo de leitura: 3 minutos
-</span>
-</p><h1>A shitload of new packages on userrepository</h1></header><section class=post-content><p>Since the 24th of January, the date of the last blog post, I&rsquo;ve added a shitload of new packages to <a href=https://userrepository.eu>userrepository.eu</a>. Some highlights are <em>sonobus</em>, <em>media-downloader-git</em>, <em>baru</em>, <em>dotgit</em>, <em>timeshift</em>, <em>filmulator</em> and <em>tramp</em>.</p><p>Expect more packages, as I&rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</p><p>Below is the diff (<code>git log -p --after="2021-01-24" | grep "+[submodule" -A2</code>) from 24/01/2021 up to today, for your diff p0rn pleasure:</p><pre tabindex=0><code>+[submodule &#34;pkgbuild/sonobus&#34;]
-+       path = pkgbuild/sonobus
-+       url = https://aur.archlinux.org/sonobus
-+[submodule &#34;pkgbuild/openfortigui&#34;]
-+       path = pkgbuild/openfortigui
-+       url = https://aur.archlinux.org/openfortigui
-+[submodule &#34;pkgbuild/blue&#34;]
-+       path = pkgbuild/blue
-+       url = https://aur.archlinux.org/blue
-+[submodule &#34;pkgbuild/metar&#34;]
-+       path = pkgbuild/metar
-+       url = https://aur.archlinux.org/metar
-+[submodule &#34;pkgbuild/baru&#34;]
-+       path = pkgbuild/baru
-+       url = https://aur.archlinux.org/baru
-+[submodule &#34;pkgbuild/media-downloader-git&#34;]
-+       path = pkgbuild/media-downloader-git
-+       url = https://aur.archlinux.org/media-downloader-git
-+[submodule &#34;pkgbuild/athens-git&#34;]
-+       path = pkgbuild/athens-git
-+       url = https://aur.archlinux.org/athens-git
-+[submodule &#34;pkgbuild/novelwriter-git&#34;]
-+       path = pkgbuild/novelwriter-git
-+       url = https://aur.archlinux.org/novelwriter-git
-+[submodule &#34;pkgbuild/gvolwheel&#34;]
-+       path = pkgbuild/gvolwheel
-+       url = https://aur.archlinux.org/gvolwheel
-+[submodule &#34;pkgbuild/gomu&#34;]
-+       path = pkgbuild/gomu
-+       url = https://aur.archlinux.org/gomu
-+[submodule &#34;pkgbuild/gphotos-uploader-cli&#34;]
-+       path = pkgbuild/gphotos-uploader-cli
-+       url = https://aur.archlinux.org/gphotos-uploader-cli
-+[submodule &#34;pkgbuild/tunnelto&#34;]
-+       path = pkgbuild/tunnelto
-+       url = https://aur.archlinux.org/tunnelto
-+[submodule &#34;pkgbuild/pacom&#34;]
-+       path = pkgbuild/pacom
-+       url = https://aur.archlinux.org/pacom
-+[submodule &#34;pkgbuild/git-machete&#34;]
-+       path = pkgbuild/git-machete
-+       url = https://aur.archlinux.org/git-machete
-+[submodule &#34;pkgbuild/dotgit&#34;]
-+       path = pkgbuild/dotgit
-+       url = https://aur.archlinux.org/dotgit
-+[submodule &#34;pkgbuild/reddio-git&#34;]
-+       path = pkgbuild/reddio-git
-+       url = https://aur.archlinux.org/reddio-git
-+[submodule &#34;pkgbuild/tarry-git&#34;]
-+       path = pkgbuild/tarry-git
-+       url = https://aur.archlinux.org/tarry-git
-+[submodule &#34;pkgbuild/opensurge&#34;]
-+       path = pkgbuild/opensurge
-+       url = https://aur.archlinux.org/opensurge
-+[submodule &#34;pkgbuild/lightly-qt&#34;]
-+       path = pkgbuild/lightly-qt
-+       url = https://aur.archlinux.org/lightly-qt
-+[submodule &#34;pkgbuild/rudo&#34;]
-+       path = pkgbuild/rudo
-+       url = https://aur.archlinux.org/rudo
-+[submodule &#34;pkgbuild/python-pulsectl&#34;]
-+       path = pkgbuild/python-pulsectl
-+       url = https://aur.archlinux.org/python-pulsectl
-+[submodule &#34;pkgbuild/teaiso&#34;]
-+       path = pkgbuild/teaiso
-+       url = https://aur.archlinux.org/teaiso
-+[submodule &#34;pkgbuild/gtk-theme-arc-gruvbox-git&#34;]
-+       path = pkgbuild/gtk-theme-arc-gruvbox-git
-+       url = https://aur.archlinux.org/gtk-theme-arc-gruvbox-git
-+[submodule &#34;pkgbuild/limine&#34;]
-+       path = pkgbuild/limine
-+       url = https://aur.archlinux.org/limine
-+[submodule &#34;pkgbuild/kaidan&#34;]
-+       path = pkgbuild/kaidan
-+       url = https://aur.archlinux.org/kaidan
-+[submodule &#34;pkgbuild/vt-cli&#34;]
-+       path = pkgbuild/vt-cli
-+       url = https://aur.archlinux.org/vt-cli
-+[submodule &#34;pkgbuild/xwinwrap-git&#34;]
-+       path = pkgbuild/xwinwrap-git
-+       url = https://aur.archlinux.org/xwinwrap-git
-+[submodule &#34;pkgbuild/httpdirfs&#34;]
-+       path = pkgbuild/httpdirfs
-+       url = https://aur.archlinux.org/httpdirfs
-+[submodule &#34;pkgbuild/go-tuner-git&#34;]
-+       path = pkgbuild/go-tuner-git
-+       url = https://aur.archlinux.org/go-tuner-git
-+[submodule &#34;pkgbuild/pacroller&#34;]
-+       path = pkgbuild/pacroller
-+       url = https://aur.archlinux.org/pacroller
-+[submodule &#34;pkgbuild/plasmasur-dark-kde-theme-git&#34;]
-+       path = pkgbuild/plasmasur-dark-kde-theme-git
-+       url = https://aur.archlinux.org/plasmasur-dark-kde-theme-git
-+[submodule &#34;pkgbuild/whitesur-kde-theme-git&#34;]
-+       path = pkgbuild/whitesur-kde-theme-git
-+       url = https://aur.archlinux.org/whitesur-kde-theme-git
-+[submodule &#34;pkgbuild/readability-cli&#34;]
-+       path = pkgbuild/readability-cli
-+       url = https://aur.archlinux.org/readability-cli
-+[submodule &#34;pkgbuild/flipclock&#34;]
-+       path = pkgbuild/flipclock
-+       url = https://aur.archlinux.org/flipclock
-+[submodule &#34;pkgbuild/uivonim-git&#34;]
-+       path = pkgbuild/uivonim-git
-+       url = https://aur.archlinux.org/uivonim-git
-+[submodule &#34;pkgbuild/tramp&#34;]
-+       path = pkgbuild/tramp
-+       url = https://aur.archlinux.org/tramp
-+[submodule &#34;pkgbuild/emacs-yaml-mode&#34;]
-+       path = pkgbuild/emacs-yaml-mode
-+       url = https://aur.archlinux.org/emacs-yaml-mode
-+[submodule &#34;pkgbuild/cask&#34;]
-+       path = pkgbuild/cask
-+       url = https://aur.archlinux.org/cask
-+[submodule &#34;pkgbuild/nord-emacs&#34;]
-+       path = pkgbuild/nord-emacs
-+       url = https://aur.archlinux.org/nord-emacs
-+[submodule &#34;pkgbuild/emms&#34;]
-+       path = pkgbuild/emms
-+       url = https://aur.archlinux.org/emms
-+[submodule &#34;pkgbuild/qemacs&#34;]
-+       path = pkgbuild/qemacs
-+       url = https://aur.archlinux.org/qemacs
-+[submodule &#34;pkgbuild/elfeed&#34;]
-+       path = pkgbuild/elfeed
-+       url = https://aur.archlinux.org/elfeed
-+[submodule &#34;pkgbuild/emacs-libvterm-git&#34;]
-+       path = pkgbuild/emacs-libvterm-git
-+       url = https://aur.archlinux.org/emacs-libvterm-git
-+[submodule &#34;pkgbuild/emacs-projectile&#34;]
-+       path = pkgbuild/emacs-projectile
-+       url = https://aur.archlinux.org/emacs-projectile
-+[submodule &#34;pkgbuild/emacs-smart-mode-line&#34;]
-+       path = pkgbuild/emacs-smart-mode-line
-+       url = https://aur.archlinux.org/emacs-smart-mode-line
-+[submodule &#34;pkgbuild/emacs-pos-tip-git&#34;]
-+       path = pkgbuild/emacs-pos-tip-git
-+       url = https://aur.archlinux.org/emacs-pos-tip-git
-+[submodule &#34;pkgbuild/emacs-magit&#34;]
-+       path = pkgbuild/emacs-magit
-+       url = https://aur.archlinux.org/emacs-magit
-+[submodule &#34;pkgbuild/oh-my-zsh-git&#34;]
-+       path = pkgbuild/oh-my-zsh-git
-+       url = https://aur.archlinux.org/oh-my-zsh-git
-+[submodule &#34;pkgbuild/zsh-theme-powerlevel10k-git&#34;]
-+       path = pkgbuild/zsh-theme-powerlevel10k-git
-+       url = https://aur.archlinux.org/zsh-theme-powerlevel10k-git
-+[submodule &#34;pkgbuild/ttf-meslo-nerd-font-powerlevel10k&#34;]
-+       path = pkgbuild/ttf-meslo-nerd-font-powerlevel10k
-+       url = https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k
-+[submodule &#34;pkgbuild/timeshift&#34;]
-+       path = pkgbuild/timeshift
-+       url = https://aur.archlinux.org/timeshift
-+[submodule &#34;pkgbuild/timeshift-autosnap&#34;]
-+       path = pkgbuild/timeshift-autosnap
-+       url = https://aur.archlinux.org/timeshift-autosnap
-+[submodule &#34;pkgbuild/dimport&#34;]
-+       path = pkgbuild/dimport
-+       url = https://aur.archlinux.org/dimport
-+[submodule &#34;pkgbuild/crema&#34;]
-+       path = pkgbuild/crema
-+       url = https://aur.archlinux.org/crema
-+[submodule &#34;pkgbuild/lensfun-git&#34;]
-+       path = pkgbuild/lensfun-git
-+       url = https://aur.archlinux.org/lensfun-git
-+[submodule &#34;pkgbuild/librtprocess&#34;]
-+       path = pkgbuild/librtprocess
-+       url = https://aur.archlinux.org/librtprocess
-+[submodule &#34;pkgbuild/filmulator&#34;]
-+       path = pkgbuild/filmulator
-+       url = https://aur.archlinux.org/filmulator
-+[submodule &#34;pkgbuild/rooster&#34;]
-+       path = pkgbuild/rooster
-+       url = https://aur.archlinux.org/rooster
-+[submodule &#34;pkgbuild/heroic-games-launcher-bin&#34;]
-+       path = pkgbuild/heroic-games-launcher-bin
-+       url = https://aur.archlinux.org/heroic-games-launcher-bin
-+[submodule &#34;pkgbuild/keep&#34;]
-+       path = pkgbuild/keep
-+       url = https://aur.archlinux.org/keep
-+[submodule &#34;pkgbuild/python-cachelib&#34;]
-+       path = pkgbuild/python-cachelib
-+       url = https://aur.archlinux.org/python-cachelib
-+[submodule &#34;pkgbuild/ipscan&#34;]
-+       path = pkgbuild/ipscan
-+       url = https://aur.archlinux.org/ipscan
-+[submodule &#34;pkgbuild/otoclone&#34;]
-+       path = pkgbuild/otoclone
-+       url = https://aur.archlinux.org/otoclone
-+[submodule &#34;pkgbuild/sfwbar&#34;]
-+       path = pkgbuild/sfwbar
-+       url = https://aur.archlinux.org/sfwbar
-+[submodule &#34;pkgbuild/mediad&#34;]
-+       path = pkgbuild/mediad
-+       url = https://aur.archlinux.org/mediad
-+[submodule &#34;pkgbuild/novelwriter&#34;]
-+       path = pkgbuild/novelwriter
-+       url = https://aur.archlinux.org/novelwriter
-+[submodule &#34;pkgbuild/aur-update&#34;]
-+       path = pkgbuild/aur-update
-+       url = https://aur.archlinux.org/aur-update
-</code></pre></section><footer class=post-tags>
-<small><strong>categorias</strong><br>
-<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
-</small>
-<br><br>
-<small><strong>tags</strong><br>
-<a href=https://blog.brunomiguel.net/tags/arch-linux>arch-linux</a>
-<a href=https://blog.brunomiguel.net/tags/endeavouros>endeavouros</a>
-<a href=https://blog.brunomiguel.net/tags/manjaro>manjaro</a>
-<a href=https://blog.brunomiguel.net/tags/packages>packages</a>
-<a href=https://blog.brunomiguel.net/tags/userrepository>userrepository</a>
-<a href=https://blog.brunomiguel.net/tags/userrepository-eu>userrepository-eu</a>
-</small>
-</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
-<nav class=post-nav>
-<a class=prev href=https://blog.brunomiguel.net/post/fibromialgia-e-sono-a-minha-ma-experiencia/><span>←</span><span>Fibromialgia e sono …</span></a>
-<a class=next href=https://blog.brunomiguel.net/post/some-changes-to-userrepository/><span>Some changes to …</span><span>→</span></a>
-</nav></article></main><footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>
+Expect more packages, as I&rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/a-shitload-of-new-packages-on-userrepository/" /><meta property="og:image" content="/papermod-cover.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-03-03T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-03-03T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/papermod-cover.png"/>
+
+<meta name="twitter:title" content="A shitload of new packages on userrepository"/>
+<meta name="twitter:description" content="Since the 24th of January, the date of the last blog post, I&rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
+Expect more packages, as I&rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/post/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "A shitload of new packages on userrepository",
+      "item": "/post/a-shitload-of-new-packages-on-userrepository/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A shitload of new packages on userrepository",
+  "name": "A shitload of new packages on userrepository",
+  "description": "Since the 24th of January, the date of the last blog post, I\u0026rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.\nExpect more packages, as I\u0026rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I\u0026rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.",
+  "keywords": [
+    "arch-linux", "endeavouros", "manjaro", "packages", "userrepository", "userrepository-eu"
+  ],
+  "articleBody": "Since the 24th of January, the date of the last blog post, I’ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.\nExpect more packages, as I’m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I’ll probably have to increase the full build frequency from 8h to at least 9 hours.\nBelow is the diff (git log -p --after=\"2021-01-24\" | grep \"+[submodule\" -A2) from 24/01/2021 up to today, for your diff p0rn pleasure:\n+[submodule \"pkgbuild/sonobus\"] + path = pkgbuild/sonobus + url = https://aur.archlinux.org/sonobus +[submodule \"pkgbuild/openfortigui\"] + path = pkgbuild/openfortigui + url = https://aur.archlinux.org/openfortigui +[submodule \"pkgbuild/blue\"] + path = pkgbuild/blue + url = https://aur.archlinux.org/blue +[submodule \"pkgbuild/metar\"] + path = pkgbuild/metar + url = https://aur.archlinux.org/metar +[submodule \"pkgbuild/baru\"] + path = pkgbuild/baru + url = https://aur.archlinux.org/baru +[submodule \"pkgbuild/media-downloader-git\"] + path = pkgbuild/media-downloader-git + url = https://aur.archlinux.org/media-downloader-git +[submodule \"pkgbuild/athens-git\"] + path = pkgbuild/athens-git + url = https://aur.archlinux.org/athens-git +[submodule \"pkgbuild/novelwriter-git\"] + path = pkgbuild/novelwriter-git + url = https://aur.archlinux.org/novelwriter-git +[submodule \"pkgbuild/gvolwheel\"] + path = pkgbuild/gvolwheel + url = https://aur.archlinux.org/gvolwheel +[submodule \"pkgbuild/gomu\"] + path = pkgbuild/gomu + url = https://aur.archlinux.org/gomu +[submodule \"pkgbuild/gphotos-uploader-cli\"] + path = pkgbuild/gphotos-uploader-cli + url = https://aur.archlinux.org/gphotos-uploader-cli +[submodule \"pkgbuild/tunnelto\"] + path = pkgbuild/tunnelto + url = https://aur.archlinux.org/tunnelto +[submodule \"pkgbuild/pacom\"] + path = pkgbuild/pacom + url = https://aur.archlinux.org/pacom +[submodule \"pkgbuild/git-machete\"] + path = pkgbuild/git-machete + url = https://aur.archlinux.org/git-machete +[submodule \"pkgbuild/dotgit\"] + path = pkgbuild/dotgit + url = https://aur.archlinux.org/dotgit +[submodule \"pkgbuild/reddio-git\"] + path = pkgbuild/reddio-git + url = https://aur.archlinux.org/reddio-git +[submodule \"pkgbuild/tarry-git\"] + path = pkgbuild/tarry-git + url = https://aur.archlinux.org/tarry-git +[submodule \"pkgbuild/opensurge\"] + path = pkgbuild/opensurge + url = https://aur.archlinux.org/opensurge +[submodule \"pkgbuild/lightly-qt\"] + path = pkgbuild/lightly-qt + url = https://aur.archlinux.org/lightly-qt +[submodule \"pkgbuild/rudo\"] + path = pkgbuild/rudo + url = https://aur.archlinux.org/rudo +[submodule \"pkgbuild/python-pulsectl\"] + path = pkgbuild/python-pulsectl + url = https://aur.archlinux.org/python-pulsectl +[submodule \"pkgbuild/teaiso\"] + path = pkgbuild/teaiso + url = https://aur.archlinux.org/teaiso +[submodule \"pkgbuild/gtk-theme-arc-gruvbox-git\"] + path = pkgbuild/gtk-theme-arc-gruvbox-git + url = https://aur.archlinux.org/gtk-theme-arc-gruvbox-git +[submodule \"pkgbuild/limine\"] + path = pkgbuild/limine + url = https://aur.archlinux.org/limine +[submodule \"pkgbuild/kaidan\"] + path = pkgbuild/kaidan + url = https://aur.archlinux.org/kaidan +[submodule \"pkgbuild/vt-cli\"] + path = pkgbuild/vt-cli + url = https://aur.archlinux.org/vt-cli +[submodule \"pkgbuild/xwinwrap-git\"] + path = pkgbuild/xwinwrap-git + url = https://aur.archlinux.org/xwinwrap-git +[submodule \"pkgbuild/httpdirfs\"] + path = pkgbuild/httpdirfs + url = https://aur.archlinux.org/httpdirfs +[submodule \"pkgbuild/go-tuner-git\"] + path = pkgbuild/go-tuner-git + url = https://aur.archlinux.org/go-tuner-git +[submodule \"pkgbuild/pacroller\"] + path = pkgbuild/pacroller + url = https://aur.archlinux.org/pacroller +[submodule \"pkgbuild/plasmasur-dark-kde-theme-git\"] + path = pkgbuild/plasmasur-dark-kde-theme-git + url = https://aur.archlinux.org/plasmasur-dark-kde-theme-git +[submodule \"pkgbuild/whitesur-kde-theme-git\"] + path = pkgbuild/whitesur-kde-theme-git + url = https://aur.archlinux.org/whitesur-kde-theme-git +[submodule \"pkgbuild/readability-cli\"] + path = pkgbuild/readability-cli + url = https://aur.archlinux.org/readability-cli +[submodule \"pkgbuild/flipclock\"] + path = pkgbuild/flipclock + url = https://aur.archlinux.org/flipclock +[submodule \"pkgbuild/uivonim-git\"] + path = pkgbuild/uivonim-git + url = https://aur.archlinux.org/uivonim-git +[submodule \"pkgbuild/tramp\"] + path = pkgbuild/tramp + url = https://aur.archlinux.org/tramp +[submodule \"pkgbuild/emacs-yaml-mode\"] + path = pkgbuild/emacs-yaml-mode + url = https://aur.archlinux.org/emacs-yaml-mode +[submodule \"pkgbuild/cask\"] + path = pkgbuild/cask + url = https://aur.archlinux.org/cask +[submodule \"pkgbuild/nord-emacs\"] + path = pkgbuild/nord-emacs + url = https://aur.archlinux.org/nord-emacs +[submodule \"pkgbuild/emms\"] + path = pkgbuild/emms + url = https://aur.archlinux.org/emms +[submodule \"pkgbuild/qemacs\"] + path = pkgbuild/qemacs + url = https://aur.archlinux.org/qemacs +[submodule \"pkgbuild/elfeed\"] + path = pkgbuild/elfeed + url = https://aur.archlinux.org/elfeed +[submodule \"pkgbuild/emacs-libvterm-git\"] + path = pkgbuild/emacs-libvterm-git + url = https://aur.archlinux.org/emacs-libvterm-git +[submodule \"pkgbuild/emacs-projectile\"] + path = pkgbuild/emacs-projectile + url = https://aur.archlinux.org/emacs-projectile +[submodule \"pkgbuild/emacs-smart-mode-line\"] + path = pkgbuild/emacs-smart-mode-line + url = https://aur.archlinux.org/emacs-smart-mode-line +[submodule \"pkgbuild/emacs-pos-tip-git\"] + path = pkgbuild/emacs-pos-tip-git + url = https://aur.archlinux.org/emacs-pos-tip-git +[submodule \"pkgbuild/emacs-magit\"] + path = pkgbuild/emacs-magit + url = https://aur.archlinux.org/emacs-magit +[submodule \"pkgbuild/oh-my-zsh-git\"] + path = pkgbuild/oh-my-zsh-git + url = https://aur.archlinux.org/oh-my-zsh-git +[submodule \"pkgbuild/zsh-theme-powerlevel10k-git\"] + path = pkgbuild/zsh-theme-powerlevel10k-git + url = https://aur.archlinux.org/zsh-theme-powerlevel10k-git +[submodule \"pkgbuild/ttf-meslo-nerd-font-powerlevel10k\"] + path = pkgbuild/ttf-meslo-nerd-font-powerlevel10k + url = https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k +[submodule \"pkgbuild/timeshift\"] + path = pkgbuild/timeshift + url = https://aur.archlinux.org/timeshift +[submodule \"pkgbuild/timeshift-autosnap\"] + path = pkgbuild/timeshift-autosnap + url = https://aur.archlinux.org/timeshift-autosnap +[submodule \"pkgbuild/dimport\"] + path = pkgbuild/dimport + url = https://aur.archlinux.org/dimport +[submodule \"pkgbuild/crema\"] + path = pkgbuild/crema + url = https://aur.archlinux.org/crema +[submodule \"pkgbuild/lensfun-git\"] + path = pkgbuild/lensfun-git + url = https://aur.archlinux.org/lensfun-git +[submodule \"pkgbuild/librtprocess\"] + path = pkgbuild/librtprocess + url = https://aur.archlinux.org/librtprocess +[submodule \"pkgbuild/filmulator\"] + path = pkgbuild/filmulator + url = https://aur.archlinux.org/filmulator +[submodule \"pkgbuild/rooster\"] + path = pkgbuild/rooster + url = https://aur.archlinux.org/rooster +[submodule \"pkgbuild/heroic-games-launcher-bin\"] + path = pkgbuild/heroic-games-launcher-bin + url = https://aur.archlinux.org/heroic-games-launcher-bin +[submodule \"pkgbuild/keep\"] + path = pkgbuild/keep + url = https://aur.archlinux.org/keep +[submodule \"pkgbuild/python-cachelib\"] + path = pkgbuild/python-cachelib + url = https://aur.archlinux.org/python-cachelib +[submodule \"pkgbuild/ipscan\"] + path = pkgbuild/ipscan + url = https://aur.archlinux.org/ipscan +[submodule \"pkgbuild/otoclone\"] + path = pkgbuild/otoclone + url = https://aur.archlinux.org/otoclone +[submodule \"pkgbuild/sfwbar\"] + path = pkgbuild/sfwbar + url = https://aur.archlinux.org/sfwbar +[submodule \"pkgbuild/mediad\"] + path = pkgbuild/mediad + url = https://aur.archlinux.org/mediad +[submodule \"pkgbuild/novelwriter\"] + path = pkgbuild/novelwriter + url = https://aur.archlinux.org/novelwriter +[submodule \"pkgbuild/aur-update\"] + path = pkgbuild/aur-update + url = https://aur.archlinux.org/aur-update ",
+  "wordCount" : "765",
+  "inLanguage": "pt",
+  "datePublished": "2021-03-03T00:00:00Z",
+  "dateModified": "2021-03-03T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Bruno Miguel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/a-shitload-of-new-packages-on-userrepository/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": ".blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title=".blog (Alt + H)">.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/search/" title="Pesquisa">
+                    <span>Pesquisa</span>
+                </a>
+            </li>
+            <li>
+                <a href="/arquivo" title="Arquivo">
+                    <span>Arquivo</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categorias">
+                    <span>Categorias</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/privacidade/" title="Privacidade">
+                    <span>Privacidade</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/post/">Posts</a></div>
+    <h1 class="post-title">
+      A shitload of new packages on userrepository
+    </h1>
+    
+    <div class="post-meta"><span title='2021-03-03 00:00:00 +0000 UTC'>março 3, 2021</span>&nbsp;·&nbsp;4 minutos&nbsp;·&nbsp;Bruno Miguel
+
+</div>
+  </header> 
+
+
+
+  <div class="post-content"><p>Since the 24th of January, the date of the last blog post, I&rsquo;ve added a shitload of new packages to <a href="https://userrepository.eu">userrepository.eu</a>. Some highlights are <em>sonobus</em>, <em>media-downloader-git</em>, <em>baru</em>, <em>dotgit</em>, <em>timeshift</em>, <em>filmulator</em> and <em>tramp</em>.</p>
+<p>Expect more packages, as I&rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</p>
+<p>Below is the diff (<code>git log -p --after=&quot;2021-01-24&quot; | grep &quot;+[submodule&quot; -A2</code>) from 24/01/2021 up to today, for your diff p0rn pleasure:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+[submodule &#34;pkgbuild/sonobus&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/sonobus
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/sonobus
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/openfortigui&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/openfortigui
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/openfortigui
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/blue&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/blue
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/blue
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/metar&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/metar
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/metar
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/baru&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/baru
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/baru
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/media-downloader-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/media-downloader-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/media-downloader-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/athens-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/athens-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/athens-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/novelwriter-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/novelwriter-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/novelwriter-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/gvolwheel&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/gvolwheel
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/gvolwheel
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/gomu&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/gomu
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/gomu
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/gphotos-uploader-cli&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/gphotos-uploader-cli
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/gphotos-uploader-cli
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/tunnelto&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/tunnelto
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/tunnelto
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/pacom&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/pacom
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/pacom
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/git-machete&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/git-machete
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/git-machete
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/dotgit&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/dotgit
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/dotgit
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/reddio-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/reddio-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/reddio-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/tarry-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/tarry-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/tarry-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/opensurge&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/opensurge
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/opensurge
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/lightly-qt&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/lightly-qt
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/lightly-qt
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/rudo&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/rudo
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/rudo
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/python-pulsectl&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/python-pulsectl
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/python-pulsectl
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/teaiso&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/teaiso
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/teaiso
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/gtk-theme-arc-gruvbox-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/gtk-theme-arc-gruvbox-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/gtk-theme-arc-gruvbox-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/limine&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/limine
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/limine
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/kaidan&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/kaidan
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/kaidan
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/vt-cli&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/vt-cli
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/vt-cli
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/xwinwrap-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/xwinwrap-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/xwinwrap-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/httpdirfs&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/httpdirfs
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/httpdirfs
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/go-tuner-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/go-tuner-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/go-tuner-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/pacroller&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/pacroller
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/pacroller
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/plasmasur-dark-kde-theme-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/plasmasur-dark-kde-theme-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/plasmasur-dark-kde-theme-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/whitesur-kde-theme-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/whitesur-kde-theme-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/whitesur-kde-theme-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/readability-cli&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/readability-cli
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/readability-cli
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/flipclock&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/flipclock
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/flipclock
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/uivonim-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/uivonim-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/uivonim-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/tramp&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/tramp
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/tramp
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/emacs-yaml-mode&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/emacs-yaml-mode
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/emacs-yaml-mode
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/cask&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/cask
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/cask
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/nord-emacs&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/nord-emacs
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/nord-emacs
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/emms&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/emms
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/emms
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/qemacs&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/qemacs
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/qemacs
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/elfeed&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/elfeed
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/elfeed
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/emacs-libvterm-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/emacs-libvterm-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/emacs-libvterm-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/emacs-projectile&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/emacs-projectile
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/emacs-projectile
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/emacs-smart-mode-line&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/emacs-smart-mode-line
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/emacs-smart-mode-line
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/emacs-pos-tip-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/emacs-pos-tip-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/emacs-pos-tip-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/emacs-magit&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/emacs-magit
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/emacs-magit
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/oh-my-zsh-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/oh-my-zsh-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/oh-my-zsh-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/zsh-theme-powerlevel10k-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/zsh-theme-powerlevel10k-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/zsh-theme-powerlevel10k-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/ttf-meslo-nerd-font-powerlevel10k&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/ttf-meslo-nerd-font-powerlevel10k
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/timeshift&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/timeshift
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/timeshift
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/timeshift-autosnap&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/timeshift-autosnap
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/timeshift-autosnap
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/dimport&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/dimport
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/dimport
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/crema&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/crema
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/crema
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/lensfun-git&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/lensfun-git
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/lensfun-git
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/librtprocess&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/librtprocess
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/librtprocess
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/filmulator&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/filmulator
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/filmulator
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/rooster&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/rooster
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/rooster
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/heroic-games-launcher-bin&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/heroic-games-launcher-bin
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/heroic-games-launcher-bin
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/keep&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/keep
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/keep
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/python-cachelib&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/python-cachelib
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/python-cachelib
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/ipscan&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/ipscan
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/ipscan
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/otoclone&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/otoclone
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/otoclone
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/sfwbar&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/sfwbar
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/sfwbar
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/mediad&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/mediad
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/mediad
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/novelwriter&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/novelwriter
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/novelwriter
+</span></span><span class="line"><span class="cl">+[submodule &#34;pkgbuild/aur-update&#34;]
+</span></span><span class="line"><span class="cl">+       path = pkgbuild/aur-update
+</span></span><span class="line"><span class="cl">+       url = https://aur.archlinux.org/aur-update
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/arch-linux/">arch-linux</a></li>
+      <li><a href="/tags/endeavouros/">endeavouros</a></li>
+      <li><a href="/tags/manjaro/">manjaro</a></li>
+      <li><a href="/tags/packages/">packages</a></li>
+      <li><a href="/tags/userrepository/">userrepository</a></li>
+      <li><a href="/tags/userrepository-eu/">userrepository-eu</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/post/fibromialgia-e-sono-a-minha-ma-experiencia/">
+    <span class="title">« Página Anterior</span>
+    <br>
+    <span>Fibromialgia e sono - a minha …</span>
+  </a>
+  <a class="next" href="/post/some-changes-to-userrepository/">
+    <span class="title">Próxima Página »</span>
+    <br>
+    <span>Some changes to userrepository</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">.blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

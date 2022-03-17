@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>qemu on .blog</title><link>https://blog.brunomiguel.net/tags/qemu/</link><description>Recent content in qemu on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/qemu/index.xml" rel="self" type="application/rss+xml"/><item><title>How to install an operating system to a USB drive</title><link>https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/how-to-install-an-operating-system-to-a-usb-drive/</guid><description>Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&amp;rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
-sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>qemu on .blog</title>
+    <link>/tags/qemu/</link>
+    <description>Recent content in qemu on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install an operating system to a USB drive</title>
+      <link>/post/how-to-install-an-operating-system-to-a-usb-drive/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-install-an-operating-system-to-a-usb-drive/</guid>
+      <description>Sometimes, maybe for maintenance or data rescue reasons, you may want to have a USB thumbdrive with a GNU/Linux distribution installed. I&amp;rsquo;m not referring to writing a live ISO to a USB drive; I really mean having the distribution installed like it would be on an hard drive. An easy way to achieve this is using the virtualization software Qemu. Example:
+sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/sdb -m 800 In this example, the -hda /dev/sdb part tells Qemu that the device /dev/sdb (the USB drive) must be used as an hard drive.</description>
+    </item>
+    
+  </channel>
+</rss>

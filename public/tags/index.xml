@@ -1,1 +1,2940 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on .blog</title><link>https://blog.brunomiguel.net/tags/</link><description>Recent content in Tags on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>browser</title><link>https://blog.brunomiguel.net/tags/browser/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/browser/</guid><description/></item><item><title>Chrome</title><link>https://blog.brunomiguel.net/tags/chrome/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/chrome/</guid><description/></item><item><title>Chrome Store</title><link>https://blog.brunomiguel.net/tags/chrome-store/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/chrome-store/</guid><description/></item><item><title>Extensions</title><link>https://blog.brunomiguel.net/tags/extensions/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/extensions/</guid><description/></item><item><title>firefox</title><link>https://blog.brunomiguel.net/tags/firefox/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/firefox/</guid><description/></item><item><title>Google</title><link>https://blog.brunomiguel.net/tags/google/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/google/</guid><description/></item><item><title>Privacy</title><link>https://blog.brunomiguel.net/tags/privacy/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/privacy/</guid><description/></item><item><title>AdGuardHome</title><link>https://blog.brunomiguel.net/tags/adguardhome/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/adguardhome/</guid><description/></item><item><title>Código Fonte</title><link>https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte/</guid><description/></item><item><title>DNS</title><link>https://blog.brunomiguel.net/tags/dns/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dns/</guid><description/></item><item><title>DNS resolver</title><link>https://blog.brunomiguel.net/tags/dns-resolver/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dns-resolver/</guid><description/></item><item><title>Git</title><link>https://blog.brunomiguel.net/tags/git/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/git/</guid><description/></item><item><title>Open-Source</title><link>https://blog.brunomiguel.net/tags/open-source/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/open-source/</guid><description/></item><item><title>resolver</title><link>https://blog.brunomiguel.net/tags/resolver/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/resolver/</guid><description/></item><item><title>Software Livre</title><link>https://blog.brunomiguel.net/tags/software-livre/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/software-livre/</guid><description/></item><item><title>unbound</title><link>https://blog.brunomiguel.net/tags/unbound/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/unbound/</guid><description/></item><item><title>arch-linux</title><link>https://blog.brunomiguel.net/tags/arch-linux/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/arch-linux/</guid><description/></item><item><title>catppuccin</title><link>https://blog.brunomiguel.net/tags/catppuccin/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/catppuccin/</guid><description/></item><item><title>endeavouros</title><link>https://blog.brunomiguel.net/tags/endeavouros/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/endeavouros/</guid><description/></item><item><title>manjaro</title><link>https://blog.brunomiguel.net/tags/manjaro/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/manjaro/</guid><description/></item><item><title>pacman</title><link>https://blog.brunomiguel.net/tags/pacman/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/pacman/</guid><description/></item><item><title>palete de cores</title><link>https://blog.brunomiguel.net/tags/palete-de-cores/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/palete-de-cores/</guid><description/></item><item><title>userrepository</title><link>https://blog.brunomiguel.net/tags/userrepository/</link><pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/userrepository/</guid><description/></item><item><title>404</title><link>https://blog.brunomiguel.net/tags/404/</link><pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/404/</guid><description/></item><item><title>blog</title><link>https://blog.brunomiguel.net/tags/blog/</link><pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/blog/</guid><description/></item><item><title>star trek</title><link>https://blog.brunomiguel.net/tags/star-trek/</link><pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/star-trek/</guid><description/></item><item><title>canvas</title><link>https://blog.brunomiguel.net/tags/canvas/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/canvas/</guid><description/></item><item><title>cookies</title><link>https://blog.brunomiguel.net/tags/cookies/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cookies/</guid><description/></item><item><title>fingerprinting</title><link>https://blog.brunomiguel.net/tags/fingerprinting/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fingerprinting/</guid><description/></item><item><title>privacidade</title><link>https://blog.brunomiguel.net/tags/privacidade/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/privacidade/</guid><description/></item><item><title>tracking</title><link>https://blog.brunomiguel.net/tags/tracking/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/tracking/</guid><description/></item><item><title>webgl</title><link>https://blog.brunomiguel.net/tags/webgl/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/webgl/</guid><description/></item><item><title>Codeberg</title><link>https://blog.brunomiguel.net/tags/codeberg/</link><pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/codeberg/</guid><description/></item><item><title>Github</title><link>https://blog.brunomiguel.net/tags/github/</link><pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/github/</guid><description/></item><item><title>acessibilidade</title><link>https://blog.brunomiguel.net/tags/acessibilidade/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/acessibilidade/</guid><description/></item><item><title>covid-19</title><link>https://blog.brunomiguel.net/tags/covid-19/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/covid-19/</guid><description/></item><item><title>dor crónica</title><link>https://blog.brunomiguel.net/tags/dor-cr%C3%B3nica/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dor-cr%C3%B3nica/</guid><description/></item><item><title>mobilidade reduzida</title><link>https://blog.brunomiguel.net/tags/mobilidade-reduzida/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mobilidade-reduzida/</guid><description/></item><item><title>vacinação</title><link>https://blog.brunomiguel.net/tags/vacina%C3%A7%C3%A3o/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/vacina%C3%A7%C3%A3o/</guid><description/></item><item><title>ferramentas</title><link>https://blog.brunomiguel.net/tags/ferramentas/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ferramentas/</guid><description/></item><item><title>logseq</title><link>https://blog.brunomiguel.net/tags/logseq/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/logseq/</guid><description/></item><item><title>notas</title><link>https://blog.brunomiguel.net/tags/notas/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/notas/</guid><description/></item><item><title>organização</title><link>https://blog.brunomiguel.net/tags/organiza%C3%A7%C3%A3o/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/organiza%C3%A7%C3%A3o/</guid><description/></item><item><title>software</title><link>https://blog.brunomiguel.net/tags/software/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/software/</guid><description/></item><item><title>hugo</title><link>https://blog.brunomiguel.net/tags/hugo/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/hugo/</guid><description/></item><item><title>migração</title><link>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</guid><description/></item><item><title>static site generator</title><link>https://blog.brunomiguel.net/tags/static-site-generator/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/static-site-generator/</guid><description/></item><item><title>wordpress</title><link>https://blog.brunomiguel.net/tags/wordpress/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/wordpress/</guid><description/></item><item><title>bluetooth</title><link>https://blog.brunomiguel.net/tags/bluetooth/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/bluetooth/</guid><description/></item><item><title>linux</title><link>https://blog.brunomiguel.net/tags/linux/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/linux/</guid><description/></item><item><title>musica</title><link>https://blog.brunomiguel.net/tags/musica/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/musica/</guid><description/></item><item><title>playlist</title><link>https://blog.brunomiguel.net/tags/playlist/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/playlist/</guid><description/></item><item><title>spotify</title><link>https://blog.brunomiguel.net/tags/spotify/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/spotify/</guid><description/></item><item><title>top-2021</title><link>https://blog.brunomiguel.net/tags/top-2021/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/top-2021/</guid><description/></item><item><title>cansaco</title><link>https://blog.brunomiguel.net/tags/cansaco/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cansaco/</guid><description/></item><item><title>d3</title><link>https://blog.brunomiguel.net/tags/d3/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/d3/</guid><description/></item><item><title>direitos-digitais</title><link>https://blog.brunomiguel.net/tags/direitos-digitais/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/direitos-digitais/</guid><description/></item><item><title>dores</title><link>https://blog.brunomiguel.net/tags/dores/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dores/</guid><description/></item><item><title>fibrohell</title><link>https://blog.brunomiguel.net/tags/fibrohell/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fibrohell/</guid><description/></item><item><title>fibromialgia</title><link>https://blog.brunomiguel.net/tags/fibromialgia/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fibromialgia/</guid><description/></item><item><title>sindrome</title><link>https://blog.brunomiguel.net/tags/sindrome/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/sindrome/</guid><description/></item><item><title>videovigilancia</title><link>https://blog.brunomiguel.net/tags/videovigilancia/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/videovigilancia/</guid><description/></item><item><title>ansol</title><link>https://blog.brunomiguel.net/tags/ansol/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ansol/</guid><description/></item><item><title>cloudflare</title><link>https://blog.brunomiguel.net/tags/cloudflare/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cloudflare/</guid><description/></item><item><title>igac</title><link>https://blog.brunomiguel.net/tags/igac/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/igac/</guid><description/></item><item><title>ip</title><link>https://blog.brunomiguel.net/tags/ip/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ip/</guid><description/></item><item><title>projeto-de-lei</title><link>https://blog.brunomiguel.net/tags/projeto-de-lei/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/projeto-de-lei/</guid><description/></item><item><title>arch</title><link>https://blog.brunomiguel.net/tags/arch/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/arch/</guid><description/></item><item><title>aur</title><link>https://blog.brunomiguel.net/tags/aur/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/aur/</guid><description/></item><item><title>fosshost</title><link>https://blog.brunomiguel.net/tags/fosshost/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fosshost/</guid><description/></item><item><title>package</title><link>https://blog.brunomiguel.net/tags/package/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/package/</guid><description/></item><item><title>repository</title><link>https://blog.brunomiguel.net/tags/repository/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/repository/</guid><description/></item><item><title>userrepository-eu</title><link>https://blog.brunomiguel.net/tags/userrepository-eu/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/userrepository-eu/</guid><description/></item><item><title>css</title><link>https://blog.brunomiguel.net/tags/css/</link><pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/css/</guid><description/></item><item><title>dark-theme</title><link>https://blog.brunomiguel.net/tags/dark-theme/</link><pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dark-theme/</guid><description/></item><item><title>stylus</title><link>https://blog.brunomiguel.net/tags/stylus/</link><pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/stylus/</guid><description/></item><item><title>dbus</title><link>https://blog.brunomiguel.net/tags/dbus/</link><pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dbus/</guid><description/></item><item><title>dunst</title><link>https://blog.brunomiguel.net/tags/dunst/</link><pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dunst/</guid><description/></item><item><title>notification-daemon</title><link>https://blog.brunomiguel.net/tags/notification-daemon/</link><pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/notification-daemon/</guid><description/></item><item><title>plasma-desktop</title><link>https://blog.brunomiguel.net/tags/plasma-desktop/</link><pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/plasma-desktop/</guid><description/></item><item><title>tips</title><link>https://blog.brunomiguel.net/tags/tips/</link><pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/tips/</guid><description/></item><item><title>edicao</title><link>https://blog.brunomiguel.net/tags/edicao/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/edicao/</guid><description/></item><item><title>futebol</title><link>https://blog.brunomiguel.net/tags/futebol/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/futebol/</guid><description/></item><item><title>humor</title><link>https://blog.brunomiguel.net/tags/humor/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/humor/</guid><description/></item><item><title>twitter</title><link>https://blog.brunomiguel.net/tags/twitter/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/twitter/</guid><description/></item><item><title>cenas</title><link>https://blog.brunomiguel.net/tags/cenas/</link><pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cenas/</guid><description/></item><item><title>dnb</title><link>https://blog.brunomiguel.net/tags/dnb/</link><pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dnb/</guid><description/></item><item><title>drum-and-bass</title><link>https://blog.brunomiguel.net/tags/drum-and-bass/</link><pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/drum-and-bass/</guid><description/></item><item><title>music</title><link>https://blog.brunomiguel.net/tags/music/</link><pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/music/</guid><description/></item><item><title>sono</title><link>https://blog.brunomiguel.net/tags/sono/</link><pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/sono/</guid><description/></item><item><title>packages</title><link>https://blog.brunomiguel.net/tags/packages/</link><pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/packages/</guid><description/></item><item><title>archlinux</title><link>https://blog.brunomiguel.net/tags/archlinux/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/archlinux/</guid><description/></item><item><title>reddit</title><link>https://blog.brunomiguel.net/tags/reddit/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/reddit/</guid><description/></item><item><title>emacs</title><link>https://blog.brunomiguel.net/tags/emacs/</link><pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/emacs/</guid><description/></item><item><title>markdown</title><link>https://blog.brunomiguel.net/tags/markdown/</link><pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/markdown/</guid><description/></item><item><title>tools</title><link>https://blog.brunomiguel.net/tags/tools/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/tools/</guid><description/></item><item><title>batmovel</title><link>https://blog.brunomiguel.net/tags/batmovel/</link><pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/batmovel/</guid><description/></item><item><title>carocha</title><link>https://blog.brunomiguel.net/tags/carocha/</link><pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/carocha/</guid><description/></item><item><title>danni-koldal</title><link>https://blog.brunomiguel.net/tags/danni-koldal/</link><pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/danni-koldal/</guid><description/></item><item><title>roadster</title><link>https://blog.brunomiguel.net/tags/roadster/</link><pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/roadster/</guid><description/></item><item><title>37</title><link>https://blog.brunomiguel.net/tags/37/</link><pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/37/</guid><description/></item><item><title>02</title><link>https://blog.brunomiguel.net/tags/02/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/02/</guid><description/></item><item><title>plasma</title><link>https://blog.brunomiguel.net/tags/plasma/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/plasma/</guid><description/></item><item><title>qml</title><link>https://blog.brunomiguel.net/tags/qml/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/qml/</guid><description/></item><item><title>comissao-europeia</title><link>https://blog.brunomiguel.net/tags/comissao-europeia/</link><pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/comissao-europeia/</guid><description/></item><item><title>encriptacao</title><link>https://blog.brunomiguel.net/tags/encriptacao/</link><pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/encriptacao/</guid><description/></item><item><title>kutiman</title><link>https://blog.brunomiguel.net/tags/kutiman/</link><pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/kutiman/</guid><description/></item><item><title>mix-the-city</title><link>https://blog.brunomiguel.net/tags/mix-the-city/</link><pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mix-the-city/</guid><description/></item><item><title>ddos</title><link>https://blog.brunomiguel.net/tags/ddos/</link><pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ddos/</guid><description/></item><item><title>seguranca</title><link>https://blog.brunomiguel.net/tags/seguranca/</link><pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/seguranca/</guid><description/></item><item><title>sms</title><link>https://blog.brunomiguel.net/tags/sms/</link><pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/sms/</guid><description/></item><item><title>coimbra</title><link>https://blog.brunomiguel.net/tags/coimbra/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/coimbra/</guid><description/></item><item><title>fotografia</title><link>https://blog.brunomiguel.net/tags/fotografia/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fotografia/</guid><description/></item><item><title>fotos</title><link>https://blog.brunomiguel.net/tags/fotos/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fotos/</guid><description/></item><item><title>pg</title><link>https://blog.brunomiguel.net/tags/pg/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/pg/</guid><description/></item><item><title>preto-e-branco</title><link>https://blog.brunomiguel.net/tags/preto-e-branco/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/preto-e-branco/</guid><description/></item><item><title>antinonio</title><link>https://blog.brunomiguel.net/tags/antinonio/</link><pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/antinonio/</guid><description/></item><item><title>nonio</title><link>https://blog.brunomiguel.net/tags/nonio/</link><pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/nonio/</guid><description/></item><item><title>groove-armada</title><link>https://blog.brunomiguel.net/tags/groove-armada/</link><pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/groove-armada/</guid><description/></item><item><title>inside-my-mind</title><link>https://blog.brunomiguel.net/tags/inside-my-mind/</link><pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/inside-my-mind/</guid><description/></item><item><title>hetzner</title><link>https://blog.brunomiguel.net/tags/hetzner/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/hetzner/</guid><description/></item><item><title>scaleway</title><link>https://blog.brunomiguel.net/tags/scaleway/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/scaleway/</guid><description/></item><item><title>boot-times</title><link>https://blog.brunomiguel.net/tags/boot-times/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/boot-times/</guid><description/></item><item><title>lz4</title><link>https://blog.brunomiguel.net/tags/lz4/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/lz4/</guid><description/></item><item><title>mkinitcpio</title><link>https://blog.brunomiguel.net/tags/mkinitcpio/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mkinitcpio/</guid><description/></item><item><title>mq-deadline</title><link>https://blog.brunomiguel.net/tags/mq-deadline/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mq-deadline/</guid><description/></item><item><title>systemd</title><link>https://blog.brunomiguel.net/tags/systemd/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/systemd/</guid><description/></item><item><title>djs-from-mars</title><link>https://blog.brunomiguel.net/tags/djs-from-mars/</link><pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/djs-from-mars/</guid><description/></item><item><title>mashups</title><link>https://blog.brunomiguel.net/tags/mashups/</link><pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mashups/</guid><description/></item><item><title>bugs</title><link>https://blog.brunomiguel.net/tags/bugs/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/bugs/</guid><description/></item><item><title>microfone</title><link>https://blog.brunomiguel.net/tags/microfone/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/microfone/</guid><description/></item><item><title>pulseaudio</title><link>https://blog.brunomiguel.net/tags/pulseaudio/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/pulseaudio/</guid><description/></item><item><title>jarvis</title><link>https://blog.brunomiguel.net/tags/jarvis/</link><pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/jarvis/</guid><description/></item><item><title>anormais</title><link>https://blog.brunomiguel.net/tags/anormais/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/anormais/</guid><description/></item><item><title>boinc</title><link>https://blog.brunomiguel.net/tags/boinc/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/boinc/</guid><description/></item><item><title>escala-de-kardashev</title><link>https://blog.brunomiguel.net/tags/escala-de-kardashev/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/escala-de-kardashev/</guid><description/></item><item><title>foldinghome</title><link>https://blog.brunomiguel.net/tags/foldinghome/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/foldinghome/</guid><description/></item><item><title>idiotas</title><link>https://blog.brunomiguel.net/tags/idiotas/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/idiotas/</guid><description/></item><item><title>pascoa</title><link>https://blog.brunomiguel.net/tags/pascoa/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/pascoa/</guid><description/></item><item><title>religiosos</title><link>https://blog.brunomiguel.net/tags/religiosos/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/religiosos/</guid><description/></item><item><title>rosettahome</title><link>https://blog.brunomiguel.net/tags/rosettahome/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/rosettahome/</guid><description/></item><item><title>manteiga-de-amendoim</title><link>https://blog.brunomiguel.net/tags/manteiga-de-amendoim/</link><pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/manteiga-de-amendoim/</guid><description/></item><item><title>pao</title><link>https://blog.brunomiguel.net/tags/pao/</link><pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/pao/</guid><description/></item><item><title>receita</title><link>https://blog.brunomiguel.net/tags/receita/</link><pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/receita/</guid><description/></item><item><title>ministerio-da-cultura</title><link>https://blog.brunomiguel.net/tags/ministerio-da-cultura/</link><pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ministerio-da-cultura/</guid><description/></item><item><title>rtp</title><link>https://blog.brunomiguel.net/tags/rtp/</link><pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/rtp/</guid><description/></item><item><title>tv-fest</title><link>https://blog.brunomiguel.net/tags/tv-fest/</link><pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/tv-fest/</guid><description/></item><item><title>cartao-de-cidadao</title><link>https://blog.brunomiguel.net/tags/cartao-de-cidadao/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cartao-de-cidadao/</guid><description/></item><item><title>cdc</title><link>https://blog.brunomiguel.net/tags/cdc/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cdc/</guid><description/></item><item><title>covid19</title><link>https://blog.brunomiguel.net/tags/covid19/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/covid19/</guid><description/></item><item><title>downtempo</title><link>https://blog.brunomiguel.net/tags/downtempo/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/downtempo/</guid><description/></item><item><title>mascaras</title><link>https://blog.brunomiguel.net/tags/mascaras/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mascaras/</guid><description/></item><item><title>sars-cov-2</title><link>https://blog.brunomiguel.net/tags/sars-cov-2/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/sars-cov-2/</guid><description/></item><item><title>symphonik</title><link>https://blog.brunomiguel.net/tags/symphonik/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/symphonik/</guid><description/></item><item><title>thievery-corporation</title><link>https://blog.brunomiguel.net/tags/thievery-corporation/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/thievery-corporation/</guid><description/></item><item><title>triphop</title><link>https://blog.brunomiguel.net/tags/triphop/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/triphop/</guid><description/></item><item><title>internet</title><link>https://blog.brunomiguel.net/tags/internet/</link><pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/internet/</guid><description/></item><item><title>nos</title><link>https://blog.brunomiguel.net/tags/nos/</link><pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/nos/</guid><description/></item><item><title>traffic-shaping</title><link>https://blog.brunomiguel.net/tags/traffic-shaping/</link><pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/traffic-shaping/</guid><description/></item><item><title>debian</title><link>https://blog.brunomiguel.net/tags/debian/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/debian/</guid><description/></item><item><title>howto</title><link>https://blog.brunomiguel.net/tags/howto/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/howto/</guid><description/></item><item><title>vpn</title><link>https://blog.brunomiguel.net/tags/vpn/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/vpn/</guid><description/></item><item><title>wireguard</title><link>https://blog.brunomiguel.net/tags/wireguard/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/wireguard/</guid><description/></item><item><title>compton</title><link>https://blog.brunomiguel.net/tags/compton/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/compton/</guid><description/></item><item><title>compton-tryone</title><link>https://blog.brunomiguel.net/tags/compton-tryone/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/compton-tryone/</guid><description/></item><item><title>gtk</title><link>https://blog.brunomiguel.net/tags/gtk/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/gtk/</guid><description/></item><item><title>kvantum</title><link>https://blog.brunomiguel.net/tags/kvantum/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/kvantum/</guid><description/></item><item><title>lxqt</title><link>https://blog.brunomiguel.net/tags/lxqt/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/lxqt/</guid><description/></item><item><title>compulab</title><link>https://blog.brunomiguel.net/tags/compulab/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/compulab/</guid><description/></item><item><title>linux-mint</title><link>https://blog.brunomiguel.net/tags/linux-mint/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/linux-mint/</guid><description/></item><item><title>mintbox</title><link>https://blog.brunomiguel.net/tags/mintbox/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mintbox/</guid><description/></item><item><title>mintbox3</title><link>https://blog.brunomiguel.net/tags/mintbox3/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mintbox3/</guid><description/></item><item><title>lpt</title><link>https://blog.brunomiguel.net/tags/lpt/</link><pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/lpt/</guid><description/></item><item><title>spotifywrapped</title><link>https://blog.brunomiguel.net/tags/spotifywrapped/</link><pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/spotifywrapped/</guid><description/></item><item><title>bash</title><link>https://blog.brunomiguel.net/tags/bash/</link><pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/bash/</guid><description/></item><item><title>adblock</title><link>https://blog.brunomiguel.net/tags/adblock/</link><pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/adblock/</guid><description/></item><item><title>eolie</title><link>https://blog.brunomiguel.net/tags/eolie/</link><pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/eolie/</guid><description/></item><item><title>free-software</title><link>https://blog.brunomiguel.net/tags/free-software/</link><pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/free-software/</guid><description/></item><item><title>pkgbuild</title><link>https://blog.brunomiguel.net/tags/pkgbuild/</link><pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/pkgbuild/</guid><description/></item><item><title>36</title><link>https://blog.brunomiguel.net/tags/36/</link><pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/36/</guid><description/></item><item><title>arch-wiki</title><link>https://blog.brunomiguel.net/tags/arch-wiki/</link><pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/arch-wiki/</guid><description/></item><item><title>facebook</title><link>https://blog.brunomiguel.net/tags/facebook/</link><pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/facebook/</guid><description/></item><item><title>redes-sociais</title><link>https://blog.brunomiguel.net/tags/redes-sociais/</link><pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/redes-sociais/</guid><description/></item><item><title>velho-do-restelo</title><link>https://blog.brunomiguel.net/tags/velho-do-restelo/</link><pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/velho-do-restelo/</guid><description/></item><item><title>cbs</title><link>https://blog.brunomiguel.net/tags/cbs/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cbs/</guid><description/></item><item><title>hbo</title><link>https://blog.brunomiguel.net/tags/hbo/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/hbo/</guid><description/></item><item><title>netflix</title><link>https://blog.brunomiguel.net/tags/netflix/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/netflix/</guid><description/></item><item><title>streaming</title><link>https://blog.brunomiguel.net/tags/streaming/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/streaming/</guid><description/></item><item><title>torrent</title><link>https://blog.brunomiguel.net/tags/torrent/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/torrent/</guid><description/></item><item><title>astronomia</title><link>https://blog.brunomiguel.net/tags/astronomia/</link><pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/astronomia/</guid><description/></item><item><title>hubble</title><link>https://blog.brunomiguel.net/tags/hubble/</link><pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/hubble/</guid><description/></item><item><title>k2-18b</title><link>https://blog.brunomiguel.net/tags/k2-18b/</link><pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/k2-18b/</guid><description/></item><item><title>kepler</title><link>https://blog.brunomiguel.net/tags/kepler/</link><pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/kepler/</guid><description/></item><item><title>efeito-bolha</title><link>https://blog.brunomiguel.net/tags/efeito-bolha/</link><pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/efeito-bolha/</guid><description/></item><item><title>humanidade</title><link>https://blog.brunomiguel.net/tags/humanidade/</link><pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/humanidade/</guid><description/></item><item><title>fm2019</title><link>https://blog.brunomiguel.net/tags/fm2019/</link><pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fm2019/</guid><description/></item><item><title>football-manager</title><link>https://blog.brunomiguel.net/tags/football-manager/</link><pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/football-manager/</guid><description/></item><item><title>games</title><link>https://blog.brunomiguel.net/tags/games/</link><pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/games/</guid><description/></item><item><title>opera</title><link>https://blog.brunomiguel.net/tags/opera/</link><pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/opera/</guid><description/></item><item><title>vivaldi</title><link>https://blog.brunomiguel.net/tags/vivaldi/</link><pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/vivaldi/</guid><description/></item><item><title>mozilla</title><link>https://blog.brunomiguel.net/tags/mozilla/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mozilla/</guid><description/></item><item><title>night-mode</title><link>https://blog.brunomiguel.net/tags/night-mode/</link><pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/night-mode/</guid><description/></item><item><title>christian-loffler</title><link>https://blog.brunomiguel.net/tags/christian-loffler/</link><pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/christian-loffler/</guid><description/></item><item><title>mare-reworks</title><link>https://blog.brunomiguel.net/tags/mare-reworks/</link><pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mare-reworks/</guid><description/></item><item><title>dotdrop</title><link>https://blog.brunomiguel.net/tags/dotdrop/</link><pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dotdrop/</guid><description/></item><item><title>dotfiles</title><link>https://blog.brunomiguel.net/tags/dotfiles/</link><pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/dotfiles/</guid><description/></item><item><title>scripts</title><link>https://blog.brunomiguel.net/tags/scripts/</link><pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/scripts/</guid><description/></item><item><title>fh</title><link>https://blog.brunomiguel.net/tags/fh/</link><pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fh/</guid><description/></item><item><title>science</title><link>https://blog.brunomiguel.net/tags/science/</link><pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/science/</guid><description/></item><item><title>cartoon</title><link>https://blog.brunomiguel.net/tags/cartoon/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cartoon/</guid><description/></item><item><title>cyanide-and-happiness</title><link>https://blog.brunomiguel.net/tags/cyanide-and-happiness/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cyanide-and-happiness/</guid><description/></item><item><title>webcomic</title><link>https://blog.brunomiguel.net/tags/webcomic/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/webcomic/</guid><description/></item><item><title>construcao</title><link>https://blog.brunomiguel.net/tags/construcao/</link><pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/construcao/</guid><description/></item><item><title>curiosidades</title><link>https://blog.brunomiguel.net/tags/curiosidades/</link><pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/curiosidades/</guid><description/></item><item><title>titanic</title><link>https://blog.brunomiguel.net/tags/titanic/</link><pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/titanic/</guid><description/></item><item><title>vintage</title><link>https://blog.brunomiguel.net/tags/vintage/</link><pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/vintage/</guid><description/></item><item><title>ciencia</title><link>https://blog.brunomiguel.net/tags/ciencia/</link><pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ciencia/</guid><description/></item><item><title>estrela-de-neutroes</title><link>https://blog.brunomiguel.net/tags/estrela-de-neutroes/</link><pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/estrela-de-neutroes/</guid><description/></item><item><title>imre-bartos</title><link>https://blog.brunomiguel.net/tags/imre-bartos/</link><pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/imre-bartos/</guid><description/></item><item><title>szabolcs-marka</title><link>https://blog.brunomiguel.net/tags/szabolcs-marka/</link><pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/szabolcs-marka/</guid><description/></item><item><title>easter</title><link>https://blog.brunomiguel.net/tags/easter/</link><pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/easter/</guid><description/></item><item><title>zombie-jesus</title><link>https://blog.brunomiguel.net/tags/zombie-jesus/</link><pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/zombie-jesus/</guid><description/></item><item><title>aurto</title><link>https://blog.brunomiguel.net/tags/aurto/</link><pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/aurto/</guid><description/></item><item><title>gnu-linux</title><link>https://blog.brunomiguel.net/tags/gnu-linux/</link><pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/gnu-linux/</guid><description/></item><item><title>arcan1s</title><link>https://blog.brunomiguel.net/tags/arcan1s/</link><pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/arcan1s/</guid><description/></item><item><title>vps</title><link>https://blog.brunomiguel.net/tags/vps/</link><pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/vps/</guid><description/></item><item><title>animation</title><link>https://blog.brunomiguel.net/tags/animation/</link><pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/animation/</guid><description/></item><item><title>gary-dourdan</title><link>https://blog.brunomiguel.net/tags/gary-dourdan/</link><pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/gary-dourdan/</guid><description/></item><item><title>raphael-bluzet</title><link>https://blog.brunomiguel.net/tags/raphael-bluzet/</link><pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/raphael-bluzet/</guid><description/></item><item><title>space</title><link>https://blog.brunomiguel.net/tags/space/</link><pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/space/</guid><description/></item><item><title>autocolantes</title><link>https://blog.brunomiguel.net/tags/autocolantes/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/autocolantes/</guid><description/></item><item><title>beatles</title><link>https://blog.brunomiguel.net/tags/beatles/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/beatles/</guid><description/></item><item><title>brexit</title><link>https://blog.brunomiguel.net/tags/brexit/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/brexit/</guid><description/></item><item><title>fugas</title><link>https://blog.brunomiguel.net/tags/fugas/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/fugas/</guid><description/></item><item><title>portatil</title><link>https://blog.brunomiguel.net/tags/portatil/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/portatil/</guid><description/></item><item><title>publico</title><link>https://blog.brunomiguel.net/tags/publico/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/publico/</guid><description/></item><item><title>screenshot</title><link>https://blog.brunomiguel.net/tags/screenshot/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/screenshot/</guid><description/></item><item><title>sticker-mule</title><link>https://blog.brunomiguel.net/tags/sticker-mule/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/sticker-mule/</guid><description/></item><item><title>j-anderson-thomson</title><link>https://blog.brunomiguel.net/tags/j-anderson-thomson/</link><pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/j-anderson-thomson/</guid><description/></item><item><title>religiao</title><link>https://blog.brunomiguel.net/tags/religiao/</link><pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/religiao/</guid><description/></item><item><title>klanglos</title><link>https://blog.brunomiguel.net/tags/klanglos/</link><pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/klanglos/</guid><description/></item><item><title>techno</title><link>https://blog.brunomiguel.net/tags/techno/</link><pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/techno/</guid><description/></item><item><title>astronomy</title><link>https://blog.brunomiguel.net/tags/astronomy/</link><pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/astronomy/</guid><description/></item><item><title>big-bang</title><link>https://blog.brunomiguel.net/tags/big-bang/</link><pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/big-bang/</guid><description/></item><item><title>universe</title><link>https://blog.brunomiguel.net/tags/universe/</link><pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/universe/</guid><description/></item><item><title>passwords</title><link>https://blog.brunomiguel.net/tags/passwords/</link><pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/passwords/</guid><description/></item><item><title>chromium</title><link>https://blog.brunomiguel.net/tags/chromium/</link><pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/chromium/</guid><description/></item><item><title>edge</title><link>https://blog.brunomiguel.net/tags/edge/</link><pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/edge/</guid><description/></item><item><title>internet-explorer</title><link>https://blog.brunomiguel.net/tags/internet-explorer/</link><pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/internet-explorer/</guid><description/></item><item><title>microsoft</title><link>https://blog.brunomiguel.net/tags/microsoft/</link><pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/microsoft/</guid><description/></item><item><title>book</title><link>https://blog.brunomiguel.net/tags/book/</link><pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/book/</guid><description/></item><item><title>religion</title><link>https://blog.brunomiguel.net/tags/religion/</link><pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/religion/</guid><description/></item><item><title>the-darkening-age</title><link>https://blog.brunomiguel.net/tags/the-darkening-age/</link><pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/the-darkening-age/</guid><description/></item><item><title>atempted-humor</title><link>https://blog.brunomiguel.net/tags/atempted-humor/</link><pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/atempted-humor/</guid><description/></item><item><title>biker-mice-from-mars</title><link>https://blog.brunomiguel.net/tags/biker-mice-from-mars/</link><pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/biker-mice-from-mars/</guid><description/></item><item><title>insight</title><link>https://blog.brunomiguel.net/tags/insight/</link><pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/insight/</guid><description/></item><item><title>mars</title><link>https://blog.brunomiguel.net/tags/mars/</link><pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/mars/</guid><description/></item><item><title>nasa</title><link>https://blog.brunomiguel.net/tags/nasa/</link><pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/nasa/</guid><description/></item><item><title>sarcasm</title><link>https://blog.brunomiguel.net/tags/sarcasm/</link><pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/sarcasm/</guid><description/></item><item><title>spacecraft</title><link>https://blog.brunomiguel.net/tags/spacecraft/</link><pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/spacecraft/</guid><description/></item><item><title>politica</title><link>https://blog.brunomiguel.net/tags/politica/</link><pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/politica/</guid><description/></item><item><title>shitty-people</title><link>https://blog.brunomiguel.net/tags/shitty-people/</link><pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/shitty-people/</guid><description/></item><item><title>kde</title><link>https://blog.brunomiguel.net/tags/kde/</link><pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/kde/</guid><description/></item><item><title>ubuntu</title><link>https://blog.brunomiguel.net/tags/ubuntu/</link><pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ubuntu/</guid><description/></item><item><title>slow</title><link>https://blog.brunomiguel.net/tags/slow/</link><pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/slow/</guid><description/></item><item><title>windows-10</title><link>https://blog.brunomiguel.net/tags/windows-10/</link><pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/windows-10/</guid><description/></item><item><title>windows-update</title><link>https://blog.brunomiguel.net/tags/windows-update/</link><pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/windows-update/</guid><description/></item><item><title>depression</title><link>https://blog.brunomiguel.net/tags/depression/</link><pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/depression/</guid><description/></item><item><title>health</title><link>https://blog.brunomiguel.net/tags/health/</link><pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/health/</guid><description/></item><item><title>ted-ed</title><link>https://blog.brunomiguel.net/tags/ted-ed/</link><pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ted-ed/</guid><description/></item><item><title>video</title><link>https://blog.brunomiguel.net/tags/video/</link><pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/video/</guid><description/></item><item><title>antena-3</title><link>https://blog.brunomiguel.net/tags/antena-3/</link><pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/antena-3/</guid><description/></item><item><title>grande-sofa</title><link>https://blog.brunomiguel.net/tags/grande-sofa/</link><pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/grande-sofa/</guid><description/></item><item><title>oddball</title><link>https://blog.brunomiguel.net/tags/oddball/</link><pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/oddball/</guid><description/></item><item><title>opiniao</title><link>https://blog.brunomiguel.net/tags/opiniao/</link><pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/opiniao/</guid><description/></item><item><title>divagacoes</title><link>https://blog.brunomiguel.net/tags/divagacoes/</link><pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/divagacoes/</guid><description/></item><item><title>cat</title><link>https://blog.brunomiguel.net/tags/cat/</link><pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cat/</guid><description/></item><item><title>cool-stuff</title><link>https://blog.brunomiguel.net/tags/cool-stuff/</link><pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cool-stuff/</guid><description/></item><item><title>ibs</title><link>https://blog.brunomiguel.net/tags/ibs/</link><pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/ibs/</guid><description/></item><item><title>irritable-bowel-syndrome</title><link>https://blog.brunomiguel.net/tags/irritable-bowel-syndrome/</link><pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/irritable-bowel-syndrome/</guid><description/></item><item><title>chome</title><link>https://blog.brunomiguel.net/tags/chome/</link><pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/chome/</guid><description/></item><item><title>amd</title><link>https://blog.brunomiguel.net/tags/amd/</link><pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/amd/</guid><description/></item><item><title>asus</title><link>https://blog.brunomiguel.net/tags/asus/</link><pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/asus/</guid><description/></item><item><title>lenovo</title><link>https://blog.brunomiguel.net/tags/lenovo/</link><pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/lenovo/</guid><description/></item><item><title>promp</title><link>https://blog.brunomiguel.net/tags/promp/</link><pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/promp/</guid><description/></item><item><title>chapeau-claque</title><link>https://blog.brunomiguel.net/tags/chapeau-claque/</link><pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/chapeau-claque/</guid><description/></item><item><title>malhas</title><link>https://blog.brunomiguel.net/tags/malhas/</link><pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/malhas/</guid><description/></item><item><title>artigo</title><link>https://blog.brunomiguel.net/tags/artigo/</link><pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/artigo/</guid><description/></item><item><title>bsd</title><link>https://blog.brunomiguel.net/tags/bsd/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/bsd/</guid><description/></item><item><title>openbsd</title><link>https://blog.brunomiguel.net/tags/openbsd/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/openbsd/</guid><description/></item><item><title>wumo</title><link>https://blog.brunomiguel.net/tags/wumo/</link><pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/wumo/</guid><description/></item><item><title>qemu</title><link>https://blog.brunomiguel.net/tags/qemu/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/qemu/</guid><description/></item><item><title>usb</title><link>https://blog.brunomiguel.net/tags/usb/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/usb/</guid><description/></item><item><title>cars</title><link>https://blog.brunomiguel.net/tags/cars/</link><pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cars/</guid><description/></item><item><title>cv-1</title><link>https://blog.brunomiguel.net/tags/cv-1/</link><pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/cv-1/</guid><description/></item><item><title>kalashnikov</title><link>https://blog.brunomiguel.net/tags/kalashnikov/</link><pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/kalashnikov/</guid><description/></item><item><title>disenchantment</title><link>https://blog.brunomiguel.net/tags/disenchantment/</link><pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/disenchantment/</guid><description/></item><item><title>game-of-thrones</title><link>https://blog.brunomiguel.net/tags/game-of-thrones/</link><pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/game-of-thrones/</guid><description/></item><item><title>matt-groening</title><link>https://blog.brunomiguel.net/tags/matt-groening/</link><pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/matt-groening/</guid><description/></item><item><title>simpsons</title><link>https://blog.brunomiguel.net/tags/simpsons/</link><pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/simpsons/</guid><description/></item><item><title>app</title><link>https://blog.brunomiguel.net/tags/app/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/app/</guid><description/></item><item><title>bash-it</title><link>https://blog.brunomiguel.net/tags/bash-it/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/bash-it/</guid><description/></item><item><title>bashrc</title><link>https://blog.brunomiguel.net/tags/bashrc/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/bashrc/</guid><description/></item><item><title>criptex</title><link>https://blog.brunomiguel.net/tags/criptex/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/criptex/</guid><description/></item><item><title>email</title><link>https://blog.brunomiguel.net/tags/email/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/email/</guid><description/></item><item><title>encryption</title><link>https://blog.brunomiguel.net/tags/encryption/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/encryption/</guid><description/></item><item><title>history</title><link>https://blog.brunomiguel.net/tags/history/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/history/</guid><description/></item><item><title>funny</title><link>https://blog.brunomiguel.net/tags/funny/</link><pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/funny/</guid><description/></item><item><title>note-keeper</title><link>https://blog.brunomiguel.net/tags/note-keeper/</link><pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/note-keeper/</guid><description/></item><item><title>productivity</title><link>https://blog.brunomiguel.net/tags/productivity/</link><pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/productivity/</guid><description/></item><item><title>vim</title><link>https://blog.brunomiguel.net/tags/vim/</link><pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/vim/</guid><description/></item><item><title>exoplanets</title><link>https://blog.brunomiguel.net/tags/exoplanets/</link><pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/exoplanets/</guid><description/></item><item><title>tess</title><link>https://blog.brunomiguel.net/tags/tess/</link><pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/tess/</guid><description/></item><item><title>atouguia-da-baleia</title><link>https://blog.brunomiguel.net/tags/atouguia-da-baleia/</link><pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/atouguia-da-baleia/</guid><description/></item><item><title>costa-oeste</title><link>https://blog.brunomiguel.net/tags/costa-oeste/</link><pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/costa-oeste/</guid><description/></item><item><title>praia</title><link>https://blog.brunomiguel.net/tags/praia/</link><pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/praia/</guid><description/></item><item><title>sao-martinho-do-porto</title><link>https://blog.brunomiguel.net/tags/sao-martinho-do-porto/</link><pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/sao-martinho-do-porto/</guid><description/></item><item><title>verao</title><link>https://blog.brunomiguel.net/tags/verao/</link><pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/verao/</guid><description/></item><item><title>beach-bums</title><link>https://blog.brunomiguel.net/tags/beach-bums/</link><pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/beach-bums/</guid><description/></item><item><title>house-music</title><link>https://blog.brunomiguel.net/tags/house-music/</link><pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/house-music/</guid><description/></item><item><title>tommy-linda</title><link>https://blog.brunomiguel.net/tags/tommy-linda/</link><pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/tommy-linda/</guid><description/></item><item><title>font-rendering</title><link>https://blog.brunomiguel.net/tags/font-rendering/</link><pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/font-rendering/</guid><description/></item><item><title>truetype</title><link>https://blog.brunomiguel.net/tags/truetype/</link><pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/truetype/</guid><description/></item><item><title>void-linux</title><link>https://blog.brunomiguel.net/tags/void-linux/</link><pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/void-linux/</guid><description/></item><item><title>index</title><link>https://blog.brunomiguel.net/tags/index/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/tags/index/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on .blog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>browser</title>
+      <link>/tags/browser/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/browser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome</title>
+      <link>/tags/chrome/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome Store</title>
+      <link>/tags/chrome-store/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chrome-store/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extensions</title>
+      <link>/tags/extensions/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/extensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firefox</title>
+      <link>/tags/firefox/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>/tags/google/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>/tags/privacy/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdGuardHome</title>
+      <link>/tags/adguardhome/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/adguardhome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Código Fonte</title>
+      <link>/tags/c%C3%B3digo-fonte/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/c%C3%B3digo-fonte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS</title>
+      <link>/tags/dns/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS resolver</title>
+      <link>/tags/dns-resolver/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dns-resolver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/tags/git/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-Source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resolver</title>
+      <link>/tags/resolver/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/resolver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Livre</title>
+      <link>/tags/software-livre/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/software-livre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unbound</title>
+      <link>/tags/unbound/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/unbound/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch-linux</title>
+      <link>/tags/arch-linux/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>catppuccin</title>
+      <link>/tags/catppuccin/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/catppuccin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>endeavouros</title>
+      <link>/tags/endeavouros/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/endeavouros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>/tags/manjaro/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/manjaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pacman</title>
+      <link>/tags/pacman/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pacman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>palete de cores</title>
+      <link>/tags/palete-de-cores/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/palete-de-cores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>userrepository</title>
+      <link>/tags/userrepository/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/userrepository/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>404</title>
+      <link>/tags/404/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/404/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>star trek</title>
+      <link>/tags/star-trek/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/star-trek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>canvas</title>
+      <link>/tags/canvas/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/canvas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cookies</title>
+      <link>/tags/cookies/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cookies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fingerprinting</title>
+      <link>/tags/fingerprinting/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fingerprinting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacidade</title>
+      <link>/tags/privacidade/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/privacidade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracking</title>
+      <link>/tags/tracking/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webgl</title>
+      <link>/tags/webgl/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/webgl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codeberg</title>
+      <link>/tags/codeberg/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/codeberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acessibilidade</title>
+      <link>/tags/acessibilidade/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/acessibilidade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid-19</title>
+      <link>/tags/covid-19/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dor crónica</title>
+      <link>/tags/dor-cr%C3%B3nica/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dor-cr%C3%B3nica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobilidade reduzida</title>
+      <link>/tags/mobilidade-reduzida/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mobilidade-reduzida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vacinação</title>
+      <link>/tags/vacina%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vacina%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ferramentas</title>
+      <link>/tags/ferramentas/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ferramentas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logseq</title>
+      <link>/tags/logseq/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/logseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notas</title>
+      <link>/tags/notas/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/notas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organização</title>
+      <link>/tags/organiza%C3%A7%C3%A3o/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/organiza%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>/tags/software/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>migração</title>
+      <link>/tags/migra%C3%A7%C3%A3o/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/migra%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static site generator</title>
+      <link>/tags/static-site-generator/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/static-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>/tags/wordpress/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bluetooth</title>
+      <link>/tags/bluetooth/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bluetooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>musica</title>
+      <link>/tags/musica/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/musica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playlist</title>
+      <link>/tags/playlist/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/playlist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spotify</title>
+      <link>/tags/spotify/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spotify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>top-2021</title>
+      <link>/tags/top-2021/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/top-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cansaco</title>
+      <link>/tags/cansaco/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cansaco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>d3</title>
+      <link>/tags/d3/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/d3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>direitos-digitais</title>
+      <link>/tags/direitos-digitais/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/direitos-digitais/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dores</title>
+      <link>/tags/dores/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fibrohell</title>
+      <link>/tags/fibrohell/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fibrohell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fibromialgia</title>
+      <link>/tags/fibromialgia/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fibromialgia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sindrome</title>
+      <link>/tags/sindrome/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sindrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>videovigilancia</title>
+      <link>/tags/videovigilancia/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/videovigilancia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ansol</title>
+      <link>/tags/ansol/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ansol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloudflare</title>
+      <link>/tags/cloudflare/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cloudflare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>igac</title>
+      <link>/tags/igac/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/igac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ip</title>
+      <link>/tags/ip/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projeto-de-lei</title>
+      <link>/tags/projeto-de-lei/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/projeto-de-lei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>/tags/arch/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aur</title>
+      <link>/tags/aur/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/aur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fosshost</title>
+      <link>/tags/fosshost/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fosshost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package</title>
+      <link>/tags/package/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repository</title>
+      <link>/tags/repository/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/repository/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>userrepository-eu</title>
+      <link>/tags/userrepository-eu/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/userrepository-eu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>/tags/css/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dark-theme</title>
+      <link>/tags/dark-theme/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dark-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stylus</title>
+      <link>/tags/stylus/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/stylus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dbus</title>
+      <link>/tags/dbus/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dbus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dunst</title>
+      <link>/tags/dunst/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dunst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notification-daemon</title>
+      <link>/tags/notification-daemon/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/notification-daemon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plasma-desktop</title>
+      <link>/tags/plasma-desktop/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plasma-desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>/tags/tips/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edicao</title>
+      <link>/tags/edicao/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/edicao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>futebol</title>
+      <link>/tags/futebol/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/futebol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>humor</title>
+      <link>/tags/humor/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/humor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>/tags/twitter/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cenas</title>
+      <link>/tags/cenas/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cenas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dnb</title>
+      <link>/tags/dnb/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dnb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drum-and-bass</title>
+      <link>/tags/drum-and-bass/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/drum-and-bass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sono</title>
+      <link>/tags/sono/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sono/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packages</title>
+      <link>/tags/packages/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/packages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archlinux</title>
+      <link>/tags/archlinux/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reddit</title>
+      <link>/tags/reddit/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reddit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>/tags/emacs/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>/tags/markdown/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>/tags/tools/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>batmovel</title>
+      <link>/tags/batmovel/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/batmovel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carocha</title>
+      <link>/tags/carocha/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/carocha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>danni-koldal</title>
+      <link>/tags/danni-koldal/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/danni-koldal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roadster</title>
+      <link>/tags/roadster/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/roadster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>37</title>
+      <link>/tags/37/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/37/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>02</title>
+      <link>/tags/02/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plasma</title>
+      <link>/tags/plasma/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plasma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qml</title>
+      <link>/tags/qml/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/qml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comissao-europeia</title>
+      <link>/tags/comissao-europeia/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/comissao-europeia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>encriptacao</title>
+      <link>/tags/encriptacao/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/encriptacao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kutiman</title>
+      <link>/tags/kutiman/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kutiman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mix-the-city</title>
+      <link>/tags/mix-the-city/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mix-the-city/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ddos</title>
+      <link>/tags/ddos/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ddos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seguranca</title>
+      <link>/tags/seguranca/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/seguranca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sms</title>
+      <link>/tags/sms/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coimbra</title>
+      <link>/tags/coimbra/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/coimbra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fotografia</title>
+      <link>/tags/fotografia/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fotografia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fotos</title>
+      <link>/tags/fotos/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fotos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pg</title>
+      <link>/tags/pg/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preto-e-branco</title>
+      <link>/tags/preto-e-branco/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/preto-e-branco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>antinonio</title>
+      <link>/tags/antinonio/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/antinonio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nonio</title>
+      <link>/tags/nonio/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nonio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>groove-armada</title>
+      <link>/tags/groove-armada/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/groove-armada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inside-my-mind</title>
+      <link>/tags/inside-my-mind/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/inside-my-mind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hetzner</title>
+      <link>/tags/hetzner/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hetzner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scaleway</title>
+      <link>/tags/scaleway/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scaleway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boot-times</title>
+      <link>/tags/boot-times/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/boot-times/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lz4</title>
+      <link>/tags/lz4/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lz4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mkinitcpio</title>
+      <link>/tags/mkinitcpio/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mkinitcpio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mq-deadline</title>
+      <link>/tags/mq-deadline/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mq-deadline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systemd</title>
+      <link>/tags/systemd/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/systemd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>djs-from-mars</title>
+      <link>/tags/djs-from-mars/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/djs-from-mars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mashups</title>
+      <link>/tags/mashups/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mashups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bugs</title>
+      <link>/tags/bugs/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bugs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microfone</title>
+      <link>/tags/microfone/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/microfone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pulseaudio</title>
+      <link>/tags/pulseaudio/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pulseaudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jarvis</title>
+      <link>/tags/jarvis/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jarvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anormais</title>
+      <link>/tags/anormais/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/anormais/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boinc</title>
+      <link>/tags/boinc/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/boinc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>escala-de-kardashev</title>
+      <link>/tags/escala-de-kardashev/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/escala-de-kardashev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foldinghome</title>
+      <link>/tags/foldinghome/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/foldinghome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>idiotas</title>
+      <link>/tags/idiotas/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/idiotas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pascoa</title>
+      <link>/tags/pascoa/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pascoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>religiosos</title>
+      <link>/tags/religiosos/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/religiosos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rosettahome</title>
+      <link>/tags/rosettahome/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rosettahome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manteiga-de-amendoim</title>
+      <link>/tags/manteiga-de-amendoim/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/manteiga-de-amendoim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pao</title>
+      <link>/tags/pao/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>receita</title>
+      <link>/tags/receita/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/receita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ministerio-da-cultura</title>
+      <link>/tags/ministerio-da-cultura/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ministerio-da-cultura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rtp</title>
+      <link>/tags/rtp/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rtp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tv-fest</title>
+      <link>/tags/tv-fest/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tv-fest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cartao-de-cidadao</title>
+      <link>/tags/cartao-de-cidadao/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cartao-de-cidadao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cdc</title>
+      <link>/tags/cdc/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cdc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid19</title>
+      <link>/tags/covid19/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>downtempo</title>
+      <link>/tags/downtempo/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/downtempo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mascaras</title>
+      <link>/tags/mascaras/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mascaras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sars-cov-2</title>
+      <link>/tags/sars-cov-2/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sars-cov-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>symphonik</title>
+      <link>/tags/symphonik/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/symphonik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thievery-corporation</title>
+      <link>/tags/thievery-corporation/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/thievery-corporation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>triphop</title>
+      <link>/tags/triphop/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/triphop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internet</title>
+      <link>/tags/internet/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nos</title>
+      <link>/tags/nos/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>traffic-shaping</title>
+      <link>/tags/traffic-shaping/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/traffic-shaping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>/tags/debian/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>howto</title>
+      <link>/tags/howto/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vpn</title>
+      <link>/tags/vpn/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wireguard</title>
+      <link>/tags/wireguard/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wireguard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compton</title>
+      <link>/tags/compton/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/compton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compton-tryone</title>
+      <link>/tags/compton-tryone/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/compton-tryone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gtk</title>
+      <link>/tags/gtk/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gtk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kvantum</title>
+      <link>/tags/kvantum/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kvantum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lxqt</title>
+      <link>/tags/lxqt/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lxqt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compulab</title>
+      <link>/tags/compulab/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/compulab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux-mint</title>
+      <link>/tags/linux-mint/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux-mint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mintbox</title>
+      <link>/tags/mintbox/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mintbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mintbox3</title>
+      <link>/tags/mintbox3/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mintbox3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lpt</title>
+      <link>/tags/lpt/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spotifywrapped</title>
+      <link>/tags/spotifywrapped/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spotifywrapped/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>/tags/bash/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adblock</title>
+      <link>/tags/adblock/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/adblock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eolie</title>
+      <link>/tags/eolie/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/eolie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>free-software</title>
+      <link>/tags/free-software/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/free-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pkgbuild</title>
+      <link>/tags/pkgbuild/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pkgbuild/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>36</title>
+      <link>/tags/36/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/36/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch-wiki</title>
+      <link>/tags/arch-wiki/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arch-wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebook</title>
+      <link>/tags/facebook/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redes-sociais</title>
+      <link>/tags/redes-sociais/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/redes-sociais/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>velho-do-restelo</title>
+      <link>/tags/velho-do-restelo/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/velho-do-restelo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cbs</title>
+      <link>/tags/cbs/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hbo</title>
+      <link>/tags/hbo/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hbo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netflix</title>
+      <link>/tags/netflix/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/netflix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streaming</title>
+      <link>/tags/streaming/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>torrent</title>
+      <link>/tags/torrent/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/torrent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>astronomia</title>
+      <link>/tags/astronomia/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/astronomia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hubble</title>
+      <link>/tags/hubble/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hubble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k2-18b</title>
+      <link>/tags/k2-18b/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/k2-18b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kepler</title>
+      <link>/tags/kepler/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kepler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>efeito-bolha</title>
+      <link>/tags/efeito-bolha/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/efeito-bolha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>humanidade</title>
+      <link>/tags/humanidade/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/humanidade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fm2019</title>
+      <link>/tags/fm2019/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fm2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>football-manager</title>
+      <link>/tags/football-manager/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/football-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>/tags/games/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opera</title>
+      <link>/tags/opera/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/opera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vivaldi</title>
+      <link>/tags/vivaldi/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vivaldi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mozilla</title>
+      <link>/tags/mozilla/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mozilla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>night-mode</title>
+      <link>/tags/night-mode/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/night-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>christian-loffler</title>
+      <link>/tags/christian-loffler/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/christian-loffler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mare-reworks</title>
+      <link>/tags/mare-reworks/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mare-reworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotdrop</title>
+      <link>/tags/dotdrop/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dotdrop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotfiles</title>
+      <link>/tags/dotfiles/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dotfiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scripts</title>
+      <link>/tags/scripts/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fh</title>
+      <link>/tags/fh/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
+      <link>/tags/science/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cartoon</title>
+      <link>/tags/cartoon/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cartoon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cyanide-and-happiness</title>
+      <link>/tags/cyanide-and-happiness/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cyanide-and-happiness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webcomic</title>
+      <link>/tags/webcomic/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/webcomic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>construcao</title>
+      <link>/tags/construcao/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/construcao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curiosidades</title>
+      <link>/tags/curiosidades/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/curiosidades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>titanic</title>
+      <link>/tags/titanic/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/titanic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vintage</title>
+      <link>/tags/vintage/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vintage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ciencia</title>
+      <link>/tags/ciencia/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ciencia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>estrela-de-neutroes</title>
+      <link>/tags/estrela-de-neutroes/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/estrela-de-neutroes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>imre-bartos</title>
+      <link>/tags/imre-bartos/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/imre-bartos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>szabolcs-marka</title>
+      <link>/tags/szabolcs-marka/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/szabolcs-marka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>easter</title>
+      <link>/tags/easter/</link>
+      <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/easter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zombie-jesus</title>
+      <link>/tags/zombie-jesus/</link>
+      <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/zombie-jesus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aurto</title>
+      <link>/tags/aurto/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/aurto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnu-linux</title>
+      <link>/tags/gnu-linux/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gnu-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arcan1s</title>
+      <link>/tags/arcan1s/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arcan1s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vps</title>
+      <link>/tags/vps/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animation</title>
+      <link>/tags/animation/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gary-dourdan</title>
+      <link>/tags/gary-dourdan/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gary-dourdan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raphael-bluzet</title>
+      <link>/tags/raphael-bluzet/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/raphael-bluzet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>space</title>
+      <link>/tags/space/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autocolantes</title>
+      <link>/tags/autocolantes/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/autocolantes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beatles</title>
+      <link>/tags/beatles/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/beatles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brexit</title>
+      <link>/tags/brexit/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/brexit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fugas</title>
+      <link>/tags/fugas/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fugas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portatil</title>
+      <link>/tags/portatil/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/portatil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>publico</title>
+      <link>/tags/publico/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/publico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>screenshot</title>
+      <link>/tags/screenshot/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/screenshot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sticker-mule</title>
+      <link>/tags/sticker-mule/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sticker-mule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>j-anderson-thomson</title>
+      <link>/tags/j-anderson-thomson/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/j-anderson-thomson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>religiao</title>
+      <link>/tags/religiao/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/religiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>klanglos</title>
+      <link>/tags/klanglos/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/klanglos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>techno</title>
+      <link>/tags/techno/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/techno/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>astronomy</title>
+      <link>/tags/astronomy/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/astronomy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>big-bang</title>
+      <link>/tags/big-bang/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/big-bang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>universe</title>
+      <link>/tags/universe/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/universe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>passwords</title>
+      <link>/tags/passwords/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/passwords/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chromium</title>
+      <link>/tags/chromium/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chromium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edge</title>
+      <link>/tags/edge/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internet-explorer</title>
+      <link>/tags/internet-explorer/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/internet-explorer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft</title>
+      <link>/tags/microsoft/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>/tags/book/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>religion</title>
+      <link>/tags/religion/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/religion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>the-darkening-age</title>
+      <link>/tags/the-darkening-age/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/the-darkening-age/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atempted-humor</title>
+      <link>/tags/atempted-humor/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/atempted-humor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biker-mice-from-mars</title>
+      <link>/tags/biker-mice-from-mars/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/biker-mice-from-mars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>insight</title>
+      <link>/tags/insight/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/insight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mars</title>
+      <link>/tags/mars/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nasa</title>
+      <link>/tags/nasa/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sarcasm</title>
+      <link>/tags/sarcasm/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sarcasm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spacecraft</title>
+      <link>/tags/spacecraft/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spacecraft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politica</title>
+      <link>/tags/politica/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/politica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shitty-people</title>
+      <link>/tags/shitty-people/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shitty-people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kde</title>
+      <link>/tags/kde/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>/tags/ubuntu/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slow</title>
+      <link>/tags/slow/</link>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/slow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-10</title>
+      <link>/tags/windows-10/</link>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/windows-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-update</title>
+      <link>/tags/windows-update/</link>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/windows-update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>depression</title>
+      <link>/tags/depression/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/depression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>health</title>
+      <link>/tags/health/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ted-ed</title>
+      <link>/tags/ted-ed/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ted-ed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>/tags/video/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>antena-3</title>
+      <link>/tags/antena-3/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/antena-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grande-sofa</title>
+      <link>/tags/grande-sofa/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/grande-sofa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oddball</title>
+      <link>/tags/oddball/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/oddball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opiniao</title>
+      <link>/tags/opiniao/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/opiniao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>divagacoes</title>
+      <link>/tags/divagacoes/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/divagacoes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cat</title>
+      <link>/tags/cat/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cool-stuff</title>
+      <link>/tags/cool-stuff/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cool-stuff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ibs</title>
+      <link>/tags/ibs/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ibs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>irritable-bowel-syndrome</title>
+      <link>/tags/irritable-bowel-syndrome/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/irritable-bowel-syndrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chome</title>
+      <link>/tags/chome/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>amd</title>
+      <link>/tags/amd/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/amd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>asus</title>
+      <link>/tags/asus/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/asus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lenovo</title>
+      <link>/tags/lenovo/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lenovo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>promp</title>
+      <link>/tags/promp/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/promp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chapeau-claque</title>
+      <link>/tags/chapeau-claque/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chapeau-claque/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>malhas</title>
+      <link>/tags/malhas/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/malhas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>artigo</title>
+      <link>/tags/artigo/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/artigo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bsd</title>
+      <link>/tags/bsd/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openbsd</title>
+      <link>/tags/openbsd/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/openbsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wumo</title>
+      <link>/tags/wumo/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wumo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qemu</title>
+      <link>/tags/qemu/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>usb</title>
+      <link>/tags/usb/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/usb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cars</title>
+      <link>/tags/cars/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv-1</title>
+      <link>/tags/cv-1/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cv-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kalashnikov</title>
+      <link>/tags/kalashnikov/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kalashnikov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disenchantment</title>
+      <link>/tags/disenchantment/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/disenchantment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game-of-thrones</title>
+      <link>/tags/game-of-thrones/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/game-of-thrones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>matt-groening</title>
+      <link>/tags/matt-groening/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/matt-groening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simpsons</title>
+      <link>/tags/simpsons/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/simpsons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>app</title>
+      <link>/tags/app/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash-it</title>
+      <link>/tags/bash-it/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bash-it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bashrc</title>
+      <link>/tags/bashrc/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bashrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>criptex</title>
+      <link>/tags/criptex/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/criptex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>email</title>
+      <link>/tags/email/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>encryption</title>
+      <link>/tags/encryption/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/encryption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>/tags/history/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>funny</title>
+      <link>/tags/funny/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/funny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>note-keeper</title>
+      <link>/tags/note-keeper/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/note-keeper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>/tags/productivity/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>/tags/vim/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exoplanets</title>
+      <link>/tags/exoplanets/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/exoplanets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tess</title>
+      <link>/tags/tess/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atouguia-da-baleia</title>
+      <link>/tags/atouguia-da-baleia/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/atouguia-da-baleia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>costa-oeste</title>
+      <link>/tags/costa-oeste/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/costa-oeste/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>praia</title>
+      <link>/tags/praia/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/praia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sao-martinho-do-porto</title>
+      <link>/tags/sao-martinho-do-porto/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sao-martinho-do-porto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>verao</title>
+      <link>/tags/verao/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/verao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beach-bums</title>
+      <link>/tags/beach-bums/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/beach-bums/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>house-music</title>
+      <link>/tags/house-music/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/house-music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tommy-linda</title>
+      <link>/tags/tommy-linda/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tommy-linda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>font-rendering</title>
+      <link>/tags/font-rendering/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/font-rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>truetype</title>
+      <link>/tags/truetype/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/truetype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>void-linux</title>
+      <link>/tags/void-linux/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/void-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

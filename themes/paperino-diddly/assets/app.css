@@ -432,9 +432,18 @@ a {
   color: var(--air);
 }
 
-.post-entry a {
+.post-entry .featured-image {
+  margin-top: var(--gap);
+  margin-bottom: calc(var(--gap)/2);
+}
+
+/*.post-entry a {
   position: absolute;
   inset: 0;
+}*/
+
+.post-entry a:hover {
+  color: var(--alternate-hyperlink);
 }
 
 /* Post single

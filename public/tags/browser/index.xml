@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>browser on .blog</title><link>https://blog.brunomiguel.net/tags/browser/</link><description>Recent content in browser on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/browser/index.xml" rel="self" type="application/rss+xml"/><item><title>Chrome extensions hellscape</title><link>https://blog.brunomiguel.net/post/chrome-extensions-hellscape/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/chrome-extensions-hellscape/</guid><description>I&amp;rsquo;ve been experiencing reduced performance with Firefox for a few releases now. This decrease in performance happens even with a clean profile. So, I began testing other browsers. Two of them are Chromium and Brave. They are nice and whatnot, but they have two issues in common: they threaten browser engine diversity (remember the Internet Explorer dominance days and how that negatively impacted the web?) and the Chrome Store hellscape. There are a lot - and I mean a lot - of proprietary extensions on the Chrome Store.</description></item><item><title>A few notes about Opera and Vivaldi</title><link>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</link><pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</guid><description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
-The good sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell) The bad resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both) The following specs were used when testing both browsers:</description></item><item><title>Must have extensions for Firefox</title><link>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</guid><description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
-During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description></item><item><title>Microsoft Chrome?</title><link>https://blog.brunomiguel.net/post/microsoft-chrome/</link><pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/microsoft-chrome/</guid><description>Está a circular um rumor que aponta para o fim do Edge, o browser que a Microsoft lançou em 2015 para substituir o Internet Explorer. O mesmo rumo refere que a empresa sediada em Redmond vai criar um novo navegador, agora baseado no Chromium.
-Sabe mais no meu artigo no Espalha-Factos.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>browser on .blog</title>
+    <link>/tags/browser/</link>
+    <description>Recent content in browser on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chrome extensions hellscape</title>
+      <link>/post/chrome-extensions-hellscape/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/chrome-extensions-hellscape/</guid>
+      <description>Chrome extensions are a privacy nightmare</description>
+    </item>
+    
+    <item>
+      <title>A few notes about Opera and Vivaldi</title>
+      <link>/post/a-few-notes-about-opera-and-vivaldi/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-few-notes-about-opera-and-vivaldi/</guid>
+      <description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
+The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:</description>
+    </item>
+    
+    <item>
+      <title>Must have extensions for Firefox</title>
+      <link>/post/must-have-extensions-for-firefox/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/must-have-extensions-for-firefox/</guid>
+      <description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
+During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Chrome?</title>
+      <link>/post/microsoft-chrome/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/microsoft-chrome/</guid>
+      <description>Está a circular um rumor que aponta para o fim do Edge, o browser que a Microsoft lançou em 2015 para substituir o Internet Explorer. O mesmo rumo refere que a empresa sediada em Redmond vai criar um novo navegador, agora baseado no Chromium.
+Sabe mais no meu artigo no Espalha-Factos.</description>
+    </item>
+    
+  </channel>
+</rss>

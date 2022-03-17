@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gary-dourdan on .blog</title><link>https://blog.brunomiguel.net/tags/gary-dourdan/</link><description>Recent content in gary-dourdan on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/gary-dourdan/index.xml" rel="self" type="application/rss+xml"/><item><title>We need to talk about Cosmos</title><link>https://blog.brunomiguel.net/post/we-need-to-talk-about-cosmos/</link><pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/we-need-to-talk-about-cosmos/</guid><description>https://vimeo.com/312461591
-Gary Dourdan, who played Warrick Brown on CSI, gives voice to this short animation, by Raphaël Bluzet, about the hurdles of living in space.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gary-dourdan on .blog</title>
+    <link>/tags/gary-dourdan/</link>
+    <description>Recent content in gary-dourdan on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/gary-dourdan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We need to talk about Cosmos</title>
+      <link>/post/we-need-to-talk-about-cosmos/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/we-need-to-talk-about-cosmos/</guid>
+      <description>https://vimeo.com/312461591
+Gary Dourdan, who played Warrick Brown on CSI, gives voice to this short animation, by Raphaël Bluzet, about the hurdles of living in space.</description>
+    </item>
+    
+  </channel>
+</rss>

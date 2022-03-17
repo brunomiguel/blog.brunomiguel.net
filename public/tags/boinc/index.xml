@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>boinc on .blog</title><link>https://blog.brunomiguel.net/tags/boinc/</link><description>Recent content in boinc on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/boinc/index.xml" rel="self" type="application/rss+xml"/><item><title>From F@h to Boinc</title><link>https://blog.brunomiguel.net/post/from-fh-to-boinc/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/from-fh-to-boinc/</guid><description>In the start of July 2019, I wrote about using the spare CPU cycles in my VPS to contribute to Folding@home (F@h). Since then, when not building packages for Arch Linux, the virtual machine has been crushing numbers as a peer in this project.
-Today, I&amp;rsquo;ve switched to Boinc with the Rosetta@home project. This change was due to the fact that Boinc is a free software application, whereas F@h is proprietary.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>boinc on .blog</title>
+    <link>/tags/boinc/</link>
+    <description>Recent content in boinc on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/boinc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From F@h to Boinc</title>
+      <link>/post/from-fh-to-boinc/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/from-fh-to-boinc/</guid>
+      <description>In the start of July 2019, I wrote about using the spare CPU cycles in my VPS to contribute to Folding@home (F@h). Since then, when not building packages for Arch Linux, the virtual machine has been crushing numbers as a peer in this project.
+Today, I&amp;rsquo;ve switched to Boinc with the Rosetta@home project. This change was due to the fact that Boinc is a free software application, whereas F@h is proprietary.</description>
+    </item>
+    
+  </channel>
+</rss>

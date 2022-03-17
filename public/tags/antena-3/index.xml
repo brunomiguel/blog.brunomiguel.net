@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>antena-3 on .blog</title><link>https://blog.brunomiguel.net/tags/antena-3/</link><description>Recent content in antena-3 on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/antena-3/index.xml" rel="self" type="application/rss+xml"/><item><title>O Grande Sofá</title><link>https://blog.brunomiguel.net/post/o-grande-sofa/</link><pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/o-grande-sofa/</guid><description>Quando quero ouvir música, habitualmente uso o Youtube e o Spotify, com uns pós aqui e ali de Soundcloud, Mixcloud e curseradio (que não é mais que um cliente para o TuneIn). Só que, de vez em quando, lá ligo a VPN e acedo ao Pandora para a minha dose musical. A minha conta neste serviço ainda é do tempo em que eles não tinham restrições geográficas [talvez já tenha feito 15 anos], por isso está bastante personalizada e é uma autêntica linha temporal da evolução e mutação do meu gosto musical.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>antena-3 on .blog</title>
+    <link>/tags/antena-3/</link>
+    <description>Recent content in antena-3 on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/antena-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O Grande Sofá</title>
+      <link>/post/o-grande-sofa/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/o-grande-sofa/</guid>
+      <description>Quando quero ouvir música, habitualmente uso o Youtube e o Spotify, com uns pós aqui e ali de Soundcloud, Mixcloud e curseradio (que não é mais que um cliente para o TuneIn). Só que, de vez em quando, lá ligo a VPN e acedo ao Pandora para a minha dose musical. A minha conta neste serviço ainda é do tempo em que eles não tinham restrições geográficas [talvez já tenha feito 15 anos], por isso está bastante personalizada e é uma autêntica linha temporal da evolução e mutação do meu gosto musical.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mintbox on .blog</title><link>https://blog.brunomiguel.net/tags/mintbox/</link><description>Recent content in mintbox on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/mintbox/index.xml" rel="self" type="application/rss+xml"/><item><title>MintBox 3 disponível</title><link>https://blog.brunomiguel.net/post/mintbox-3-disponivel/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/mintbox-3-disponivel/</guid><description>O MintBox3, o computador desenvolvido pela Compulab em parceria com o projeto Linux Mint, chegou. O equipamento está disponível em duas edições, Basic e Pro, e vem com a versão mais recente da distribuição, Linux Mint 19.3 Tricia, pré-instalada.
-Esta é a quinta interação do MintBox. A estética mantém-se semelhante às versões anteriores e apresenta uma boa capacidade de processamento, para além de algumas características interessantes, como uma quantidade bastante grande de portas USB (9 na versão Basic e 10 na versão Pro).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>mintbox on .blog</title>
+    <link>/tags/mintbox/</link>
+    <description>Recent content in mintbox on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mintbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MintBox 3 disponível</title>
+      <link>/post/mintbox-3-disponivel/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mintbox-3-disponivel/</guid>
+      <description>O MintBox3, o computador desenvolvido pela Compulab em parceria com o projeto Linux Mint, chegou. O equipamento está disponível em duas edições, Basic e Pro, e vem com a versão mais recente da distribuição, Linux Mint 19.3 Tricia, pré-instalada.
+Esta é a quinta interação do MintBox. A estética mantém-se semelhante às versões anteriores e apresenta uma boa capacidade de processamento, para além de algumas características interessantes, como uma quantidade bastante grande de portas USB (9 na versão Basic e 10 na versão Pro).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lpt on .blog</title><link>https://blog.brunomiguel.net/tags/lpt/</link><description>Recent content in lpt on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/lpt/index.xml" rel="self" type="application/rss+xml"/><item><title>#LPT: access Firefox's 'about:' pages</title><link>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</link><pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/lpt-access-firefoxs-about-pages/</guid><description>To access all the Firefox&amp;rsquo;s about: pages, just type about:about in the address bar.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lpt on .blog</title>
+    <link>/tags/lpt/</link>
+    <description>Recent content in lpt on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/lpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#LPT: access Firefox&#39;s &#39;about:&#39; pages</title>
+      <link>/post/lpt-access-firefoxs-about-pages/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lpt-access-firefoxs-about-pages/</guid>
+      <description>To access all the Firefox&amp;rsquo;s about: pages, just type about:about in the address bar.</description>
+    </item>
+    
+  </channel>
+</rss>

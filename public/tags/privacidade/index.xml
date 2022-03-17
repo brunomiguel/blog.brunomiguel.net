@@ -1,8 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>privacidade on .blog</title><link>https://blog.brunomiguel.net/tags/privacidade/</link><description>Recent content in privacidade on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/privacidade/index.xml" rel="self" type="application/rss+xml"/><item><title>Web stalking/tracking</title><link>https://blog.brunomiguel.net/post/web-stalking-tracking/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/web-stalking-tracking/</guid><description>Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais.</description></item><item><title>Comissão Europeia prepara possível ataque às comunicações encriptadas</title><link>https://blog.brunomiguel.net/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</link><pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</guid><description>O Financial Times teve acesso a uma alegada nota interna da Comissão Europeia que visa expandir o &amp;ldquo;acesso legal direcionado&amp;rdquo; às comunicações eletrónicas encriptadas como forma de combate às redes de pedofilia, terrorismo e crime organizado.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>privacidade on .blog</title>
+    <link>/tags/privacidade/</link>
+    <description>Recent content in privacidade on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/privacidade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web stalking/tracking</title>
+      <link>/post/web-stalking-tracking/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/web-stalking-tracking/</guid>
+      <description>Que raio se passa com a Web? A quantidade de tracking a que um utilizador se sujeita é para lá de surreal! Há pouco, quando entrei no site da CNBC para ler uma notícia, e ainda antes de fazer a minha escolha em relação aos cookies, já tinha paletes deles bloqueados pelo uBlock Origin e pelo Privacy Badger. Assim que fiz a minha escolha, a página carregou e os números mantiveram-se praticamente iguais.</description>
+    </item>
+    
+    <item>
+      <title>Comissão Europeia prepara possível ataque às comunicações encriptadas</title>
+      <link>/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</guid>
+      <description>O Financial Times teve acesso a uma alegada nota interna da Comissão Europeia que visa expandir o &amp;ldquo;acesso legal direcionado&amp;rdquo; às comunicações eletrónicas encriptadas como forma de combate às redes de pedofilia, terrorismo e crime organizado.
 A intenção, de acordo com a nota, é incentivar a discussão entre os estados membros para os entraves que a encriptação coloca na investigação e condenação de criminosos.
-A nota contém alegadamente o seguinte, de acordo com o jornal norte-americano:</description></item><item><title>Atualização à lista AntiNónio</title><link>https://blog.brunomiguel.net/post/atualizacao-a-lista-antinonio/</link><pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/atualizacao-a-lista-antinonio/</guid><description>Hoje, graças a ela, que tentou ver um vídeo do Miguel Sousa Tavares no site da TVI24, apercebi-me que as páginas com vídeos daquele endereço mostravam o spam do Nónio. &amp;ldquo;Estranho&amp;rdquo;, pensei eu. &amp;ldquo;Isto devia estar bloqueado&amp;rdquo;.
-Uma análise inicial levou-me a pensar que o culpado era um script relacionado com o leitor de vídeo que utilizam, devido à presença da palavra-chave nonio no código. Isto acabou por se revelar errado.</description></item><item><title>Antinonio</title><link>https://blog.brunomiguel.net/post/antinonio/</link><pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/antinonio/</guid><description>Há uns tempos atrás, criei um repositório no Github com uma lista de bloqueio para adblockers com regras específicas para a plataforma Nonio, baseada numa outra lista feita para com suporte apenas para o uMatrix.
-Esta lista manteve-se inalterada até há 17 dias, quando o Pedro Fonseca submeteu um pull request com regras para o site d&amp;rsquo;O Público, fechando também assim o bug #3. Nas duas semanas e pouco seguintes, recebei mais alguns pull requests no repositório, melhorando bastante a lista de bloqueio.</description></item><item><title>Firefox começou a bloquear a reprodução automática de áudio</title><link>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link><pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid><description>O Firefox começou a permitir o bloqueio de áudio com reprodução automática nas nightly builds. Isto inclui, por exemplo, os vídeos que a CNET mete no site e que são irritantes como o caraças.
+A nota contém alegadamente o seguinte, de acordo com o jornal norte-americano:</description>
+    </item>
+    
+    <item>
+      <title>Atualização à lista AntiNónio</title>
+      <link>/post/atualizacao-a-lista-antinonio/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/atualizacao-a-lista-antinonio/</guid>
+      <description>Hoje, graças a ela, que tentou ver um vídeo do Miguel Sousa Tavares no site da TVI24, apercebi-me que as páginas com vídeos daquele endereço mostravam o spam do Nónio. &amp;ldquo;Estranho&amp;rdquo;, pensei eu. &amp;ldquo;Isto devia estar bloqueado&amp;rdquo;.
+Uma análise inicial levou-me a pensar que o culpado era um script relacionado com o leitor de vídeo que utilizam, devido à presença da palavra-chave nonio no código. Isto acabou por se revelar errado.</description>
+    </item>
+    
+    <item>
+      <title>Antinonio</title>
+      <link>/post/antinonio/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/antinonio/</guid>
+      <description>Há uns tempos atrás, criei um repositório no Github com uma lista de bloqueio para adblockers com regras específicas para a plataforma Nonio, baseada numa outra lista feita para com suporte apenas para o uMatrix.
+Esta lista manteve-se inalterada até há 17 dias, quando o Pedro Fonseca submeteu um pull request com regras para o site d&amp;rsquo;O Público, fechando também assim o bug #3. Nas duas semanas e pouco seguintes, recebei mais alguns pull requests no repositório, melhorando bastante a lista de bloqueio.</description>
+    </item>
+    
+    <item>
+      <title>Firefox começou a bloquear a reprodução automática de áudio</title>
+      <link>/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid>
+      <description>O Firefox começou a permitir o bloqueio de áudio com reprodução automática nas nightly builds. Isto inclui, por exemplo, os vídeos que a CNET mete no site e que são irritantes como o caraças.
 O anúncio foi feito por Dale Harvey, um dos programadores do Firefox, no Twitter.
 https://twitter.com/daleharvey/status/1020619223863873539?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1020619223863873539&amp;amp;ref_url=https%3A%2F%2Fwww.engadget.com%2F2018%2F07%2F24%2Ffirefox-nightly-blocks-autoplaying-audio%2F
-A funcionalidade tem três modos: desligada, pedir sempre permissão para reproduzir e bloquear sempre. Vai ser também possível definir uma lista de endereços com permissão para reprodução automática de conteúdos com som.</description></item></channel></rss>
+A funcionalidade tem três modos: desligada, pedir sempre permissão para reproduzir e bloquear sempre. Vai ser também possível definir uma lista de endereços com permissão para reprodução automática de conteúdos com som.</description>
+    </item>
+    
+  </channel>
+</rss>

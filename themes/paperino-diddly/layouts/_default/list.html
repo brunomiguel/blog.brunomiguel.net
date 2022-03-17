@@ -13,17 +13,16 @@
 <!-- Articles -->
 {{ $paginator := .Paginate $pages }} {{ range $index, $page := $paginator.Pages }}
 <article class="post-entry">
-  <h2>{{ .Title }}</h2>
+  <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
   <time>{{ .Date | time.Format ":date_short" }}</time>
-  <a href="{{ .Permalink }}"></a>
-
-  <!-- Hide featured images
+  <!-- <a href="{{ .Permalink }}"></a> -->
+	
+  <!-- Hide featured images -->
   <p>
 		{{ if .Params.featuredImage }}
-			<img src="{{ .Params.featuredImage | absURL }}" class="" >
+			<img src="{{ .Params.featuredImage | absURL }}" class="featured-image" >
 		{{ end }}
 	</p>
-	-->
 
   <p>
     {{ if .Description }}

@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hetzner on .blog</title><link>https://blog.brunomiguel.net/tags/hetzner/</link><description>Recent content in hetzner on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/hetzner/index.xml" rel="self" type="application/rss+xml"/><item><title>Userrepository.eu is back (in beta)</title><link>https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/userrepository-eu-is-back-in-beta/</guid><description>After a small forced hiatus, userrepository.eu is back. The Covid-19 pandemic made a hit in my income and the wife&amp;rsquo;s income, so I had to temporarily suspend non-priority expenses. During this period, I had time to consider a few things about the future of the project and decided to change the provider from Scaleway to Hetzner, mostly because the Arch image they&amp;rsquo;re using is essentially abandonware.
-If you&amp;rsquo;re reading this, you&amp;rsquo;ll probably know that Arch Linux changed the default package compression to ZSTD.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hetzner on .blog</title>
+    <link>/tags/hetzner/</link>
+    <description>Recent content in hetzner on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/hetzner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Userrepository.eu is back (in beta)</title>
+      <link>/post/userrepository-eu-is-back-in-beta/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/userrepository-eu-is-back-in-beta/</guid>
+      <description>After a small forced hiatus, userrepository.eu is back. The Covid-19 pandemic made a hit in my income and the wife&amp;rsquo;s income, so I had to temporarily suspend non-priority expenses. During this period, I had time to consider a few things about the future of the project and decided to change the provider from Scaleway to Hetzner, mostly because the Arch image they&amp;rsquo;re using is essentially abandonware.
+If you&amp;rsquo;re reading this, you&amp;rsquo;ll probably know that Arch Linux changed the default package compression to ZSTD.</description>
+    </item>
+    
+  </channel>
+</rss>

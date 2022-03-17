@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>preto-e-branco on .blog</title><link>https://blog.brunomiguel.net/tags/preto-e-branco/</link><description>Recent content in preto-e-branco on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/preto-e-branco/index.xml" rel="self" type="application/rss+xml"/><item><title>Coimbra</title><link>https://blog.brunomiguel.net/post/coimbra/</link><pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/coimbra/</guid><description>Estas fotografias estão licenciadas com a CC-BY-SA-4.0</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>preto-e-branco on .blog</title>
+    <link>/tags/preto-e-branco/</link>
+    <description>Recent content in preto-e-branco on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/preto-e-branco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coimbra</title>
+      <link>/post/coimbra/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/coimbra/</guid>
+      <description>Estas fotografias estão licenciadas com a CC-BY-SA-4.0 </description>
+    </item>
+    
+  </channel>
+</rss>

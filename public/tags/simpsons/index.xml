@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simpsons on .blog</title><link>https://blog.brunomiguel.net/tags/simpsons/</link><description>Recent content in simpsons on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/simpsons/index.xml" rel="self" type="application/rss+xml"/><item><title>Disenchantment</title><link>https://blog.brunomiguel.net/post/disenchantment/</link><pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/disenchantment/</guid><description>Is it just me or Disenchantment has a Game of Thrones vibe? Also, the show is really good; not Simpsons good, but really good.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>simpsons on .blog</title>
+    <link>/tags/simpsons/</link>
+    <description>Recent content in simpsons on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/simpsons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disenchantment</title>
+      <link>/post/disenchantment/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/disenchantment/</guid>
+      <description>Is it just me or Disenchantment has a Game of Thrones vibe? Also, the show is really good; not Simpsons good, but really good.</description>
+    </item>
+    
+  </channel>
+</rss>

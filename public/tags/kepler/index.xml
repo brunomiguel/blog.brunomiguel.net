@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kepler on .blog</title><link>https://blog.brunomiguel.net/tags/kepler/</link><description>Recent content in kepler on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Wed, 11 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/kepler/index.xml" rel="self" type="application/rss+xml"/><item><title>Detetado o primeiro planeta potencialmente habitável, fora do sistema solar, com água na atmosfera</title><link>https://blog.brunomiguel.net/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</link><pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</guid><description>Correndo o risco de parecer o Professor Farnsworth, da série Futurama: Good news, everyone! Um grupo de astrónomos confirmou a presença de vapor de água na atmosfera de um exoplaneta conhecido como K2-18b.
-O K2-18b foi detetado em 2015 pela Kepler e está a 111 anos-luz do nosso planeta. Ele é classificado como uma super-Terra, isto é, tem uma massa superior à do nosso planeta mas inferior à de planetas como Neptuno.</description></item><item><title>TESS is officially looking for exoplanets</title><link>https://blog.brunomiguel.net/post/tess-is-officially-looking-for-exoplanets/</link><pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/tess-is-officially-looking-for-exoplanets/</guid><description>Step aside, Kepler, TESS (Transiting Exoplanet Survey Satellite) is in town and ready to discover more exoplanets (planets outside of our solar system) and closer to &amp;ldquo;home&amp;rdquo;.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>kepler on .blog</title>
+    <link>/tags/kepler/</link>
+    <description>Recent content in kepler on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Wed, 11 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/kepler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detetado o primeiro planeta potencialmente habitável, fora do sistema solar, com água na atmosfera</title>
+      <link>/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/detetado-o-primeiro-planeta-potencialmente-habitavel-fora-do-sistema-solar-com-agua-na-atmosfera/</guid>
+      <description>Correndo o risco de parecer o Professor Farnsworth, da série Futurama: Good news, everyone! Um grupo de astrónomos confirmou a presença de vapor de água na atmosfera de um exoplaneta conhecido como K2-18b.
+O K2-18b foi detetado em 2015 pela Kepler e está a 111 anos-luz do nosso planeta. Ele é classificado como uma super-Terra, isto é, tem uma massa superior à do nosso planeta mas inferior à de planetas como Neptuno.</description>
+    </item>
+    
+    <item>
+      <title>TESS is officially looking for exoplanets</title>
+      <link>/post/tess-is-officially-looking-for-exoplanets/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tess-is-officially-looking-for-exoplanets/</guid>
+      <description>Step aside, Kepler, TESS (Transiting Exoplanet Survey Satellite) is in town and ready to discover more exoplanets (planets outside of our solar system) and closer to &amp;ldquo;home&amp;rdquo;.
 From Engadget:
-TESS is a follow-up to Kepler, a spacecraft that has spent the last nine years searching for Earth-like exoplanets near Sun-like stars. Though it may be on its last legs, Kepler has already found 2,650 confirmed exoplanets and even more are expected to be discovered from the data it has collected.</description></item></channel></rss>
+ TESS is a follow-up to Kepler, a spacecraft that has spent the last nine years searching for Earth-like exoplanets near Sun-like stars. Though it may be on its last legs, Kepler has already found 2,650 confirmed exoplanets and even more are expected to be discovered from the data it has collected.</description>
+    </item>
+    
+  </channel>
+</rss>

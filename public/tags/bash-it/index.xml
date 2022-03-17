@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bash-it on .blog</title><link>https://blog.brunomiguel.net/tags/bash-it/</link><description>Recent content in bash-it on .blog</description><generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>Os conteúdos, da minha autoria, neste blog estão sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/bash-it/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash: how-to improve history manipulation</title><link>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</link><pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate><guid>https://blog.brunomiguel.net/post/bash-better-history-manipulation/</guid><description>By default, up and down keys allow you to navigate your bash history. Another option is the history built-in command and bash expansions (ex.: !2 runs the second command, oldest to newest, from your bash history).
-There are also tools, like bash-it, that allow for better history manipulation, but this also adds a lot of other stuff, so it might make your .bashrc load slower. It will make your bash look good as hell too.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bash-it on .blog</title>
+    <link>/tags/bash-it/</link>
+    <description>Recent content in bash-it on .blog</description>
+    <image>
+      <url>/papermod-cover.png</url>
+      <link>/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/bash-it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash: how-to improve history manipulation</title>
+      <link>/post/bash-better-history-manipulation/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/bash-better-history-manipulation/</guid>
+      <description>By default, up and down keys allow you to navigate your bash history. Another option is the history built-in command and bash expansions (ex.: !2 runs the second command, oldest to newest, from your bash history).
+There are also tools, like bash-it, that allow for better history manipulation, but this also adds a lot of other stuff, so it might make your .bashrc load slower. It will make your bash look good as hell too.</description>
+    </item>
+    
+  </channel>
+</rss>

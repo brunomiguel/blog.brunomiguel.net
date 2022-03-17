@@ -1,85 +1,438 @@
-<!doctype html><html lang=pt>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>A few notes about Opera and Vivaldi - .blog</title><meta name=description content="These are a few notes about Opera and Vivaldi web browser&rsquo;s when compared to Firefox, after using both for a week.
+<!DOCTYPE html>
+<html lang="pt" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A few notes about Opera and Vivaldi | .blog</title>
+<meta name="keywords" content="browser, firefox, opera, vivaldi" />
+<meta name="description" content="These are a few notes about Opera and Vivaldi web browser&rsquo;s when compared to Firefox, after using both for a week.
 The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:">
-<meta name=author content>
-<meta name=keywords content="browser,firefox,opera,vivaldi">
-<link rel=canonical href=https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/>
-<script data-goatcounter=https://blog-brunomiguel.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
-<script defer data-domain=blog.brunomiguel.net src=https://plausible.matterho.st/js/plausible.js></script>
-<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/app.css>
-<link rel="preload stylesheet" as=style href=https://blog.brunomiguel.net/an-old-hope.min.css>
-<script defer src=https://blog.brunomiguel.net/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
-<link rel=preload as=image href=https://blog.brunomiguel.net/theme.png>
-<link rel=preload as=image href=https://blog.brunomiguel.net/twitter.svg>
-<link rel=preload as=image href=https://blog.brunomiguel.net/github.svg>
-<link rel=icon href=https://blog.brunomiguel.net/favicon.ico>
-<link rel=apple-touch-icon href=https://blog.brunomiguel.net/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.93.2">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://blog.brunomiguel.net">
-<meta name=twitter:title content="A few notes about Opera and Vivaldi">
-<meta name=twitter:description content="These are a few notes about Opera and Vivaldi web browser&rsquo;s when compared to Firefox, after using both for a week.
-The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:">
-<meta property="og:title" content="A few notes about Opera and Vivaldi">
-<meta property="og:type" content="article">
-<meta property="og:image" content="https://blog.brunomiguel.net">
-<meta property="og:url" content="https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/">
+<meta name="author" content="Bruno Miguel">
+<link rel="canonical"
+    href="/post/a-few-notes-about-opera-and-vivaldi/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.049a68b2dbabd1f8948a1d2643daaf7a54b61eb5b7dc9b6221ddb1ac60284923.css" integrity="sha256-BJpostur0fiUih0mQ9qvelS2HrW33JtiId2xrGAoSSM="
+    rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16"
+    href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"
+    href="/favicon-32x32.png">
+<link rel="apple-touch-icon"
+    href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+
+
+<script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script defer data-domain="blog.brunomiguel.net" src="https://plausible.matterho.st/js/plausible.js"></script><div id="cookie-notice">
+    <span>Este site usa cookies do GoatCounter e do Plausible, dois softwares de código aberto, para estatísticas.</span>
+    <a id="cookie-notice-close" class="btn btn-primary btn-sm">Fechar</a>
+    <a href="/privacidade" class="btn btn-primary btn-sm">Mais info</a></div>
+    <script>
+        function createCookie(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            createCookie(name,"",-1);
+        }
+    
+        if(readCookie('cookie-notice-option')=='true') {
+            
+    
+            
+        } else if (readCookie('cookie-notice-option')!='false'){
+            document.getElementById('cookie-notice').style.display = 'block';
+        }
+    
+        document.getElementById('cookie-notice-close').addEventListener("click",function() {
+            createCookie('cookie-notice-option','true',31);
+            document.getElementById('cookie-notice').style.display = 'none';
+            location.reload();
+        });
+    
+    </script><meta property="og:title" content="A few notes about Opera and Vivaldi" />
 <meta property="og:description" content="These are a few notes about Opera and Vivaldi web browser&rsquo;s when compared to Firefox, after using both for a week.
-The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:">
-<meta property="og:locale" content="pt">
-<meta property="og:site_name" content=".blog">
-<meta property="article:published_time" content="2019-08-22T00:00:00+00:00">
-<meta property="article:modified_time" content="2019-08-22T00:00:00+00:00">
-<script>window.onload=function(){window.matchMedia("(prefers-color-scheme: dark)").matches&&!localStorage.getItem("prefers-color-scheme-dark")&&localStorage.setItem("prefers-color-scheme-dark",!0)}</script>
-</head><body class=not-ready data-menu=true>
-<header class=header>
-<p class=logo>
-<a class=site-name href=https://blog.brunomiguel.net>.blog</a>
-</p><nav class=menu>
-<a href=/about/>Sobre</a>
-<a href=https://github.com/brunomiguel/antinonio/>Lista Antinónio</a>
-<a href=https://userrepository.eu/>Userrepository</a>
-<a href=https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine>Apoia a Ucrânia</a>
-</nav><nav class=social>
-<a class=twitter style=--url:url(./twitter.svg) href=https://twitter.com/brunomiguel target=_blank></a>
-<a class=github style=--url:url(./github.svg) href=https://github.com/brunomiguel target=_blank></a>
-<a class=rss style=--url:url(./rss.svg) href=https://blog.brunomiguel.net/index.xml target=_blank></a>
-</nav><a class=btn-dark></a>
-<script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script>
-</header><main class=main>
-<article class=post-single>
-<header class=post-title>
-<p>
-<time>22/08/2019</time>
-<span>Bruno Miguel</span>
-<span>Tempo de leitura: 0 minutos
-</span>
-</p><h1>A few notes about Opera and Vivaldi</h1></header><section class=post-content><p>These are a few notes about <em>Opera</em> and <em>Vivaldi</em> web browser&rsquo;s when compared to <em>Firefox</em>, after using both for a week.</p><h3 id=the-good>The good</h3><ul>
-<li>sleek interface (both but I became more fond of <em>Opera</em> in this regard)</li><li>functionality (both)</li><li>some sort of adblocker included (both)</li><li>integrated <em>VPN</em> in <em>Opera</em> (although I have mixed feelings about this, since it&rsquo;s proprietary as far as I can tell)</li></ul><h3 id=the-bad>The bad</h3><ul>
-<li>resource usage bigger than <em>Firefox</em> in my system (both)</li><li>slower <em>than</em> Firefox, using default configs (both)</li><li>proprietary (both)</li></ul><p>The following specs were used when testing both browsers:</p><p><strong>System:</strong> Kernel: 5.2.9-lqx1-1-lqx x86_64 bits: 64 Desktop: Xfce 4.14.1git-23545d Distro: Manjaro Linux</p><p><strong>Machine:</strong> Type: Laptop System: LENOVO product: 80XV v: Lenovo ideapad 320-15AST</p><pre><code>       Mobo: LENOVO model: LNVNB161216 v: SDK0J40700WIN
-</code></pre><p><strong>CPU:</strong> Dual Core: AMD A9-9420 RADEON R5 5 COMPUTE CORES 2C+3G</p><p><strong>Graphics:</strong> Device-1: Advanced Micro Devices [AMD/ATI] Stoney [Radeon R2/R3/R4/R5 Graphics] driver: amdgpu v: kernel</p><pre><code>       Device-2: AMD Topaz XT \[Radeon R7 M260/M265 / M340/M360 / M440/M445\] driver: amdgpu v: kernel 
+The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/a-few-notes-about-opera-and-vivaldi/" /><meta property="og:image" content="/papermod-cover.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2019-08-22T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2019-08-22T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/papermod-cover.png"/>
+
+<meta name="twitter:title" content="A few notes about Opera and Vivaldi"/>
+<meta name="twitter:description" content="These are a few notes about Opera and Vivaldi web browser&rsquo;s when compared to Firefox, after using both for a week.
+The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/post/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "A few notes about Opera and Vivaldi",
+      "item": "/post/a-few-notes-about-opera-and-vivaldi/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A few notes about Opera and Vivaldi",
+  "name": "A few notes about Opera and Vivaldi",
+  "description": "These are a few notes about Opera and Vivaldi web browser\u0026rsquo;s when compared to Firefox, after using both for a week.\nThe good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it\u0026rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:",
+  "keywords": [
+    "browser", "firefox", "opera", "vivaldi"
+  ],
+  "articleBody": "These are a few notes about Opera and Vivaldi web browser’s when compared to Firefox, after using both for a week.\nThe good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it’s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:\nSystem: Kernel: 5.2.9-lqx1-1-lqx x86_64 bits: 64 Desktop: Xfce 4.14.1git-23545d Distro: Manjaro Linux\nMachine: Type: Laptop System: LENOVO product: 80XV v: Lenovo ideapad 320-15AST\n Mobo: LENOVO model: LNVNB161216 v: SDK0J40700WIN  CPU: Dual Core: AMD A9-9420 RADEON R5 5 COMPUTE CORES 2C+3G\nGraphics: Device-1: Advanced Micro Devices [AMD/ATI] Stoney [Radeon R2/R3/R4/R5 Graphics] driver: amdgpu v: kernel\n Device-2: AMD Topaz XT \\[Radeon R7 M260/M265 / M340/M360 / M440/M445\\] driver: amdgpu v: kernel Display: x11 server: X.Org 1.20.5 driver: amdgpu unloaded: modesetting resolution: 1366x768~60Hz OpenGL: renderer: AMD STONEY (DRM 3.32.0 5.2.9-lqx1-1-lqx LLVM 8.0.1) v: 4.5 Mesa 19.1.4  ",
+  "wordCount" : "186",
+  "inLanguage": "pt",
+  "datePublished": "2019-08-22T00:00:00Z",
+  "dateModified": "2019-08-22T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Bruno Miguel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/a-few-notes-about-opera-and-vivaldi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": ".blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title=".blog (Alt + H)">.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/search/" title="Pesquisa">
+                    <span>Pesquisa</span>
+                </a>
+            </li>
+            <li>
+                <a href="/arquivo" title="Arquivo">
+                    <span>Arquivo</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categorias">
+                    <span>Categorias</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/privacidade/" title="Privacidade">
+                    <span>Privacidade</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/post/">Posts</a></div>
+    <h1 class="post-title">
+      A few notes about Opera and Vivaldi
+    </h1>
+    
+    <div class="post-meta"><span title='2019-08-22 00:00:00 +0000 UTC'>agosto 22, 2019</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel
+
+</div>
+  </header> 
+
+
+
+  <div class="post-content"><p>These are a few notes about <em>Opera</em> and <em>Vivaldi</em> web browser&rsquo;s when compared to <em>Firefox</em>, after using both for a week.</p>
+<h3 id="the-good">The good<a hidden class="anchor" aria-hidden="true" href="#the-good">#</a></h3>
+<ul>
+<li>sleek interface (both but I became more fond of <em>Opera</em> in this regard)</li>
+<li>functionality (both)</li>
+<li>some sort of adblocker included (both)</li>
+<li>integrated <em>VPN</em> in <em>Opera</em> (although I have mixed feelings about this, since it&rsquo;s proprietary as far as I can tell)</li>
+</ul>
+<h3 id="the-bad">The bad<a hidden class="anchor" aria-hidden="true" href="#the-bad">#</a></h3>
+<ul>
+<li>resource usage bigger than <em>Firefox</em> in my system (both)</li>
+<li>slower <em>than</em> Firefox, using default configs (both)</li>
+<li>proprietary (both)</li>
+</ul>
+<p>The following specs were used when testing both browsers:</p>
+<p><strong>System:</strong>    Kernel: 5.2.9-lqx1-1-lqx x86_64 bits: 64 Desktop: Xfce 4.14.1git-23545d Distro: Manjaro Linux</p>
+<p><strong>Machine:</strong>   Type: Laptop System: LENOVO product: 80XV v: Lenovo ideapad 320-15AST</p>
+<pre><code>       Mobo: LENOVO model: LNVNB161216 v: SDK0J40700WIN
+</code></pre>
+<p><strong>CPU:</strong>       Dual Core: AMD A9-9420 RADEON R5 5 COMPUTE CORES 2C+3G</p>
+<p><strong>Graphics:</strong>  Device-1: Advanced Micro Devices [AMD/ATI] Stoney [Radeon R2/R3/R4/R5 Graphics] driver: amdgpu v: kernel</p>
+<pre><code>       Device-2: AMD Topaz XT \[Radeon R7 M260/M265 / M340/M360 / M440/M445\] driver: amdgpu v: kernel 
 
        Display: x11 server: X.Org 1.20.5 driver: amdgpu unloaded: modesetting resolution: 1366x768~60Hz 
 
        OpenGL: renderer: AMD STONEY (DRM 3.32.0 5.2.9-lqx1-1-lqx LLVM 8.0.1) v: 4.5 Mesa 19.1.4
-</code></pre></section><footer class=post-tags>
-<small><strong>categorias</strong><br>
-<a href=https://blog.brunomiguel.net/categories/geekices>geekices</a>
-</small>
-<br><br>
-<small><strong>tags</strong><br>
-<a href=https://blog.brunomiguel.net/tags/browser>browser</a>
-<a href=https://blog.brunomiguel.net/tags/firefox>firefox</a>
-<a href=https://blog.brunomiguel.net/tags/opera>opera</a>
-<a href=https://blog.brunomiguel.net/tags/vivaldi>vivaldi</a>
-</small>
-</footer><div id=disqus_thread class=post-comments></div><script>var disqusShortname="blog-brunomiguel",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script>
-<nav class=post-nav>
-<a class=prev href=https://blog.brunomiguel.net/post/uma-dose-de-likes-e-um-garrote/><span>←</span><span>Uma dose de likes e …</span></a>
-<a class=next href=https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/><span>Must have extensions …</span><span>→</span></a>
-</nav></article></main><footer class=footer>
-<p>Licença: <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a></p><p>Baseado em <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️ and <a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper</a></p><p>Alojado pela <a href=https://webtuga.pt rel=noopener target=_blank>Webtuga</a></p></footer></body></html>
+</code></pre>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/browser/">browser</a></li>
+      <li><a href="/tags/firefox/">firefox</a></li>
+      <li><a href="/tags/opera/">opera</a></li>
+      <li><a href="/tags/vivaldi/">vivaldi</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/post/uma-dose-de-likes-e-um-garrote/">
+    <span class="title">« Página Anterior</span>
+    <br>
+    <span>Uma dose de likes e um garrote</span>
+  </a>
+  <a class="next" href="/post/must-have-extensions-for-firefox/">
+    <span class="title">Próxima Página »</span>
+    <br>
+    <span>Must have extensions for …</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">.blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
