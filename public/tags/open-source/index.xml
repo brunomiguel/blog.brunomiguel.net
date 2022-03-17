@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open-Source on .blog</title>
     <link>/tags/open-source/</link>
     <description>Recent content in Open-Source on .blog</description>
-    <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +13,7 @@
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/balanco-uso-adguardhome/</guid>
-      <description>O meu balanço da utilização do AdGuardHome é bastante positivo e recomendo a aplicação</description>
+      <description>Há mais ou menos um mês que substitui o Unbound pelo AdGuardHome como DNS resolver no meu portátil. O Unbound funciona excecionalmente bem, é muito eficiente na utilização dos poucos recursos de que necessita e pode ser configurado para uma enormidade de tipos de redes. Apesar destas capacidades todas - e não são poucas, diga-se de passagem - falta-lhe bloqueio nativo de trackers e anúncios. Há algumas ferramentas third-party que podes usar, mas&amp;hellip;</description>
     </item>
     
     <item>
@@ -26,7 +22,8 @@
       <pubDate>Thu, 24 Feb 2022 11:30:00 +0100</pubDate>
       
       <guid>/post/listas-adguardhome/</guid>
-      <description>O AdGuardHome vem com vinte e quatro listas de bloqueio incluídas e podes adicionar as tuas também</description>
+      <description>No post anterior, expliquei muito sucintamente como instalar o AdGuardHome. O processo é assim tão simples quanto parece e a utilização de recursos é surpreendentemente reduzida.
+Após a conclusão da instalação a aplicação, podes pretender ter mais listas de bloqueio ativas que a lista padrão. No momento de escrita deste post, são vinte e quatro as listas incluídas, desde listas para bloquear tracking a listas para bloquear malware. Para adicionares uma ou mais, deves ir Filters &amp;gt; DNS blocklists, carregar no botão Add blocklist e, na modal box que aparece, optar por uma das seguintes opções:</description>
     </item>
     
     <item>
@@ -35,7 +32,9 @@
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/adguard/</guid>
-      <description>O AdGuardHome é um DNS resolver local capaz de funcionar também como adblocker e servidor DHCP</description>
+      <description>Há mais de um ano que uso o unbound como DNS resolver local. Esta é uma boa forma de poder abstrair a gestão dos servidores de DNS usados no meu portátil, sem ter de passar a vida a editar o /etc/resolv.conf ou a lutar contra aplicações como o systemd-resolvconf e o network-manager.
+A configuração ativa que tenho no unbound é a que se segue:
+server:access-control:127.0.0.0/8 allowaccess-control:::1/128 allowinterface:::interface:0.0.0.0do-ip4:yesdo-ip6:yesdo-udp:yesdo-tcp:yesaggressive-nsec:yescache-max-ttl:14400cache-min-ttl:300hide-identity:yeshide-version:yesminimal-responses:yesprefetch:yesqname-minimisation:yesrrset-roundrobin:yesuse-caps-for-id:yesverbosity:0tls-upstream:yestls-cert-bundle:/etc/ssl/certs/ca-certificates.crtforward-zone:name:&amp;#34;.&amp;#34;forward-tls-upstream:yesforward-first:no# do NOT send direct# Quad 9 DNS - defaultforward-addr:9.</description>
     </item>
     
     <item>
@@ -44,7 +43,8 @@
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/repositorio-cara-lavada/</guid>
-      <description>O meu repositório de software para Arch Linux e distribuições compatíveis levou umas alterações cosméticas</description>
+      <description>O meu repositório de software para Arch Linux e distribuições compatíveis, Userrepository, levou umas alterações cosméticas para melhorar aquele aspeto cru normal de um open dir. Agora, quem acede a ele através do browser vai ver um template HTML todo catita com a listagem dos pacotes e uma link para o blog do repositório.
+Esta alteração não tem qualquer impacto na forma como instalas os pacotes a partir de lá. Eles continuam à distância de um pacman -Syu como estavam anteriormente.</description>
     </item>
     
     <item>
@@ -53,7 +53,8 @@
       <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/a-testar-o-codeberg/</guid>
-      <description>Se tudo correr bem, nos próximos meses devo replicar os restantes repositórios no Codeberg</description>
+      <description>O Github é o de facto standart para alojar repositórios Git e o serviço que tenho usado até agora. No entanto, desde que a Microsoft adquiriu a plataforma em 2018 tenho ponderado se valerá a pena mudar para outro serviço idêntico e mais Free Software friendly. Esta noite, aproveitei o facto de não conseguir dormir para finalmente testar uma alternativa: o Codeberg.
+O Codeberg é como o Github, um serviço para alojar repositórios Git, com funcionalidades muito idênticas, mas assenta numa base comunitária.</description>
     </item>
     
   </channel>

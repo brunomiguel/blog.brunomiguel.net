@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mobilidade reduzida on .blog</title>
     <link>/tags/mobilidade-reduzida/</link>
     <description>Recent content in mobilidade reduzida on .blog</description>
-    <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mobilidade-reduzida/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +13,7 @@
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/melhor-acessibilidade-vacinacao-covid19/</guid>
-      <description>Quem tem mobilidade reduzida e/ou sofre de dor crónica agradece</description>
+      <description>Uma coisa que tenho sentido na pele desde que começou o processo de vacinação para a Covid-19 é a falta de boas acessibilidade para pessoas com mobilidade reduzida e/ou dor crónica. Sempre que fui tomar uma dose da vacina para a Covid-19 saí de lá muito pior do que quando cheguei! Ter de aguardar, principalmente quando isso é feito de pé, é penoso; ter de estar sentado em cadeiras rijas antes e depois da toma da vacina não é em nada melhor.</description>
     </item>
     
   </channel>
