@@ -282,11 +282,21 @@ button#theme-toggle:focus {
 }
 
 .terms-tags a {
-	background-color: rgb(217, 224, 238) !important;
+	background: var(--theme) !important;
+	border: 1px solid var(--border) !important;
 }
 
 .dark .terms-tags a {
-	background-color: var(--code-bg) !important;
+	background: var(--code-bg) !important;
+	border: 1px solid var(--border) !important;
+}
+
+.terms-tags a:hover, .terms-tags a:active, .terms-tags a:focus {
+	background: var(--code-bg) !important;
+}
+
+.dark .terms-tags a:hover, .dark .terms-tags a:active, .dark .terms-tags a:focus {
+	background: var(--theme) !important;
 }
 
 .post-footer {
