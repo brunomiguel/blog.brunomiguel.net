@@ -16,7 +16,7 @@ tags:
   - "papermod"
   - "template"
 cover:
-  image: "images/tadeusz-lakota-P6vDUuzL90w-unsplash.webp"
+  image: "post/blog-cara-lavada/images/tadeusz-lakota-P6vDUuzL90w-unsplash.webp"
   alt: "tema novo"
 ---
 
