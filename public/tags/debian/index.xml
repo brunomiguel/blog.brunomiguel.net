@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>debian on .blog</title>
-    <link>/tags/debian/</link>
+    <link>https://blog.brunomiguel.net/tags/debian/</link>
     <description>Recent content in debian on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to set up a simple Wireguard VPN</title>
-      <link>/post/how-to-set-up-a-simple-wireguard-vpn/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-set-up-a-simple-wireguard-vpn/</guid>
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:
@@ -27,29 +27,29 @@ The first line is for the public and private keys of the client, named laptop be
     
     <item>
       <title>Agora já sou geek</title>
-      <link>/post/agora-ja-sou-geek/</link>
+      <link>https://blog.brunomiguel.net/post/agora-ja-sou-geek/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/agora-ja-sou-geek/</guid>
+      <guid>https://blog.brunomiguel.net/post/agora-ja-sou-geek/</guid>
       <description>Hoje chegaram os autocolantes que encomendei no Sticker Mule em dezembro, numa promoção em que o pack ficava a €1 e pouco. Com isto, já posso dizer que sou geek e o meu portátil ficou &amp;ldquo;lit af&amp;rdquo;.
 Só tenho pena que o pack não incluísse um autocolante do projeto GNU. Teria sido ouro sobre azul.</description>
     </item>
     
     <item>
       <title>How-to customize the Bash prompt</title>
-      <link>/post/how-to-configure-the-bash-prompt/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/how-to-configure-the-bash-prompt/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-configure-the-bash-prompt/</guid>
       <description>In order to adapt a bit more my Debian Stable installation to my workflow, I&amp;rsquo;ve been tweaking the bash prompt. Simplicity and small line width are key here, because I often have tmux running with several panes in the same window and small panes with large one-liner prompts suck a lot! Everything feels crammed and hard to read. Just take a look at the image below to get an idea.</description>
     </item>
     
     <item>
       <title>Trying Debian Stable for everyday desktop usage</title>
-      <link>/post/trying-debian-stable-for-everyday-desktop-usage/</link>
+      <link>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/trying-debian-stable-for-everyday-desktop-usage/</guid>
+      <guid>https://blog.brunomiguel.net/post/trying-debian-stable-for-everyday-desktop-usage/</guid>
       <description>A few days ago I installed Debian Stable. I&amp;rsquo;d been using Sparky Linux, which is based on Debian Testing, and was happy with it. The tools it integrates make the life of a desktop user easier when managing the system, I had no issues with it and had a bunch of software available in the repositories.
 Well, since Sparky is based on Debian, the &amp;ldquo;bunch of software available in the repositories&amp;rdquo; part was a given from the start.</description>
     </item>

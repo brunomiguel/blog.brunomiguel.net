@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mozilla on .blog</title>
-    <link>/tags/mozilla/</link>
+    <link>https://blog.brunomiguel.net/tags/mozilla/</link>
     <description>Recent content in mozilla on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Must have extensions for Firefox</title>
-      <link>/post/must-have-extensions-for-firefox/</link>
+      <link>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/must-have-extensions-for-firefox/</guid>
+      <guid>https://blog.brunomiguel.net/post/must-have-extensions-for-firefox/</guid>
       <description>I&amp;rsquo;ve been a Firefox user since version 1.0, and the Mozilla Suite before that. Shamefully, I also used the infamous Internet Explorer long before that crap evolved to something close to a browser but not quite and still shitty.
 During all my years with this browser, I&amp;rsquo;ve come to use a handful of extensions that I consider essential. The list has changed over the years and has taken many forms. The current one is as follow:</description>
     </item>
     
     <item>
       <title>Firefox começou a bloquear a reprodução automática de áudio</title>
-      <link>/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link>
+      <link>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid>
+      <guid>https://blog.brunomiguel.net/post/firefox-comecou-a-bloquear-a-reproducao-automatica-de-audio/</guid>
       <description>O Firefox começou a permitir o bloqueio de áudio com reprodução automática nas nightly builds. Isto inclui, por exemplo, os vídeos que a CNET mete no site e que são irritantes como o caraças.
 O anúncio foi feito por Dale Harvey, um dos programadores do Firefox, no Twitter.
 https://twitter.com/daleharvey/status/1020619223863873539?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1020619223863873539&amp;amp;ref_url=https%3A%2F%2Fwww.engadget.com%2F2018%2F07%2F24%2Ffirefox-nightly-blocks-autoplaying-audio%2F

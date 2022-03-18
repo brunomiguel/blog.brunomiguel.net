@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>adblock on .blog</title>
-    <link>/tags/adblock/</link>
+    <link>https://blog.brunomiguel.net/tags/adblock/</link>
     <description>Recent content in adblock on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Sun, 24 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/adblock/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/adblock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atualização à lista AntiNónio</title>
-      <link>/post/atualizacao-a-lista-antinonio/</link>
+      <link>https://blog.brunomiguel.net/post/atualizacao-a-lista-antinonio/</link>
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/atualizacao-a-lista-antinonio/</guid>
+      <guid>https://blog.brunomiguel.net/post/atualizacao-a-lista-antinonio/</guid>
       <description>Hoje, graças a ela, que tentou ver um vídeo do Miguel Sousa Tavares no site da TVI24, apercebi-me que as páginas com vídeos daquele endereço mostravam o spam do Nónio. &amp;ldquo;Estranho&amp;rdquo;, pensei eu. &amp;ldquo;Isto devia estar bloqueado&amp;rdquo;.
 Uma análise inicial levou-me a pensar que o culpado era um script relacionado com o leitor de vídeo que utilizam, devido à presença da palavra-chave nonio no código. Isto acabou por se revelar errado.</description>
     </item>
     
     <item>
       <title>Antinonio</title>
-      <link>/post/antinonio/</link>
+      <link>https://blog.brunomiguel.net/post/antinonio/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/antinonio/</guid>
+      <guid>https://blog.brunomiguel.net/post/antinonio/</guid>
       <description>Há uns tempos atrás, criei um repositório no Github com uma lista de bloqueio para adblockers com regras específicas para a plataforma Nonio, baseada numa outra lista feita para com suporte apenas para o uMatrix.
 Esta lista manteve-se inalterada até há 17 dias, quando o Pedro Fonseca submeteu um pull request com regras para o site d&amp;rsquo;O Público, fechando também assim o bug #3. Nas duas semanas e pouco seguintes, recebei mais alguns pull requests no repositório, melhorando bastante a lista de bloqueio.</description>
     </item>

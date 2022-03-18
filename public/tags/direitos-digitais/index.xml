@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>direitos-digitais on .blog</title>
-    <link>/tags/direitos-digitais/</link>
+    <link>https://blog.brunomiguel.net/tags/direitos-digitais/</link>
     <description>Recent content in direitos-digitais on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/direitos-digitais/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/direitos-digitais/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Videovigilância em Portugal: um caos</title>
-      <link>/post/videovigilancia-em-portugal-um-caos/</link>
+      <link>https://blog.brunomiguel.net/post/videovigilancia-em-portugal-um-caos/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/videovigilancia-em-portugal-um-caos/</guid>
+      <guid>https://blog.brunomiguel.net/post/videovigilancia-em-portugal-um-caos/</guid>
       <description>A Associação Defesa dos Direitos Digitais - aka D3 - publicou uma excelente thread no Twitter sobre o caos completo que é a videovigilância no país e como iremos ter, não uma, mas quatro mãos cheias de problemas se o projeto de lei for aprovado.
 Antes de avançares para a leitura da thread, assina esta petição para impedir a utilização de sistemas públicos de reconhecimento facial.
 Deixo aqui a thread reproduzida na totalidade, com autorização da D3.</description>

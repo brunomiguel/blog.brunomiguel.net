@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>fosshost on .blog</title>
-    <link>/tags/fosshost/</link>
+    <link>https://blog.brunomiguel.net/tags/fosshost/</link>
     <description>Recent content in fosshost on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fosshost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/fosshost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Userrepository using mirrors</title>
-      <link>/post/userrepository-using-mirrors/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/userrepository-using-mirrors/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</guid>
       <description>For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&amp;rsquo;s around the globe.
 Finally, a few days ago, I enabled the service. I also created a package with the mirror&amp;rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.</description>
     </item>

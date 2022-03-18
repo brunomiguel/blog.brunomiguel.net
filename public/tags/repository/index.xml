@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>repository on .blog</title>
-    <link>/tags/repository/</link>
+    <link>https://blog.brunomiguel.net/tags/repository/</link>
     <description>Recent content in repository on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/repository/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/repository/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Userrepository using mirrors</title>
-      <link>/post/userrepository-using-mirrors/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/userrepository-using-mirrors/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-using-mirrors/</guid>
       <description>For a few months, I considered using the mirror service from Fosshost in userrepository.eu. The service results from a partnership between Fosshost and Fastly, giving projects access to several PoP&amp;rsquo;s around the globe.
 Finally, a few days ago, I enabled the service. I also created a package with the mirror&amp;rsquo;s list, userrepository-mirrors, available in my repository and AUR. The package has all the instructions for enabling the mirrors and what to do if you already have userrepository in your /etc/pacman.</description>
     </item>
     
     <item>
       <title>Debugging build times</title>
-      <link>/post/debugging-build-times/</link>
+      <link>https://blog.brunomiguel.net/post/debugging-build-times/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/debugging-build-times/</guid>
+      <guid>https://blog.brunomiguel.net/post/debugging-build-times/</guid>
       <description>Lately, the repository has been taking +10 hours to compile all the packages. I think that&amp;rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
    Pkg Hours Minutes     .</description>
@@ -35,10 +35,10 @@ After investigating the matter, I found out that 12 of the packages took four ho
     
     <item>
       <title>Userrepository now on Arch Wiki</title>
-      <link>/post/userrepository-now-on-arch-wiki/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/userrepository-now-on-arch-wiki/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</guid>
       <description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
 Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the chance to list all packages currently available at the time of writing:
  acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
@@ -46,29 +46,29 @@ Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the
     
     <item>
       <title>Userrepository.eu now available on Github</title>
-      <link>/post/userrepository-eu-now-available-on-github/</link>
+      <link>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/userrepository-eu-now-available-on-github/</guid>
+      <guid>https://blog.brunomiguel.net/post/userrepository-eu-now-available-on-github/</guid>
       <description>My Arch/Manjaro (and any other Arch-based distro) repository continues to receive more packages from AUR. But this post is not about that. I&amp;rsquo;m writing this because I published the scripts I&amp;rsquo;m using to build the packages for userrepository.eu. You can get them at Github.</description>
     </item>
     
     <item>
       <title>Updates on my Arch/Manjaro repository</title>
-      <link>/post/updates-on-my-arch-manjaro-repository/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/updates-on-my-arch-manjaro-repository/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-my-arch-manjaro-repository/</guid>
       <description>Ever since Carlos Silva left a comment on my last post about this repository, I was left wondering if it wouldn&amp;rsquo;t be better to migrate my current VM to Scaleway. The price/specs seemed better and for the marginal difference of €1 I would get a dual-core virtual machine with 2GB of RAM and 50Gb of disk space.
 After a couple of weeks of reflection, I bought a “Start1-S” VPS for €3,99/month and I&amp;rsquo;ve been (successfully) testing aurto to manage the repository updates.</description>
     </item>
     
     <item>
       <title>I&#39;ve built a Manjaro repository</title>
-      <link>/post/ive-built-a-manjaro-repository/</link>
+      <link>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/ive-built-a-manjaro-repository/</guid>
+      <guid>https://blog.brunomiguel.net/post/ive-built-a-manjaro-repository/</guid>
       <description>Due to my own dumbness (I mistakenly deleted my Ubuntu partition), I installed Manjaro, using the Manjaro Architect release, on my laptop. I&amp;rsquo;d been thinking about doing it for a while and finally made it because I was too stupid to read the instructions from cfdisk. The shit you create yourself because you&amp;rsquo;re in a hurry…
 Anyway, after installing Manjaro, I started reading a bit about this distro packaging and how I could leverage AUR and binary packages.</description>
     </item>

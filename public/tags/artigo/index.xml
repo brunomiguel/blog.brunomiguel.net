@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>artigo on .blog</title>
-    <link>/tags/artigo/</link>
+    <link>https://blog.brunomiguel.net/tags/artigo/</link>
     <description>Recent content in artigo on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/artigo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/artigo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cinco sites para streaming</title>
-      <link>/post/cinco-sites-para-streaming/</link>
+      <link>https://blog.brunomiguel.net/post/cinco-sites-para-streaming/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/cinco-sites-para-streaming/</guid>
+      <guid>https://blog.brunomiguel.net/post/cinco-sites-para-streaming/</guid>
       <description>Publiquei um artigo no Espalha Factos com uma lista de cinco sites para fazer streaming de filmes, séries, desporto e anime. Se quiseres saber quais são, clica aqui para seres reencaminhado para a lista.</description>
     </item>
     

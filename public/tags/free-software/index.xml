@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>free-software on .blog</title>
-    <link>/tags/free-software/</link>
+    <link>https://blog.brunomiguel.net/tags/free-software/</link>
     <description>Recent content in free-software on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First own package on userrepository.eu</title>
-      <link>/post/first-own-package-on-userrepository-eu/</link>
+      <link>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/first-own-package-on-userrepository-eu/</guid>
+      <guid>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</guid>
       <description>Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&amp;rsquo;ve finally created my first package for Arch Linux on my repository. It&amp;rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
 Here&amp;rsquo;s the PKGBUILD at the time of writing:
 # Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>

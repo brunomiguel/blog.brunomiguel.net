@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mix-the-city on .blog</title>
-    <link>/tags/mix-the-city/</link>
+    <link>https://blog.brunomiguel.net/tags/mix-the-city/</link>
     <description>Recent content in mix-the-city on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mix-the-city/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/mix-the-city/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mix the City</title>
-      <link>/post/mix-the-city/</link>
+      <link>https://blog.brunomiguel.net/post/mix-the-city/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/mix-the-city/</guid>
+      <guid>https://blog.brunomiguel.net/post/mix-the-city/</guid>
       <description>Há mais de um ano cruzei-me por acaso com dois trabalhos que o músico israelita Kutiman fez para o projeto Mix the City. Na altura, fiquei fascinado com o que ele criou e ouvi as músicas em loop durante algum tempo. Acabei, no entanto, por não ouvir as restantes criações deste projeto e nem sequer ver do que se tratava.
 Hoje, no entanto, decidi ir ao Youtube pesquisar algumas músicas do Mix the City e deparei-me com a seguinte música: Ziggy Has Ardeur - Mix The City Mannheim.</description>
     </item>

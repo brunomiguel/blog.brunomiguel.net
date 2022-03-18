@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>dunst on .blog</title>
-    <link>/tags/dunst/</link>
+    <link>https://blog.brunomiguel.net/tags/dunst/</link>
     <description>Recent content in dunst on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dunst/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/dunst/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to disable a D-Bus service</title>
-      <link>/post/how-to-disable-a-d-bus-service/</link>
+      <link>https://blog.brunomiguel.net/post/how-to-disable-a-d-bus-service/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/how-to-disable-a-d-bus-service/</guid>
+      <guid>https://blog.brunomiguel.net/post/how-to-disable-a-d-bus-service/</guid>
       <description>In some situations, you might want to disable a D-Bus service. One of those is, for example, when you use Dunst (a notification daemon) with a window manager. Still, you don&amp;rsquo;t want it to replace the notification daemon from your desktop environment.
 To disable it, you just need to add .disabled to the end of the target file name. Example:
 sudo mv /usr/share/dbus-1/services/org.knopwob.dunst.service /usr/share/dbus-1/services/org.knopwob.dunst.service.disabled In the above example, Dunst will no longer replace Plasma Desktop notification daemon when using that amazing desktop environment, and all will be good with the world again.</description>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>oddball on .blog</title>
-    <link>/tags/oddball/</link>
+    <link>https://blog.brunomiguel.net/tags/oddball/</link>
     <description>Recent content in oddball on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/oddball/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/oddball/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ser o cristo não é fácil...</title>
-      <link>/post/ser-o-cristo-nao-e-facil/</link>
+      <link>https://blog.brunomiguel.net/post/ser-o-cristo-nao-e-facil/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/ser-o-cristo-nao-e-facil/</guid>
+      <guid>https://blog.brunomiguel.net/post/ser-o-cristo-nao-e-facil/</guid>
       <description>[&amp;hellip;] mas ler o webcomic Oddball é.</description>
     </item>
     

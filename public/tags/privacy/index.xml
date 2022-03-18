@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Privacy on .blog</title>
-    <link>/tags/privacy/</link>
+    <link>https://blog.brunomiguel.net/tags/privacy/</link>
     <description>Recent content in Privacy on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chrome extensions hellscape</title>
-      <link>/post/chrome-extensions-hellscape/</link>
+      <link>https://blog.brunomiguel.net/post/chrome-extensions-hellscape/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/chrome-extensions-hellscape/</guid>
+      <guid>https://blog.brunomiguel.net/post/chrome-extensions-hellscape/</guid>
       <description>Chrome extensions are a privacy nightmare</description>
     </item>
     
     <item>
       <title>Google Chrome is a privacy hell</title>
-      <link>/post/google-chrome-is-a-privacy-hell/</link>
+      <link>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/google-chrome-is-a-privacy-hell/</guid>
+      <guid>https://blog.brunomiguel.net/post/google-chrome-is-a-privacy-hell/</guid>
       <description>Google Chrome is such a privacy hell that it has become it&amp;rsquo;s own hell in the japanese folklore. You&amp;rsquo;re better off with Firefox and you get better performance. But if you really want Chrome, Ungoogled Chromium is based on the previous (technically, it&amp;rsquo;s based on Chromium) with some bits removed for added privacy.</description>
     </item>
     
     <item>
       <title>Criptex, an encripted email service with focus on privacy</title>
-      <link>/post/criptex-an-encripted-email-service-with-focus-on-privacy/</link>
+      <link>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/criptex-an-encripted-email-service-with-focus-on-privacy/</guid>
+      <guid>https://blog.brunomiguel.net/post/criptex-an-encripted-email-service-with-focus-on-privacy/</guid>
       <description>Criptex is a new email client with a strong focus on the user&amp;rsquo;s privacy and data security, released by an independent company with the same name. The app stores all the emails on the device(s) it&amp;rsquo;s used, encrypted with the Signal Protocol, instead of storing them in their servers. This gives user&amp;rsquo;s total control over their data.
 This software is open source and available for Android, iOS and macOS. Linux and Windows releases will be available soon.</description>
     </item>

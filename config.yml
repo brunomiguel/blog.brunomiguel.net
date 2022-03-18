@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://blog.brunomiguel.net"
 title: .blog
 paginate: 4
 theme: hugo-PaperMod

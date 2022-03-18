@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Github on .blog</title>
-    <link>/tags/github/</link>
+    <link>https://blog.brunomiguel.net/tags/github/</link>
     <description>Recent content in Github on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A testar o Codeberg como alternativa ao Github</title>
-      <link>/post/a-testar-o-codeberg/</link>
+      <link>https://blog.brunomiguel.net/post/a-testar-o-codeberg/</link>
       <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/a-testar-o-codeberg/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-testar-o-codeberg/</guid>
       <description>Se tudo correr bem, nos próximos meses devo replicar os restantes repositórios no Codeberg</description>
     </item>
     
     <item>
       <title>Antinonio</title>
-      <link>/post/antinonio/</link>
+      <link>https://blog.brunomiguel.net/post/antinonio/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/antinonio/</guid>
+      <guid>https://blog.brunomiguel.net/post/antinonio/</guid>
       <description>Há uns tempos atrás, criei um repositório no Github com uma lista de bloqueio para adblockers com regras específicas para a plataforma Nonio, baseada numa outra lista feita para com suporte apenas para o uMatrix.
 Esta lista manteve-se inalterada até há 17 dias, quando o Pedro Fonseca submeteu um pull request com regras para o site d&amp;rsquo;O Público, fechando também assim o bug #3. Nas duas semanas e pouco seguintes, recebei mais alguns pull requests no repositório, melhorando bastante a lista de bloqueio.</description>
     </item>

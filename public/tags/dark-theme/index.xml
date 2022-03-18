@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>dark-theme on .blog</title>
-    <link>/tags/dark-theme/</link>
+    <link>https://blog.brunomiguel.net/tags/dark-theme/</link>
     <description>Recent content in dark-theme on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dark-theme/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/dark-theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Dark theme for AUR</title>
-      <link>/post/a-dark-theme-for-aur/</link>
+      <link>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/a-dark-theme-for-aur/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-dark-theme-for-aur/</guid>
       <description>I love AUR. Being able to use a simple PKGBUILD to install a software not available in the official Arch repositories is a blessing. Sadly, its user experience and looks need improvements to bring it to the 21st century.
 One of the things that bug me the most is the microscopic font size. I almost need a telescope to read the text.
 To fix it, and make it smoother on the eyes, I created a dark theme for AUR.</description>

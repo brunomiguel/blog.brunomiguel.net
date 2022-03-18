@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>migração on .blog</title>
-    <link>/tags/migra%C3%A7%C3%A3o/</link>
+    <link>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</link>
     <description>Recent content in migração on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/migra%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrar de Wordpress para Hugo</title>
-      <link>/post/migrar-wordpress-hugo/</link>
+      <link>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</link>
       <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/migrar-wordpress-hugo/</guid>
+      <guid>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</guid>
       <description>Durante muitos anos, este blog usou Wordpress. Agora, usa o static site generator Hugo e tem melhor performance.</description>
     </item>
     

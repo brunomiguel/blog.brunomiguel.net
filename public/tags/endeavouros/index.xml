@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>endeavouros on .blog</title>
-    <link>/tags/endeavouros/</link>
+    <link>https://blog.brunomiguel.net/tags/endeavouros/</link>
     <description>Recent content in endeavouros on .blog</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/endeavouros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/endeavouros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Repositório com cara lavada</title>
-      <link>/post/repositorio-cara-lavada/</link>
+      <link>https://blog.brunomiguel.net/post/repositorio-cara-lavada/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/repositorio-cara-lavada/</guid>
+      <guid>https://blog.brunomiguel.net/post/repositorio-cara-lavada/</guid>
       <description>O meu repositório de software para Arch Linux e distribuições compatíveis levou umas alterações cosméticas</description>
     </item>
     
     <item>
       <title>Ativar a indicação de bateria de headphones Bluetooth no Plasma Desktop</title>
-      <link>/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</link>
+      <link>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</guid>
+      <guid>https://blog.brunomiguel.net/post/ativar-a-indicacao-de-bateria-de-headphones-bluetooth-no-plasma-desktop/</guid>
       <description>A última vez que atualizei este blog foi há pouco mais de 2 meses. Como não quero que ele fiquei muito tempo sem conteúdo novo, decidi escrever este post, uma dica útil para quem usa o Plasma Desktop e headphones Bluetooth, e quer ver a percentagem de bateria na applet.
 Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas em Arch. Noutras, o path do ficheiro pode ser diferente, por isso terás de ter isso em consideração se pretenderes replicá-a no teu sistema.</description>
     </item>
     
     <item>
       <title>A shitload of new packages on userrepository</title>
-      <link>/post/a-shitload-of-new-packages-on-userrepository/</link>
+      <link>https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/a-shitload-of-new-packages-on-userrepository/</guid>
+      <guid>https://blog.brunomiguel.net/post/a-shitload-of-new-packages-on-userrepository/</guid>
       <description>Since the 24th of January, the date of the last blog post, I&amp;rsquo;ve added a shitload of new packages to userrepository.eu. Some highlights are sonobus, media-downloader-git, baru, dotgit, timeshift, filmulator and tramp.
 Expect more packages, as I&amp;rsquo;m adding new ones frequently. The focus on new packages will probably be scientific tools and maybe a kernel. With that, I&amp;rsquo;ll probably have to increase the full build frequency from 8h to at least 9 hours.</description>
     </item>
     
     <item>
       <title>Updates on Userrepository and Jarvis</title>
-      <link>/post/updates-on-userrepository-and-jarvis/</link>
+      <link>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/updates-on-userrepository-and-jarvis/</guid>
+      <guid>https://blog.brunomiguel.net/post/updates-on-userrepository-and-jarvis/</guid>
       <description>Lately, I&amp;rsquo;ve been having some problems when building picom-ibhagwan-git and picom-tryone-git. The first one would build OK, but not the second one.
 After a bit of debugging, I found out that it was a problem related to the way makepkg and git handle the cache when building these forks. This would also happen when adding the picom-git package: it would build because it&amp;rsquo;s the first package in alphabetical order and Jarvis builds the packages that way, but not the other two.</description>
     </item>
     
     <item>
       <title>Improving boot time</title>
-      <link>/post/improving-boot-time/</link>
+      <link>https://blog.brunomiguel.net/post/improving-boot-time/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/improving-boot-time/</guid>
+      <guid>https://blog.brunomiguel.net/post/improving-boot-time/</guid>
       <description>Today, I&amp;rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &amp;ldquo;Why not?&amp;rdquo;.
 The first thing I made was disabling or masking the following systemd services:
  systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&amp;rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible.</description>
