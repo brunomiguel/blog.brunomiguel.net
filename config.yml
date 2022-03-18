@@ -15,6 +15,8 @@ enableEmoji: true
 pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 
+Copyright: "[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - "
+
 minify:
     disableXML: true
     minifyOutput: false
@@ -161,7 +163,7 @@ params:
         - name: twitter
           url: "https://twitter.com/brunomiguel"
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+          url: "https://github.com/brunomiguel"
         #- name: KoFi
         #  url: "https://ko-fi.com/adityatelange"
 

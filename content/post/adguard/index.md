@@ -1,6 +1,6 @@
 ---
 title: "Instalar o AdGuardHome"
-description: "O AdGuardHome é um DNS resolver local capaz de funcionar também como adblocker e servidor DHCP"
+Description: "O AdGuardHome é um DNS resolver local capaz de funcionar também como adblocker e servidor DHCP"
 author: "Bruno Miguel"
 date: "2022-02-24"
 categories: 

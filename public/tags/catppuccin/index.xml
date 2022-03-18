@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/catppuccin/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/catppuccin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mudei o tema do blog</title>
+      <link>/post/blog-cara-lavada/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/blog-cara-lavada/</guid>
+      <description>Voltei a mudar o tema do blog, desta vez para um com mais funcionalidades</description>
+    </item>
+    
     <item>
       <title>Repositório com cara lavada</title>
       <link>/post/repositorio-cara-lavada/</link>

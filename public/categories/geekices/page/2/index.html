@@ -210,6 +210,25 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
+            <img loading="lazy" src="/post/adguard/images/adguardhome.png">
+</figure>
+
+
+  <header class="entry-header">
+    <h2>Instalar o AdGuardHome
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Há mais de um ano que uso o unbound como DNS resolver local. Esta é uma boa forma de poder abstrair a gestão dos servidores de DNS usados no meu portátil, sem ter de passar a vida a editar o /etc/resolv.conf ou a lutar contra aplicações como o systemd-resolvconf e o network-manager.
+A configuração ativa que tenho no unbound é a que se segue:
+server:access-control:127.0.0.0/8 allowaccess-control:::1/128 allowinterface:::interface:0.0.0.0do-ip4:yesdo-ip6:yesdo-udp:yesdo-tcp:yesaggressive-nsec:yescache-max-ttl:14400cache-min-ttl:300hide-identity:yeshide-version:yesminimal-responses:yesprefetch:yesqname-minimisation:yesrrset-roundrobin:yesuse-caps-for-id:yesverbosity:0tls-upstream:yestls-cert-bundle:/etc/ssl/certs/ca-certificates.crtforward-zone:name:&#34;.&#34;forward-tls-upstream:yesforward-first:no# do NOT send direct# Quad 9 DNS - defaultforward-addr:9....</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-02-24 00:00:00 +0000 UTC'>fevereiro 24, 2022</span>&nbsp;·&nbsp;4 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
+  <a class="entry-link" aria-label="post link to Instalar o AdGuardHome" href="/post/adguard/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
             <img loading="lazy" src="/post/repositorio-cara-lavada/images/new-look.png">
 </figure>
 
@@ -259,24 +278,6 @@ Esta alteração não tem qualquer impacto na forma como instalas os pacotes a p
   <footer class="entry-footer"><span title='2022-02-10 00:00:00 +0000 UTC'>fevereiro 10, 2022</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to Web stalking/tracking" href="/post/web-stalking-tracking/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-            <img loading="lazy" src="/post/a-testar-o-codeberg/images/screenshot-codeberg.png">
-</figure>
-
-
-  <header class="entry-header">
-    <h2>A testar o Codeberg como alternativa ao Github
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>O Github é o de facto standart para alojar repositórios Git e o serviço que tenho usado até agora. No entanto, desde que a Microsoft adquiriu a plataforma em 2018 tenho ponderado se valerá a pena mudar para outro serviço idêntico e mais Free Software friendly. Esta noite, aproveitei o facto de não conseguir dormir para finalmente testar uma alternativa: o Codeberg.
-O Codeberg é como o Github, um serviço para alojar repositórios Git, com funcionalidades muito idênticas, mas assenta numa base comunitária....</p>
-  </section>
-  <footer class="entry-footer"><span title='2022-02-08 00:00:00 +0000 UTC'>fevereiro 8, 2022</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
-  <a class="entry-link" aria-label="post link to A testar o Codeberg como alternativa ao Github" href="/post/a-testar-o-codeberg/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/categories/geekices/">« Página Anterior</a>
@@ -286,11 +287,12 @@ O Codeberg é como o Github, um serviço para alojar repositórios Git, com func
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="/">.blog</a></span>
+    <span><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a> - 2022</span><br/>
     <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>, a customized
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod theme</a>, and an improved
+        <a href="https://github.com/catppuccin/catppuccin" rel="noopener" target="_blank">Catppuccin color palette</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">

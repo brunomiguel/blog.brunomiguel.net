@@ -10,7 +10,89 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>catppuccin</title>
+      <link>/tags/catppuccin/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/catppuccin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fork</title>
+      <link>/tags/fork/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>palete de cores</title>
+      <link>/tags/palete-de-cores/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/palete-de-cores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper</title>
+      <link>/tags/paper/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paperino diddly</title>
+      <link>/tags/paperino-diddly/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/paperino-diddly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>papermod</title>
+      <link>/tags/papermod/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/papermod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>/tags/template/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/template/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>browser</title>
       <link>/tags/browser/</link>
@@ -165,15 +247,6 @@
     </item>
     
     <item>
-      <title>catppuccin</title>
-      <link>/tags/catppuccin/</link>
-      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/catppuccin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>endeavouros</title>
       <link>/tags/endeavouros/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
@@ -201,15 +274,6 @@
     </item>
     
     <item>
-      <title>palete de cores</title>
-      <link>/tags/palete-de-cores/</link>
-      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/palete-de-cores/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>userrepository</title>
       <link>/tags/userrepository/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
@@ -224,15 +288,6 @@
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/404/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>/tags/blog/</link>
-      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     
@@ -404,15 +459,6 @@
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     

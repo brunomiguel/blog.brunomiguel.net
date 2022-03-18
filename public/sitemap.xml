@@ -3,13 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>/tags/browser/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+    <loc>/tags/blog/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/catppuccin/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/fork/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/geekices/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/blog-cara-lavada/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/palete-de-cores/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/paper/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/paperino-diddly/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/papermod/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/template/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/browser/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/chrome/</loc>
@@ -27,19 +66,10 @@
     <loc>/tags/firefox/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/geekices/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/google/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/privacy/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/adguardhome/</loc>
@@ -81,9 +111,6 @@
     <loc>/tags/arch-linux/</loc>
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/catppuccin/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/endeavouros/</loc>
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -93,9 +120,6 @@
     <loc>/tags/pacman/</loc>
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/palete-de-cores/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/post/repositorio-cara-lavada/</loc>
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -103,9 +127,6 @@
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/404/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/blog/</loc>
     <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/pagina-404/</loc>
@@ -182,9 +203,6 @@
   </url><url>
     <loc>/tags/software/</loc>
     <lastmod>2022-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/migrar-wordpress-hugo/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>

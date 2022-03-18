@@ -10,6 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
     <lastBuildDate>Thu, 17 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/pkgbuild/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Metapackage for a personal installation of Arch Linux and Arch-based distributions</title>

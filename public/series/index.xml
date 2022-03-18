@@ -9,6 +9,7 @@
       <link>/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
