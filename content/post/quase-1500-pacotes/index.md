@@ -17,7 +17,7 @@ cover:
   alt: "Quase nos 1500 pacotes disponíveis no userrepository.eu"
 ---
 
-Quando criei o [Userrepository](userrepository.eu), tinha dois objetivos em mente: evitar compilar os pacotes que do *AUR* usava e poder contribuir com algo. A lista inicial era, por isso, bastante pequena e pouco mais tinha que os pacotes que eu usava.
+Quando criei o [Userrepository](userrepository.eu), tinha dois objetivos em mente: evitar compilar os pacotes que usava do *AUR* e poder contribuir com algo. A lista inicial era, por isso, bastante pequena e pouco mais tinha que os pacotes que eu usava.
 
 Durante os primeiros meses de vida, isso foi suficientes. Entretanto, comecei a receber pedidos ocasionais de pacotes e, por isso, decidi que iria começar a adicionar mais, até mesmo coisa que eu sabia que não iria usar mas que poderiam ser úteis para outras pessoas. O número de pacotes começou a crescer aos poucos, removi as poucas aplicações proprietárias que tinha (como o *Spotify*, por exemplo), e reescrevi o _script_ que gere o processo de compilação e adição dos pacotes na base de dados do repositório.
 
