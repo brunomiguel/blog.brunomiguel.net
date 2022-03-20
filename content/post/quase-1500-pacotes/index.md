@@ -19,7 +19,7 @@ cover:
 
 Quando criei o [Userrepository](userrepository.eu), tinha dois objetivos em mente: evitar compilar os pacotes que usava do *AUR* e poder contribuir com algo. A lista inicial era, por isso, bastante pequena e pouco mais tinha que os pacotes que eu usava.
 
-Durante os primeiros meses de vida, isso foi suficientes. Entretanto, comecei a receber pedidos ocasionais de pacotes e, por isso, decidi que iria começar a adicionar mais, até mesmo coisa que eu sabia que não iria usar mas que poderiam ser úteis para outras pessoas. O número de pacotes começou a crescer aos poucos, removi as poucas aplicações proprietárias que tinha (como o *Spotify*, por exemplo), e reescrevi o _script_ que gere o processo de compilação e adição dos pacotes na base de dados do repositório.
+Durante os primeiros meses de vida, isso foi suficientes. Entretanto, comecei a receber pedidos ocasionais de pacotes e, por isso, decidi que iria começar a adicionar mais, até mesmo coisas que eu sabia que não iria usar mas que poderiam ser úteis para outras pessoas. O número de pacotes começou a crescer aos poucos, removi as poucas aplicações proprietárias que tinha (como o *Spotify*, por exemplo), e reescrevi o _script_ que gere o processo de compilação e adição dos pacotes na base de dados do repositório.
 
 Em pouco tempo, passei a disponibilizar 100 pacotes; depois 200; 300; 400... O número foi aumentando gradualmente, assim como o tráfego. A 29 de Outubro de 2021 atingi finalmente um marco importante na vida deste projeto: 1000 pacotes. O meu objetivo era conseguir chegar a este número até ao final de Dezembro desse ano, por isso foi bastante gratificante tê-lo conseguido um pouco antes. Confesso que fiquei bastante orgulhoso.
 
