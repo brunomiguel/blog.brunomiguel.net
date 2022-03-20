@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>O meu repositório de software está quase nos 1500 pacotes | .blog</title>
+<meta name="keywords" content="userrepository, arch linux, endeavouros, pacotes, objetivo, software" />
+<meta name="description" content="Estou prestes a atingir mais um marco importante, que me deixa com uma vontade renovada de continuar o projeto">
+<meta name="author" content="Bruno Miguel">
+<link rel="canonical"
+    href="https://blog.brunomiguel.net/post/quase-1500-pacotes/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7d95319e658cb608e122b08564dd5830b91e3e3318c1e834abb540669a9c5d96.css" integrity="sha256-fZUxnmWMtgjhIrCFZN1YMLkePjMYweg0q7VAZpqcXZY="
+    rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://blog.brunomiguel.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16"
+    href="https://blog.brunomiguel.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"
+    href="https://blog.brunomiguel.net/favicon-32x32.png">
+<link rel="apple-touch-icon"
+    href="https://blog.brunomiguel.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.brunomiguel.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript><link rel="preload" href="/fonts/rubik-v14-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-regular.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-300italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-italic.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/rubik-v14-latin-700italic.woff" as="font" type="font/woff" crossorigin>
+
+
+<script data-goatcounter="https://blog-brunomiguel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script defer data-domain="blog.brunomiguel.net" src="https://plausible.matterho.st/js/plausible.js"></script><div id="cookie-notice">
+    <span>Este site usa cookies do GoatCounter e do Plausible, dois softwares de código aberto, para estatísticas.</span>
+    <a id="cookie-notice-close" class="btn btn-primary btn-sm">Fechar</a>
+    <a href="/privacidade" class="btn btn-primary btn-sm">Mais info</a></div>
+    <script>
+        function createCookie(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            createCookie(name,"",-1);
+        }
+    
+        if(readCookie('cookie-notice-option')=='true') {
+            
+    
+            
+        } else if (readCookie('cookie-notice-option')!='false'){
+            document.getElementById('cookie-notice').style.display = 'block';
+        }
+    
+        document.getElementById('cookie-notice-close').addEventListener("click",function() {
+            createCookie('cookie-notice-option','true',31);
+            document.getElementById('cookie-notice').style.display = 'none';
+            location.reload();
+        });
+    
+    </script><meta property="og:title" content="O meu repositório de software está quase nos 1500 pacotes" />
+<meta property="og:description" content="Estou prestes a atingir mais um marco importante, que me deixa com uma vontade renovada de continuar o projeto" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.brunomiguel.net/post/quase-1500-pacotes/" />
+<meta property="og:image" content="https://blog.brunomiguel.net/post/quase-1500-pacotes/images/estee-janssens-aQfhbxailCs-unsplash.webp" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-03-20T05:00:00&#43;01:00" />
+<meta property="article:modified_time" content="2022-03-20T05:00:00&#43;01:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://blog.brunomiguel.net/post/quase-1500-pacotes/images/estee-janssens-aQfhbxailCs-unsplash.webp" />
+<meta name="twitter:title" content="O meu repositório de software está quase nos 1500 pacotes"/>
+<meta name="twitter:description" content="Estou prestes a atingir mais um marco importante, que me deixa com uma vontade renovada de continuar o projeto"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "https://blog.brunomiguel.net/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "O meu repositório de software está quase nos 1500 pacotes",
+      "item": "https://blog.brunomiguel.net/post/quase-1500-pacotes/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "O meu repositório de software está quase nos 1500 pacotes",
+  "name": "O meu repositório de software está quase nos 1500 pacotes",
+  "description": "Estou prestes a atingir mais um marco importante, que me deixa com uma vontade renovada de continuar o projeto",
+  "keywords": [
+    "userrepository", "arch linux", "endeavouros", "pacotes", "objetivo", "software"
+  ],
+  "articleBody": "Quando criei o Userrepository, tinha dois objetivos em mente: evitar compilar os pacotes que do AUR usava e poder contribuir com algo. A lista inicial era, por isso, bastante pequena e pouco mais tinha que os pacotes que eu usava.\nDurante os primeiros meses de vida, isso foi suficientes. Entretanto, comecei a receber pedidos ocasionais de pacotes e, por isso, decidi que iria começar a adicionar mais, até mesmo coisa que eu sabia que não iria usar mas que poderiam ser úteis para outras pessoas. O número de pacotes começou a crescer aos poucos, removi as poucas aplicações proprietárias que tinha (como o Spotify, por exemplo), e reescrevi o script que gere o processo de compilação e adição dos pacotes na base de dados do repositório.\nEm pouco tempo, passei a disponibilizar 100 pacotes; depois 200; 300; 400… O número foi aumentando gradualmente, assim como o tráfego. A 29 de Outubro de 2021 atingi finalmente um marco importante na vida deste projeto: 1000 pacotes. O meu objetivo era conseguir chegar a este número até ao final de Dezembro desse ano, por isso foi bastante gratificante tê-lo conseguido um pouco antes. Confesso que fiquei bastante orgulhoso.\nAtingido um objetivo, era altura de outro: 1500 pacotes. Este marco está quase ao virar da esquina. Enquanto escrevo este post tenho 1470 pacotes disponíveis para instalação. Há de tudo para todos os gostos: leitores de música, tipos de letra, gestores de janelas, browsers, temas para ambientes gráficos, ícones, gestores de tarefas, gestores de passwords, aplicações para fazer download de vídeos, duas mãos cheias de utilitários para fazeres a gestão do sistema… Bem, há mesmo muita coisa disponível para instalares. Se quiseres ver a lista completa de pacotes, visita o site ou, caso já tenhas o repositório ativo, corre o seguinte comando: pacman -Sl userrepository.\nNão foi só o número de pacotes que aumentou. Desde que criei o repositório, o tráfego tem vindo a crescer progressivamente. O que começou com menos de 5GB mensais está agora nos 53.24GB, de acordo com as estatísticas da Cloudflare que acabei de ver.\nEstes números deixam-me inchado de orgulho e com uma vontade renovada de continuar o projeto.\nA imagem deste post é da autoria de Estée Janssens e foi publicada no Unsplash. A licença está disponível no site.\n",
+  "wordCount" : "380",
+  "inLanguage": "pt",
+  "image":"https://blog.brunomiguel.net/post/quase-1500-pacotes/images/estee-janssens-aQfhbxailCs-unsplash.webp","datePublished": "2022-03-20T05:00:00+01:00",
+  "dateModified": "2022-03-20T05:00:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Bruno Miguel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blog.brunomiguel.net/post/quase-1500-pacotes/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": ".blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.brunomiguel.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.brunomiguel.net" accesskey="h" title=".blog (Alt + H)">.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://blog.brunomiguel.net/search/" title="Pesquisa">
+                    <span>Pesquisa</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.brunomiguel.net/arquivo" title="Arquivo">
+                    <span>Arquivo</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.brunomiguel.net/categories/" title="Categorias">
+                    <span>Categorias</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.brunomiguel.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.brunomiguel.net/privacidade/" title="Privacidade">
+                    <span>Privacidade</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://blog.brunomiguel.net">Home</a>&nbsp;»&nbsp;<a href="https://blog.brunomiguel.net/post/">Posts</a></div>
+    <h1 class="post-title">
+      O meu repositório de software está quase nos 1500 pacotes
+    </h1>
+    
+    <div class="post-meta"><span title='2022-03-20 05:00:00 +0100 +0100'>março 20, 2022</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel
+
+</div>
+  </header> 
+
+
+<figure class="entry-cover">
+            <img src="https://blog.brunomiguel.net/post/quase-1500-pacotes/images/estee-janssens-aQfhbxailCs-unsplash.webp" alt="Quase nos 1500 pacotes disponíveis no userrepository.eu">
+        
+</figure>
+
+  <div class="post-content"><p>Quando criei o <a href="userrepository.eu">Userrepository</a>, tinha dois objetivos em mente: evitar compilar os pacotes que do <em>AUR</em> usava e poder contribuir com algo. A lista inicial era, por isso, bastante pequena e pouco mais tinha que os pacotes que eu usava.</p>
+<p>Durante os primeiros meses de vida, isso foi suficientes. Entretanto, comecei a receber pedidos ocasionais de pacotes e, por isso, decidi que iria começar a adicionar mais, até mesmo coisa que eu sabia que não iria usar mas que poderiam ser úteis para outras pessoas. O número de pacotes começou a crescer aos poucos, removi as poucas aplicações proprietárias que tinha (como o <em>Spotify</em>, por exemplo), e reescrevi o <em>script</em> que gere o processo de compilação e adição dos pacotes na base de dados do repositório.</p>
+<p>Em pouco tempo, passei a disponibilizar 100 pacotes; depois 200; 300; 400&hellip; O número foi aumentando gradualmente, assim como o tráfego. A 29 de Outubro de 2021 atingi finalmente um marco importante na vida deste projeto: 1000 pacotes. O meu objetivo era conseguir chegar a este número até ao final de Dezembro desse ano, por isso foi bastante gratificante tê-lo conseguido um pouco antes. Confesso que fiquei bastante orgulhoso.</p>
+<p>Atingido um objetivo, era altura de outro: 1500 pacotes. Este marco está quase ao virar da esquina. Enquanto escrevo este <em>post</em> tenho 1470 pacotes disponíveis para instalação. Há de tudo para todos os gostos: leitores de música, tipos de letra, gestores de janelas, <em>browsers</em>, temas para ambientes gráficos, ícones, gestores de tarefas, gestores de <em>passwords</em>, aplicações para fazer <em>download</em> de vídeos, duas mãos cheias de utilitários para fazeres a gestão do sistema&hellip; Bem, há mesmo muita coisa disponível para instalares. Se quiseres ver a lista completa de pacotes, visita o <a href="https://userrepository.eu/">site</a> ou, caso já tenhas o repositório ativo, corre o seguinte comando: <code>pacman -Sl userrepository</code>.</p>
+<p>Não foi só o número de pacotes que aumentou. Desde que criei o repositório, o tráfego tem vindo a crescer progressivamente. O que começou com menos de 5GB mensais está agora nos 53.24GB, de acordo com as estatísticas da <em>Cloudflare</em> que acabei de ver.</p>
+<p>Estes números deixam-me inchado de orgulho e com uma vontade renovada de continuar o projeto.</p>
+<p><small><em>A <a href="https://unsplash.com/photos/aQfhbxailCs">imagem</a> deste post é da autoria de <a href="https://unsplash.com/@esteejanssens">Estée Janssens</a> e foi publicada no <a href="https://unsplash.com">Unsplash</a>. A <a href="https://unsplash.com/license">licença</a> está disponível no site.</em></small></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://blog.brunomiguel.net/tags/userrepository/">userrepository</a></li>
+      <li><a href="https://blog.brunomiguel.net/tags/arch-linux/">arch-linux</a></li>
+      <li><a href="https://blog.brunomiguel.net/tags/endeavouros/">endeavouros</a></li>
+      <li><a href="https://blog.brunomiguel.net/tags/pacotes/">pacotes</a></li>
+      <li><a href="https://blog.brunomiguel.net/tags/objetivo/">objetivo</a></li>
+      <li><a href="https://blog.brunomiguel.net/tags/software/">software</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://blog.brunomiguel.net/post/blog-cara-lavada/">
+    <span class="title">Próxima Página »</span>
+    <br>
+    <span>Mudei o tema do blog</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a> - 2022</span><br/>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>, a customized
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod theme</a>, and an improved
+        <a href="https://github.com/catppuccin/catppuccin" rel="noopener" target="_blank">Catppuccin color palette</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -11,7 +11,7 @@
 <meta name="author" content="Bruno Miguel">
 <link rel="canonical"
     href="https://blog.brunomiguel.net/categories/geekices/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.97393d543273cd7c2f7aefc568b172754502c536050d860c3ce214dd6ed6e2f6.css" integrity="sha256-lzk9VDJzzXwveu/FaLFydUUCxTYFDYYMPOIU3W7W4vY="
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7d95319e658cb608e122b08564dd5830b91e3e3318c1e834abb540669a9c5d96.css" integrity="sha256-fZUxnmWMtgjhIrCFZN1YMLkePjMYweg0q7VAZpqcXZY="
     rel="preload stylesheet" as="style">
 <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16"
@@ -209,6 +209,23 @@
 </header>
 
 <article class="post-entry tag-entry"> 
+
+
+
+  <header class="entry-header">
+    <h2>How to disable a D-Bus service
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>In some situations, you might want to disable a D-Bus service. One of those is, for example, when you use Dunst (a notification daemon) with a window manager. Still, you don’t want it to replace the notification daemon from your desktop environment.
+To disable it, you just need to add .disabled to the end of the target file name. Example:
+sudo mv /usr/share/dbus-1/services/org.knopwob.dunst.service /usr/share/dbus-1/services/org.knopwob.dunst.service.disabled In the above example, Dunst will no longer replace Plasma Desktop notification daemon when using that amazing desktop environment, and all will be good with the world again....</p>
+  </section>
+  <footer class="entry-footer"><span title='2021-09-16 00:00:00 +0000 UTC'>setembro 16, 2021</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
+  <a class="entry-link" aria-label="post link to How to disable a D-Bus service" href="https://blog.brunomiguel.net/post/how-to-disable-a-d-bus-service/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
 <figure class="entry-cover">
     
     <img src="https://blog.brunomiguel.net/post/sao-patricio/images/sao_patricio.jpg">
@@ -260,25 +277,6 @@ Another important change was the addition of several new packages, as usual. If 
   </section>
   <footer class="entry-footer"><span title='2021-01-24 00:00:00 +0000 UTC'>janeiro 24, 2021</span>&nbsp;·&nbsp;10 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to Some changes to userrepository" href="https://blog.brunomiguel.net/post/some-changes-to-userrepository/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-    
-    <img src="https://blog.brunomiguel.net/post/my-emacs-experience-so-far/images/nano-emacs.png">
-</figure>
-
-
-  <header class="entry-header">
-    <h2>My Emacs experience so far
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Since my last blog post about Emacs (and the last post I published here), I’ve tested some Starter Kits. All of them were genuinely nice and came with a lot of tools included, but most of these tools were things I didn’t need.
-Not a long time after that, I found a Reddit post about nano-emacs. Unlike the other Starter Kits, this one is plain and incredibly beautiful. It even got better recently with the addition of the writer-mode minor mode for org-mode, as you can see in the featured image on this post....</p>
-  </section>
-  <footer class="entry-footer"><span title='2021-01-13 00:00:00 +0000 UTC'>janeiro 13, 2021</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
-  <a class="entry-link" aria-label="post link to My Emacs experience so far" href="https://blog.brunomiguel.net/post/my-emacs-experience-so-far/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
