@@ -3,20 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/arch-linux/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/1500-pacotes/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/endeavouros/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/open-source/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/reposit%C3%B3rio/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/software-livre/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/userrepository/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/quase-1500-pacotes/</loc>
     <lastmod>2022-03-20T05:00:00+01:00</lastmod>
@@ -27,16 +48,7 @@
     <loc>https://blog.brunomiguel.net/tags/pacotes/</loc>
     <lastmod>2022-03-20T05:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/software/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
-    <lastmod>2022-03-20T05:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/userrepository/</loc>
     <lastmod>2022-03-20T05:00:00+01:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/blog/</loc>
@@ -111,13 +123,7 @@
     <loc>https://blog.brunomiguel.net/tags/git/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/open-source/</loc>
-    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/resolver/</loc>
-    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/software-livre/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/unbound/</loc>

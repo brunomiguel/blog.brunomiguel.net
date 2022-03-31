@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cheguei aos 1500 pacotes</title>
+      <link>https://blog.brunomiguel.net/post/1500-pacotes/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/1500-pacotes/</guid>
+      <description>Atingi mais um objetivo do Userrepository.eu: chegar aos 1500 pacotes!</description>
+    </item>
+    
     <item>
       <title>Balanço da utilização do AdGuardHome</title>
       <link>https://blog.brunomiguel.net/post/balanco-uso-adguardhome/</link>
