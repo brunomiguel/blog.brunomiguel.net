@@ -211,6 +211,45 @@
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
     
+    <img src="https://blog.brunomiguel.net/post/adguard/images/adguardhome.png">
+</figure>
+
+
+  <header class="entry-header">
+    <h2>Nova versão do AdGuardHome e listas externas de bloqueios
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Há mais de um ano que uso o unbound como DNS resolver local. Esta é uma boa forma de poder abstrair a gestão dos servidores de DNS usados no meu portátil, sem ter de passar a vida a editar o /etc/resolv.conf ou a lutar contra aplicações como o systemd-resolvconf e o network-manager.
+A configuração ativa que tenho no unbound é a que se segue:
+server:access-control:127.0.0.0/8 allowaccess-control:::1/128 allowinterface:::interface:0.0.0.0do-ip4:yesdo-ip6:yesdo-udp:yesdo-tcp:yesaggressive-nsec:yescache-max-ttl:14400cache-min-ttl:300hide-identity:yeshide-version:yesminimal-responses:yesprefetch:yesqname-minimisation:yesrrset-roundrobin:yesuse-caps-for-id:yesverbosity:0tls-upstream:yestls-cert-bundle:/etc/ssl/certs/ca-certificates.crtforward-zone:name:&#34;.&#34;forward-tls-upstream:yesforward-first:no# do NOT send direct# Quad 9 DNS - defaultforward-addr:9....</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-02-24 00:00:00 +0000 UTC'>fevereiro 24, 2022</span>&nbsp;·&nbsp;4 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
+  <a class="entry-link" aria-label="post link to Nova versão do AdGuardHome e listas externas de bloqueios" href="https://blog.brunomiguel.net/post/adguard/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+    
+    <img src="https://blog.brunomiguel.net/post/repositorio-cara-lavada/images/new-look.png">
+</figure>
+
+
+  <header class="entry-header">
+    <h2>Repositório com cara lavada
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>O meu repositório de software para Arch Linux e distribuições compatíveis, Userrepository, levou umas alterações cosméticas para melhorar aquele aspeto cru normal de um open dir. Agora, quem acede a ele através do browser vai ver um template HTML todo catita com a listagem dos pacotes e uma link para o blog do repositório.
+Esta alteração não tem qualquer impacto na forma como instalas os pacotes a partir de lá. Eles continuam à distância de um pacman -Syu como estavam anteriormente....</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-02-18 00:00:00 +0000 UTC'>fevereiro 18, 2022</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
+  <a class="entry-link" aria-label="post link to Repositório com cara lavada" href="https://blog.brunomiguel.net/post/repositorio-cara-lavada/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+    
     <img src="https://blog.brunomiguel.net/post/pagina-404/images/404.png">
 </figure>
 
@@ -243,43 +282,6 @@
   <footer class="entry-footer"><span title='2022-02-10 00:00:00 +0000 UTC'>fevereiro 10, 2022</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to Web stalking/tracking" href="https://blog.brunomiguel.net/post/web-stalking-tracking/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-    
-    <img src="https://blog.brunomiguel.net/post/a-testar-o-codeberg/images/screenshot-codeberg.png">
-</figure>
-
-
-  <header class="entry-header">
-    <h2>A testar o Codeberg como alternativa ao Github
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>O Github é o de facto standart para alojar repositórios Git e o serviço que tenho usado até agora. No entanto, desde que a Microsoft adquiriu a plataforma em 2018 tenho ponderado se valerá a pena mudar para outro serviço idêntico e mais Free Software friendly. Esta noite, aproveitei o facto de não conseguir dormir para finalmente testar uma alternativa: o Codeberg.
-O Codeberg é como o Github, um serviço para alojar repositórios Git, com funcionalidades muito idênticas, mas assenta numa base comunitária....</p>
-  </section>
-  <footer class="entry-footer"><span title='2022-02-08 00:00:00 +0000 UTC'>fevereiro 8, 2022</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
-  <a class="entry-link" aria-label="post link to A testar o Codeberg como alternativa ao Github" href="https://blog.brunomiguel.net/post/a-testar-o-codeberg/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-    
-    <img src="https://blog.brunomiguel.net/post/logseq/images/screenshot.jpg">
-</figure>
-
-
-  <header class="entry-header">
-    <h2>Logseq é a melhor coisa a seguir ao pão com dentes
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>A procura de uma ferramenta que me permita organizar notas, pensamentos rápidos, estudos, links, etc, de uma forma acessível e facilmente pesquisável é algo que faço há mais tempo do que quero admitir. Testei uma imensidão de aplicações durante esse tempo mas nunca nenhuma encaixou bem no que pretendia. Dois dos grandes problemas das ferramentas que testei eram a falta de interligação entre os conteúdos inseridos e a facilidade com que esses mesmos conteúdos ficavam esquecidos no “fundo do arquivo”....</p>
-  </section>
-  <footer class="entry-footer"><span title='2022-02-05 00:00:00 +0000 UTC'>fevereiro 5, 2022</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
-  <a class="entry-link" aria-label="post link to Logseq é a melhor coisa a seguir ao pão com dentes" href="https://blog.brunomiguel.net/post/logseq/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://blog.brunomiguel.net/categories/geekices/page/2/">« Página Anterior</a>
@@ -289,7 +291,8 @@ O Codeberg é como o Github, um serviço para alojar repositórios Git, com func
     </main>
     
 <footer class="footer">
-    <span><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a> - 2022</span><br/>
+    <span><a rel="me" href="https://masto.pt/@brunomiguel">I'm on the Fediverse</a></span><br/>
+    <span> <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a> - 2022</span><br/>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>, a customized

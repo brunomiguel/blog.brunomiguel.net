@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/adguardhome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/adguardhome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nova versão do AdGuardHome e listas externas de bloqueios</title>
+      <link>https://blog.brunomiguel.net/post/adguard-third-party-lists/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/adguard-third-party-lists/</guid>
+      <description>A compilação da nova versão teve uns contratempos mas foi uma oportunidade para adicionar mais listas de bloqueio</description>
+    </item>
+    
     <item>
       <title>Balanço da utilização do AdGuardHome</title>
       <link>https://blog.brunomiguel.net/post/balanco-uso-adguardhome/</link>
@@ -31,12 +40,12 @@
     </item>
     
     <item>
-      <title>Instalar o AdGuardHome</title>
+      <title>Nova versão do AdGuardHome e listas externas de bloqueios</title>
       <link>https://blog.brunomiguel.net/post/adguard/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/post/adguard/</guid>
-      <description>O AdGuardHome é um DNS resolver local capaz de funcionar também como adblocker e servidor DHCP</description>
+      <description>A compilação da nova versão teve uns contratempos mas foi uma oportunidade para adicionar mais listas de bloqueio</description>
     </item>
     
   </channel>

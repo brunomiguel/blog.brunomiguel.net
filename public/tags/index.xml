@@ -11,7 +11,151 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>curiosidades</title>
+      <link>https://blog.brunomiguel.net/tags/curiosidades/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/curiosidades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flauta</title>
+      <link>https://blog.brunomiguel.net/tags/flauta/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/flauta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>música</title>
+      <link>https://blog.brunomiguel.net/tags/m%C3%BAsica/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/m%C3%BAsica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicolas Bras</title>
+      <link>https://blog.brunomiguel.net/tags/nicolas-bras/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/nicolas-bras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pvc</title>
+      <link>https://blog.brunomiguel.net/tags/pvc/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/pvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adblocker</title>
+      <link>https://blog.brunomiguel.net/tags/adblocker/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/adblocker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdGuardHome</title>
+      <link>https://blog.brunomiguel.net/tags/adguardhome/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/adguardhome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Código Fonte</title>
+      <link>https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS</title>
+      <link>https://blog.brunomiguel.net/tags/dns/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS resolver</title>
+      <link>https://blog.brunomiguel.net/tags/dns-resolver/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/dns-resolver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://blog.brunomiguel.net/tags/git/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-Source</title>
+      <link>https://blog.brunomiguel.net/tags/open-source/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resolver</title>
+      <link>https://blog.brunomiguel.net/tags/resolver/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/resolver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Livre</title>
+      <link>https://blog.brunomiguel.net/tags/software-livre/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/software-livre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracker</title>
+      <link>https://blog.brunomiguel.net/tags/tracker/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/tracker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unbound</title>
+      <link>https://blog.brunomiguel.net/tags/unbound/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/unbound/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Arch Linux</title>
       <link>https://blog.brunomiguel.net/tags/arch-linux/</link>
@@ -31,29 +175,11 @@
     </item>
     
     <item>
-      <title>Open-Source</title>
-      <link>https://blog.brunomiguel.net/tags/open-source/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Repositório</title>
       <link>https://blog.brunomiguel.net/tags/reposit%C3%B3rio/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/reposit%C3%B3rio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Livre</title>
-      <link>https://blog.brunomiguel.net/tags/software-livre/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/software-livre/</guid>
       <description></description>
     </item>
     
@@ -234,69 +360,6 @@
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AdGuardHome</title>
-      <link>https://blog.brunomiguel.net/tags/adguardhome/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/adguardhome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Código Fonte</title>
-      <link>https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/c%C3%B3digo-fonte/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DNS</title>
-      <link>https://blog.brunomiguel.net/tags/dns/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/dns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DNS resolver</title>
-      <link>https://blog.brunomiguel.net/tags/dns-resolver/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/dns-resolver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://blog.brunomiguel.net/tags/git/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>resolver</title>
-      <link>https://blog.brunomiguel.net/tags/resolver/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/resolver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unbound</title>
-      <link>https://blog.brunomiguel.net/tags/unbound/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/unbound/</guid>
       <description></description>
     </item>
     
@@ -1998,15 +2061,6 @@
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/construcao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>curiosidades</title>
-      <link>https://blog.brunomiguel.net/tags/curiosidades/</link>
-      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/curiosidades/</guid>
       <description></description>
     </item>
     
