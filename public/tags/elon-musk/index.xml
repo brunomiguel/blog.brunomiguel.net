@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>elon musk on .blog</title>
+    <link>https://blog.brunomiguel.net/tags/elon-musk/</link>
+    <description>Recent content in elon musk on .blog</description>
+    <image>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Thu, 28 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/elon-musk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A compra do Twitter e o meu regresso ao Fediverso</title>
+      <link>https://blog.brunomiguel.net/post/musk-twitter-fediverso/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/musk-twitter-fediverso/</guid>
+      <description>O histórico do Elon Musk poderá tornar o Twitter num local bem pior se a compra da rede social for avante. Por isso, voltei a estar ativo no Fediverso, um local muito mais orgânico do que o Twitter alguma vez poderá ser</description>
+    </item>
+    
+  </channel>
+</rss>

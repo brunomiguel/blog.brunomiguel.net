@@ -3,11 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
+    <loc>https://blog.brunomiguel.net/post/musk-twitter-fediverso/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/elon-musk/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/fediverso/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/jacobin/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/redes-sociais/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/reuters/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/twitter/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/curiosidades/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
@@ -18,22 +48,13 @@
     <loc>https://blog.brunomiguel.net/post/flauta-pvc/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/m%C3%BAsica/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/nicolas-bras/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/pvc/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/adblocker/</loc>
@@ -246,10 +267,10 @@
     <loc>https://blog.brunomiguel.net/tags/organiza%C3%A7%C3%A3o/</loc>
     <lastmod>2022-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</loc>
+    <loc>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</loc>
+    <loc>https://blog.brunomiguel.net/post/migrar-wordpress-hugo/</loc>
     <lastmod>2022-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/about/</loc>
@@ -405,9 +426,6 @@
     <loc>https://blog.brunomiguel.net/post/sao-patricio/</loc>
     <lastmod>2021-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/twitter/</loc>
-    <lastmod>2021-06-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/cenas/</loc>
     <lastmod>2021-06-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -507,10 +525,10 @@
     <loc>https://blog.brunomiguel.net/tags/qml/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/comissao-europeia/</loc>
+    <loc>https://blog.brunomiguel.net/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</loc>
     <lastmod>2020-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/comissao-europeia-prepara-possivel-ataque-as-comunicacoes-encriptadas/</loc>
+    <loc>https://blog.brunomiguel.net/tags/comissao-europeia/</loc>
     <lastmod>2020-09-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/encriptacao/</loc>
@@ -546,10 +564,10 @@
     <loc>https://blog.brunomiguel.net/post/um-sms-estranho-que-me-levou-a-um-endereco-que-copia-o-site-dos-ctt/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/coimbra/</loc>
+    <loc>https://blog.brunomiguel.net/tags/coimbra/</loc>
     <lastmod>2020-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/coimbra/</loc>
+    <loc>https://blog.brunomiguel.net/post/coimbra/</loc>
     <lastmod>2020-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/fotografia/</loc>
@@ -786,10 +804,10 @@
     <loc>https://blog.brunomiguel.net/tags/kvantum/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/lxqt/</loc>
+    <loc>https://blog.brunomiguel.net/tags/lxqt/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/lxqt/</loc>
+    <loc>https://blog.brunomiguel.net/post/lxqt/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/compulab/</loc>
@@ -870,9 +888,6 @@
     <loc>https://blog.brunomiguel.net/tags/facebook/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/redes-sociais/</loc>
-    <lastmod>2019-09-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/velho-do-restelo/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -909,13 +924,13 @@
     <loc>https://blog.brunomiguel.net/tags/kepler/</loc>
     <lastmod>2019-09-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.brunomiguel.net/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</loc>
+    <lastmod>2019-09-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.brunomiguel.net/tags/efeito-bolha/</loc>
     <lastmod>2019-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/humanidade/</loc>
-    <lastmod>2019-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/post/the-polarization-of-our-society-is-actually-part-of-the-business-model/</loc>
     <lastmod>2019-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/fm2019/</loc>
@@ -1089,6 +1104,9 @@
     <loc>https://blog.brunomiguel.net/tags/brexit/</loc>
     <lastmod>2019-01-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.brunomiguel.net/post/fugas-pagam-as-contas/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.brunomiguel.net/tags/fugas/</loc>
     <lastmod>2019-01-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -1105,9 +1123,6 @@
     <lastmod>2019-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/sticker-mule/</loc>
-    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/post/fugas-pagam-as-contas/</loc>
     <lastmod>2019-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/big-macs-e-religiao/</loc>
@@ -1236,10 +1251,10 @@
     <loc>https://blog.brunomiguel.net/tags/windows-update/</loc>
     <lastmod>2018-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/depression/</loc>
+    <loc>https://blog.brunomiguel.net/tags/depression/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/depression/</loc>
+    <loc>https://blog.brunomiguel.net/post/depression/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/health/</loc>
@@ -1398,10 +1413,10 @@
     <loc>https://blog.brunomiguel.net/post/kalashnikov-unveils-a-retro-styled-electric-car/</loc>
     <lastmod>2018-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/disenchantment/</loc>
+    <loc>https://blog.brunomiguel.net/tags/disenchantment/</loc>
     <lastmod>2018-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/disenchantment/</loc>
+    <loc>https://blog.brunomiguel.net/post/disenchantment/</loc>
     <lastmod>2018-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/game-of-thrones/</loc>
