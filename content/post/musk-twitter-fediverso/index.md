@@ -36,7 +36,7 @@ Por outro lado, é bem possível que o negócio não vá avante, como [noticiou]
 
 É por isto e não só que eu fico com alguma preocupação em relação ao futuro da rede social. Ando por lá há quase 16 anos e vi o _Twitter_ passar por várias fases, mas nunca nenhuma me fez ponderar tanto a minha continuidade lá como esta.
 
-O mais provável é que me mantenha por lá, mas vou fazer para estar mais ativo [Fediverso](https://masto.pt/web/@brunomiguel), através do [Masto.pt](https://masto.pt), uma das instâncias nacionais. Este tipo de rede social é muito mais orgânico do que o _Twitter_ alguma vez poderá ser e não tens algoritmos a forçar-te a manter o engajamento a todo o custo.
+O mais provável é que me mantenha por lá, mas vou fazer para estar mais ativo no [Fediverso](https://masto.pt/web/@brunomiguel), através do [Masto.pt](https://masto.pt), uma das instâncias nacionais. Este tipo de rede social é muito mais orgânico do que o _Twitter_ alguma vez poderá ser e não tens algoritmos a forçar-te a manter o engajamento a todo o custo.
 
 Se não souberes o que é o Fediverso, lê a [página da Wikipédia lusófona](https://pt.wikipedia.org/wiki/Fediverse) dedicada ao conceito.
 
