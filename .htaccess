@@ -31,3 +31,5 @@
   ExpiresByType application/pdf "access plus 1 year"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule> 
+
+Header set Permissions-Policy "interest-cohort=()"
