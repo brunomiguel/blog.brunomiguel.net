@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>utilitários on .blog</title>
+    <link>https://blog.brunomiguel.net/tags/utilit%C3%A1rios/</link>
+    <description>Recent content in utilitários on .blog</description>
+    <image>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/utilit%C3%A1rios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artem - converte imagens para ascii no terminal</title>
+      <link>https://blog.brunomiguel.net/post/artem/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/artem/</guid>
+      <description>O Artem é um pequeno utilitário, escrito em rust, que permite converter imagens em ascii</description>
+    </item>
+    
+  </channel>
+</rss>
