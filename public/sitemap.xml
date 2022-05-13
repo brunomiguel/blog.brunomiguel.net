@@ -3,8 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/cenas/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/leituras/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/m%C3%A9todo-cient%C3%ADfico/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/problemas-propria-pesquisa/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/pesquisa/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/vi%C3%A9s/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/artem/</loc>
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
@@ -15,9 +42,6 @@
     <loc>https://blog.brunomiguel.net/tags/ascii/</loc>
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/emptty/</loc>
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -25,12 +49,6 @@
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/linha-de-comandos/</loc>
-    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/terminal/</loc>
@@ -256,9 +274,6 @@
     <lastmod>2022-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/acessibilidade/</loc>
-    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/categories/cenas/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/covid-19/</loc>

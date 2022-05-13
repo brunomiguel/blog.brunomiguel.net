@@ -11,7 +11,7 @@
 <meta name="author" content="Bruno Miguel">
 <link rel="canonical"
     href="https://blog.brunomiguel.net/tags/arch-linux/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.79d45abdab2ba36cfa0e1b061e5deae232e32e1e20c42bfbdd12238137a7645c.css" integrity="sha256-edRavasro2z6DhsGHl3q4jLjLh4gxCv73RIjgTenZFw="
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.1b875647e441a9cb4f649fc226f068873d3a8abb6c4b072be76e53ffa4b5ef4e.css" integrity="sha256-G4dWR&#43;RBqctPZJ/CJvBohz06irtsSwcr525T/6S1704="
     rel="preload stylesheet" as="style">
 <link rel="icon" href="https://blog.brunomiguel.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16"
@@ -205,7 +205,9 @@
 </header>
 <main class="main"> 
 <header class="page-header">
-  <h1>Arch Linux</h1>
+  <h1>
+    Arch Linux
+  </h1>
 </header>
 
 <article class="post-entry tag-entry"> 
@@ -216,9 +218,9 @@
     <h2>Suporte para o Cartão de Cidadão no userrepository.eu
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Ainda hoje, no máximo amanhã, devo disponibilizar a aplicação para autenticação nas plataformas do Estado com o Cartão de Cidadão. Assim que estiver disponível, basta usares o comando sudo pacman -Syyuv autenticacao-gov-pt para ser feita a instalação. Não te esqueças de adicionar o repositório primeiro, caso ainda não o tenhas feito. Fica atent@.</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2020-04-07 00:00:00 +0000 UTC'>abril 7, 2020</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to Suporte para o Cartão de Cidadão no userrepository.eu" href="https://blog.brunomiguel.net/post/suporte-para-o-cartao-de-cidadao-no-userrepository-eu/"></a>
 </article>
@@ -234,10 +236,10 @@
     <h2>Updates to Jarvis, my Arch buildbot
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>My Arch buildbot, Jarvis, received an update today in the options logic. Now, it can receive an argument in the add (-a) and delete (-d) options, so the user can specify the package to add or delete.
 The option to add a package, for now, only works for AUR. If you want to add a package that’s not in AUR, you’ll need to manually add the submodule. In the future, Jarvis will allow you to use a git repository with a PKGBUILD file....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-12-04 00:00:00 +0000 UTC'>dezembro 4, 2019</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to Updates to Jarvis, my Arch buildbot" href="https://blog.brunomiguel.net/post/updates-to-jarvis-my-arch-buildbot/"></a>
 </article>
@@ -253,11 +255,11 @@ The option to add a package, for now, only works for AUR. If you want to add a p
     <h2>First own package on userrepository.eu
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I’ve finally created my first package for Arch Linux on my repository. It’s for a GTK web browser named Eoli and it builds from the master git branch.
 Here’s the PKGBUILD at the time of writing:
 # Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=“Simple GTK web browser for GNOME” arch=(‘x86_64’) url=“https://wiki....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-11-13 00:00:00 +0000 UTC'>novembro 13, 2019</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to First own package on userrepository.eu" href="https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/"></a>
 </article>
@@ -270,11 +272,11 @@ Here’s the PKGBUILD at the time of writing:
     <h2>Metapackage for a personal installation of Arch Linux and Arch-based distributions
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>I’ve been using Arch or Arch-based distributions for over a year now. In this time testing a few of them, I’ve always lacked a simple and logical way of installing the same “essential” software. To tackle this, I’ve created a metapackage with all this software and this is what I’ve got so far:
 # Maintainer: Bruno Miguel https://twitter.com/brunomiguel
 pkgname=‘bruno-essentials’ pkgdesc=“A metapackage for some packages I find essential. Requires userrepository.eu repo” pkgver=‘0....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-10-17 00:00:00 +0000 UTC'>outubro 17, 2019</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to Metapackage for a personal installation of Arch Linux and Arch-based distributions" href="https://blog.brunomiguel.net/post/metapackage-arch-linux/"></a>
 </article>

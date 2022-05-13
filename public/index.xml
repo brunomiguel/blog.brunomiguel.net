@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Os problemas de fazer a própria pesquisa</title>
+      <link>https://blog.brunomiguel.net/post/problemas-propria-pesquisa/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/problemas-propria-pesquisa/</guid>
+      <description>Fazer a própria pesquisa sobre um assunto é bom, mas não nos podemos deixar levar pelos nossos viés</description>
+    </item>
+    
     <item>
       <title>Artem - converte imagens para ascii no terminal</title>
       <link>https://blog.brunomiguel.net/post/artem/</link>
