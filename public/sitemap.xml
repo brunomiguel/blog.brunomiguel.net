@@ -3,11 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
+    <loc>https://blog.brunomiguel.net/tags/arm-cortex-m0&#43;/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/bioqu%C3%ADmica/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/c%C3%A9lula-fotovoltaica/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/ci%C3%AAncia/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/investiga%C3%A7%C3%A3o/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/celula-fotovoltaica-algas/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/iot/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/l%C3%ADtio/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/soc/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/universidade-de-cambridge/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/cenas/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
@@ -24,12 +63,6 @@
     <loc>https://blog.brunomiguel.net/tags/pesquisa/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/vi%C3%A9s/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -43,9 +76,6 @@
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/emptty/</loc>
-    <lastmod>2022-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
     <lastmod>2022-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/linha-de-comandos/</loc>
