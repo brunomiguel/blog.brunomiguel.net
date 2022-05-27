@@ -11,7 +11,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ampere computing</title>
+      <link>https://blog.brunomiguel.net/tags/ampere-computing/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/ampere-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://blog.brunomiguel.net/tags/git/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gitea</title>
+      <link>https://blog.brunomiguel.net/tags/gitea/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/gitea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google search</title>
+      <link>https://blog.brunomiguel.net/tags/google-search/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/google-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motor de busca</title>
+      <link>https://blog.brunomiguel.net/tags/motor-de-busca/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/motor-de-busca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oracle cloud</title>
+      <link>https://blog.brunomiguel.net/tags/oracle-cloud/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/oracle-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pastebin</title>
+      <link>https://blog.brunomiguel.net/tags/pastebin/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/pastebin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sysadmin</title>
+      <link>https://blog.brunomiguel.net/tags/sysadmin/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vps</title>
+      <link>https://blog.brunomiguel.net/tags/vps/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/vps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whoogle</title>
+      <link>https://blog.brunomiguel.net/tags/whoogle/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/whoogle/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>arm cortex m0&#43;</title>
       <link>https://blog.brunomiguel.net/tags/arm-cortex-m0&#43;/</link>
@@ -333,15 +423,6 @@
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/dns-resolver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://blog.brunomiguel.net/tags/git/</link>
-      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/git/</guid>
       <description></description>
     </item>
     
@@ -2376,15 +2457,6 @@
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/arcan1s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vps</title>
-      <link>https://blog.brunomiguel.net/tags/vps/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/vps/</guid>
       <description></description>
     </item>
     
