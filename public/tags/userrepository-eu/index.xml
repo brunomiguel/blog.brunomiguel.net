@@ -101,7 +101,7 @@ If you&amp;rsquo;re reading this, you&amp;rsquo;ll probably know that Arch Linux
       <guid>https://blog.brunomiguel.net/post/debugging-build-times/</guid>
       <description>Lately, the repository has been taking +10 hours to compile all the packages. I think that&amp;rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
-   Pkg Hours Minutes     .</description>
+Pkg Hours Minutes .</description>
     </item>
     
     <item>
@@ -131,7 +131,7 @@ The option to add a package, for now, only works for AUR. If you want to add a p
       <guid>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</guid>
       <description>Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&amp;rsquo;ve finally created my first package for Arch Linux on my repository. It&amp;rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
 Here&amp;rsquo;s the PKGBUILD at the time of writing:
-# Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>
+# Maintainer: Bruno Miguel ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>
     </item>
     
     <item>

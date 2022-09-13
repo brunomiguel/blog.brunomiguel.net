@@ -20,7 +20,7 @@
       <guid>https://blog.brunomiguel.net/post/debugging-build-times/</guid>
       <description>Lately, the repository has been taking +10 hours to compile all the packages. I think that&amp;rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
-   Pkg Hours Minutes     .</description>
+Pkg Hours Minutes .</description>
     </item>
     
     <item>

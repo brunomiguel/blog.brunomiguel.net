@@ -21,8 +21,7 @@
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:
-wg genkey | tee laptop-private.key | wg pubkey &amp;gt; laptop-public.key wg genkey | tee server-private.key | wg pubkey &amp;gt; server-public.key
-The first line is for the public and private keys of the client, named laptop because, well, it&amp;rsquo;ll be used on a laptop.</description>
+wg genkey | tee laptop-private.key | wg pubkey &amp;gt; laptop-public.key wg genkey | tee server-private.key | wg pubkey &amp;gt; server-public.key</description>
     </item>
     
     <item>

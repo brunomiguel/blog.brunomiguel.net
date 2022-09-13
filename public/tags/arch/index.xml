@@ -41,8 +41,7 @@ First on the &amp;ldquo;agenda&amp;rdquo;, I experimented with increasing the zs
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:
-wg genkey | tee laptop-private.key | wg pubkey &amp;gt; laptop-public.key wg genkey | tee server-private.key | wg pubkey &amp;gt; server-public.key
-The first line is for the public and private keys of the client, named laptop because, well, it&amp;rsquo;ll be used on a laptop.</description>
+wg genkey | tee laptop-private.key | wg pubkey &amp;gt; laptop-public.key wg genkey | tee server-private.key | wg pubkey &amp;gt; server-public.key</description>
     </item>
     
     <item>
@@ -74,7 +73,7 @@ pkgname=&amp;lsquo;bruno-essentials&amp;rsquo; pkgdesc=&amp;ldquo;A metapackage 
       <guid>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</guid>
       <description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
 Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the chance to list all packages currently available at the time of writing:
- acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
+acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
     </item>
     
     <item>

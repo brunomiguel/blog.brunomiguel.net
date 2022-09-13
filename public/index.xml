@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Fri, 27 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The future is not bright</title>
+      <link>https://blog.brunomiguel.net/post/future-not-bright/</link>
+      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/future-not-bright/</guid>
+      <description>E se é, engana muito bem!</description>
+    </item>
+    
     <item>
       <title>Gitea e Whoogle</title>
       <link>https://blog.brunomiguel.net/post/gitea-whoogle/</link>
@@ -227,7 +236,7 @@ Esta dica aplica-se a EndeavourOS, Arch Linux e outras distribuições baseadas 
       
       <guid>https://blog.brunomiguel.net/post/o-meu-top-de-2021-no-spotify/</guid>
       <description>Aqui está o meu top musical de 2021 no Spotify. Ainda só o tinha partilhado nas redes sociais, mas aproveito também para o partilhar aqui no blog. Espero que gostes.
-  O meu top 2021
+O meu top 2021
 ps: a primeira música também te dá arrepios dos bons?</description>
     </item>
     
@@ -514,7 +523,7 @@ Quando vi a mensagem, reparei que o endereço é estranho e não é um que eu te
       <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/post/coimbra/</guid>
-      <description>Estas fotografias estão licenciadas com a CC-BY-SA-4.0 </description>
+      <description> Estas fotografias estão licenciadas com a CC-BY-SA-4.0 </description>
     </item>
     
     <item>
@@ -554,7 +563,7 @@ No dia 21 de junho, no entanto, um dos developers do uBlock Origin abriu um bug 
       
       <guid>https://blog.brunomiguel.net/post/my-tools-of-trade-in-a-linux-system/</guid>
       <description>With no special order:
-Desktop environments and/or window managers  plasma (to me, the best desktop environment for any free software operating system) i3wm (paired with picom [https://github.com/ibhagwan/picom] for transparency, blur and rounded corners)  Terminal emulators  konsole (I&amp;rsquo;ve grown very fond if this terminal emulator since I switched to the plasma desktop, and it has blur for the blings ;)) urxvt-unicode (with tabbedex, so I can have tabs with it)  Text editors  micro (my favorite and because it supports gui keybinds, although it&amp;rsquo;s a cli text editor) nano (simple and super useful, available by default in a lot of linux distributions) vim (I have a custom mode for writing markdown text) gedit (for when I need a text editor with a gui)  Note taking  qownnotes  Browsers  firefox (my favorite for around a decade and an half.</description>
+Desktop environments and/or window managers plasma (to me, the best desktop environment for any free software operating system) i3wm (paired with picom [https://github.com/ibhagwan/picom] for transparency, blur and rounded corners) Terminal emulators konsole (I&amp;rsquo;ve grown very fond if this terminal emulator since I switched to the plasma desktop, and it has blur for the blings ;)) urxvt-unicode (with tabbedex, so I can have tabs with it) Text editors micro (my favorite and because it supports gui keybinds, although it&amp;rsquo;s a cli text editor) nano (simple and super useful, available by default in a lot of linux distributions) vim (I have a custom mode for writing markdown text) gedit (for when I need a text editor with a gui) Note taking qownnotes Browsers firefox (my favorite for around a decade and an half.</description>
     </item>
     
     <item>
@@ -603,7 +612,7 @@ If you&amp;rsquo;re reading this, you&amp;rsquo;ll probably know that Arch Linux
       <guid>https://blog.brunomiguel.net/post/improving-boot-time/</guid>
       <description>Today, I&amp;rsquo;ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than &amp;ldquo;Why not?&amp;rdquo;.
 The first thing I made was disabling or masking the following systemd services:
- systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&amp;rsquo;s bluetooth) blueman-mechanism disabled  With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible.</description>
+systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop&amp;rsquo;s bluetooth) blueman-mechanism disabled With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible.</description>
     </item>
     
     <item>
@@ -634,7 +643,7 @@ Andei uns dias de volta do alsa ou do pulseaudio, porque pensava que o problema 
       <guid>https://blog.brunomiguel.net/post/debugging-build-times/</guid>
       <description>Lately, the repository has been taking +10 hours to compile all the packages. I think that&amp;rsquo;s a lot for a little more than 250 packages, most of them small utilities and/or _-bin_ files from AUR, built in a DEV1-L (4 cores, 8 Gb RAM) virtual machine from Scaleway.
 After investigating the matter, I found out that 12 of the packages took four hours and sixteen minutes to build.
-   Pkg Hours Minutes     .</description>
+Pkg Hours Minutes .</description>
     </item>
     
     <item>
@@ -663,7 +672,7 @@ Today, I&amp;rsquo;ve switched to Boinc with the Rosetta@home project. This chan
       
       <guid>https://blog.brunomiguel.net/post/pao-de-manteiga-de-amendoim/</guid>
       <description>Quando a escassez de fermento de padeiro terminar, tenho de experimentar esta receita de pão de manteiga de amendoim.
-Ingredientes  2 canecas de farinha (o post no reddit menciona &amp;ldquo;all purpose flour&amp;rdquo;. será que é tipo 55?) 1/4 caneca de açúcar 4 colheres de chá de fermento (será de padeiro?) 1/2 colher de chá de sal 1 1/3 caneca de leite 1/2 caneca de manteiga de amendoim  Preparação Pré-aquecer o forno a 160ºC (a receita menciona 327ºF, que corresponde a 162.</description>
+Ingredientes 2 canecas de farinha (o post no reddit menciona &amp;ldquo;all purpose flour&amp;rdquo;. será que é tipo 55?) 1/4 caneca de açúcar 4 colheres de chá de fermento (será de padeiro?) 1/2 colher de chá de sal 1 1/3 caneca de leite 1/2 caneca de manteiga de amendoim Preparação Pré-aquecer o forno a 160ºC (a receita menciona 327ºF, que corresponde a 162.</description>
     </item>
     
     <item>
@@ -734,8 +743,7 @@ Imagem feita no Inkscape. Ficheiro original (svg)</description>
       <description>Install Wireguard I&amp;rsquo;m using a Debian virtual machine for the server. In Debian 10, you&amp;rsquo;ll need to install the following two packages:
 apt install wireguard-dkms wireguard-tools
 Set up keys First, navigate to /etc/wireguard (If not created, run mkdir /etc/wireguard as root) and then run the following commands as root:
-wg genkey | tee laptop-private.key | wg pubkey &amp;gt; laptop-public.key wg genkey | tee server-private.key | wg pubkey &amp;gt; server-public.key
-The first line is for the public and private keys of the client, named laptop because, well, it&amp;rsquo;ll be used on a laptop.</description>
+wg genkey | tee laptop-private.key | wg pubkey &amp;gt; laptop-public.key wg genkey | tee server-private.key | wg pubkey &amp;gt; server-public.key</description>
     </item>
     
     <item>
@@ -812,7 +820,7 @@ Uma análise inicial levou-me a pensar que o culpado era um script relacionado c
       <guid>https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/</guid>
       <description>Until now, userrepository.eu only used software from AUR. Today, to get me distracted from the flu and a respiratory infection I got a few days ago, I&amp;rsquo;ve finally created my first package for Arch Linux on my repository. It&amp;rsquo;s for a GTK web browser named Eoli and it builds from the master git branch.
 Here&amp;rsquo;s the PKGBUILD at the time of writing:
-# Maintainer: Bruno Miguel  ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>
+# Maintainer: Bruno Miguel ​ pkgname=eolie-git _gitname=eolie pkgver=da1899ff pkgrel=1 pkgdesc=&amp;ldquo;Simple GTK web browser for GNOME&amp;rdquo; arch=(&amp;lsquo;x86_64&amp;rsquo;) url=&amp;ldquo;https://wiki.</description>
     </item>
     
     <item>
@@ -852,7 +860,7 @@ pkgname=&amp;lsquo;bruno-essentials&amp;rsquo; pkgdesc=&amp;ldquo;A metapackage 
       <guid>https://blog.brunomiguel.net/post/userrepository-now-on-arch-wiki/</guid>
       <description>Thanks to the suggestion made by &amp;lsquo;guser&amp;rsquo;, I&amp;rsquo;ve added my repository to the Arch Wiki, in the non-signed section. I hope Arch Linux users may find it useful.
 Since I&amp;rsquo;m writing a post about userrepository, I&amp;rsquo;ll take the chance to list all packages currently available at the time of writing:
- acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
+acestream-engine acestream-launcher adwaita-qt adwm aerc android-messages-desktop archuseriso athenaeum-git atom-editor-bin axmud bindfs bindmap-git bitwarden-bin boostnote-bin bootiso boston-icon-theme-git brackets brave-dev-bin brightnessctl-git broot cava cawbird-git cht.</description>
     </item>
     
     <item>
@@ -921,7 +929,7 @@ Qual a cena de partilharem fotos, seja de uma viagem ou de o raio que o parta, e
       
       <guid>https://blog.brunomiguel.net/post/a-few-notes-about-opera-and-vivaldi/</guid>
       <description>These are a few notes about Opera and Vivaldi web browser&amp;rsquo;s when compared to Firefox, after using both for a week.
-The good  sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell)  The bad  resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both)  The following specs were used when testing both browsers:</description>
+The good sleek interface (both but I became more fond of Opera in this regard) functionality (both) some sort of adblocker included (both) integrated VPN in Opera (although I have mixed feelings about this, since it&amp;rsquo;s proprietary as far as I can tell) The bad resource usage bigger than Firefox in my system (both) slower than Firefox, using default configs (both) proprietary (both) The following specs were used when testing both browsers:</description>
     </item>
     
     <item>
@@ -979,7 +987,7 @@ While not bad, I don&amp;rsquo;t like what I think is an exaggerated use of blue
       <guid>https://blog.brunomiguel.net/post/foldinghome/</guid>
       <description>A couple of days ago, I decided to use my VPS spare CPU cycles to help out the Folding@home (F@h) project.
 If you haven&amp;rsquo;t heard of F@H, here is a description from their website:
- Folding@home (FAH or F@h) is a distributed computing project for disease research that simulates protein folding, computational drug design, and other types of molecular dynamics. As of today, the project is using the idle resources of personal computers owned by volunteers from all over the world.</description>
+Folding@home (FAH or F@h) is a distributed computing project for disease research that simulates protein folding, computational drug design, and other types of molecular dynamics. As of today, the project is using the idle resources of personal computers owned by volunteers from all over the world.</description>
     </item>
     
     <item>
@@ -1106,8 +1114,7 @@ Só tenho pena que o pack não incluísse um autocolante do projeto GNU. Teria s
       
       <guid>https://blog.brunomiguel.net/post/sobre-o-veto-do-brexit-no-parlamento-britanico/</guid>
       <description>Só me ocorre esta música dos Beatles:
- They all live in a sinking submarine, sinking submarine, sinking submarine.
- </description>
+They all live in a sinking submarine, sinking submarine, sinking submarine.</description>
     </item>
     
     <item>
@@ -1168,7 +1175,7 @@ Sabe mais no meu artigo no Espalha-Factos.</description>
       
       <guid>https://blog.brunomiguel.net/post/reading-the-the-darkening-age/</guid>
       <description>I&amp;rsquo;ve started reading The Darkening Age, a book by Catherine Nixey about the destruction Christianity brought to the other religions in its early days. This was a recommendation André Esteves made to me on Twitter and I&amp;rsquo;m glad he did it. I&amp;rsquo;ve just finished the prologue and was so blown by how it ends that I stopped reading it so I could publish this.
- Mere decapitation wasn’t enough. More blows fell, scalping Athena, striking the helmet from the goddess’s head, smashing it into pieces.</description>
+Mere decapitation wasn’t enough. More blows fell, scalping Athena, striking the helmet from the goddess’s head, smashing it into pieces.</description>
     </item>
     
     <item>
@@ -1198,7 +1205,7 @@ Jokes apart, tune in the NASA livestream if you want to watch the landing.</desc
       <guid>https://blog.brunomiguel.net/post/this-is-why-i-dont-give-a-fuck-about-influencers/</guid>
       <description>And why I avoid a product if it&amp;rsquo;s being &amp;ldquo;promoted&amp;rdquo; (advertised) by them.
 An excerpt from Wired:
- Lotti recalls the investor saying that if she wanted Lashify to succeed, quality didn’t matter, nor did customer satisfaction—only influencers. And they didn’t come cheap. She was told to expect to shell out $50,000 to $70,000 per influencer just to make her company’s name known, an insane amount for a new startup. There was no way around it; that’s just how things worked.</description>
+Lotti recalls the investor saying that if she wanted Lashify to succeed, quality didn’t matter, nor did customer satisfaction—only influencers. And they didn’t come cheap. She was told to expect to shell out $50,000 to $70,000 per influencer just to make her company’s name known, an insane amount for a new startup. There was no way around it; that’s just how things worked.</description>
     </item>
     
     <item>
@@ -1272,10 +1279,10 @@ This animation, by TED Ed, explains what clinical depression really is and how d
       
       <guid>https://blog.brunomiguel.net/post/planeta-de-idiotas/</guid>
       <description>Já o tinha dito algumas vezes mas sempre em contexto de brincadeira porque não acreditava nisso, mas afinal, a brincar, tinha razão: o Idiocracy não é um filme de comédia, é uma premonição. Veja-se:
-  o imbecil do trump foi eleito presidente
-  a besta do duterte foi eleito presidente
-  a poia humana que é o bolsonaro vai a caminho de ser eleito presidente
-  Se a moda pega por cá, daqui a nada estamos a eleger o Bruno de Carvalho ou o Mário Machado para Presidente da República.</description>
+o imbecil do trump foi eleito presidente
+a besta do duterte foi eleito presidente
+a poia humana que é o bolsonaro vai a caminho de ser eleito presidente
+Se a moda pega por cá, daqui a nada estamos a eleger o Bruno de Carvalho ou o Mário Machado para Presidente da República.</description>
     </item>
     
     <item>
@@ -1303,8 +1310,8 @@ This animation, by TED Ed, explains what clinical depression really is and how d
       
       <guid>https://blog.brunomiguel.net/post/firefox-plasma-desktop-integration/</guid>
       <description>Image from the addon page
-  Image from the addon page
-  Lately, I&amp;rsquo;ve been switching between Gnome and Plasma. Both are great desktop environments and, like all the other software in the world, both have some shortcomings. So, this is not a flamewar post, nor is intended to start yet another one.
+Image from the addon page
+Lately, I&amp;rsquo;ve been switching between Gnome and Plasma. Both are great desktop environments and, like all the other software in the world, both have some shortcomings. So, this is not a flamewar post, nor is intended to start yet another one.
 Yesterday, I logged on a Plasma session and opened Firefox to check my email, social network accounts and read the news.</description>
     </item>
     
@@ -1346,7 +1353,7 @@ iommu=soft amd_iommu=off Full example:</description>
       
       <guid>https://blog.brunomiguel.net/post/iq-tests-are-flawed/</guid>
       <description>Popular Science published an article on May 2018, that I only just read, about flaws in the concept of IQ and IQ tests. The text actually presents some good arguments. From the article:
- Too many of us use the terms “IQ” and “intelligence” as if they’re interchangeable. They’re not. An IQ score isn’t a magical signifier of smarts; it merely quantifies your ability to take a particular kind of test.</description>
+Too many of us use the terms “IQ” and “intelligence” as if they’re interchangeable. They’re not. An IQ score isn’t a magical signifier of smarts; it merely quantifies your ability to take a particular kind of test. Wealthy, white Westerners tend to perform among the best on these exams, but that doesn’t mean they’re smarter than the rest of the world.</description>
     </item>
     
     <item>
@@ -1416,7 +1423,7 @@ Ainda bem que fazem coisas que soam tão bem!</description>
       
       <guid>https://blog.brunomiguel.net/post/facebook-mobile/</guid>
       <description>Que raio se passará com o site do Facebook? Cada vez demora mais a carregar, faz a temperatura do processador do meu portátil disparar e está cheio de coisas a tentar roubar constantemente um bocadinho da minha atenção. Na volta é por estar cheio de porcarias como esta.
- Facebook answered 2,000 questions posed by the Senate Committee. Among these, Facebook explained that it collects information about users’ computers, phones, or other connected devices, including their mouse, reports India Today.</description>
+Facebook answered 2,000 questions posed by the Senate Committee. Among these, Facebook explained that it collects information about users’ computers, phones, or other connected devices, including their mouse, reports India Today.</description>
     </item>
     
     <item>
@@ -1511,7 +1518,7 @@ sudo qemu-system-x86_64 -boot d -cdrom void-live-x86_64-20171007.iso -hda /dev/s
       
       <guid>https://blog.brunomiguel.net/post/canhoto-ou-destro-tudo-depende-da-espinha-dorsal/</guid>
       <description>A espinha dorsal - e não o cérebro, como se pensava até agora - é que define se somos canhotos ou destros. Esta conclusão foi avançada num artigo da autoria investigadores da Universidade Ruhr de Bochum, juntamente com outros investigadores da Holanda e África do Sul.
- Um estudo publicado no eLife no ano passado sugere que, ao contrário do que se pensava, não nasces canhoto(a) ou destro(a) devido às diferenças genéticas entre os dois hemisférios do teu cérebro, mas sim a um mecanismo na espinha dorsal.</description>
+Um estudo publicado no eLife no ano passado sugere que, ao contrário do que se pensava, não nasces canhoto(a) ou destro(a) devido às diferenças genéticas entre os dois hemisférios do teu cérebro, mas sim a um mecanismo na espinha dorsal.</description>
     </item>
     
     <item>
@@ -1552,7 +1559,7 @@ This software is open source and available for Android, iOS and macOS. Linux and
       <description>NASA&amp;rsquo;s Jet Propulsion Laboratory (JPL) developed a mini version of the Mars Curiosity Rover, and open sourced the design and software used. The source is hosted at the agency&amp;rsquo;s Github account.
 The project uses mostly consumer off-the-shelf parts. One of them is a Raspberry Pi, used as the &amp;ldquo;brain&amp;rdquo; of the rover.
 From the Github repo:
- JPL is always looking to inspire the next generation of scientists, engineers, and roboticists to help us explore and learn about our solar system (and beyond!</description>
+JPL is always looking to inspire the next generation of scientists, engineers, and roboticists to help us explore and learn about our solar system (and beyond!</description>
     </item>
     
     <item>
@@ -1583,7 +1590,7 @@ Acabei de conhecer esta maravilha através do Reddit, no /r/listentothis. Se gos
       <guid>https://blog.brunomiguel.net/post/tess-is-officially-looking-for-exoplanets/</guid>
       <description>Step aside, Kepler, TESS (Transiting Exoplanet Survey Satellite) is in town and ready to discover more exoplanets (planets outside of our solar system) and closer to &amp;ldquo;home&amp;rdquo;.
 From Engadget:
- TESS is a follow-up to Kepler, a spacecraft that has spent the last nine years searching for Earth-like exoplanets near Sun-like stars. Though it may be on its last legs, Kepler has already found 2,650 confirmed exoplanets and even more are expected to be discovered from the data it has collected.</description>
+TESS is a follow-up to Kepler, a spacecraft that has spent the last nine years searching for Earth-like exoplanets near Sun-like stars. Though it may be on its last legs, Kepler has already found 2,650 confirmed exoplanets and even more are expected to be discovered from the data it has collected.</description>
     </item>
     
     <item>
@@ -1593,11 +1600,9 @@ From Engadget:
       
       <guid>https://blog.brunomiguel.net/post/fim-de-semana-na-costa-oeste/</guid>
       <description>Olha os aviões lá atrás
-  
 Carnaval de verão de Peniche
-  
 São Martinho do Porto
-  Chegou ao fim aquele que foi o primeiro de dois fins-de-semana deste verão em que consigo ir passear para a praia. Ele foi passado na Costa Oeste, entre Peniche, Atouguia da Baleia, São Martinho do Porto e mais uns locais.
+Chegou ao fim aquele que foi o primeiro de dois fins-de-semana deste verão em que consigo ir passear para a praia. Ele foi passado na Costa Oeste, entre Peniche, Atouguia da Baleia, São Martinho do Porto e mais uns locais.
 Estes dois dias foram uma ótima oportunidade para comer peixe grelhado, apanhar um bronze à camionista e ensinar a minha co-piloto a interpretar o mapa que aparece na aplicação Google Maps.</description>
     </item>
     
