@@ -40,3 +40,11 @@ Vai a 'Editar perfil > Perfil > Aspeto' e preenche a caixa de texto definida par
 ## Quero ignorar palavras, como o posso fazer?
 
 Esta também é feita na edição do perfil: 'Editar perfil > Filtros'.
+
+## Posso editar as minhas publicações?
+
+Sim e não. O Masto.pt é uma instância do *Fediverso* que corre versões estáveis do *Mastodon* e a funcionalidade de edição só está disponível através da *branch main* do repositório *git* da plataforma, ou seja, ainda não há versão estável com suporte para isso. Podes, no entanto, usar a opção 'Apagar & reescrever', disponível no botão representado por três pontos abaixo da publicação.
+
+A versão 4.x do Mastodon deverá ter essa funcionalidade incluída. Não sei é quando é que ficará disponível.
+
+{{< figure align="left" src="images/editar-toots.jpg" alt="Como editar publicações" >}}
