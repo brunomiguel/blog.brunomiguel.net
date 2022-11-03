@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introdução ao Fediverso</title>
+      <link>https://blog.brunomiguel.net/post/intro-ao-fediverso/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/intro-ao-fediverso/</guid>
+      <description>Uma pequena introdução ao conceito de Fediverso, para te ajudar no teu êxodo do Twitter.</description>
+    </item>
+    
     <item>
       <title>The future is not bright</title>
       <link>https://blog.brunomiguel.net/post/future-not-bright/</link>
