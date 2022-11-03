@@ -113,7 +113,6 @@
 body {
 	font-family: rubik, sans-serif !important;
 	/*background: var(--entry) !important;*/
-	transition: all 0.6s;
 }
 
 body,
