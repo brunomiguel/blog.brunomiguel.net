@@ -19,7 +19,7 @@ cover:
 
 ## O que é o Fediverso?
 
-O *Fediverso* é um conjunto de plataformas, chamadas de instâncias, que comunicam entre si utilizando protocolos abertos e, por isso, são federadas. Quando escolhes uma instância, não ficas limitado a interagir com os utilizadores dela. Se tiveres conta no [Masto.pt](https://masto.pt), consegues interagir com os utilizadores do [Pleroma.pt](https://pleroma.pt), [Mastodon.social](https://mastodon.social), etc.
+O *Fediverso* é um conjunto de plataformas, chamadas de instâncias, que comunicam entre si utilizando protocolos abertos e isso permite que as elas comuniquem entre si como parte de uma federação de instâncias cooperantes. Quando escolhes uma instância, não ficas limitado a interagir com os utilizadores dela. Se tiveres conta no [Masto.pt](https://masto.pt), consegues interagir com os utilizadores do [Pleroma.pt](https://pleroma.pt), [Mastodon.social](https://mastodon.social), etc.
 
 Uma analogia simples para explicar isto é o email. Independentemente da plataforma de email que escolheres, podes comunicar com utilizadores de outras plataformas graças à utilização de protocolos abertos como *SMTP*, *IMAP* e *POP*.  Seria estúpido se não pudesses enviar emails para pessoas que não usam a mesma plataforma que tu, não seria? Os protocolos abertos são importantíssimos para isto.
 
@@ -54,7 +54,7 @@ Se não respeitares as regras da instância onde tens conta, vais acabar com a c
 
 ---
 
-Espero que esta explicação breve do conceito de *Fediverso* te seja útil enquanto dás os teus primeiros passos nele. Se me quiseres encontrar por lá, estou no [Masto.pt](https://masto.pt/@brunomiguel) e no [Pixelfed.social](https://pixelfed.social/@brunomiguel).
+Espero que esta explicação breve do conceito de *Fediverso* te seja útil enquanto dás os teus primeiros passos nele. Também te recomendo a leitura [deste artigo](https://direitosdigitais.pt/comunicacao/noticias/138-twitter-e-mastodon-101-plataformas-vs-protocolos) que [D3](https://direitosdigitais.pt/) (Defesa dos Direitos Digitais) publicou sobre este tema. Se me quiseres encontrar por lá, estou no [Masto.pt](https://masto.pt/@brunomiguel) e no [Pixelfed.social](https://pixelfed.social/@brunomiguel).
 
 <small>_A [imagem](https://commons.wikimedia.org/wiki/File:Fediverse_AllProcotols_v1.1_13.05.2022.png) deste post é da autoria de Imke Senst e Mike Kuketz e foi publicada sob a licença [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)._</small>
 
