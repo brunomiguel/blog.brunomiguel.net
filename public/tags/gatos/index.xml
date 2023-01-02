@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gatos on .blog</title>
+    <link>https://blog.brunomiguel.net/tags/gatos/</link>
+    <description>Recent content in Gatos on .blog</description>
+    <image>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Mon, 02 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/gatos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recursos sobre gatos</title>
+      <link>https://blog.brunomiguel.net/post/recursos-sobre-gatos/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/recursos-sobre-gatos/</guid>
+      <description>Sites, posts, vídeos e mais sobre gatos.</description>
+    </item>
+    
+  </channel>
+</rss>
