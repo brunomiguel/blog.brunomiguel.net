@@ -11,7 +11,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>client</title>
+      <link>https://blog.brunomiguel.net/tags/client/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/client/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ctune</title>
+      <link>https://blog.brunomiguel.net/tags/ctune/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/ctune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curseradio</title>
+      <link>https://blog.brunomiguel.net/tags/curseradio/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/curseradio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyradio</title>
+      <link>https://blog.brunomiguel.net/tags/pyradio/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/pyradio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>radio</title>
+      <link>https://blog.brunomiguel.net/tags/radio/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://blog.brunomiguel.net/tags/terminal/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cli</title>
       <link>https://blog.brunomiguel.net/tags/cli/</link>
@@ -396,15 +450,6 @@
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/linha-de-comandos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>terminal</title>
-      <link>https://blog.brunomiguel.net/tags/terminal/</link>
-      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/terminal/</guid>
       <description></description>
     </item>
     

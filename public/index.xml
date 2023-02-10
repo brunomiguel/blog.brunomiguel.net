@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My favorite terminal online radio client</title>
+      <link>https://blog.brunomiguel.net/post/favorite-terminal-radio-client/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/favorite-terminal-radio-client/</guid>
+      <description>Curseradio has been my favorite terminal online radio client for several years. Having been five years without receiving updates, I have to find a new software to replace it.</description>
+    </item>
+    
     <item>
       <title>Testing Neovim for my writing needs</title>
       <link>https://blog.brunomiguel.net/post/neovim/</link>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ctune on .blog</title>
+    <link>https://blog.brunomiguel.net/tags/ctune/</link>
+    <description>Recent content in ctune on .blog</description>
+    <image>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/ctune/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My favorite terminal online radio client</title>
+      <link>https://blog.brunomiguel.net/post/favorite-terminal-radio-client/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/favorite-terminal-radio-client/</guid>
+      <description>Curseradio has been my favorite terminal online radio client for several years. Having been five years without receiving updates, I have to find a new software to replace it.</description>
+    </item>
+    
+  </channel>
+</rss>
