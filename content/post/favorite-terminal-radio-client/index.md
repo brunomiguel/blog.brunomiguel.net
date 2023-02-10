@@ -29,3 +29,5 @@ What has bothered me the most is curseradio not receiving updates since the 17th
 While continuing to scour for a terminal online radio client on my way to Mordor, I stumbled on [cTune](https://github.com/An7ar35/ctune). Like PyRadio, it uses RadioBrowser's `API` to search and get the stream information, and the interface so far feels slightly better. The search modal, which even lets me search by tag and is easier to reach than with PyRadio, makes it a likely alternative to curseradio. PyRadio, on the other hand, let's me sort the results.
 
 Overall, I still prefer curseradio. However, it's time to find a replacement, and either PyRadio or cTune will replace it. Time to test them for a few weeks each.
+
+<small>_Screenshots by me and under the CC0 license_</small>
