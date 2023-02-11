@@ -11,7 +11,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chico</title>
+      <link>https://blog.brunomiguel.net/tags/chico/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/chico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gatos</title>
+      <link>https://blog.brunomiguel.net/tags/gatos/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/gatos/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>client</title>
       <link>https://blog.brunomiguel.net/tags/client/</link>
@@ -99,24 +117,6 @@
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>chico</title>
-      <link>https://blog.brunomiguel.net/tags/chico/</link>
-      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/chico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gatos</title>
-      <link>https://blog.brunomiguel.net/tags/gatos/</link>
-      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/gatos/</guid>
       <description></description>
     </item>
     
