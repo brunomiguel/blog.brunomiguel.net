@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>diva on .blog</title>
+    <link>https://blog.brunomiguel.net/tags/diva/</link>
+    <description>Recent content in diva on .blog</description>
+    <image>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/diva/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diva</title>
+      <link>https://blog.brunomiguel.net/post/chico-diva/</link>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/chico-diva/</guid>
+      <description>O Chico é uma diva</description>
+    </item>
+    
+  </channel>
+</rss>
