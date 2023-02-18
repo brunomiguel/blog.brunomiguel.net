@@ -3,11 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/dwm/</loc>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/dwm/</loc>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/i3wm/</loc>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/window-managers/</loc>
+    <lastmod>2023-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/cenas/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
@@ -24,12 +45,6 @@
     <loc>https://blog.brunomiguel.net/tags/gatos/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/post/proximo-jogo/</loc>
     <lastmod>2023-02-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -40,9 +55,6 @@
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/curseradio/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/favorite-terminal-radio-client/</loc>
