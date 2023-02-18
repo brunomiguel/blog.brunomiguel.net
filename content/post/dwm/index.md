@@ -29,4 +29,4 @@ Numa _tag_, tens um emulador de terminal a correr um _multiplexer_ como o _tmux_
 
 Claro que nem tudo é positivo. Usar _patches_ vai obrigar-te a lidar com erros quando os tentas aplicar. Também tens de fazer muita coisa manualmente para configurares o _dwm_, como editar o código-fonte para definires as cores e o tipo de letra que queres. Bem, verdade seja dita, o processo é idêntico com o _i3wm_, só que essas configurações são feitas num ficheiro de configuração e não no código-fonte.
 
-No geral, estou contente com o _dwm_, mas não creio que vá substituir o _i3wm_.
+No geral, estou contente com o _dwm_, mas não creio que vá substituir o _i3wm_ a curto ou médio prazo.
