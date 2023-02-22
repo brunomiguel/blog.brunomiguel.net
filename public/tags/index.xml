@@ -11,7 +11,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linux</title>
+      <link>https://blog.brunomiguel.net/tags/arch-linux/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal project</title>
+      <link>https://blog.brunomiguel.net/tags/personal-project/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/personal-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repository</title>
+      <link>https://blog.brunomiguel.net/tags/repository/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/repository/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tough decidions</title>
+      <link>https://blog.brunomiguel.net/tags/tough-decidions/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/tough-decidions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Userrepository</title>
+      <link>https://blog.brunomiguel.net/tags/userrepository/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/userrepository/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>dwm</title>
       <link>https://blog.brunomiguel.net/tags/dwm/</link>
@@ -688,15 +733,6 @@
     </item>
     
     <item>
-      <title>Arch Linux</title>
-      <link>https://blog.brunomiguel.net/tags/arch-linux/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/arch-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>EndeavourOS</title>
       <link>https://blog.brunomiguel.net/tags/endeavouros/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
@@ -711,15 +747,6 @@
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/reposit%C3%B3rio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Userrepository</title>
-      <link>https://blog.brunomiguel.net/tags/userrepository/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/userrepository/</guid>
       <description></description>
     </item>
     
@@ -1305,15 +1332,6 @@
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>repository</title>
-      <link>https://blog.brunomiguel.net/tags/repository/</link>
-      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/repository/</guid>
       <description></description>
     </item>
     

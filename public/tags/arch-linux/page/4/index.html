@@ -212,6 +212,23 @@
 
 
   <header class="entry-header">
+    <h2>Improving boot time
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Today, I’ve decided to try and improve the boot time of my laptop, running EndeavourOS. There was no special reason for it other than “Why not?”.
+The first thing I made was disabling or masking the following systemd services:
+systemd-resolved disabled tlp disabled NetworkManager-wait-online disabled lvm2-monitor masked org.cups.cupsd disabled packagekit masked bluetooth disabled (I rarely use the laptop’s bluetooth) blueman-mechanism disabled With this, I was able to save a few milliseconds and decrease the enabled systemd units to 15, but the impact was negligible....</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-04-30 00:00:00 +0000 UTC'>abril 30, 2020</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
+  <a class="entry-link" aria-label="post link to Improving boot time" href="https://blog.brunomiguel.net/post/improving-boot-time/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+
+
+
+  <header class="entry-header">
     <h2>Suporte para o Cartão de Cidadão no userrepository.eu
     </h2>
   </header>
@@ -260,27 +277,12 @@ Here’s the PKGBUILD at the time of writing:
   <footer class="entry-footer"><span title='2019-11-13 00:00:00 +0000 UTC'>novembro 13, 2019</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Bruno Miguel</footer>
   <a class="entry-link" aria-label="post link to First own package on userrepository.eu" href="https://blog.brunomiguel.net/post/first-own-package-on-userrepository-eu/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-
-
-
-  <header class="entry-header">
-    <h2>Metapackage for a personal installation of Arch Linux and Arch-based distributions
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>I’ve been using Arch or Arch-based distributions for over a year now. In this time testing a few of them, I’ve always lacked a simple and logical way of installing the same “essential” software. To tackle this, I’ve created a metapackage with all this software and this is what I’ve got so far:
-# Maintainer: Bruno Miguel https://twitter.com/brunomiguel
-pkgname=‘bruno-essentials’ pkgdesc=“A metapackage for some packages I find essential. Requires userrepository.eu repo” pkgver=‘0....</p>
-  </div>
-  <footer class="entry-footer"><span title='2019-10-17 00:00:00 +0000 UTC'>outubro 17, 2019</span>&nbsp;·&nbsp;2 minutos&nbsp;·&nbsp;Bruno Miguel</footer>
-  <a class="entry-link" aria-label="post link to Metapackage for a personal installation of Arch Linux and Arch-based distributions" href="https://blog.brunomiguel.net/post/metapackage-arch-linux/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://blog.brunomiguel.net/tags/arch-linux/page/3/">
       «&nbsp;Página Anterior&nbsp;
+    </a>
+    <a class="next" href="https://blog.brunomiguel.net/tags/arch-linux/page/5/">Próxima Página&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>
