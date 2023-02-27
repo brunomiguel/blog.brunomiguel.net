@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding a new Tmux session manager</title>
+      <link>https://blog.brunomiguel.net/post/finding-new-tmux-session-manager/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/finding-new-tmux-session-manager/</guid>
+      <description>I was using Tmuxinator, but I was having issues compiling newer versions because it required a newer version of Ruby not available in Arch Linux at the time of writing</description>
+    </item>
+    
     <item>
       <title>Deciding to continue or end my third-party Arch Linux repository</title>
       <link>https://blog.brunomiguel.net/post/repo-continue-stop/</link>
