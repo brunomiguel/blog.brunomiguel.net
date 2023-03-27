@@ -27,6 +27,6 @@ The only two other open-source browsers that implement good privacy features, as
 
 Right now, I'm using Librewolf from the [Flathub repository](https://flathub.org/apps/details/io.gitlab.librewolf-community). I had to make minor changes in the settings and install some extensions to go the extra mile, but overall it will help me regain some privacy online. Let's see if I can use Librewolf for a whole month. The thing is, some settings meant to increase privacy can also break some websites. I have to ponder well on the trade-off.
 
-_Disclaimer: I use two analytics services on this blog, [Swetrix](swetrix.org), and [GoatCounter](https://www.goatcounter.com/). Both are open-source and privacy-friendly. Feel free to check both of their privacy policies._
+_Disclaimer: I use two analytics services on this blog, [Swetrix](https://swetrix.org), and [GoatCounter](https://www.goatcounter.com/). Both are open-source and privacy-friendly. Feel free to check both of their privacy policies._
 
 <small>_Image from [Pexels.com](https://www.pexels.com/photo/close-up-shot-of-keyboard-buttons-2882638/)_</small>
