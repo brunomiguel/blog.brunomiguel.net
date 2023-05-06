@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/categories/geekices/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/categories/geekices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on one-month usage of Librewolf</title>
+      <link>https://blog.brunomiguel.net/post/using-librewolf-for-a-month/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/using-librewolf-for-a-month/</guid>
+      <description>I&amp;#39;ve been using Librewolf for over a month, and I&amp;#39;m going to keep using it</description>
+    </item>
+    
     <item>
       <title>Smug, a tmux session manager</title>
       <link>https://blog.brunomiguel.net/post/smug-tmux-session-manager/</link>

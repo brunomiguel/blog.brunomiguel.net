@@ -3,17 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2023-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
+    <loc>https://blog.brunomiguel.net/tags/browser/</loc>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
-    <lastmod>2023-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/firefox/</loc>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
-    <lastmod>2023-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/internet/</loc>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/librewolf/</loc>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2023-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/privacy/</loc>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/using-librewolf-for-a-month/</loc>
+    <lastmod>2023-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/session/</loc>
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
@@ -24,29 +45,11 @@
     <loc>https://blog.brunomiguel.net/post/smug-tmux-session-manager/</loc>
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
-    <lastmod>2023-04-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/terminal/</loc>
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/tmux/</loc>
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/browser/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/firefox/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/internet/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/librewolf/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/privacy/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/tor/</loc>
     <lastmod>2023-03-26T00:00:00+00:00</lastmod>
