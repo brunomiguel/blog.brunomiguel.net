@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ublock origin on .blog</title>
+    <link>https://blog.brunomiguel.net/tags/ublock-origin/</link>
+    <description>Recent content in ublock origin on .blog</description>
+    <image>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/ublock-origin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to block ZIP and MOV TLDs in uBlock Origin and AdGuardHome</title>
+      <link>https://blog.brunomiguel.net/post/blocking-zip-mov-tlds/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/blocking-zip-mov-tlds/</guid>
+      <description>The ZIP and MOV TLDs are a godsend for scammers. If you want to know how to block them with uBlock Origin and AdGuardHome, I created a block list for you to use.</description>
+    </item>
+    
+  </channel>
+</rss>
