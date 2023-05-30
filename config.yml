@@ -149,13 +149,11 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Olá 👋"
+        Title: "Olá / Hello 👋"
         Content: >
-            Bem-vind@ ao melhor blog do mundo e, quiçá, de Portugal!
+            Escrevo as minhas divagações sobre coisas aqui.
 
-            - O blog aborda vários temas que me interessam, mas o foco é claramente tecnologia; específicamente, tecnologias abertas, vulgarmente conhecidas como _open-source_.
-
-            - Puxa de uma cadeira e _assenta-te_.
+            - I rumble about stuff here.
 
     socialIcons:
         - name: RsS
