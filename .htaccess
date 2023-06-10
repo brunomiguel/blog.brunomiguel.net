@@ -33,3 +33,5 @@
 </IfModule> 
 
 Header set Permissions-Policy "interest-cohort=()"
+
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
