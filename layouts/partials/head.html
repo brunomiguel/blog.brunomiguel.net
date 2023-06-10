@@ -11,6 +11,7 @@
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
 
 {{- /* Meta */}}
+<meta name="referrer" content="strict-origin">
 {{- if .IsHome }}
 {{ with .Site.Params.keywords -}}
 <meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}" />{{ end }}
