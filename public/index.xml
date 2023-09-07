@@ -11,7 +11,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
-    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sossego</title>
+      <link>https://blog.brunomiguel.net/post/sossego/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/sossego/</guid>
+      <description>A falta de sossego é horrível.</description>
+    </item>
+    
     <item>
       <title>How to block ZIP and MOV TLDs in uBlock Origin and AdGuardHome</title>
       <link>https://blog.brunomiguel.net/post/blocking-zip-mov-tlds/</link>

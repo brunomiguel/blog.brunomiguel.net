@@ -3,12 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.brunomiguel.net/</loc>
-    <lastmod>2023-05-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/adguardhome/</loc>
-    <lastmod>2023-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/categories/cenas/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/ru%C3%ADdo/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/sa%C3%BAde/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/sossego/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/post/sossego/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.brunomiguel.net/tags/adguardhome/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/categories/geekices/</loc>
@@ -20,16 +41,10 @@
     <loc>https://blog.brunomiguel.net/tags/mov/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.brunomiguel.net/post/</loc>
-    <lastmod>2023-05-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.brunomiguel.net/tags/privacy/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/security/</loc>
-    <lastmod>2023-05-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/tags/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/tld/</loc>
@@ -115,9 +130,6 @@
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/window-managers/</loc>
     <lastmod>2023-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.brunomiguel.net/categories/cenas/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.brunomiguel.net/tags/chico/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
