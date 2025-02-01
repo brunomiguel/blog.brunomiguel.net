@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fm on .blog</title>
+    <link>https://blog.brunomiguel.net/tags/fm/</link>
+    <description>Recent content in Fm on .blog</description>
+    <image>
+      <url>https://blog.brunomiguel.net/papermod-cover.png</url>
+      <link>https://blog.brunomiguel.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/fm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O fim do Football Manager?</title>
+      <link>https://blog.brunomiguel.net/post/o-fim-do-fm/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/post/o-fim-do-fm/</guid>
+      <description>As coisas não parecem nada boas para este franchise..</description>
+    </item>
+    
+  </channel>
+</rss>
