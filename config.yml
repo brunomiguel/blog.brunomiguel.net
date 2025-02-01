@@ -125,7 +125,7 @@ params:
     defaultTheme: auto
     # disableThemeToggle: true
     ShowShareButtons: false
-    ShowReadingTime: true
+    ShowReadingTime: false
     # disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
@@ -134,6 +134,7 @@ params:
     ShowToc: false
     comments: false
     images: ["papermod-cover.png"]
+    DateFormat: "02 de January de 2006"
 
     profileMode:
         enabled: false
