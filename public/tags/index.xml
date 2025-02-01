@@ -13,7 +13,16 @@
     <copyright>[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) - </copyright>
     <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.brunomiguel.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ruído</title>
+      <title>Index</title>
+      <link>https://blog.brunomiguel.net/tags/index/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.brunomiguel.net/tags/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruído</title>
       <link>https://blog.brunomiguel.net/tags/ru%C3%ADdo/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -22,7 +31,7 @@
     </item>
     
     <item>
-      <title>saúde</title>
+      <title>Saúde</title>
       <link>https://blog.brunomiguel.net/tags/sa%C3%BAde/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -31,7 +40,7 @@
     </item>
     
     <item>
-      <title>sossego</title>
+      <title>Sossego</title>
       <link>https://blog.brunomiguel.net/tags/sossego/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -49,7 +58,7 @@
     </item>
     
     <item>
-      <title>mov</title>
+      <title>Mov</title>
       <link>https://blog.brunomiguel.net/tags/mov/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -58,7 +67,7 @@
     </item>
     
     <item>
-      <title>privacy</title>
+      <title>Privacy</title>
       <link>https://blog.brunomiguel.net/tags/privacy/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -67,7 +76,7 @@
     </item>
     
     <item>
-      <title>security</title>
+      <title>Security</title>
       <link>https://blog.brunomiguel.net/tags/security/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -76,7 +85,7 @@
     </item>
     
     <item>
-      <title>tld</title>
+      <title>Tld</title>
       <link>https://blog.brunomiguel.net/tags/tld/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -85,7 +94,7 @@
     </item>
     
     <item>
-      <title>ublock origin</title>
+      <title>Ublock Origin</title>
       <link>https://blog.brunomiguel.net/tags/ublock-origin/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -94,7 +103,7 @@
     </item>
     
     <item>
-      <title>zip</title>
+      <title>Zip</title>
       <link>https://blog.brunomiguel.net/tags/zip/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -103,7 +112,7 @@
     </item>
     
     <item>
-      <title>browser</title>
+      <title>Browser</title>
       <link>https://blog.brunomiguel.net/tags/browser/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       
@@ -112,7 +121,7 @@
     </item>
     
     <item>
-      <title>firefox</title>
+      <title>Firefox</title>
       <link>https://blog.brunomiguel.net/tags/firefox/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       
@@ -121,7 +130,7 @@
     </item>
     
     <item>
-      <title>internet</title>
+      <title>Internet</title>
       <link>https://blog.brunomiguel.net/tags/internet/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       
@@ -130,7 +139,7 @@
     </item>
     
     <item>
-      <title>librewolf</title>
+      <title>Librewolf</title>
       <link>https://blog.brunomiguel.net/tags/librewolf/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       
@@ -139,7 +148,7 @@
     </item>
     
     <item>
-      <title>session</title>
+      <title>Session</title>
       <link>https://blog.brunomiguel.net/tags/session/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -148,7 +157,7 @@
     </item>
     
     <item>
-      <title>smug</title>
+      <title>Smug</title>
       <link>https://blog.brunomiguel.net/tags/smug/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -157,7 +166,7 @@
     </item>
     
     <item>
-      <title>terminal</title>
+      <title>Terminal</title>
       <link>https://blog.brunomiguel.net/tags/terminal/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -166,7 +175,7 @@
     </item>
     
     <item>
-      <title>tmux</title>
+      <title>Tmux</title>
       <link>https://blog.brunomiguel.net/tags/tmux/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -175,7 +184,7 @@
     </item>
     
     <item>
-      <title>tor</title>
+      <title>Tor</title>
       <link>https://blog.brunomiguel.net/tags/tor/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
       
@@ -184,7 +193,7 @@
     </item>
     
     <item>
-      <title>tmuxinator</title>
+      <title>Tmuxinator</title>
       <link>https://blog.brunomiguel.net/tags/tmuxinator/</link>
       <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -193,7 +202,7 @@
     </item>
     
     <item>
-      <title>tmuxp</title>
+      <title>Tmuxp</title>
       <link>https://blog.brunomiguel.net/tags/tmuxp/</link>
       <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -202,7 +211,7 @@
     </item>
     
     <item>
-      <title>Arch Linux</title>
+      <title>Arch-Linux</title>
       <link>https://blog.brunomiguel.net/tags/arch-linux/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -211,7 +220,7 @@
     </item>
     
     <item>
-      <title>personal project</title>
+      <title>Personal Project</title>
       <link>https://blog.brunomiguel.net/tags/personal-project/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -220,7 +229,7 @@
     </item>
     
     <item>
-      <title>repository</title>
+      <title>Repository</title>
       <link>https://blog.brunomiguel.net/tags/repository/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -229,7 +238,7 @@
     </item>
     
     <item>
-      <title>tough decidions</title>
+      <title>Tough Decidions</title>
       <link>https://blog.brunomiguel.net/tags/tough-decidions/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -247,7 +256,7 @@
     </item>
     
     <item>
-      <title>dwm</title>
+      <title>Dwm</title>
       <link>https://blog.brunomiguel.net/tags/dwm/</link>
       <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -256,7 +265,7 @@
     </item>
     
     <item>
-      <title>i3wm</title>
+      <title>I3wm</title>
       <link>https://blog.brunomiguel.net/tags/i3wm/</link>
       <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -265,7 +274,7 @@
     </item>
     
     <item>
-      <title>window managers</title>
+      <title>Window Managers</title>
       <link>https://blog.brunomiguel.net/tags/window-managers/</link>
       <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -274,7 +283,7 @@
     </item>
     
     <item>
-      <title>chico</title>
+      <title>Chico</title>
       <link>https://blog.brunomiguel.net/tags/chico/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -283,7 +292,7 @@
     </item>
     
     <item>
-      <title>diva</title>
+      <title>Diva</title>
       <link>https://blog.brunomiguel.net/tags/diva/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -292,7 +301,7 @@
     </item>
     
     <item>
-      <title>gatos</title>
+      <title>Gatos</title>
       <link>https://blog.brunomiguel.net/tags/gatos/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -301,7 +310,7 @@
     </item>
     
     <item>
-      <title>client</title>
+      <title>Client</title>
       <link>https://blog.brunomiguel.net/tags/client/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -310,7 +319,7 @@
     </item>
     
     <item>
-      <title>ctune</title>
+      <title>Ctune</title>
       <link>https://blog.brunomiguel.net/tags/ctune/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -319,7 +328,7 @@
     </item>
     
     <item>
-      <title>curseradio</title>
+      <title>Curseradio</title>
       <link>https://blog.brunomiguel.net/tags/curseradio/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -328,7 +337,7 @@
     </item>
     
     <item>
-      <title>pyradio</title>
+      <title>Pyradio</title>
       <link>https://blog.brunomiguel.net/tags/pyradio/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -337,7 +346,7 @@
     </item>
     
     <item>
-      <title>radio</title>
+      <title>Radio</title>
       <link>https://blog.brunomiguel.net/tags/radio/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -346,7 +355,7 @@
     </item>
     
     <item>
-      <title>cli</title>
+      <title>Cli</title>
       <link>https://blog.brunomiguel.net/tags/cli/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -355,7 +364,7 @@
     </item>
     
     <item>
-      <title>command line</title>
+      <title>Command Line</title>
       <link>https://blog.brunomiguel.net/tags/command-line/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -364,7 +373,7 @@
     </item>
     
     <item>
-      <title>neovim</title>
+      <title>Neovim</title>
       <link>https://blog.brunomiguel.net/tags/neovim/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -373,7 +382,7 @@
     </item>
     
     <item>
-      <title>tools</title>
+      <title>Tools</title>
       <link>https://blog.brunomiguel.net/tags/tools/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -391,7 +400,7 @@
     </item>
     
     <item>
-      <title>dicas</title>
+      <title>Dicas</title>
       <link>https://blog.brunomiguel.net/tags/dicas/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -400,7 +409,7 @@
     </item>
     
     <item>
-      <title>fediverso</title>
+      <title>Fediverso</title>
       <link>https://blog.brunomiguel.net/tags/fediverso/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -409,7 +418,7 @@
     </item>
     
     <item>
-      <title>instância</title>
+      <title>Instância</title>
       <link>https://blog.brunomiguel.net/tags/inst%C3%A2ncia/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -418,7 +427,7 @@
     </item>
     
     <item>
-      <title>mastodon</title>
+      <title>Mastodon</title>
       <link>https://blog.brunomiguel.net/tags/mastodon/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -427,7 +436,7 @@
     </item>
     
     <item>
-      <title>pixelfed</title>
+      <title>Pixelfed</title>
       <link>https://blog.brunomiguel.net/tags/pixelfed/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -436,7 +445,7 @@
     </item>
     
     <item>
-      <title>pleroma</title>
+      <title>Pleroma</title>
       <link>https://blog.brunomiguel.net/tags/pleroma/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -445,7 +454,7 @@
     </item>
     
     <item>
-      <title>protocolos</title>
+      <title>Protocolos</title>
       <link>https://blog.brunomiguel.net/tags/protocolos/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -454,7 +463,7 @@
     </item>
     
     <item>
-      <title>divagações</title>
+      <title>Divagações</title>
       <link>https://blog.brunomiguel.net/tags/divaga%C3%A7%C3%B5es/</link>
       <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
       
@@ -463,7 +472,7 @@
     </item>
     
     <item>
-      <title>fibromialgia</title>
+      <title>Fibromialgia</title>
       <link>https://blog.brunomiguel.net/tags/fibromialgia/</link>
       <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
       
@@ -472,7 +481,7 @@
     </item>
     
     <item>
-      <title>ampere computing</title>
+      <title>Ampere Computing</title>
       <link>https://blog.brunomiguel.net/tags/ampere-computing/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -490,7 +499,7 @@
     </item>
     
     <item>
-      <title>gitea</title>
+      <title>Gitea</title>
       <link>https://blog.brunomiguel.net/tags/gitea/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -499,7 +508,7 @@
     </item>
     
     <item>
-      <title>google search</title>
+      <title>Google Search</title>
       <link>https://blog.brunomiguel.net/tags/google-search/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -508,7 +517,7 @@
     </item>
     
     <item>
-      <title>motor de busca</title>
+      <title>Motor De Busca</title>
       <link>https://blog.brunomiguel.net/tags/motor-de-busca/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -517,7 +526,7 @@
     </item>
     
     <item>
-      <title>oracle cloud</title>
+      <title>Oracle Cloud</title>
       <link>https://blog.brunomiguel.net/tags/oracle-cloud/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -526,7 +535,7 @@
     </item>
     
     <item>
-      <title>pastebin</title>
+      <title>Pastebin</title>
       <link>https://blog.brunomiguel.net/tags/pastebin/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -535,7 +544,7 @@
     </item>
     
     <item>
-      <title>sysadmin</title>
+      <title>Sysadmin</title>
       <link>https://blog.brunomiguel.net/tags/sysadmin/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -544,7 +553,7 @@
     </item>
     
     <item>
-      <title>vps</title>
+      <title>Vps</title>
       <link>https://blog.brunomiguel.net/tags/vps/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -553,7 +562,7 @@
     </item>
     
     <item>
-      <title>whoogle</title>
+      <title>Whoogle</title>
       <link>https://blog.brunomiguel.net/tags/whoogle/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       
@@ -562,7 +571,7 @@
     </item>
     
     <item>
-      <title>arm cortex m0&#43;</title>
+      <title>Arm Cortex M0&#43;</title>
       <link>https://blog.brunomiguel.net/tags/arm-cortex-m0&#43;/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -571,7 +580,7 @@
     </item>
     
     <item>
-      <title>bioquímica</title>
+      <title>Bioquímica</title>
       <link>https://blog.brunomiguel.net/tags/bioqu%C3%ADmica/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -580,7 +589,7 @@
     </item>
     
     <item>
-      <title>célula fotovoltaica</title>
+      <title>Célula Fotovoltaica</title>
       <link>https://blog.brunomiguel.net/tags/c%C3%A9lula-fotovoltaica/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -589,7 +598,7 @@
     </item>
     
     <item>
-      <title>ciência</title>
+      <title>Ciência</title>
       <link>https://blog.brunomiguel.net/tags/ci%C3%AAncia/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -598,7 +607,7 @@
     </item>
     
     <item>
-      <title>investigação</title>
+      <title>Investigação</title>
       <link>https://blog.brunomiguel.net/tags/investiga%C3%A7%C3%A3o/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -607,7 +616,7 @@
     </item>
     
     <item>
-      <title>iot</title>
+      <title>Iot</title>
       <link>https://blog.brunomiguel.net/tags/iot/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -616,7 +625,7 @@
     </item>
     
     <item>
-      <title>lítio</title>
+      <title>Lítio</title>
       <link>https://blog.brunomiguel.net/tags/l%C3%ADtio/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -625,7 +634,7 @@
     </item>
     
     <item>
-      <title>soc</title>
+      <title>Soc</title>
       <link>https://blog.brunomiguel.net/tags/soc/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -634,7 +643,7 @@
     </item>
     
     <item>
-      <title>universidade de cambridge</title>
+      <title>Universidade De Cambridge</title>
       <link>https://blog.brunomiguel.net/tags/universidade-de-cambridge/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
@@ -643,7 +652,7 @@
     </item>
     
     <item>
-      <title>leituras</title>
+      <title>Leituras</title>
       <link>https://blog.brunomiguel.net/tags/leituras/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
@@ -652,7 +661,7 @@
     </item>
     
     <item>
-      <title>método científico</title>
+      <title>Método Científico</title>
       <link>https://blog.brunomiguel.net/tags/m%C3%A9todo-cient%C3%ADfico/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
@@ -661,7 +670,7 @@
     </item>
     
     <item>
-      <title>pesquisa</title>
+      <title>Pesquisa</title>
       <link>https://blog.brunomiguel.net/tags/pesquisa/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
@@ -670,7 +679,7 @@
     </item>
     
     <item>
-      <title>viés</title>
+      <title>Viés</title>
       <link>https://blog.brunomiguel.net/tags/vi%C3%A9s/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
@@ -679,7 +688,7 @@
     </item>
     
     <item>
-      <title>artem</title>
+      <title>Artem</title>
       <link>https://blog.brunomiguel.net/tags/artem/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       
@@ -688,7 +697,7 @@
     </item>
     
     <item>
-      <title>ascii</title>
+      <title>Ascii</title>
       <link>https://blog.brunomiguel.net/tags/ascii/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       
@@ -697,7 +706,7 @@
     </item>
     
     <item>
-      <title>emptty</title>
+      <title>Emptty</title>
       <link>https://blog.brunomiguel.net/tags/emptty/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       
@@ -706,7 +715,7 @@
     </item>
     
     <item>
-      <title>linha de comandos</title>
+      <title>Linha De Comandos</title>
       <link>https://blog.brunomiguel.net/tags/linha-de-comandos/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       
@@ -715,7 +724,7 @@
     </item>
     
     <item>
-      <title>tty</title>
+      <title>Tty</title>
       <link>https://blog.brunomiguel.net/tags/tty/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       
@@ -724,7 +733,7 @@
     </item>
     
     <item>
-      <title>utilitários</title>
+      <title>Utilitários</title>
       <link>https://blog.brunomiguel.net/tags/utilit%C3%A1rios/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       
@@ -733,7 +742,7 @@
     </item>
     
     <item>
-      <title>elon musk</title>
+      <title>Elon Musk</title>
       <link>https://blog.brunomiguel.net/tags/elon-musk/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -742,7 +751,7 @@
     </item>
     
     <item>
-      <title>jacobin</title>
+      <title>Jacobin</title>
       <link>https://blog.brunomiguel.net/tags/jacobin/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -751,7 +760,7 @@
     </item>
     
     <item>
-      <title>redes-sociais</title>
+      <title>Redes-Sociais</title>
       <link>https://blog.brunomiguel.net/tags/redes-sociais/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -760,7 +769,7 @@
     </item>
     
     <item>
-      <title>reuters</title>
+      <title>Reuters</title>
       <link>https://blog.brunomiguel.net/tags/reuters/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -769,7 +778,7 @@
     </item>
     
     <item>
-      <title>twitter</title>
+      <title>Twitter</title>
       <link>https://blog.brunomiguel.net/tags/twitter/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -778,7 +787,7 @@
     </item>
     
     <item>
-      <title>curiosidades</title>
+      <title>Curiosidades</title>
       <link>https://blog.brunomiguel.net/tags/curiosidades/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -787,7 +796,7 @@
     </item>
     
     <item>
-      <title>flauta</title>
+      <title>Flauta</title>
       <link>https://blog.brunomiguel.net/tags/flauta/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -796,7 +805,7 @@
     </item>
     
     <item>
-      <title>música</title>
+      <title>Música</title>
       <link>https://blog.brunomiguel.net/tags/m%C3%BAsica/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -814,7 +823,7 @@
     </item>
     
     <item>
-      <title>pvc</title>
+      <title>Pvc</title>
       <link>https://blog.brunomiguel.net/tags/pvc/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -823,7 +832,7 @@
     </item>
     
     <item>
-      <title>adblocker</title>
+      <title>Adblocker</title>
       <link>https://blog.brunomiguel.net/tags/adblocker/</link>
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -841,7 +850,7 @@
     </item>
     
     <item>
-      <title>DNS</title>
+      <title>Dns</title>
       <link>https://blog.brunomiguel.net/tags/dns/</link>
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -850,7 +859,7 @@
     </item>
     
     <item>
-      <title>DNS resolver</title>
+      <title>DNS Resolver</title>
       <link>https://blog.brunomiguel.net/tags/dns-resolver/</link>
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -868,7 +877,7 @@
     </item>
     
     <item>
-      <title>resolver</title>
+      <title>Resolver</title>
       <link>https://blog.brunomiguel.net/tags/resolver/</link>
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -886,7 +895,7 @@
     </item>
     
     <item>
-      <title>tracker</title>
+      <title>Tracker</title>
       <link>https://blog.brunomiguel.net/tags/tracker/</link>
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -895,7 +904,7 @@
     </item>
     
     <item>
-      <title>unbound</title>
+      <title>Unbound</title>
       <link>https://blog.brunomiguel.net/tags/unbound/</link>
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -904,7 +913,7 @@
     </item>
     
     <item>
-      <title>EndeavourOS</title>
+      <title>Endeavouros</title>
       <link>https://blog.brunomiguel.net/tags/endeavouros/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -922,7 +931,7 @@
     </item>
     
     <item>
-      <title>objetivo</title>
+      <title>Objetivo</title>
       <link>https://blog.brunomiguel.net/tags/objetivo/</link>
       <pubDate>Sun, 20 Mar 2022 05:00:00 +0100</pubDate>
       
@@ -931,7 +940,7 @@
     </item>
     
     <item>
-      <title>pacotes</title>
+      <title>Pacotes</title>
       <link>https://blog.brunomiguel.net/tags/pacotes/</link>
       <pubDate>Sun, 20 Mar 2022 05:00:00 +0100</pubDate>
       
@@ -940,7 +949,7 @@
     </item>
     
     <item>
-      <title>software</title>
+      <title>Software</title>
       <link>https://blog.brunomiguel.net/tags/software/</link>
       <pubDate>Sun, 20 Mar 2022 05:00:00 +0100</pubDate>
       
@@ -949,7 +958,7 @@
     </item>
     
     <item>
-      <title>blog</title>
+      <title>Blog</title>
       <link>https://blog.brunomiguel.net/tags/blog/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -958,7 +967,7 @@
     </item>
     
     <item>
-      <title>catppuccin</title>
+      <title>Catppuccin</title>
       <link>https://blog.brunomiguel.net/tags/catppuccin/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -967,7 +976,7 @@
     </item>
     
     <item>
-      <title>fork</title>
+      <title>Fork</title>
       <link>https://blog.brunomiguel.net/tags/fork/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -976,7 +985,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://blog.brunomiguel.net/tags/hugo/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -985,7 +994,7 @@
     </item>
     
     <item>
-      <title>palete de cores</title>
+      <title>Palete De Cores</title>
       <link>https://blog.brunomiguel.net/tags/palete-de-cores/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -994,7 +1003,7 @@
     </item>
     
     <item>
-      <title>paper</title>
+      <title>Paper</title>
       <link>https://blog.brunomiguel.net/tags/paper/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -1003,7 +1012,7 @@
     </item>
     
     <item>
-      <title>paperino diddly</title>
+      <title>Paperino Diddly</title>
       <link>https://blog.brunomiguel.net/tags/paperino-diddly/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -1012,7 +1021,7 @@
     </item>
     
     <item>
-      <title>papermod</title>
+      <title>Papermod</title>
       <link>https://blog.brunomiguel.net/tags/papermod/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -1021,7 +1030,7 @@
     </item>
     
     <item>
-      <title>template</title>
+      <title>Template</title>
       <link>https://blog.brunomiguel.net/tags/template/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -1066,7 +1075,7 @@
     </item>
     
     <item>
-      <title>manjaro</title>
+      <title>Manjaro</title>
       <link>https://blog.brunomiguel.net/tags/manjaro/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1075,7 +1084,7 @@
     </item>
     
     <item>
-      <title>pacman</title>
+      <title>Pacman</title>
       <link>https://blog.brunomiguel.net/tags/pacman/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1093,7 +1102,7 @@
     </item>
     
     <item>
-      <title>star trek</title>
+      <title>Star Trek</title>
       <link>https://blog.brunomiguel.net/tags/star-trek/</link>
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1102,7 +1111,7 @@
     </item>
     
     <item>
-      <title>canvas</title>
+      <title>Canvas</title>
       <link>https://blog.brunomiguel.net/tags/canvas/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1111,7 +1120,7 @@
     </item>
     
     <item>
-      <title>cookies</title>
+      <title>Cookies</title>
       <link>https://blog.brunomiguel.net/tags/cookies/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1120,7 +1129,7 @@
     </item>
     
     <item>
-      <title>fingerprinting</title>
+      <title>Fingerprinting</title>
       <link>https://blog.brunomiguel.net/tags/fingerprinting/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1129,7 +1138,7 @@
     </item>
     
     <item>
-      <title>privacidade</title>
+      <title>Privacidade</title>
       <link>https://blog.brunomiguel.net/tags/privacidade/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1138,7 +1147,7 @@
     </item>
     
     <item>
-      <title>tracking</title>
+      <title>Tracking</title>
       <link>https://blog.brunomiguel.net/tags/tracking/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1147,7 +1156,7 @@
     </item>
     
     <item>
-      <title>webgl</title>
+      <title>Webgl</title>
       <link>https://blog.brunomiguel.net/tags/webgl/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1174,7 +1183,7 @@
     </item>
     
     <item>
-      <title>acessibilidade</title>
+      <title>Acessibilidade</title>
       <link>https://blog.brunomiguel.net/tags/acessibilidade/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1183,7 +1192,7 @@
     </item>
     
     <item>
-      <title>covid-19</title>
+      <title>Covid-19</title>
       <link>https://blog.brunomiguel.net/tags/covid-19/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1192,7 +1201,7 @@
     </item>
     
     <item>
-      <title>dor crónica</title>
+      <title>Dor Crónica</title>
       <link>https://blog.brunomiguel.net/tags/dor-cr%C3%B3nica/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1201,7 +1210,7 @@
     </item>
     
     <item>
-      <title>mobilidade reduzida</title>
+      <title>Mobilidade Reduzida</title>
       <link>https://blog.brunomiguel.net/tags/mobilidade-reduzida/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1210,7 +1219,7 @@
     </item>
     
     <item>
-      <title>vacinação</title>
+      <title>Vacinação</title>
       <link>https://blog.brunomiguel.net/tags/vacina%C3%A7%C3%A3o/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1219,7 +1228,7 @@
     </item>
     
     <item>
-      <title>ferramentas</title>
+      <title>Ferramentas</title>
       <link>https://blog.brunomiguel.net/tags/ferramentas/</link>
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1228,7 +1237,7 @@
     </item>
     
     <item>
-      <title>logseq</title>
+      <title>Logseq</title>
       <link>https://blog.brunomiguel.net/tags/logseq/</link>
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1237,7 +1246,7 @@
     </item>
     
     <item>
-      <title>notas</title>
+      <title>Notas</title>
       <link>https://blog.brunomiguel.net/tags/notas/</link>
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1246,7 +1255,7 @@
     </item>
     
     <item>
-      <title>organização</title>
+      <title>Organização</title>
       <link>https://blog.brunomiguel.net/tags/organiza%C3%A7%C3%A3o/</link>
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1255,7 +1264,7 @@
     </item>
     
     <item>
-      <title>migração</title>
+      <title>Migração</title>
       <link>https://blog.brunomiguel.net/tags/migra%C3%A7%C3%A3o/</link>
       <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1264,7 +1273,7 @@
     </item>
     
     <item>
-      <title>static site generator</title>
+      <title>Static Site Generator</title>
       <link>https://blog.brunomiguel.net/tags/static-site-generator/</link>
       <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1273,7 +1282,7 @@
     </item>
     
     <item>
-      <title>wordpress</title>
+      <title>Wordpress</title>
       <link>https://blog.brunomiguel.net/tags/wordpress/</link>
       <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -1282,7 +1291,7 @@
     </item>
     
     <item>
-      <title>bluetooth</title>
+      <title>Bluetooth</title>
       <link>https://blog.brunomiguel.net/tags/bluetooth/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -1291,7 +1300,7 @@
     </item>
     
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://blog.brunomiguel.net/tags/linux/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -1300,7 +1309,7 @@
     </item>
     
     <item>
-      <title>musica</title>
+      <title>Musica</title>
       <link>https://blog.brunomiguel.net/tags/musica/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -1309,7 +1318,7 @@
     </item>
     
     <item>
-      <title>playlist</title>
+      <title>Playlist</title>
       <link>https://blog.brunomiguel.net/tags/playlist/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -1318,7 +1327,7 @@
     </item>
     
     <item>
-      <title>spotify</title>
+      <title>Spotify</title>
       <link>https://blog.brunomiguel.net/tags/spotify/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -1327,7 +1336,7 @@
     </item>
     
     <item>
-      <title>top-2021</title>
+      <title>Top-2021</title>
       <link>https://blog.brunomiguel.net/tags/top-2021/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -1336,7 +1345,7 @@
     </item>
     
     <item>
-      <title>cansaco</title>
+      <title>Cansaco</title>
       <link>https://blog.brunomiguel.net/tags/cansaco/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -1345,7 +1354,7 @@
     </item>
     
     <item>
-      <title>d3</title>
+      <title>D3</title>
       <link>https://blog.brunomiguel.net/tags/d3/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -1354,7 +1363,7 @@
     </item>
     
     <item>
-      <title>direitos-digitais</title>
+      <title>Direitos-Digitais</title>
       <link>https://blog.brunomiguel.net/tags/direitos-digitais/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -1363,7 +1372,7 @@
     </item>
     
     <item>
-      <title>dores</title>
+      <title>Dores</title>
       <link>https://blog.brunomiguel.net/tags/dores/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -1372,7 +1381,7 @@
     </item>
     
     <item>
-      <title>fibrohell</title>
+      <title>Fibrohell</title>
       <link>https://blog.brunomiguel.net/tags/fibrohell/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -1381,7 +1390,7 @@
     </item>
     
     <item>
-      <title>sindrome</title>
+      <title>Sindrome</title>
       <link>https://blog.brunomiguel.net/tags/sindrome/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -1390,7 +1399,7 @@
     </item>
     
     <item>
-      <title>videovigilancia</title>
+      <title>Videovigilancia</title>
       <link>https://blog.brunomiguel.net/tags/videovigilancia/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -1399,7 +1408,7 @@
     </item>
     
     <item>
-      <title>ansol</title>
+      <title>Ansol</title>
       <link>https://blog.brunomiguel.net/tags/ansol/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1408,7 +1417,7 @@
     </item>
     
     <item>
-      <title>cloudflare</title>
+      <title>Cloudflare</title>
       <link>https://blog.brunomiguel.net/tags/cloudflare/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1417,7 +1426,7 @@
     </item>
     
     <item>
-      <title>igac</title>
+      <title>Igac</title>
       <link>https://blog.brunomiguel.net/tags/igac/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1426,7 +1435,7 @@
     </item>
     
     <item>
-      <title>ip</title>
+      <title>Ip</title>
       <link>https://blog.brunomiguel.net/tags/ip/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1435,7 +1444,7 @@
     </item>
     
     <item>
-      <title>projeto-de-lei</title>
+      <title>Projeto-De-Lei</title>
       <link>https://blog.brunomiguel.net/tags/projeto-de-lei/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1444,7 +1453,7 @@
     </item>
     
     <item>
-      <title>arch</title>
+      <title>Arch</title>
       <link>https://blog.brunomiguel.net/tags/arch/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1453,7 +1462,7 @@
     </item>
     
     <item>
-      <title>aur</title>
+      <title>Aur</title>
       <link>https://blog.brunomiguel.net/tags/aur/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1462,7 +1471,7 @@
     </item>
     
     <item>
-      <title>fosshost</title>
+      <title>Fosshost</title>
       <link>https://blog.brunomiguel.net/tags/fosshost/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1471,7 +1480,7 @@
     </item>
     
     <item>
-      <title>package</title>
+      <title>Package</title>
       <link>https://blog.brunomiguel.net/tags/package/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1480,7 +1489,7 @@
     </item>
     
     <item>
-      <title>userrepository-eu</title>
+      <title>Userrepository-Eu</title>
       <link>https://blog.brunomiguel.net/tags/userrepository-eu/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -1489,7 +1498,7 @@
     </item>
     
     <item>
-      <title>css</title>
+      <title>Css</title>
       <link>https://blog.brunomiguel.net/tags/css/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1498,7 +1507,7 @@
     </item>
     
     <item>
-      <title>dark-theme</title>
+      <title>Dark-Theme</title>
       <link>https://blog.brunomiguel.net/tags/dark-theme/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1507,7 +1516,7 @@
     </item>
     
     <item>
-      <title>stylus</title>
+      <title>Stylus</title>
       <link>https://blog.brunomiguel.net/tags/stylus/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1516,7 +1525,7 @@
     </item>
     
     <item>
-      <title>dbus</title>
+      <title>Dbus</title>
       <link>https://blog.brunomiguel.net/tags/dbus/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1525,7 +1534,7 @@
     </item>
     
     <item>
-      <title>dunst</title>
+      <title>Dunst</title>
       <link>https://blog.brunomiguel.net/tags/dunst/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1534,7 +1543,7 @@
     </item>
     
     <item>
-      <title>notification-daemon</title>
+      <title>Notification-Daemon</title>
       <link>https://blog.brunomiguel.net/tags/notification-daemon/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1543,7 +1552,7 @@
     </item>
     
     <item>
-      <title>plasma-desktop</title>
+      <title>Plasma-Desktop</title>
       <link>https://blog.brunomiguel.net/tags/plasma-desktop/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1552,7 +1561,7 @@
     </item>
     
     <item>
-      <title>tips</title>
+      <title>Tips</title>
       <link>https://blog.brunomiguel.net/tags/tips/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -1561,7 +1570,7 @@
     </item>
     
     <item>
-      <title>edicao</title>
+      <title>Edicao</title>
       <link>https://blog.brunomiguel.net/tags/edicao/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -1570,7 +1579,7 @@
     </item>
     
     <item>
-      <title>futebol</title>
+      <title>Futebol</title>
       <link>https://blog.brunomiguel.net/tags/futebol/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -1579,7 +1588,7 @@
     </item>
     
     <item>
-      <title>humor</title>
+      <title>Humor</title>
       <link>https://blog.brunomiguel.net/tags/humor/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -1588,7 +1597,7 @@
     </item>
     
     <item>
-      <title>cenas</title>
+      <title>Cenas</title>
       <link>https://blog.brunomiguel.net/tags/cenas/</link>
       <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -1597,7 +1606,7 @@
     </item>
     
     <item>
-      <title>dnb</title>
+      <title>Dnb</title>
       <link>https://blog.brunomiguel.net/tags/dnb/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
@@ -1606,7 +1615,7 @@
     </item>
     
     <item>
-      <title>drum-and-bass</title>
+      <title>Drum-and-Bass</title>
       <link>https://blog.brunomiguel.net/tags/drum-and-bass/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
@@ -1615,7 +1624,7 @@
     </item>
     
     <item>
-      <title>music</title>
+      <title>Music</title>
       <link>https://blog.brunomiguel.net/tags/music/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
@@ -1624,7 +1633,7 @@
     </item>
     
     <item>
-      <title>sono</title>
+      <title>Sono</title>
       <link>https://blog.brunomiguel.net/tags/sono/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -1633,7 +1642,7 @@
     </item>
     
     <item>
-      <title>packages</title>
+      <title>Packages</title>
       <link>https://blog.brunomiguel.net/tags/packages/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -1642,7 +1651,7 @@
     </item>
     
     <item>
-      <title>archlinux</title>
+      <title>Archlinux</title>
       <link>https://blog.brunomiguel.net/tags/archlinux/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -1651,7 +1660,7 @@
     </item>
     
     <item>
-      <title>reddit</title>
+      <title>Reddit</title>
       <link>https://blog.brunomiguel.net/tags/reddit/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -1660,7 +1669,7 @@
     </item>
     
     <item>
-      <title>emacs</title>
+      <title>Emacs</title>
       <link>https://blog.brunomiguel.net/tags/emacs/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -1669,7 +1678,7 @@
     </item>
     
     <item>
-      <title>markdown</title>
+      <title>Markdown</title>
       <link>https://blog.brunomiguel.net/tags/markdown/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -1678,7 +1687,7 @@
     </item>
     
     <item>
-      <title>batmovel</title>
+      <title>Batmovel</title>
       <link>https://blog.brunomiguel.net/tags/batmovel/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -1687,7 +1696,7 @@
     </item>
     
     <item>
-      <title>carocha</title>
+      <title>Carocha</title>
       <link>https://blog.brunomiguel.net/tags/carocha/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -1696,7 +1705,7 @@
     </item>
     
     <item>
-      <title>danni-koldal</title>
+      <title>Danni-Koldal</title>
       <link>https://blog.brunomiguel.net/tags/danni-koldal/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -1705,7 +1714,7 @@
     </item>
     
     <item>
-      <title>roadster</title>
+      <title>Roadster</title>
       <link>https://blog.brunomiguel.net/tags/roadster/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -1732,7 +1741,7 @@
     </item>
     
     <item>
-      <title>plasma</title>
+      <title>Plasma</title>
       <link>https://blog.brunomiguel.net/tags/plasma/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -1741,7 +1750,7 @@
     </item>
     
     <item>
-      <title>qml</title>
+      <title>Qml</title>
       <link>https://blog.brunomiguel.net/tags/qml/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -1750,7 +1759,7 @@
     </item>
     
     <item>
-      <title>comissao-europeia</title>
+      <title>Comissao-Europeia</title>
       <link>https://blog.brunomiguel.net/tags/comissao-europeia/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -1759,7 +1768,7 @@
     </item>
     
     <item>
-      <title>encriptacao</title>
+      <title>Encriptacao</title>
       <link>https://blog.brunomiguel.net/tags/encriptacao/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -1768,7 +1777,7 @@
     </item>
     
     <item>
-      <title>kutiman</title>
+      <title>Kutiman</title>
       <link>https://blog.brunomiguel.net/tags/kutiman/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -1777,7 +1786,7 @@
     </item>
     
     <item>
-      <title>mix-the-city</title>
+      <title>Mix-the-City</title>
       <link>https://blog.brunomiguel.net/tags/mix-the-city/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -1786,7 +1795,7 @@
     </item>
     
     <item>
-      <title>ddos</title>
+      <title>Ddos</title>
       <link>https://blog.brunomiguel.net/tags/ddos/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -1795,7 +1804,7 @@
     </item>
     
     <item>
-      <title>seguranca</title>
+      <title>Seguranca</title>
       <link>https://blog.brunomiguel.net/tags/seguranca/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -1804,7 +1813,7 @@
     </item>
     
     <item>
-      <title>sms</title>
+      <title>Sms</title>
       <link>https://blog.brunomiguel.net/tags/sms/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -1813,7 +1822,7 @@
     </item>
     
     <item>
-      <title>coimbra</title>
+      <title>Coimbra</title>
       <link>https://blog.brunomiguel.net/tags/coimbra/</link>
       <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -1822,7 +1831,7 @@
     </item>
     
     <item>
-      <title>fotografia</title>
+      <title>Fotografia</title>
       <link>https://blog.brunomiguel.net/tags/fotografia/</link>
       <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -1831,7 +1840,7 @@
     </item>
     
     <item>
-      <title>fotos</title>
+      <title>Fotos</title>
       <link>https://blog.brunomiguel.net/tags/fotos/</link>
       <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -1840,7 +1849,7 @@
     </item>
     
     <item>
-      <title>pg</title>
+      <title>Pg</title>
       <link>https://blog.brunomiguel.net/tags/pg/</link>
       <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -1849,7 +1858,7 @@
     </item>
     
     <item>
-      <title>preto-e-branco</title>
+      <title>Preto-E-Branco</title>
       <link>https://blog.brunomiguel.net/tags/preto-e-branco/</link>
       <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -1858,7 +1867,7 @@
     </item>
     
     <item>
-      <title>antinonio</title>
+      <title>Antinonio</title>
       <link>https://blog.brunomiguel.net/tags/antinonio/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -1867,7 +1876,7 @@
     </item>
     
     <item>
-      <title>nonio</title>
+      <title>Nonio</title>
       <link>https://blog.brunomiguel.net/tags/nonio/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -1876,7 +1885,7 @@
     </item>
     
     <item>
-      <title>groove-armada</title>
+      <title>Groove-Armada</title>
       <link>https://blog.brunomiguel.net/tags/groove-armada/</link>
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -1885,7 +1894,7 @@
     </item>
     
     <item>
-      <title>inside-my-mind</title>
+      <title>Inside-My-Mind</title>
       <link>https://blog.brunomiguel.net/tags/inside-my-mind/</link>
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -1894,7 +1903,7 @@
     </item>
     
     <item>
-      <title>hetzner</title>
+      <title>Hetzner</title>
       <link>https://blog.brunomiguel.net/tags/hetzner/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -1903,7 +1912,7 @@
     </item>
     
     <item>
-      <title>scaleway</title>
+      <title>Scaleway</title>
       <link>https://blog.brunomiguel.net/tags/scaleway/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -1912,7 +1921,7 @@
     </item>
     
     <item>
-      <title>boot-times</title>
+      <title>Boot-Times</title>
       <link>https://blog.brunomiguel.net/tags/boot-times/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1921,7 +1930,7 @@
     </item>
     
     <item>
-      <title>lz4</title>
+      <title>Lz4</title>
       <link>https://blog.brunomiguel.net/tags/lz4/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1930,7 +1939,7 @@
     </item>
     
     <item>
-      <title>mkinitcpio</title>
+      <title>Mkinitcpio</title>
       <link>https://blog.brunomiguel.net/tags/mkinitcpio/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1939,7 +1948,7 @@
     </item>
     
     <item>
-      <title>mq-deadline</title>
+      <title>Mq-Deadline</title>
       <link>https://blog.brunomiguel.net/tags/mq-deadline/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1948,7 +1957,7 @@
     </item>
     
     <item>
-      <title>systemd</title>
+      <title>Systemd</title>
       <link>https://blog.brunomiguel.net/tags/systemd/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1957,7 +1966,7 @@
     </item>
     
     <item>
-      <title>djs-from-mars</title>
+      <title>Djs-From-Mars</title>
       <link>https://blog.brunomiguel.net/tags/djs-from-mars/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1966,7 +1975,7 @@
     </item>
     
     <item>
-      <title>mashups</title>
+      <title>Mashups</title>
       <link>https://blog.brunomiguel.net/tags/mashups/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1975,7 +1984,7 @@
     </item>
     
     <item>
-      <title>bugs</title>
+      <title>Bugs</title>
       <link>https://blog.brunomiguel.net/tags/bugs/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1984,7 +1993,7 @@
     </item>
     
     <item>
-      <title>microfone</title>
+      <title>Microfone</title>
       <link>https://blog.brunomiguel.net/tags/microfone/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -1993,7 +2002,7 @@
     </item>
     
     <item>
-      <title>pulseaudio</title>
+      <title>Pulseaudio</title>
       <link>https://blog.brunomiguel.net/tags/pulseaudio/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2002,7 +2011,7 @@
     </item>
     
     <item>
-      <title>jarvis</title>
+      <title>Jarvis</title>
       <link>https://blog.brunomiguel.net/tags/jarvis/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2011,7 +2020,7 @@
     </item>
     
     <item>
-      <title>anormais</title>
+      <title>Anormais</title>
       <link>https://blog.brunomiguel.net/tags/anormais/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2020,7 +2029,7 @@
     </item>
     
     <item>
-      <title>boinc</title>
+      <title>Boinc</title>
       <link>https://blog.brunomiguel.net/tags/boinc/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2029,7 +2038,7 @@
     </item>
     
     <item>
-      <title>escala-de-kardashev</title>
+      <title>Escala-De-Kardashev</title>
       <link>https://blog.brunomiguel.net/tags/escala-de-kardashev/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2038,7 +2047,7 @@
     </item>
     
     <item>
-      <title>foldinghome</title>
+      <title>Foldinghome</title>
       <link>https://blog.brunomiguel.net/tags/foldinghome/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2047,7 +2056,7 @@
     </item>
     
     <item>
-      <title>idiotas</title>
+      <title>Idiotas</title>
       <link>https://blog.brunomiguel.net/tags/idiotas/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2056,7 +2065,7 @@
     </item>
     
     <item>
-      <title>pascoa</title>
+      <title>Pascoa</title>
       <link>https://blog.brunomiguel.net/tags/pascoa/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2065,7 +2074,7 @@
     </item>
     
     <item>
-      <title>religiosos</title>
+      <title>Religiosos</title>
       <link>https://blog.brunomiguel.net/tags/religiosos/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2074,7 +2083,7 @@
     </item>
     
     <item>
-      <title>rosettahome</title>
+      <title>Rosettahome</title>
       <link>https://blog.brunomiguel.net/tags/rosettahome/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2083,7 +2092,7 @@
     </item>
     
     <item>
-      <title>manteiga-de-amendoim</title>
+      <title>Manteiga-De-Amendoim</title>
       <link>https://blog.brunomiguel.net/tags/manteiga-de-amendoim/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2092,7 +2101,7 @@
     </item>
     
     <item>
-      <title>pao</title>
+      <title>Pao</title>
       <link>https://blog.brunomiguel.net/tags/pao/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2101,7 +2110,7 @@
     </item>
     
     <item>
-      <title>receita</title>
+      <title>Receita</title>
       <link>https://blog.brunomiguel.net/tags/receita/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2110,7 +2119,7 @@
     </item>
     
     <item>
-      <title>ministerio-da-cultura</title>
+      <title>Ministerio-Da-Cultura</title>
       <link>https://blog.brunomiguel.net/tags/ministerio-da-cultura/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2119,7 +2128,7 @@
     </item>
     
     <item>
-      <title>rtp</title>
+      <title>Rtp</title>
       <link>https://blog.brunomiguel.net/tags/rtp/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2128,7 +2137,7 @@
     </item>
     
     <item>
-      <title>tv-fest</title>
+      <title>Tv-Fest</title>
       <link>https://blog.brunomiguel.net/tags/tv-fest/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2137,7 +2146,7 @@
     </item>
     
     <item>
-      <title>cartao-de-cidadao</title>
+      <title>Cartao-De-Cidadao</title>
       <link>https://blog.brunomiguel.net/tags/cartao-de-cidadao/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2146,7 +2155,7 @@
     </item>
     
     <item>
-      <title>cdc</title>
+      <title>Cdc</title>
       <link>https://blog.brunomiguel.net/tags/cdc/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2155,7 +2164,7 @@
     </item>
     
     <item>
-      <title>covid19</title>
+      <title>Covid19</title>
       <link>https://blog.brunomiguel.net/tags/covid19/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2164,7 +2173,7 @@
     </item>
     
     <item>
-      <title>downtempo</title>
+      <title>Downtempo</title>
       <link>https://blog.brunomiguel.net/tags/downtempo/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2173,7 +2182,7 @@
     </item>
     
     <item>
-      <title>mascaras</title>
+      <title>Mascaras</title>
       <link>https://blog.brunomiguel.net/tags/mascaras/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2182,7 +2191,7 @@
     </item>
     
     <item>
-      <title>sars-cov-2</title>
+      <title>Sars-Cov-2</title>
       <link>https://blog.brunomiguel.net/tags/sars-cov-2/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2191,7 +2200,7 @@
     </item>
     
     <item>
-      <title>symphonik</title>
+      <title>Symphonik</title>
       <link>https://blog.brunomiguel.net/tags/symphonik/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2200,7 +2209,7 @@
     </item>
     
     <item>
-      <title>thievery-corporation</title>
+      <title>Thievery-Corporation</title>
       <link>https://blog.brunomiguel.net/tags/thievery-corporation/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2209,7 +2218,7 @@
     </item>
     
     <item>
-      <title>triphop</title>
+      <title>Triphop</title>
       <link>https://blog.brunomiguel.net/tags/triphop/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -2218,7 +2227,7 @@
     </item>
     
     <item>
-      <title>nos</title>
+      <title>Nos</title>
       <link>https://blog.brunomiguel.net/tags/nos/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       
@@ -2227,7 +2236,7 @@
     </item>
     
     <item>
-      <title>traffic-shaping</title>
+      <title>Traffic-Shaping</title>
       <link>https://blog.brunomiguel.net/tags/traffic-shaping/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       
@@ -2236,7 +2245,7 @@
     </item>
     
     <item>
-      <title>debian</title>
+      <title>Debian</title>
       <link>https://blog.brunomiguel.net/tags/debian/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2245,7 +2254,7 @@
     </item>
     
     <item>
-      <title>howto</title>
+      <title>Howto</title>
       <link>https://blog.brunomiguel.net/tags/howto/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2254,7 +2263,7 @@
     </item>
     
     <item>
-      <title>vpn</title>
+      <title>Vpn</title>
       <link>https://blog.brunomiguel.net/tags/vpn/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2263,7 +2272,7 @@
     </item>
     
     <item>
-      <title>wireguard</title>
+      <title>Wireguard</title>
       <link>https://blog.brunomiguel.net/tags/wireguard/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2272,7 +2281,7 @@
     </item>
     
     <item>
-      <title>compton</title>
+      <title>Compton</title>
       <link>https://blog.brunomiguel.net/tags/compton/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2281,7 +2290,7 @@
     </item>
     
     <item>
-      <title>compton-tryone</title>
+      <title>Compton-Tryone</title>
       <link>https://blog.brunomiguel.net/tags/compton-tryone/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2290,7 +2299,7 @@
     </item>
     
     <item>
-      <title>gtk</title>
+      <title>Gtk</title>
       <link>https://blog.brunomiguel.net/tags/gtk/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2299,7 +2308,7 @@
     </item>
     
     <item>
-      <title>kvantum</title>
+      <title>Kvantum</title>
       <link>https://blog.brunomiguel.net/tags/kvantum/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2308,7 +2317,7 @@
     </item>
     
     <item>
-      <title>lxqt</title>
+      <title>Lxqt</title>
       <link>https://blog.brunomiguel.net/tags/lxqt/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -2317,7 +2326,7 @@
     </item>
     
     <item>
-      <title>compulab</title>
+      <title>Compulab</title>
       <link>https://blog.brunomiguel.net/tags/compulab/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -2326,7 +2335,7 @@
     </item>
     
     <item>
-      <title>linux-mint</title>
+      <title>Linux-Mint</title>
       <link>https://blog.brunomiguel.net/tags/linux-mint/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -2335,7 +2344,7 @@
     </item>
     
     <item>
-      <title>mintbox</title>
+      <title>Mintbox</title>
       <link>https://blog.brunomiguel.net/tags/mintbox/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -2344,7 +2353,7 @@
     </item>
     
     <item>
-      <title>mintbox3</title>
+      <title>Mintbox3</title>
       <link>https://blog.brunomiguel.net/tags/mintbox3/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -2353,7 +2362,7 @@
     </item>
     
     <item>
-      <title>lpt</title>
+      <title>Lpt</title>
       <link>https://blog.brunomiguel.net/tags/lpt/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -2362,7 +2371,7 @@
     </item>
     
     <item>
-      <title>spotifywrapped</title>
+      <title>Spotifywrapped</title>
       <link>https://blog.brunomiguel.net/tags/spotifywrapped/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -2371,7 +2380,7 @@
     </item>
     
     <item>
-      <title>bash</title>
+      <title>Bash</title>
       <link>https://blog.brunomiguel.net/tags/bash/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -2380,7 +2389,7 @@
     </item>
     
     <item>
-      <title>adblock</title>
+      <title>Adblock</title>
       <link>https://blog.brunomiguel.net/tags/adblock/</link>
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
       
@@ -2389,7 +2398,7 @@
     </item>
     
     <item>
-      <title>eolie</title>
+      <title>Eolie</title>
       <link>https://blog.brunomiguel.net/tags/eolie/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
@@ -2398,7 +2407,7 @@
     </item>
     
     <item>
-      <title>free-software</title>
+      <title>Free-Software</title>
       <link>https://blog.brunomiguel.net/tags/free-software/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
@@ -2407,7 +2416,7 @@
     </item>
     
     <item>
-      <title>pkgbuild</title>
+      <title>Pkgbuild</title>
       <link>https://blog.brunomiguel.net/tags/pkgbuild/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -2425,7 +2434,7 @@
     </item>
     
     <item>
-      <title>arch-wiki</title>
+      <title>Arch-Wiki</title>
       <link>https://blog.brunomiguel.net/tags/arch-wiki/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -2434,7 +2443,7 @@
     </item>
     
     <item>
-      <title>facebook</title>
+      <title>Facebook</title>
       <link>https://blog.brunomiguel.net/tags/facebook/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2443,7 +2452,7 @@
     </item>
     
     <item>
-      <title>velho-do-restelo</title>
+      <title>Velho-Do-Restelo</title>
       <link>https://blog.brunomiguel.net/tags/velho-do-restelo/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2452,7 +2461,7 @@
     </item>
     
     <item>
-      <title>cbs</title>
+      <title>Cbs</title>
       <link>https://blog.brunomiguel.net/tags/cbs/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2461,7 +2470,7 @@
     </item>
     
     <item>
-      <title>hbo</title>
+      <title>Hbo</title>
       <link>https://blog.brunomiguel.net/tags/hbo/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2470,7 +2479,7 @@
     </item>
     
     <item>
-      <title>netflix</title>
+      <title>Netflix</title>
       <link>https://blog.brunomiguel.net/tags/netflix/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2479,7 +2488,7 @@
     </item>
     
     <item>
-      <title>streaming</title>
+      <title>Streaming</title>
       <link>https://blog.brunomiguel.net/tags/streaming/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2488,7 +2497,7 @@
     </item>
     
     <item>
-      <title>torrent</title>
+      <title>Torrent</title>
       <link>https://blog.brunomiguel.net/tags/torrent/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2497,7 +2506,7 @@
     </item>
     
     <item>
-      <title>astronomia</title>
+      <title>Astronomia</title>
       <link>https://blog.brunomiguel.net/tags/astronomia/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2506,7 +2515,7 @@
     </item>
     
     <item>
-      <title>hubble</title>
+      <title>Hubble</title>
       <link>https://blog.brunomiguel.net/tags/hubble/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2515,7 +2524,7 @@
     </item>
     
     <item>
-      <title>k2-18b</title>
+      <title>K2-18b</title>
       <link>https://blog.brunomiguel.net/tags/k2-18b/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2524,7 +2533,7 @@
     </item>
     
     <item>
-      <title>kepler</title>
+      <title>Kepler</title>
       <link>https://blog.brunomiguel.net/tags/kepler/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2533,7 +2542,7 @@
     </item>
     
     <item>
-      <title>efeito-bolha</title>
+      <title>Efeito-Bolha</title>
       <link>https://blog.brunomiguel.net/tags/efeito-bolha/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2542,7 +2551,7 @@
     </item>
     
     <item>
-      <title>humanidade</title>
+      <title>Humanidade</title>
       <link>https://blog.brunomiguel.net/tags/humanidade/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2551,7 +2560,7 @@
     </item>
     
     <item>
-      <title>fm2019</title>
+      <title>Fm2019</title>
       <link>https://blog.brunomiguel.net/tags/fm2019/</link>
       <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2560,7 +2569,7 @@
     </item>
     
     <item>
-      <title>football-manager</title>
+      <title>Football-Manager</title>
       <link>https://blog.brunomiguel.net/tags/football-manager/</link>
       <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2569,7 +2578,7 @@
     </item>
     
     <item>
-      <title>games</title>
+      <title>Games</title>
       <link>https://blog.brunomiguel.net/tags/games/</link>
       <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -2578,7 +2587,7 @@
     </item>
     
     <item>
-      <title>opera</title>
+      <title>Opera</title>
       <link>https://blog.brunomiguel.net/tags/opera/</link>
       <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -2587,7 +2596,7 @@
     </item>
     
     <item>
-      <title>vivaldi</title>
+      <title>Vivaldi</title>
       <link>https://blog.brunomiguel.net/tags/vivaldi/</link>
       <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -2596,7 +2605,7 @@
     </item>
     
     <item>
-      <title>mozilla</title>
+      <title>Mozilla</title>
       <link>https://blog.brunomiguel.net/tags/mozilla/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -2605,7 +2614,7 @@
     </item>
     
     <item>
-      <title>night-mode</title>
+      <title>Night-Mode</title>
       <link>https://blog.brunomiguel.net/tags/night-mode/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2614,7 +2623,7 @@
     </item>
     
     <item>
-      <title>christian-loffler</title>
+      <title>Christian-Loffler</title>
       <link>https://blog.brunomiguel.net/tags/christian-loffler/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2623,7 +2632,7 @@
     </item>
     
     <item>
-      <title>mare-reworks</title>
+      <title>Mare-Reworks</title>
       <link>https://blog.brunomiguel.net/tags/mare-reworks/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2632,7 +2641,7 @@
     </item>
     
     <item>
-      <title>dotdrop</title>
+      <title>Dotdrop</title>
       <link>https://blog.brunomiguel.net/tags/dotdrop/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2641,7 +2650,7 @@
     </item>
     
     <item>
-      <title>dotfiles</title>
+      <title>Dotfiles</title>
       <link>https://blog.brunomiguel.net/tags/dotfiles/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2650,7 +2659,7 @@
     </item>
     
     <item>
-      <title>scripts</title>
+      <title>Scripts</title>
       <link>https://blog.brunomiguel.net/tags/scripts/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2659,7 +2668,7 @@
     </item>
     
     <item>
-      <title>fh</title>
+      <title>Fh</title>
       <link>https://blog.brunomiguel.net/tags/fh/</link>
       <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2668,7 +2677,7 @@
     </item>
     
     <item>
-      <title>science</title>
+      <title>Science</title>
       <link>https://blog.brunomiguel.net/tags/science/</link>
       <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -2677,7 +2686,7 @@
     </item>
     
     <item>
-      <title>cartoon</title>
+      <title>Cartoon</title>
       <link>https://blog.brunomiguel.net/tags/cartoon/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
@@ -2686,7 +2695,7 @@
     </item>
     
     <item>
-      <title>cyanide-and-happiness</title>
+      <title>Cyanide-and-Happiness</title>
       <link>https://blog.brunomiguel.net/tags/cyanide-and-happiness/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
@@ -2695,7 +2704,7 @@
     </item>
     
     <item>
-      <title>webcomic</title>
+      <title>Webcomic</title>
       <link>https://blog.brunomiguel.net/tags/webcomic/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
@@ -2704,7 +2713,7 @@
     </item>
     
     <item>
-      <title>construcao</title>
+      <title>Construcao</title>
       <link>https://blog.brunomiguel.net/tags/construcao/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
@@ -2713,7 +2722,7 @@
     </item>
     
     <item>
-      <title>titanic</title>
+      <title>Titanic</title>
       <link>https://blog.brunomiguel.net/tags/titanic/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
@@ -2722,7 +2731,7 @@
     </item>
     
     <item>
-      <title>vintage</title>
+      <title>Vintage</title>
       <link>https://blog.brunomiguel.net/tags/vintage/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
@@ -2731,7 +2740,7 @@
     </item>
     
     <item>
-      <title>ciencia</title>
+      <title>Ciencia</title>
       <link>https://blog.brunomiguel.net/tags/ciencia/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
@@ -2740,7 +2749,7 @@
     </item>
     
     <item>
-      <title>estrela-de-neutroes</title>
+      <title>Estrela-De-Neutroes</title>
       <link>https://blog.brunomiguel.net/tags/estrela-de-neutroes/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
@@ -2749,7 +2758,7 @@
     </item>
     
     <item>
-      <title>imre-bartos</title>
+      <title>Imre-Bartos</title>
       <link>https://blog.brunomiguel.net/tags/imre-bartos/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
@@ -2758,7 +2767,7 @@
     </item>
     
     <item>
-      <title>szabolcs-marka</title>
+      <title>Szabolcs-Marka</title>
       <link>https://blog.brunomiguel.net/tags/szabolcs-marka/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
@@ -2767,7 +2776,7 @@
     </item>
     
     <item>
-      <title>easter</title>
+      <title>Easter</title>
       <link>https://blog.brunomiguel.net/tags/easter/</link>
       <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -2776,7 +2785,7 @@
     </item>
     
     <item>
-      <title>zombie-jesus</title>
+      <title>Zombie-Jesus</title>
       <link>https://blog.brunomiguel.net/tags/zombie-jesus/</link>
       <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -2785,7 +2794,7 @@
     </item>
     
     <item>
-      <title>aurto</title>
+      <title>Aurto</title>
       <link>https://blog.brunomiguel.net/tags/aurto/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -2794,7 +2803,7 @@
     </item>
     
     <item>
-      <title>gnu-linux</title>
+      <title>Gnu-Linux</title>
       <link>https://blog.brunomiguel.net/tags/gnu-linux/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -2803,7 +2812,7 @@
     </item>
     
     <item>
-      <title>arcan1s</title>
+      <title>Arcan1s</title>
       <link>https://blog.brunomiguel.net/tags/arcan1s/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -2812,7 +2821,7 @@
     </item>
     
     <item>
-      <title>animation</title>
+      <title>Animation</title>
       <link>https://blog.brunomiguel.net/tags/animation/</link>
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2821,7 +2830,7 @@
     </item>
     
     <item>
-      <title>gary-dourdan</title>
+      <title>Gary-Dourdan</title>
       <link>https://blog.brunomiguel.net/tags/gary-dourdan/</link>
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2830,7 +2839,7 @@
     </item>
     
     <item>
-      <title>raphael-bluzet</title>
+      <title>Raphael-Bluzet</title>
       <link>https://blog.brunomiguel.net/tags/raphael-bluzet/</link>
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2839,7 +2848,7 @@
     </item>
     
     <item>
-      <title>space</title>
+      <title>Space</title>
       <link>https://blog.brunomiguel.net/tags/space/</link>
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2848,7 +2857,7 @@
     </item>
     
     <item>
-      <title>autocolantes</title>
+      <title>Autocolantes</title>
       <link>https://blog.brunomiguel.net/tags/autocolantes/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2857,7 +2866,7 @@
     </item>
     
     <item>
-      <title>beatles</title>
+      <title>Beatles</title>
       <link>https://blog.brunomiguel.net/tags/beatles/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2866,7 +2875,7 @@
     </item>
     
     <item>
-      <title>brexit</title>
+      <title>Brexit</title>
       <link>https://blog.brunomiguel.net/tags/brexit/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2875,7 +2884,7 @@
     </item>
     
     <item>
-      <title>fugas</title>
+      <title>Fugas</title>
       <link>https://blog.brunomiguel.net/tags/fugas/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2884,7 +2893,7 @@
     </item>
     
     <item>
-      <title>portatil</title>
+      <title>Portatil</title>
       <link>https://blog.brunomiguel.net/tags/portatil/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2893,7 +2902,7 @@
     </item>
     
     <item>
-      <title>publico</title>
+      <title>Publico</title>
       <link>https://blog.brunomiguel.net/tags/publico/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2902,7 +2911,7 @@
     </item>
     
     <item>
-      <title>screenshot</title>
+      <title>Screenshot</title>
       <link>https://blog.brunomiguel.net/tags/screenshot/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2911,7 +2920,7 @@
     </item>
     
     <item>
-      <title>sticker-mule</title>
+      <title>Sticker-Mule</title>
       <link>https://blog.brunomiguel.net/tags/sticker-mule/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2920,7 +2929,7 @@
     </item>
     
     <item>
-      <title>j-anderson-thomson</title>
+      <title>J-Anderson-Thomson</title>
       <link>https://blog.brunomiguel.net/tags/j-anderson-thomson/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2929,7 +2938,7 @@
     </item>
     
     <item>
-      <title>religiao</title>
+      <title>Religiao</title>
       <link>https://blog.brunomiguel.net/tags/religiao/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2938,7 +2947,7 @@
     </item>
     
     <item>
-      <title>klanglos</title>
+      <title>Klanglos</title>
       <link>https://blog.brunomiguel.net/tags/klanglos/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2947,7 +2956,7 @@
     </item>
     
     <item>
-      <title>techno</title>
+      <title>Techno</title>
       <link>https://blog.brunomiguel.net/tags/techno/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -2956,7 +2965,7 @@
     </item>
     
     <item>
-      <title>astronomy</title>
+      <title>Astronomy</title>
       <link>https://blog.brunomiguel.net/tags/astronomy/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -2965,7 +2974,7 @@
     </item>
     
     <item>
-      <title>big-bang</title>
+      <title>Big-Bang</title>
       <link>https://blog.brunomiguel.net/tags/big-bang/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -2974,7 +2983,7 @@
     </item>
     
     <item>
-      <title>universe</title>
+      <title>Universe</title>
       <link>https://blog.brunomiguel.net/tags/universe/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -2983,7 +2992,7 @@
     </item>
     
     <item>
-      <title>passwords</title>
+      <title>Passwords</title>
       <link>https://blog.brunomiguel.net/tags/passwords/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -2992,7 +3001,7 @@
     </item>
     
     <item>
-      <title>chromium</title>
+      <title>Chromium</title>
       <link>https://blog.brunomiguel.net/tags/chromium/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -3001,7 +3010,7 @@
     </item>
     
     <item>
-      <title>edge</title>
+      <title>Edge</title>
       <link>https://blog.brunomiguel.net/tags/edge/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -3010,7 +3019,7 @@
     </item>
     
     <item>
-      <title>internet-explorer</title>
+      <title>Internet-Explorer</title>
       <link>https://blog.brunomiguel.net/tags/internet-explorer/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -3019,7 +3028,7 @@
     </item>
     
     <item>
-      <title>microsoft</title>
+      <title>Microsoft</title>
       <link>https://blog.brunomiguel.net/tags/microsoft/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -3028,7 +3037,7 @@
     </item>
     
     <item>
-      <title>book</title>
+      <title>Book</title>
       <link>https://blog.brunomiguel.net/tags/book/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3037,7 +3046,7 @@
     </item>
     
     <item>
-      <title>religion</title>
+      <title>Religion</title>
       <link>https://blog.brunomiguel.net/tags/religion/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3046,7 +3055,7 @@
     </item>
     
     <item>
-      <title>the-darkening-age</title>
+      <title>The-Darkening-Age</title>
       <link>https://blog.brunomiguel.net/tags/the-darkening-age/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3055,7 +3064,7 @@
     </item>
     
     <item>
-      <title>atempted-humor</title>
+      <title>Atempted-Humor</title>
       <link>https://blog.brunomiguel.net/tags/atempted-humor/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3064,7 +3073,7 @@
     </item>
     
     <item>
-      <title>biker-mice-from-mars</title>
+      <title>Biker-Mice-From-Mars</title>
       <link>https://blog.brunomiguel.net/tags/biker-mice-from-mars/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3073,7 +3082,7 @@
     </item>
     
     <item>
-      <title>insight</title>
+      <title>Insight</title>
       <link>https://blog.brunomiguel.net/tags/insight/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3082,7 +3091,7 @@
     </item>
     
     <item>
-      <title>mars</title>
+      <title>Mars</title>
       <link>https://blog.brunomiguel.net/tags/mars/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3091,7 +3100,7 @@
     </item>
     
     <item>
-      <title>nasa</title>
+      <title>Nasa</title>
       <link>https://blog.brunomiguel.net/tags/nasa/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3100,7 +3109,7 @@
     </item>
     
     <item>
-      <title>sarcasm</title>
+      <title>Sarcasm</title>
       <link>https://blog.brunomiguel.net/tags/sarcasm/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3109,7 +3118,7 @@
     </item>
     
     <item>
-      <title>spacecraft</title>
+      <title>Spacecraft</title>
       <link>https://blog.brunomiguel.net/tags/spacecraft/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3118,7 +3127,7 @@
     </item>
     
     <item>
-      <title>politica</title>
+      <title>Politica</title>
       <link>https://blog.brunomiguel.net/tags/politica/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3127,7 +3136,7 @@
     </item>
     
     <item>
-      <title>shitty-people</title>
+      <title>Shitty-People</title>
       <link>https://blog.brunomiguel.net/tags/shitty-people/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3136,7 +3145,7 @@
     </item>
     
     <item>
-      <title>kde</title>
+      <title>Kde</title>
       <link>https://blog.brunomiguel.net/tags/kde/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3145,7 +3154,7 @@
     </item>
     
     <item>
-      <title>ubuntu</title>
+      <title>Ubuntu</title>
       <link>https://blog.brunomiguel.net/tags/ubuntu/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3154,7 +3163,7 @@
     </item>
     
     <item>
-      <title>slow</title>
+      <title>Slow</title>
       <link>https://blog.brunomiguel.net/tags/slow/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3163,7 +3172,7 @@
     </item>
     
     <item>
-      <title>windows-10</title>
+      <title>Windows-10</title>
       <link>https://blog.brunomiguel.net/tags/windows-10/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3172,7 +3181,7 @@
     </item>
     
     <item>
-      <title>windows-update</title>
+      <title>Windows-Update</title>
       <link>https://blog.brunomiguel.net/tags/windows-update/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -3181,7 +3190,7 @@
     </item>
     
     <item>
-      <title>depression</title>
+      <title>Depression</title>
       <link>https://blog.brunomiguel.net/tags/depression/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3190,7 +3199,7 @@
     </item>
     
     <item>
-      <title>health</title>
+      <title>Health</title>
       <link>https://blog.brunomiguel.net/tags/health/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3199,7 +3208,7 @@
     </item>
     
     <item>
-      <title>ted-ed</title>
+      <title>Ted-Ed</title>
       <link>https://blog.brunomiguel.net/tags/ted-ed/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3208,7 +3217,7 @@
     </item>
     
     <item>
-      <title>video</title>
+      <title>Video</title>
       <link>https://blog.brunomiguel.net/tags/video/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3217,7 +3226,7 @@
     </item>
     
     <item>
-      <title>antena-3</title>
+      <title>Antena-3</title>
       <link>https://blog.brunomiguel.net/tags/antena-3/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3226,7 +3235,7 @@
     </item>
     
     <item>
-      <title>grande-sofa</title>
+      <title>Grande-Sofa</title>
       <link>https://blog.brunomiguel.net/tags/grande-sofa/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3235,7 +3244,7 @@
     </item>
     
     <item>
-      <title>oddball</title>
+      <title>Oddball</title>
       <link>https://blog.brunomiguel.net/tags/oddball/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3244,7 +3253,7 @@
     </item>
     
     <item>
-      <title>opiniao</title>
+      <title>Opiniao</title>
       <link>https://blog.brunomiguel.net/tags/opiniao/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3253,7 +3262,7 @@
     </item>
     
     <item>
-      <title>divagacoes</title>
+      <title>Divagacoes</title>
       <link>https://blog.brunomiguel.net/tags/divagacoes/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3262,7 +3271,7 @@
     </item>
     
     <item>
-      <title>cat</title>
+      <title>Cat</title>
       <link>https://blog.brunomiguel.net/tags/cat/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3271,7 +3280,7 @@
     </item>
     
     <item>
-      <title>cool-stuff</title>
+      <title>Cool-Stuff</title>
       <link>https://blog.brunomiguel.net/tags/cool-stuff/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -3280,7 +3289,7 @@
     </item>
     
     <item>
-      <title>ibs</title>
+      <title>Ibs</title>
       <link>https://blog.brunomiguel.net/tags/ibs/</link>
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3289,7 +3298,7 @@
     </item>
     
     <item>
-      <title>irritable-bowel-syndrome</title>
+      <title>Irritable-Bowel-Syndrome</title>
       <link>https://blog.brunomiguel.net/tags/irritable-bowel-syndrome/</link>
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3298,7 +3307,7 @@
     </item>
     
     <item>
-      <title>chome</title>
+      <title>Chome</title>
       <link>https://blog.brunomiguel.net/tags/chome/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3307,7 +3316,7 @@
     </item>
     
     <item>
-      <title>amd</title>
+      <title>Amd</title>
       <link>https://blog.brunomiguel.net/tags/amd/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3316,7 +3325,7 @@
     </item>
     
     <item>
-      <title>asus</title>
+      <title>Asus</title>
       <link>https://blog.brunomiguel.net/tags/asus/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3325,7 +3334,7 @@
     </item>
     
     <item>
-      <title>lenovo</title>
+      <title>Lenovo</title>
       <link>https://blog.brunomiguel.net/tags/lenovo/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3334,7 +3343,7 @@
     </item>
     
     <item>
-      <title>promp</title>
+      <title>Promp</title>
       <link>https://blog.brunomiguel.net/tags/promp/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3343,7 +3352,7 @@
     </item>
     
     <item>
-      <title>chapeau-claque</title>
+      <title>Chapeau-Claque</title>
       <link>https://blog.brunomiguel.net/tags/chapeau-claque/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3352,7 +3361,7 @@
     </item>
     
     <item>
-      <title>malhas</title>
+      <title>Malhas</title>
       <link>https://blog.brunomiguel.net/tags/malhas/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3361,7 +3370,7 @@
     </item>
     
     <item>
-      <title>artigo</title>
+      <title>Artigo</title>
       <link>https://blog.brunomiguel.net/tags/artigo/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3370,7 +3379,7 @@
     </item>
     
     <item>
-      <title>bsd</title>
+      <title>Bsd</title>
       <link>https://blog.brunomiguel.net/tags/bsd/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3379,7 +3388,7 @@
     </item>
     
     <item>
-      <title>openbsd</title>
+      <title>Openbsd</title>
       <link>https://blog.brunomiguel.net/tags/openbsd/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3388,7 +3397,7 @@
     </item>
     
     <item>
-      <title>wumo</title>
+      <title>Wumo</title>
       <link>https://blog.brunomiguel.net/tags/wumo/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -3397,7 +3406,7 @@
     </item>
     
     <item>
-      <title>qemu</title>
+      <title>Qemu</title>
       <link>https://blog.brunomiguel.net/tags/qemu/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3406,7 +3415,7 @@
     </item>
     
     <item>
-      <title>usb</title>
+      <title>Usb</title>
       <link>https://blog.brunomiguel.net/tags/usb/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3415,7 +3424,7 @@
     </item>
     
     <item>
-      <title>cars</title>
+      <title>Cars</title>
       <link>https://blog.brunomiguel.net/tags/cars/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3424,7 +3433,7 @@
     </item>
     
     <item>
-      <title>cv-1</title>
+      <title>Cv-1</title>
       <link>https://blog.brunomiguel.net/tags/cv-1/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3433,7 +3442,7 @@
     </item>
     
     <item>
-      <title>kalashnikov</title>
+      <title>Kalashnikov</title>
       <link>https://blog.brunomiguel.net/tags/kalashnikov/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3442,7 +3451,7 @@
     </item>
     
     <item>
-      <title>disenchantment</title>
+      <title>Disenchantment</title>
       <link>https://blog.brunomiguel.net/tags/disenchantment/</link>
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3451,7 +3460,7 @@
     </item>
     
     <item>
-      <title>game-of-thrones</title>
+      <title>Game-of-Thrones</title>
       <link>https://blog.brunomiguel.net/tags/game-of-thrones/</link>
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3460,7 +3469,7 @@
     </item>
     
     <item>
-      <title>matt-groening</title>
+      <title>Matt-Groening</title>
       <link>https://blog.brunomiguel.net/tags/matt-groening/</link>
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3469,7 +3478,7 @@
     </item>
     
     <item>
-      <title>simpsons</title>
+      <title>Simpsons</title>
       <link>https://blog.brunomiguel.net/tags/simpsons/</link>
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3478,7 +3487,7 @@
     </item>
     
     <item>
-      <title>app</title>
+      <title>App</title>
       <link>https://blog.brunomiguel.net/tags/app/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3487,7 +3496,7 @@
     </item>
     
     <item>
-      <title>bash-it</title>
+      <title>Bash-It</title>
       <link>https://blog.brunomiguel.net/tags/bash-it/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3496,7 +3505,7 @@
     </item>
     
     <item>
-      <title>bashrc</title>
+      <title>Bashrc</title>
       <link>https://blog.brunomiguel.net/tags/bashrc/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3505,7 +3514,7 @@
     </item>
     
     <item>
-      <title>criptex</title>
+      <title>Criptex</title>
       <link>https://blog.brunomiguel.net/tags/criptex/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3514,7 +3523,7 @@
     </item>
     
     <item>
-      <title>email</title>
+      <title>Email</title>
       <link>https://blog.brunomiguel.net/tags/email/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3523,7 +3532,7 @@
     </item>
     
     <item>
-      <title>encryption</title>
+      <title>Encryption</title>
       <link>https://blog.brunomiguel.net/tags/encryption/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3532,7 +3541,7 @@
     </item>
     
     <item>
-      <title>history</title>
+      <title>History</title>
       <link>https://blog.brunomiguel.net/tags/history/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3541,7 +3550,7 @@
     </item>
     
     <item>
-      <title>funny</title>
+      <title>Funny</title>
       <link>https://blog.brunomiguel.net/tags/funny/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3550,7 +3559,7 @@
     </item>
     
     <item>
-      <title>note-keeper</title>
+      <title>Note-Keeper</title>
       <link>https://blog.brunomiguel.net/tags/note-keeper/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3559,7 +3568,7 @@
     </item>
     
     <item>
-      <title>productivity</title>
+      <title>Productivity</title>
       <link>https://blog.brunomiguel.net/tags/productivity/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3568,7 +3577,7 @@
     </item>
     
     <item>
-      <title>vim</title>
+      <title>Vim</title>
       <link>https://blog.brunomiguel.net/tags/vim/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -3577,7 +3586,7 @@
     </item>
     
     <item>
-      <title>exoplanets</title>
+      <title>Exoplanets</title>
       <link>https://blog.brunomiguel.net/tags/exoplanets/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3586,7 +3595,7 @@
     </item>
     
     <item>
-      <title>tess</title>
+      <title>Tess</title>
       <link>https://blog.brunomiguel.net/tags/tess/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3595,7 +3604,7 @@
     </item>
     
     <item>
-      <title>atouguia-da-baleia</title>
+      <title>Atouguia-Da-Baleia</title>
       <link>https://blog.brunomiguel.net/tags/atouguia-da-baleia/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3604,7 +3613,7 @@
     </item>
     
     <item>
-      <title>costa-oeste</title>
+      <title>Costa-Oeste</title>
       <link>https://blog.brunomiguel.net/tags/costa-oeste/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3613,7 +3622,7 @@
     </item>
     
     <item>
-      <title>praia</title>
+      <title>Praia</title>
       <link>https://blog.brunomiguel.net/tags/praia/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3622,7 +3631,7 @@
     </item>
     
     <item>
-      <title>sao-martinho-do-porto</title>
+      <title>Sao-Martinho-Do-Porto</title>
       <link>https://blog.brunomiguel.net/tags/sao-martinho-do-porto/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3631,7 +3640,7 @@
     </item>
     
     <item>
-      <title>verao</title>
+      <title>Verao</title>
       <link>https://blog.brunomiguel.net/tags/verao/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3640,7 +3649,7 @@
     </item>
     
     <item>
-      <title>beach-bums</title>
+      <title>Beach-Bums</title>
       <link>https://blog.brunomiguel.net/tags/beach-bums/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3649,7 +3658,7 @@
     </item>
     
     <item>
-      <title>house-music</title>
+      <title>House-Music</title>
       <link>https://blog.brunomiguel.net/tags/house-music/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3658,7 +3667,7 @@
     </item>
     
     <item>
-      <title>tommy-linda</title>
+      <title>Tommy-Linda</title>
       <link>https://blog.brunomiguel.net/tags/tommy-linda/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3667,7 +3676,7 @@
     </item>
     
     <item>
-      <title>font-rendering</title>
+      <title>Font-Rendering</title>
       <link>https://blog.brunomiguel.net/tags/font-rendering/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3676,7 +3685,7 @@
     </item>
     
     <item>
-      <title>truetype</title>
+      <title>Truetype</title>
       <link>https://blog.brunomiguel.net/tags/truetype/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -3685,20 +3694,11 @@
     </item>
     
     <item>
-      <title>void-linux</title>
+      <title>Void-Linux</title>
       <link>https://blog.brunomiguel.net/tags/void-linux/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.brunomiguel.net/tags/void-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>https://blog.brunomiguel.net/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.brunomiguel.net/tags/index/</guid>
       <description></description>
     </item>
     
